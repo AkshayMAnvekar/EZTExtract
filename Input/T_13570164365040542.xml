@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questionSet>
+  <question>
+    <format>1</format>
+    <ezid>13570164365040543</ezid>
+    <version>1579774636475</version>
+    <title><![CDATA[Problem 08.001]]></title>
+    <type>MC</type>
+    <categories>
+      <internal_category>
+        <catid>13570164353389586</catid>
+        <title><![CDATA[Chapter:  08 Linear Algebraic Equations and Matrices]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164353390081</catid>
+        <title><![CDATA[Topic:  Linear Algebraic Equations and Matrices]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164353391143</catid>
+        <title><![CDATA[Section:  08.01 MATRIX ALGEBRA OVERVIEW]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164353392589</catid>
+        <title><![CDATA[Subtopic:  MATRIX ALGEBRA OVERVIEW]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164266036554</catid>
+        <title><![CDATA[Units:  NA]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040730414</catid>
+        <title><![CDATA[Difficulty:  Medium]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164196995740</catid>
+        <title><![CDATA[Bloom's Object: 3. Procedural]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164202016094</catid>
+        <title><![CDATA[Bloom's Verb: 3. Apply]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164343377093</catid>
+        <title><![CDATA[ABET Outcomes:  (a) an ability to apply knowledge of mathematics, science, and engineering]]></title>
+      </internal_category>
+    </categories>
+    <questionProperties>
+      <property name="layout" type="string" value="vertical" />
+      <property name="pageTag" type="string" value="" />
+      <property name="completeIncompleteGrading" type="string" value="false" />
+      <property name="instructor_info" type="string" value="" />
+      <property name="forceManualScoring" type="string" value="automatic" />
+      <property name="commonFeedback" type="string" value="&lt;p&gt;The MATLAB code for the given augmenting can be written as&lt;/p&gt;  &lt;p&gt;&lt;span style=&quot;font-family:monospace;&quot;&gt;&amp;gt;&amp;gt; Aug = [A eye(size(A))]&lt;/span&gt;&lt;/p&gt;  &lt;p&gt;&amp;nbsp;&lt;/p&gt;  &lt;p&gt;Here&amp;#8217;s an example session of how it can be employed.&lt;/p&gt;  &lt;p&gt;&amp;nbsp;&lt;/p&gt;  &lt;p&gt;&lt;span style=&quot;font-family:monospace;&quot;&gt;&amp;gt;&amp;gt; A = rand(3)&lt;/span&gt;&lt;/p&gt;  &lt;p&gt;&lt;span style=&quot;font-family:monospace;&quot;&gt;A =&lt;/span&gt;&lt;/p&gt;  &lt;p&gt;&lt;span style=&quot;font-family:monospace;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; 0.9501&amp;nbsp; 0.4860&amp;nbsp; 0.4565&lt;/span&gt;&lt;/p&gt;  &lt;p&gt;&lt;span style=&quot;font-family:monospace;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; 0.2311&amp;nbsp; 0.8913&amp;nbsp; 0.0185&lt;/span&gt;&lt;/p&gt;  &lt;p&gt;&lt;span style=&quot;font-family:monospace;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; 0.6068&amp;nbsp; 0.7621&amp;nbsp; 0.8214&lt;/span&gt;&lt;/p&gt;  &lt;p&gt;&amp;nbsp;&lt;/p&gt;  &lt;p&gt;&lt;span style=&quot;font-family:monospace;&quot;&gt;&amp;gt;&amp;gt; Aug = [A eye(size(A))]&lt;/span&gt;&lt;/p&gt;  &lt;p&gt;&amp;nbsp;&lt;/p&gt;  &lt;p&gt;&lt;span style=&quot;font-family:monospace;&quot;&gt;Aug =&lt;/span&gt;&lt;/p&gt;  &lt;p&gt;&lt;span style=&quot;font-family:monospace;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; 0.9501&amp;nbsp; 0.4860&amp;nbsp; 0.4565&amp;nbsp; 1.0000&amp;nbsp; 0&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp; 0&lt;/span&gt;&lt;/p&gt;  &lt;p&gt;&lt;span style=&quot;font-family:monospace;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; 0.2311&amp;nbsp; 0.8913&amp;nbsp; 0.0185&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp; 0&amp;nbsp; 1.0000&amp;nbsp; 0&lt;/span&gt;&lt;/p&gt;  &lt;p&gt;&lt;span style=&quot;font-family:monospace;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; 0.6068&amp;nbsp; 0.7621&amp;nbsp; 0.8214&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp; 0&amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp; 0&amp;nbsp; 1.0000&lt;/span&gt;&lt;/p&gt;  &lt;p&gt;&amp;nbsp;&lt;/p&gt;" />
+      <property name="audioPlayerPosition" type="string" value="above" />
+      <property name="problemSolution" type="string" value="&lt;p&gt;The MATLAB code is &lt;span style=&quot;font-family:monospace;&quot;&gt;Aug = [A eye(size(A))]&lt;/span&gt;.&lt;/p&gt;" />
+      <property name="otherItem" type="string" value="" />
+      <property name="useCommonFeedback" type="boolean" value="false" />
+      <property name="order" type="string" value="scrambled" />
+    </questionProperties>
+    <hints>
+      <hint>
+        <name>hint #1</name>
+        <type>html</type>
+        <value><![CDATA[<p>What is the MATLAB code to create an identity matrix of the same dimensions as <em>A</em>?</p>]]></value>
+      </hint>
+    </hints>
+    <multipleChoice>
+      <stem><![CDATA[<p>Given a square matrix [<em>A</em>], identify the appropriate single line MATLAB command that will create a new matrix [<em>Aug</em>] that consists of the original matrix [<em>A</em>] augmented by an identity matrix [<em>I</em>].</p>
+
+<p>&nbsp;</p>]]></stem>
+      <commonFeedback><![CDATA[<p>The MATLAB code for the given augmenting can be written as</p>  <p><span style="font-family:monospace;">&gt;&gt; Aug = [A eye(size(A))]</span></p>  <p>&nbsp;</p>  <p>Here&#8217;s an example session of how it can be employed.</p>  <p>&nbsp;</p>  <p><span style="font-family:monospace;">&gt;&gt; A = rand(3)</span></p>  <p><span style="font-family:monospace;">A =</span></p>  <p><span style="font-family:monospace;">&nbsp;&nbsp;&nbsp; 0.9501&nbsp; 0.4860&nbsp; 0.4565</span></p>  <p><span style="font-family:monospace;">&nbsp;&nbsp;&nbsp; 0.2311&nbsp; 0.8913&nbsp; 0.0185</span></p>  <p><span style="font-family:monospace;">&nbsp;&nbsp;&nbsp; 0.6068&nbsp; 0.7621&nbsp; 0.8214</span></p>  <p>&nbsp;</p>  <p><span style="font-family:monospace;">&gt;&gt; Aug = [A eye(size(A))]</span></p>  <p>&nbsp;</p>  <p><span style="font-family:monospace;">Aug =</span></p>  <p><span style="font-family:monospace;">&nbsp;&nbsp;&nbsp; 0.9501&nbsp; 0.4860&nbsp; 0.4565&nbsp; 1.0000&nbsp; 0&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; 0</span></p>  <p><span style="font-family:monospace;">&nbsp;&nbsp;&nbsp; 0.2311&nbsp; 0.8913&nbsp; 0.0185&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; 0&nbsp; 1.0000&nbsp; 0</span></p>  <p><span style="font-family:monospace;">&nbsp;&nbsp;&nbsp; 0.6068&nbsp; 0.7621&nbsp; 0.8214&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; 0&nbsp; &nbsp; &nbsp;&nbsp; 0&nbsp; 1.0000</span></p>  <p>&nbsp;</p>]]></commonFeedback>
+      <choices>
+        <choice>
+          <distractor><![CDATA[<p><span style="font-family:monospace;">Aug = [A eye(size(A))]</span></p>]]></distractor>
+          <credit>1</credit>
+          <feedback></feedback>
+        </choice>
+        <choice>
+          <distractor><![CDATA[<p><span style="font-family:monospace;">Aug = (A eye(size(A)))</span></p>]]></distractor>
+          <credit>0</credit>
+          <feedback></feedback>
+        </choice>
+        <choice>
+          <distractor><![CDATA[<p><span style="font-family:monospace;">Aug = [A ones(size(A))]</span></p>]]></distractor>
+          <credit>0</credit>
+          <feedback></feedback>
+        </choice>
+        <choice>
+          <distractor><![CDATA[<p><span style="font-family:monospace;">Aug = (A ones(size(A)))</span></p>]]></distractor>
+          <credit>0</credit>
+          <feedback></feedback>
+        </choice>
+      </choices>
+    </multipleChoice>
+  </question>
+  <question>
+    <format>1</format>
+    <ezid>13570164365040544</ezid>
+    <version>1579774636475</version>
+    <title><![CDATA[Problem 08.005]]></title>
+    <type>WK</type>
+    <categories>
+      <internal_category>
+        <catid>13570164353389586</catid>
+        <title><![CDATA[Chapter:  08 Linear Algebraic Equations and Matrices]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164353390081</catid>
+        <title><![CDATA[Topic:  Linear Algebraic Equations and Matrices]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164353391701</catid>
+        <title><![CDATA[Section:  08.02 SOLVING LINEAR ALGEBRAIC EQUATIONS WITH MATLAB]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164353393184</catid>
+        <title><![CDATA[Subtopic:  SOLVING LINEAR ALGEBRAIC EQUATIONS WITH MATLAB]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164266036554</catid>
+        <title><![CDATA[Units:  NA]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040730414</catid>
+        <title><![CDATA[Difficulty:  Medium]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164196995740</catid>
+        <title><![CDATA[Bloom's Object: 3. Procedural]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164207998827</catid>
+        <title><![CDATA[Bloom's Verb: 5. Evaluate]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164343377093</catid>
+        <title><![CDATA[ABET Outcomes:  (a) an ability to apply knowledge of mathematics, science, and engineering]]></title>
+      </internal_category>
+    </categories>
+    <media_set>
+      <internal_media>
+        <name>formula1.mml</name>
+        <consumerData>
+          <mediaID>13570164350092679</mediaID>
+          <testID>13570164365040542</testID>
+          <consumerID>13570164365040544</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>formula1.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>577</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1472643032961</creation>
+          <modified>1472643141419</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGg+PG1yb3c+PG1vPls8L21vPjxtdGFibGU+PG10cj48bXRkPjxtdGFibGU+PG10cj48bXRk
+Pjxtbj4zPC9tbj48bW8+KzwvbW8+PG1uPjI8L21uPjxtaT5pPC9taT48L210ZD48L210cj48L210
+YWJsZT48L210ZD48bXRkPjxtbj40PC9tbj48L210ZD48L210cj48bXRyPjxtdGQ+PG1vPi08L21v
+PjxtaT5pPC9taT48L210ZD48bXRkPjxtbj4xPC9tbj48L210ZD48L210cj48L210YWJsZT48bW8+
+XTwvbW8+PC9tcm93Pjxtbz4mbmJzcDs8L21vPjxtZmVuY2VkIGNsb3NlPSJ9IiBvcGVuPSJ7Ij48
+bXRhYmxlPjxtdHI+PG10ZD48bXN1Yj48bWk+ejwvbWk+PG1uPjE8L21uPjwvbXN1Yj48L210ZD48
+L210cj48bXRyPjxtdGQ+PG1zdWI+PG1pPno8L21pPjxtbj4yPC9tbj48L21zdWI+PC9tdGQ+PC9t
+dHI+PC9tdGFibGU+PC9tZmVuY2VkPjxtbz49PC9tbz48bWZlbmNlZCBjbG9zZT0ifSIgb3Blbj0i
+eyI+PG10YWJsZT48bXRyPjxtdGQ+PG1uPjI8L21uPjxtbz4rPC9tbz48bWk+aTwvbWk+PC9tdGQ+
+PC9tdHI+PG10cj48bXRkPjxtbj4zPC9tbj48L210ZD48L210cj48L210YWJsZT48L21mZW5jZWQ+
+PC9tYXRoPg==]]></data>
+        </mediaData>
+      </internal_media>
+    </media_set>
+    <questionProperties>
+      <property name="pageTag" type="string" value="" />
+      <property name="customType" type="string" value="" />
+      <property name="completeIncompleteGrading" type="string" value="false" />
+      <property name="instructor_info" type="string" value="" />
+      <property name="forceManualScoring" type="string" value="automatic" />
+      <property name="audioPlayerPosition" type="string" value="above" />
+      <property name="problemSolution" type="string" value="&lt;p&gt;The solution of the given system is&lt;/p&gt;  &lt;table border=&quot;1&quot; cellpadding=&quot;1&quot; cellspacing=&quot;1&quot; width=&quot;381&quot; height=&quot;60&quot;&gt;  &lt;tbody&gt;   &lt;tr&gt;    &lt;td style=&quot;width: 250px; text-align: center;&quot;&gt;&lt;em&gt;z&lt;/em&gt;&lt;sub&gt;1&lt;/sub&gt;&lt;/td&gt;    &lt;td style=&quot;width: 250px; text-align: center;&quot;&gt;&amp;#8211; 0.5333 + 1.4000 i&lt;/td&gt;   &lt;/tr&gt;   &lt;tr&gt;    &lt;td style=&quot;width: 250px; text-align: center;&quot;&gt;&lt;em&gt;z&lt;/em&gt;&lt;sub&gt;2&lt;/sub&gt;&lt;/td&gt;    &lt;td style=&quot;width: 250px; text-align: center;&quot;&gt;1.6000 &amp;#8211; 0.5333 i&lt;/td&gt;   &lt;/tr&gt;  &lt;/tbody&gt; &lt;/table&gt;" />
+      <property name="attached_media" type="string" value="formula1.mml" />
+      <property name="aggregatedGrading" type="string" value="false" />
+      <property name="useCommonFeedback" type="string" value="true" />
+    </questionProperties>
+    <hints>
+      <hint>
+        <name>hint #1</name>
+        <type>html</type>
+        <value><![CDATA[<p>Which operator is used in MATLAB to solve linear algebraic equations?</p>]]></value>
+      </hint>
+    </hints>
+    <worksheet>
+      <stem><![CDATA[<p>Solve the following system with MATLAB:</p>
+
+<p>&nbsp;</p>
+
+<p>%media:formula1.mml%</p>
+
+<p>(Round the final answers to four decimal places.)</p>
+
+<p>&nbsp;</p>
+
+<p>The solution of the given system is</p>
+
+<table style="width: 500px;" border="1" cellpadding="1" cellspacing="1">
+	<tbody>
+		<tr>
+			<td style="width: 250px; text-align: center;"><em>z</em><sub>1</sub></td>
+			<td style="width: 250px; text-align: center;">__A1__ + __A2__ i</td>
+		</tr>
+		<tr>
+			<td style="width: 250px; text-align: center;"><em>z</em><sub>2</sub></td>
+			<td style="width: 250px; text-align: center;">__A3__ &#8211; __A4__ i</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>]]></stem>
+      <commonFeedback><![CDATA[<p>The MATLAB code to store the given system as matrices and solve can be written as</p>
+
+<p>&nbsp;</p>
+
+<p><span style="font-family:monospace;">&gt;&gt; A=[3+2*i 4;-i 1];</span></p>
+
+<p><span style="font-family:monospace;">&gt;&gt; b=[2+i;3];</span></p>
+
+<p><span style="font-family:monospace;">&gt;&gt; z=A\b</span></p>
+
+<p><span style="font-family:monospace;">z =</span></p>
+
+<p><span style="font-family:monospace;">&nbsp; -0.5333 + 1.4000i</span></p>
+
+<p><span style="font-family:monospace;">&nbsp;&nbsp; 1.6000 - 0.5333i</span></p>
+
+<p>&nbsp;</p>
+]]></commonFeedback>
+      <answers>
+        <numberAnswer>
+          <name><![CDATA[A1]]></name>
+          <weight>100</weight>
+          <answerProperties>
+            <property name="completeIncompleteGrading" type="string" value="false" />
+          </answerProperties>
+          <fieldWidth>7</fieldWidth>
+          <correctAnswer><![CDATA[-0.5333]]></correctAnswer>
+          <formatString><![CDATA[0.0000]]></formatString>
+          <precisionString><![CDATA[2]]></precisionString>
+          <units></units>
+          <precisionType>2</precisionType>
+          <engineeringUnits>false</engineeringUnits>
+          <currency>false</currency>
+        </numberAnswer>
+        <numberAnswer>
+          <name><![CDATA[A2]]></name>
+          <weight>100</weight>
+          <answerProperties>
+            <property name="completeIncompleteGrading" type="string" value="false" />
+          </answerProperties>
+          <fieldWidth>7</fieldWidth>
+          <correctAnswer><![CDATA[1.4000]]></correctAnswer>
+          <formatString><![CDATA[0.0000]]></formatString>
+          <precisionString><![CDATA[2]]></precisionString>
+          <units></units>
+          <precisionType>2</precisionType>
+          <engineeringUnits>false</engineeringUnits>
+          <currency>false</currency>
+        </numberAnswer>
+        <numberAnswer>
+          <name><![CDATA[A3]]></name>
+          <weight>100</weight>
+          <answerProperties>
+            <property name="completeIncompleteGrading" type="string" value="false" />
+          </answerProperties>
+          <fieldWidth>7</fieldWidth>
+          <correctAnswer><![CDATA[1.6000]]></correctAnswer>
+          <formatString><![CDATA[0.0000]]></formatString>
+          <precisionString><![CDATA[2]]></precisionString>
+          <units></units>
+          <precisionType>2</precisionType>
+          <engineeringUnits>false</engineeringUnits>
+          <currency>false</currency>
+        </numberAnswer>
+        <numberAnswer>
+          <name><![CDATA[A4]]></name>
+          <weight>100</weight>
+          <answerProperties>
+            <property name="completeIncompleteGrading" type="string" value="false" />
+          </answerProperties>
+          <fieldWidth>7</fieldWidth>
+          <correctAnswer><![CDATA[0.5333]]></correctAnswer>
+          <formatString><![CDATA[0.0000]]></formatString>
+          <precisionString><![CDATA[2]]></precisionString>
+          <units></units>
+          <precisionType>2</precisionType>
+          <engineeringUnits>false</engineeringUnits>
+          <currency>false</currency>
+        </numberAnswer>
+      </answers>
+    </worksheet>
+  </question>
+  <question>
+    <format>1</format>
+    <ezid>13570164365040545</ezid>
+    <version>1579774636475</version>
+    <title><![CDATA[Problem 08.008]]></title>
+    <type>DO</type>
+    <categories>
+      <internal_category>
+        <catid>13570164353389586</catid>
+        <title><![CDATA[Chapter:  08 Linear Algebraic Equations and Matrices]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164353390081</catid>
+        <title><![CDATA[Topic:  Linear Algebraic Equations and Matrices]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164353391143</catid>
+        <title><![CDATA[Section:  08.01 MATRIX ALGEBRA OVERVIEW]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164353392589</catid>
+        <title><![CDATA[Subtopic:  MATRIX ALGEBRA OVERVIEW]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164266036554</catid>
+        <title><![CDATA[Units:  NA]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040730414</catid>
+        <title><![CDATA[Difficulty:  Medium]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164196995740</catid>
+        <title><![CDATA[Bloom's Object: 3. Procedural]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164202016094</catid>
+        <title><![CDATA[Bloom's Verb: 3. Apply]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164343377093</catid>
+        <title><![CDATA[ABET Outcomes:  (a) an ability to apply knowledge of mathematics, science, and engineering]]></title>
+      </internal_category>
+    </categories>
+    <questionProperties>
+      <property name="pageTag" type="string" value="" />
+      <property name="instructor_info" type="string" value="" />
+      <property name="state" type="string" value="{}" />
+      <property name="audioPlayerPosition" type="string" value="above" />
+    </questionProperties>
+    <doc>
+      <stem><![CDATA[<p>Develop, debug, and test the M-file function to switch the rows of a matrix using a permutation matrix. The first lines of the function should be as follows:</p>
+
+<p>&nbsp;</p>
+
+<p><span style="font-family:monospace;">function B = permut(A,r1,r2)<br>
+% Permut: Switch rows of matrix A<br>
+% with a permutation matrix<br>
+% B = permut(A,r1,r2)<br>
+% input:<br>
+% A = original matrix<br>
+% r1, r2 = rows to be switched<br>
+% output:<br>
+% B = matrix with rows switched</span></p>
+
+<p>&nbsp;</p>
+
+<p>Include error traps for erroneous inputs (user specifies rows that exceed the dimensions of the original matrix).</p>
+
+<p>&nbsp;</p>
+
+<p>(Please upload your response/solution using the controls below.)</p>
+
+<p>&nbsp;</p>]]></stem>
+      <info>question data is all stored in questionProperties...</info>
+    </doc>
+  </question>
+</questionSet>
+

@@ -1,0 +1,4220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questionSet>
+  <question>
+    <format>1</format>
+    <ezid>13570164368971855</ezid>
+    <version>1579774407110</version>
+    <title><![CDATA[Problem 04.011]]></title>
+    <type>WK</type>
+    <categories>
+      <internal_category>
+        <catid>13570164352964634</catid>
+        <title><![CDATA[Chapter:  04 Roundoff and Truncation Errors]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164352964637</catid>
+        <title><![CDATA[Topic:  Roundoff and Truncation Errors]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164365969335</catid>
+        <title><![CDATA[Section:  04.01 ERRORS]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164352964746</catid>
+        <title><![CDATA[Subtopic:  ERRORS]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040730414</catid>
+        <title><![CDATA[Difficulty:  Medium]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164334003485</catid>
+        <title><![CDATA[Units:  Imperial]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164266036554</catid>
+        <title><![CDATA[Units:  NA]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164207998827</catid>
+        <title><![CDATA[Bloom's Verb: 5. Evaluate]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164196995740</catid>
+        <title><![CDATA[Bloom's Object: 3. Procedural]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164343377093</catid>
+        <title><![CDATA[ABET Outcomes:  (a) an ability to apply knowledge of mathematics, science, and engineering]]></title>
+      </internal_category>
+    </categories>
+    <media_set>
+      <internal_media>
+        <name>formula1.mml</name>
+        <consumerData>
+          <mediaID>13570164360827473</mediaID>
+          <testID>13570164368971854</testID>
+          <consumerID>13570164368971855</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>formula1.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>457</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1475129915734</creation>
+          <modified>1476765134947</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGg+PG1pPmNvczwvbWk+PG10ZXh0PiZuYnNwOzwvbXRleHQ+PG1pPng8L21pPjxtbz49PC9t
+bz48bW4+MTwvbW4+PG1vPi08L21vPjxtZnJhYz48bXN1cD48bWk+eDwvbWk+PG1uPjI8L21uPjwv
+bXN1cD48bW4+MjwvbW4+PC9tZnJhYz48bW8+KzwvbW8+PG1mcmFjPjxtc3VwPjxtaT54PC9taT48
+bW4+NDwvbW4+PC9tc3VwPjxtcm93Pjxtbj40PC9tbj48bW8+ITwvbW8+PC9tcm93PjwvbWZyYWM+
+PG1vPi08L21vPjxtZnJhYz48bXN1cD48bWk+eDwvbWk+PG1uPjY8L21uPjwvbXN1cD48bXJvdz48
+bW4+NjwvbW4+PG1vPiE8L21vPjwvbXJvdz48L21mcmFjPjxtbz4rPC9tbz48bWZyYWM+PG1zdXA+
+PG1pPng8L21pPjxtbj44PC9tbj48L21zdXA+PG1yb3c+PG1uPjg8L21uPjxtbz4hPC9tbz48L21y
+b3c+PC9tZnJhYz48bW8+LTwvbW8+PG1vPi48L21vPjxtbz4uPC9tbz48bW8+LjwvbW8+PC9tYXRo
+Pg==]]></data>
+        </mediaData>
+      </internal_media>
+      <internal_media>
+        <name>formula2.mml</name>
+        <consumerData>
+          <mediaID>13570164360829312</mediaID>
+          <testID>13570164368971854</testID>
+          <consumerID>13570164368971855</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>formula2.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>233</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1475130366213</creation>
+          <modified>1476879019825</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGg+PG1zdWI+PG1pPiYjOTQ5OzwvbWk+PG1pPnM8L21pPjwvbXN1Yj48bW8+PTwvbW8+PG1u
+PjA8L21uPjxtbz4uPC9tbz48bW4+NTwvbW4+PG1vPiYjMjE1OzwvbW8+PG1zdXA+PG1uPjEwPC9t
+bj48bXJvdz48bW4+MjwvbW4+PG1vPi08L21vPjxtbj4yPC9tbj48L21yb3c+PC9tc3VwPjxtbz4l
+PC9tbz48bW8+PTwvbW8+PG1uPjA8L21uPjxtbz4uPC9tbz48bW4+NTwvbW4+PG1vPiU8L21vPjwv
+bWF0aD4=]]></data>
+        </mediaData>
+      </internal_media>
+      <internal_media>
+        <name>formula3.mml</name>
+        <consumerData>
+          <mediaID>13570164360830769</mediaID>
+          <testID>13570164368971854</testID>
+          <consumerID>13570164368971855</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>formula3.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>104</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1475130663534</creation>
+          <modified>1476879019825</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGg+PG1pPmNvczwvbWk+PG1mZW5jZWQ+PG1mcmFjPjxtaT4mIzk2MDs8L21pPjxtbj4zPC9t
+bj48L21mcmFjPjwvbWZlbmNlZD48bW8+PTwvbW8+PG1uPjE8L21uPjwvbWF0aD4=]]></data>
+        </mediaData>
+      </internal_media>
+      <internal_media>
+        <name>formula4.mml</name>
+        <consumerData>
+          <mediaID>13570164360830858</mediaID>
+          <testID>13570164368971854</testID>
+          <consumerID>13570164368971855</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>formula4.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>289</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1475130718521</creation>
+          <modified>1476879019825</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGg+PG1zdWI+PG1pPiYjOTQ5OzwvbWk+PG1pPnQ8L21pPjwvbXN1Yj48bW8+PTwvbW8+PG1m
+ZW5jZWQgY2xvc2U9InwiIG9wZW49InwiPjxtZnJhYz48bXJvdz48bW4+MDwvbW4+PG1vPi48L21v
+Pjxtbj41PC9tbj48bW8+LTwvbW8+PG1uPjE8L21uPjwvbXJvdz48bXJvdz48bW4+MDwvbW4+PG1v
+Pi48L21vPjxtbj41PC9tbj48L21yb3c+PC9tZnJhYz48L21mZW5jZWQ+PG1vPiYjMjE1OzwvbW8+
+PG1uPjEwMDwvbW4+PG1vPiU8L21vPjxtbz49PC9tbz48bW4+MTAwPC9tbj48bW8+JTwvbW8+PC9t
+YXRoPg==]]></data>
+        </mediaData>
+      </internal_media>
+      <internal_media>
+        <name>formula9.mml</name>
+        <consumerData>
+          <mediaID>13570164360883253</mediaID>
+          <testID>13570164368971854</testID>
+          <consumerID>13570164368971855</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>formula9.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>103</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1475131065307</creation>
+          <modified>1476879019825</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGg+PG1zdWI+PG1pPiYjOTQ5OzwvbWk+PG1pPnQ8L21pPjwvbXN1Yj48bW8+PTwvbW8+PG1u
+PjA8L21uPjxtbz4uPC9tbz48bW4+MzU5PC9tbj48bW8+JTwvbW8+PC9tYXRoPg==]]></data>
+        </mediaData>
+      </internal_media>
+      <internal_media>
+        <name>formula11.mml</name>
+        <consumerData>
+          <mediaID>13570164360883569</mediaID>
+          <testID>13570164368971854</testID>
+          <consumerID>13570164368971855</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>formula11.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>341</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1475131222192</creation>
+          <modified>1476879019825</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGg+PG1pPmNvczwvbWk+PG1mZW5jZWQ+PG1mcmFjPjxtaT4mIzk2MDs8L21pPjxtbj4zPC9t
+bj48L21mcmFjPjwvbWZlbmNlZD48bW8+PTwvbW8+PG1uPjA8L21uPjxtbz4uPC9tbz48bW4+NTAx
+Nzk2PC9tbj48bW8+LTwvbW8+PG1mcmFjPjxtc3VwPjxtZmVuY2VkPjxtc3R5bGUgZGlzcGxheXN0
+eWxlPSJ0cnVlIj48bWZyYWMgYmV2ZWxsZWQ9InRydWUiPjxtaT4mIzk2MDs8L21pPjxtbj4zPC9t
+bj48L21mcmFjPjwvbXN0eWxlPjwvbWZlbmNlZD48bW4+NjwvbW4+PC9tc3VwPjxtbj43MjA8L21u
+PjwvbWZyYWM+PG1vPj08L21vPjxtbj4wPC9tbj48bW8+LjwvbW8+PG1uPjU8L21uPjwvbWF0aD4=]]></data>
+        </mediaData>
+      </internal_media>
+      <internal_media>
+        <name>formula12.mml</name>
+        <consumerData>
+          <mediaID>13570164360883571</mediaID>
+          <testID>13570164368971854</testID>
+          <consumerID>13570164368971855</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>formula12.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>103</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1475131242762</creation>
+          <modified>1476879019825</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGg+PG1zdWI+PG1pPiYjOTQ5OzwvbWk+PG1pPnQ8L21pPjwvbXN1Yj48bW8+PTwvbW8+PG1u
+PjA8L21uPjxtbz4uPC9tbz48bW4+MDA3PC9tbj48bW8+JTwvbW8+PC9tYXRoPg==]]></data>
+        </mediaData>
+      </internal_media>
+      <internal_media>
+        <name>formula5.mml</name>
+        <consumerData>
+          <mediaID>13570164360933855</mediaID>
+          <testID>13570164368971854</testID>
+          <consumerID>13570164368971855</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>formula5.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>323</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1475130824296</creation>
+          <modified>1476879019825</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGg+PG10ZXh0PmNvczwvbXRleHQ+PG1mZW5jZWQ+PG1mcmFjPjxtaT4mIzk2MDs8L21pPjxt
+bj4zPC9tbj48L21mcmFjPjwvbWZlbmNlZD48bW8+PTwvbW8+PG1uPjE8L21uPjxtbz4tPC9tbz48
+bWZyYWM+PG1zdHlsZSBkaXNwbGF5c3R5bGU9InRydWUiPjxtc3VwPjxtZmVuY2VkPjxtZnJhYyBi
+ZXZlbGxlZD0idHJ1ZSI+PG1pPiYjOTYwOzwvbWk+PG1uPjM8L21uPjwvbWZyYWM+PC9tZmVuY2Vk
+Pjxtbj4yPC9tbj48L21zdXA+PC9tc3R5bGU+PG1uPjI8L21uPjwvbWZyYWM+PG1vPj08L21vPjxt
+bj4wPC9tbj48bW8+LjwvbW8+PG1uPjQ1MTc8L21uPjwvbWF0aD4=]]></data>
+        </mediaData>
+      </internal_media>
+      <internal_media>
+        <name>formula6.mml</name>
+        <consumerData>
+          <mediaID>13570164360934017</mediaID>
+          <testID>13570164368971854</testID>
+          <consumerID>13570164368971855</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>formula6.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>103</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1475130856814</creation>
+          <modified>1476879019825</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGg+PG1zdWI+PG1pPiYjOTQ5OzwvbWk+PG1pPnQ8L21pPjwvbXN1Yj48bW8+PTwvbW8+PG1u
+Pjk8L21uPjxtbz4uPC9tbz48bW4+NjYyPC9tbj48bW8+JTwvbW8+PC9tYXRoPg==]]></data>
+        </mediaData>
+      </internal_media>
+      <internal_media>
+        <name>formula7.mml</name>
+        <consumerData>
+          <mediaID>13570164360934376</mediaID>
+          <testID>13570164368971854</testID>
+          <consumerID>13570164368971855</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>formula7.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>317</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1475130904077</creation>
+          <modified>1476879019825</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGg+PG1zdWI+PG1pPiYjOTQ5OzwvbWk+PG1pPmE8L21pPjwvbXN1Yj48bW8+PTwvbW8+PG1m
+ZW5jZWQgY2xvc2U9InwiIG9wZW49InwiPjxtZnJhYz48bXJvdz48bW4+MDwvbW4+PG1vPi48L21v
+Pjxtbj40NTE3PC9tbj48bW8+LTwvbW8+PG1uPjE8L21uPjwvbXJvdz48bXJvdz48bW4+MDwvbW4+
+PG1vPi48L21vPjxtbj40NTE3PC9tbj48L21yb3c+PC9tZnJhYz48L21mZW5jZWQ+PG1vPiYjMjE1
+OzwvbW8+PG1uPjEwMDwvbW4+PG1vPiU8L21vPjxtbz49PC9tbz48bW4+MTIxPC9tbj48bW8+Ljwv
+bW8+PG1uPjM5MTwvbW4+PG1vPiU8L21vPjwvbWF0aD4=]]></data>
+        </mediaData>
+      </internal_media>
+      <internal_media>
+        <name>formula8.mml</name>
+        <consumerData>
+          <mediaID>13570164360934974</mediaID>
+          <testID>13570164368971854</testID>
+          <consumerID>13570164368971855</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>formula8.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>343</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1475131001295</creation>
+          <modified>1476879019825</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGg+PG1pPmNvczwvbWk+PG1mZW5jZWQ+PG1mcmFjPjxtaT4mIzk2MDs8L21pPjxtbj4zPC9t
+bj48L21mcmFjPjwvbWZlbmNlZD48bW8+PTwvbW8+PG1uPjA8L21uPjxtbz4uPC9tbz48bW4+NDUx
+Njg5PC9tbj48bW8+KzwvbW8+PG1mcmFjPjxtc3VwPjxtZmVuY2VkPjxtc3R5bGUgZGlzcGxheXN0
+eWxlPSJ0cnVlIj48bWZyYWMgYmV2ZWxsZWQ9InRydWUiPjxtaT4mIzk2MDs8L21pPjxtbj4zPC9t
+bj48L21mcmFjPjwvbXN0eWxlPjwvbWZlbmNlZD48bW4+NDwvbW4+PC9tc3VwPjxtbj4yNDwvbW4+
+PC9tZnJhYz48bW8+PTwvbW8+PG1uPjA8L21uPjxtbz4uPC9tbz48bW4+NTAxODwvbW4+PC9tYXRo
+Pg==]]></data>
+        </mediaData>
+      </internal_media>
+      <internal_media>
+        <name>formula10.mml</name>
+        <consumerData>
+          <mediaID>13570164360935713</mediaID>
+          <testID>13570164368971854</testID>
+          <consumerID>13570164368971855</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>formula10.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>340</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1475131115297</creation>
+          <modified>1476879019825</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGg+PG1zdWI+PG1pPiYjOTQ5OzwvbWk+PG1pPmE8L21pPjwvbXN1Yj48bW8+PTwvbW8+PG1m
+ZW5jZWQgY2xvc2U9InwiIG9wZW49InwiPjxtZnJhYz48bXJvdz48bW4+MDwvbW4+PG1vPi48L21v
+Pjxtbj41MDE4PC9tbj48bW8+LTwvbW8+PG1uPjA8L21uPjxtbz4uPC9tbz48bW4+NDUxNjg5PC9t
+bj48L21yb3c+PG1yb3c+PG1uPjA8L21uPjxtbz4uPC9tbz48bW4+NTAxODwvbW4+PC9tcm93Pjwv
+bWZyYWM+PC9tZmVuY2VkPjxtbz4mIzIxNTs8L21vPjxtbj4xMDA8L21uPjxtbz4lPC9tbz48bW8+
+PTwvbW8+PG1uPjk8L21uPjxtbz4uPC9tbz48bW4+OTg2PC9tbj48bW8+JTwvbW8+PC9tYXRoPg==]]></data>
+        </mediaData>
+      </internal_media>
+      <internal_media>
+        <name>formula13.mml</name>
+        <consumerData>
+          <mediaID>13570164360936267</mediaID>
+          <testID>13570164368971854</testID>
+          <consumerID>13570164368971855</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>formula13.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>334</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1475131287024</creation>
+          <modified>1476879019825</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGg+PG1zdWI+PG1pPiYjOTQ5OzwvbWk+PG1pPmE8L21pPjwvbXN1Yj48bW8+PTwvbW8+PG1m
+ZW5jZWQgY2xvc2U9InwiIG9wZW49InwiPjxtZnJhYz48bXJvdz48bW4+MDwvbW4+PG1vPi48L21v
+Pjxtbj41PC9tbj48bW8+LTwvbW8+PG1uPjA8L21uPjxtbz4uPC9tbz48bW4+NTAxNzk2PC9tbj48
+L21yb3c+PG1yb3c+PG1uPjA8L21uPjxtbz4uPC9tbz48bW4+NTwvbW4+PC9tcm93PjwvbWZyYWM+
+PC9tZmVuY2VkPjxtbz4mIzIxNTs8L21vPjxtbj4xMDA8L21uPjxtbz4lPC9tbz48bW8+PTwvbW8+
+PG1uPjA8L21uPjxtbz4uPC9tbz48bW4+MzY2PC9tbj48bW8+JTwvbW8+PC9tYXRoPg==]]></data>
+        </mediaData>
+      </internal_media>
+      <internal_media>
+        <name>formula14.mml</name>
+        <consumerData>
+          <mediaID>13570164360936830</mediaID>
+          <testID>13570164368971854</testID>
+          <consumerID>13570164368971855</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>formula14.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>124</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1475131639128</creation>
+          <modified>1476879019825</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGg+PG1pPmNvczwvbWk+PG1mZW5jZWQ+PG1mcmFjPjxtaT4mIzk2MDs8L21pPjxtbj4zPC9t
+bj48L21mcmFjPjwvbWZlbmNlZD48bW8+PTwvbW8+PG1uPjA8L21uPjxtbz4uPC9tbz48bW4+NTwv
+bW4+PC9tYXRoPg==]]></data>
+        </mediaData>
+      </internal_media>
+    </media_set>
+    <questionProperties>
+      <property name="pageTag" type="string" value="" />
+      <property name="customType" type="string" value="" />
+      <property name="completeIncompleteGrading" type="string" value="false" />
+      <property name="instructor_info" type="string" value="" />
+      <property name="forceManualScoring" type="string" value="automatic" />
+      <property name="audioPlayerPosition" type="string" value="above" />
+      <property name="problemSolution" type="string" value="&lt;p&gt;The values of cos(&lt;em&gt;&amp;#960;&lt;/em&gt;/3), the true error, and the approximate error are given below.&lt;/p&gt;  &lt;p&gt;&amp;nbsp;&lt;/p&gt;  &lt;table style=&quot;width: 500px;&quot; cellspacing=&quot;1&quot; cellpadding=&quot;1&quot; border=&quot;1&quot;&gt;  &lt;tbody&gt;   &lt;tr&gt;    &lt;td style=&quot;width: 125px; text-align: center;&quot;&gt;Order&lt;/td&gt;    &lt;td style=&quot;width: 125px; text-align: center;&quot;&gt;Value of cos(&lt;em&gt;&amp;#960;&lt;/em&gt;/3)&lt;/td&gt;    &lt;td style=&quot;width: 125px; text-align: center;&quot;&gt;True error(%)&lt;/td&gt;    &lt;td style=&quot;width: 125px; text-align: center;&quot;&gt;Approximate error(%)&lt;/td&gt;   &lt;/tr&gt;   &lt;tr&gt;    &lt;td style=&quot;width: 125px; text-align: center;&quot;&gt;Zero&lt;/td&gt;    &lt;td style=&quot;width: 125px; text-align: center;&quot;&gt;1&lt;/td&gt;    &lt;td style=&quot;width: 125px; text-align: center;&quot;&gt;100&lt;/td&gt;    &lt;td style=&quot;width: 125px; text-align: center;&quot;&gt;&amp;nbsp;&lt;/td&gt;   &lt;/tr&gt;   &lt;tr&gt;    &lt;td style=&quot;width: 125px; text-align: center;&quot;&gt;First&lt;/td&gt;    &lt;td style=&quot;width: 125px; text-align: center;&quot;&gt;0.4517&lt;/td&gt;    &lt;td style=&quot;width: 125px; text-align: center;&quot;&gt;9.662&lt;/td&gt;    &lt;td style=&quot;width: 125px; text-align: center;&quot;&gt;121.391&lt;/td&gt;   &lt;/tr&gt;   &lt;tr&gt;    &lt;td style=&quot;width: 125px; text-align: center;&quot;&gt;Second&lt;/td&gt;    &lt;td style=&quot;width: 125px; text-align: center;&quot;&gt;0.5018&lt;/td&gt;    &lt;td style=&quot;width: 125px; text-align: center;&quot;&gt;0.359&lt;/td&gt;    &lt;td style=&quot;width: 125px; text-align: center;&quot;&gt;9.986&lt;/td&gt;   &lt;/tr&gt;   &lt;tr&gt;    &lt;td style=&quot;width: 125px; text-align: center;&quot;&gt;Third&lt;/td&gt;    &lt;td style=&quot;width: 125px; text-align: center;&quot;&gt;0.5&lt;/td&gt;    &lt;td style=&quot;width: 125px; text-align: center;&quot;&gt;0.007&lt;/td&gt;    &lt;td style=&quot;width: 125px; text-align: center;&quot;&gt;0.366&lt;/td&gt;   &lt;/tr&gt;  &lt;/tbody&gt; &lt;/table&gt;  &lt;p&gt;&amp;nbsp;&lt;/p&gt;" />
+      <property name="attached_media" type="string" value="formula1.mml,formula2.mml,formula3.mml,formula4.mml,formula9.mml,formula11.mml,formula12.mml,formula5.mml,formula6.mml,formula7.mml,formula8.mml,formula10.mml,formula13.mml,formula14.mml" />
+      <property name="aggregatedGrading" type="string" value="false" />
+      <property name="useCommonFeedback" type="string" value="true" />
+    </questionProperties>
+    <hints>
+      <hint>
+        <name>hint #1</name>
+        <type>html</type>
+        <value><![CDATA[What is the formula for calculating the true and approximate errors?]]></value>
+      </hint>
+    </hints>
+    <worksheet>
+      <stem><![CDATA[<p>The Maclaurin series expansion for cos <em>x</em> is</p>
+
+<p>&nbsp;</p>
+
+<p>%media:formula1.mml%</p>
+
+<p>&nbsp;</p>
+
+<p>Starting with the simplest version, cos <em>x</em> = 1, add terms one at a time to estimate cos(<em>&#960;</em>/3). After each new term is added, compute the true and approximate percent relative errors. Use your calculator to determine the true value. Add terms until the absolute value of the approximate error estimate falls below an error criterion conforming to two significant figures. (Round the value of cos(<em>&#960;</em>/3) to four decimal places and the value of true and approximate error to three decimal places.)</p>
+
+<p>&nbsp;</p>
+
+<table style="width: 500px;" cellspacing="1" cellpadding="1" border="1">
+	<tbody>
+		<tr>
+			<td style="width: 166px; text-align: center;">Order</td>
+			<td style="width: 166px; text-align: center;">Value of cos(<em>&#960;</em>/3)</td>
+			<td style="width: 166px; text-align: center;">True error(%)</td>
+			<td style="width: 166px; text-align: center;">Approximate error(%)</td>
+		</tr>
+		<tr>
+			<td style="width: 166px; text-align: center;">Zero</td>
+			<td style="width: 166px; text-align: center;">__a__</td>
+			<td style="width: 166px; text-align: center;">__1__</td>
+			<td style="width: 166px; text-align: center;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td style="width: 166px; text-align: center;">First</td>
+			<td style="width: 166px; text-align: center;">__b__</td>
+			<td style="width: 166px; text-align: center;">__2__</td>
+			<td style="width: 166px; text-align: center;">__6__</td>
+		</tr>
+		<tr>
+			<td style="width: 166px; text-align: center;">Second</td>
+			<td style="width: 166px; text-align: center;">__c__</td>
+			<td style="width: 166px; text-align: center;">__3__</td>
+			<td style="width: 166px; text-align: center;">__7__</td>
+		</tr>
+		<tr>
+			<td style="width: 166px; text-align: center;">Third</td>
+			<td style="width: 166px; text-align: center;">__d__</td>
+			<td style="width: 166px; text-align: center;">__4__</td>
+			<td style="width: 166px; text-align: center;">__8__</td>
+		</tr>
+	</tbody>
+</table>]]></stem>
+      <commonFeedback><![CDATA[<p>The condition for the stopping criterion is given as follows:</p>
+
+<p>&nbsp;</p>
+
+<p>%media:formula2.mml%</p>
+
+<p>&nbsp;</p>
+
+<p>The true value is given by</p>
+
+<p>&nbsp;</p>
+
+<p>%media:formula14.mml%</p>
+
+<p>&nbsp;</p>
+
+<p>At zero-order approximation,</p>
+
+<p>&nbsp;</p>
+
+<p>%media:formula3.mml%</p>
+
+<p>&nbsp;</p>
+
+<p>%media:formula4.mml%</p>
+
+<p>&nbsp;</p>
+
+<p>At first-order approximation,</p>
+
+<p>&nbsp;</p>
+
+<p>%media:formula5.mml%</p>
+
+<p>&nbsp;</p>
+
+<p>%media:formula6.mml%</p>
+
+<p>&nbsp;</p>
+
+<p>%media:formula7.mml%</p>
+
+<p>&nbsp;</p>
+
+<p>At second-order approximation,</p>
+
+<p>&nbsp;</p>
+
+<p>%media:formula8.mml%</p>
+
+<p>&nbsp;</p>
+
+<p>%media:formula9.mml%</p>
+
+<p>&nbsp;</p>
+
+<p>%media:formula10.mml%</p>
+
+<p>&nbsp;</p>
+
+<p>At third-order approximation,</p>
+
+<p>&nbsp;</p>
+
+<p>%media:formula11.mml%</p>
+
+<p>&nbsp;</p>
+
+<p>%media:formula12.mml%</p>
+
+<p>&nbsp;</p>
+
+<p>%media:formula13.mml%</p>
+
+<p>&nbsp;</p>
+
+<p>Since the approximate error is below 0.5%, the computation can be terminated.</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>]]></commonFeedback>
+      <answers>
+        <numberAnswer>
+          <name><![CDATA[a]]></name>
+          <weight>100</weight>
+          <answerProperties>
+            <property name="completeIncompleteGrading" type="string" value="false" />
+          </answerProperties>
+          <fieldWidth>7</fieldWidth>
+          <correctAnswer><![CDATA[1]]></correctAnswer>
+          <formatString><![CDATA[0.0000]]></formatString>
+          <precisionString><![CDATA[2]]></precisionString>
+          <units></units>
+          <precisionType>2</precisionType>
+          <engineeringUnits>false</engineeringUnits>
+          <currency>false</currency>
+        </numberAnswer>
+        <numberAnswer>
+          <name><![CDATA[b]]></name>
+          <weight>100</weight>
+          <answerProperties>
+            <property name="completeIncompleteGrading" type="string" value="false" />
+          </answerProperties>
+          <fieldWidth>7</fieldWidth>
+          <correctAnswer><![CDATA[0.4517]]></correctAnswer>
+          <formatString><![CDATA[0.0000]]></formatString>
+          <precisionString><![CDATA[2]]></precisionString>
+          <units></units>
+          <precisionType>2</precisionType>
+          <engineeringUnits>false</engineeringUnits>
+          <currency>false</currency>
+        </numberAnswer>
+        <numberAnswer>
+          <name><![CDATA[c]]></name>
+          <weight>100</weight>
+          <answerProperties>
+            <property name="completeIncompleteGrading" type="string" value="false" />
+          </answerProperties>
+          <fieldWidth>7</fieldWidth>
+          <correctAnswer><![CDATA[0.5018]]></correctAnswer>
+          <formatString><![CDATA[0.0000]]></formatString>
+          <precisionString><![CDATA[2]]></precisionString>
+          <units></units>
+          <precisionType>2</precisionType>
+          <engineeringUnits>false</engineeringUnits>
+          <currency>false</currency>
+        </numberAnswer>
+        <numberAnswer>
+          <name><![CDATA[d]]></name>
+          <weight>100</weight>
+          <answerProperties>
+            <property name="completeIncompleteGrading" type="string" value="false" />
+          </answerProperties>
+          <fieldWidth>7</fieldWidth>
+          <correctAnswer><![CDATA[0.5]]></correctAnswer>
+          <formatString><![CDATA[0.0000]]></formatString>
+          <precisionString><![CDATA[2]]></precisionString>
+          <units></units>
+          <precisionType>2</precisionType>
+          <engineeringUnits>false</engineeringUnits>
+          <currency>false</currency>
+        </numberAnswer>
+        <numberAnswer>
+          <name><![CDATA[1]]></name>
+          <weight>100</weight>
+          <answerProperties>
+            <property name="completeIncompleteGrading" type="string" value="false" />
+          </answerProperties>
+          <fieldWidth>7</fieldWidth>
+          <correctAnswer><![CDATA[100]]></correctAnswer>
+          <formatString><![CDATA[0.000]]></formatString>
+          <precisionString><![CDATA[2]]></precisionString>
+          <units></units>
+          <precisionType>2</precisionType>
+          <engineeringUnits>false</engineeringUnits>
+          <currency>false</currency>
+        </numberAnswer>
+        <numberAnswer>
+          <name><![CDATA[2]]></name>
+          <weight>100</weight>
+          <answerProperties>
+            <property name="completeIncompleteGrading" type="string" value="false" />
+          </answerProperties>
+          <fieldWidth>7</fieldWidth>
+          <correctAnswer><![CDATA[9.662]]></correctAnswer>
+          <formatString><![CDATA[0.000]]></formatString>
+          <precisionString><![CDATA[2]]></precisionString>
+          <units></units>
+          <precisionType>2</precisionType>
+          <engineeringUnits>false</engineeringUnits>
+          <currency>false</currency>
+        </numberAnswer>
+        <numberAnswer>
+          <name><![CDATA[3]]></name>
+          <weight>100</weight>
+          <answerProperties>
+            <property name="completeIncompleteGrading" type="string" value="false" />
+          </answerProperties>
+          <fieldWidth>7</fieldWidth>
+          <correctAnswer><![CDATA[0.359]]></correctAnswer>
+          <formatString><![CDATA[0.000]]></formatString>
+          <precisionString><![CDATA[2]]></precisionString>
+          <units></units>
+          <precisionType>2</precisionType>
+          <engineeringUnits>false</engineeringUnits>
+          <currency>false</currency>
+        </numberAnswer>
+        <numberAnswer>
+          <name><![CDATA[4]]></name>
+          <weight>100</weight>
+          <answerProperties>
+            <property name="completeIncompleteGrading" type="string" value="false" />
+          </answerProperties>
+          <fieldWidth>7</fieldWidth>
+          <correctAnswer><![CDATA[0.007]]></correctAnswer>
+          <formatString><![CDATA[0.000]]></formatString>
+          <precisionString><![CDATA[2]]></precisionString>
+          <units></units>
+          <precisionType>2</precisionType>
+          <engineeringUnits>false</engineeringUnits>
+          <currency>false</currency>
+        </numberAnswer>
+        <numberAnswer>
+          <name><![CDATA[6]]></name>
+          <weight>100</weight>
+          <answerProperties>
+            <property name="completeIncompleteGrading" type="string" value="false" />
+          </answerProperties>
+          <fieldWidth>7</fieldWidth>
+          <correctAnswer><![CDATA[121.391]]></correctAnswer>
+          <formatString><![CDATA[0.000]]></formatString>
+          <precisionString><![CDATA[2]]></precisionString>
+          <units></units>
+          <precisionType>2</precisionType>
+          <engineeringUnits>false</engineeringUnits>
+          <currency>false</currency>
+        </numberAnswer>
+        <numberAnswer>
+          <name><![CDATA[7]]></name>
+          <weight>100</weight>
+          <answerProperties>
+            <property name="completeIncompleteGrading" type="string" value="false" />
+          </answerProperties>
+          <fieldWidth>7</fieldWidth>
+          <correctAnswer><![CDATA[9.986]]></correctAnswer>
+          <formatString><![CDATA[0.000]]></formatString>
+          <precisionString><![CDATA[2]]></precisionString>
+          <units></units>
+          <precisionType>2</precisionType>
+          <engineeringUnits>false</engineeringUnits>
+          <currency>false</currency>
+        </numberAnswer>
+        <numberAnswer>
+          <name><![CDATA[8]]></name>
+          <weight>100</weight>
+          <answerProperties>
+            <property name="completeIncompleteGrading" type="string" value="false" />
+          </answerProperties>
+          <fieldWidth>7</fieldWidth>
+          <correctAnswer><![CDATA[0.366]]></correctAnswer>
+          <formatString><![CDATA[0.000]]></formatString>
+          <precisionString><![CDATA[2]]></precisionString>
+          <units></units>
+          <precisionType>2</precisionType>
+          <engineeringUnits>false</engineeringUnits>
+          <currency>false</currency>
+        </numberAnswer>
+      </answers>
+    </worksheet>
+  </question>
+  <question>
+    <format>1</format>
+    <ezid>13570164368971856</ezid>
+    <version>1579774407110</version>
+    <title><![CDATA[Problem 04.012]]></title>
+    <type>WK</type>
+    <categories>
+      <internal_category>
+        <catid>13570164352964634</catid>
+        <title><![CDATA[Chapter:  04 Roundoff and Truncation Errors]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164352964637</catid>
+        <title><![CDATA[Topic:  Roundoff and Truncation Errors]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164365969335</catid>
+        <title><![CDATA[Section:  04.01 ERRORS]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164352964746</catid>
+        <title><![CDATA[Subtopic:  ERRORS]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040730414</catid>
+        <title><![CDATA[Difficulty:  Medium]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164266036554</catid>
+        <title><![CDATA[Units:  NA]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164207998827</catid>
+        <title><![CDATA[Bloom's Verb: 5. Evaluate]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164196995740</catid>
+        <title><![CDATA[Bloom's Object: 3. Procedural]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164343377093</catid>
+        <title><![CDATA[ABET Outcomes:  (a) an ability to apply knowledge of mathematics, science, and engineering]]></title>
+      </internal_category>
+    </categories>
+    <media_set>
+      <internal_media>
+        <name>formula22.mml</name>
+        <consumerData>
+          <mediaID>13570164360888583</mediaID>
+          <testID>13570164368971854</testID>
+          <consumerID>13570164368971856</consumerID>
+          <overrideHeight>240</overrideHeight>
+          <overrideWidth>320</overrideWidth>
+          <originalMediaName>formula22.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>339</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1475138822852</creation>
+          <modified>1476879157557</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGg+PG1zdWI+PG1pPiYjOTQ5OzwvbWk+PG1pPmE8L21pPjwvbXN1Yj48bW8+PTwvbW8+PG1m
+ZW5jZWQgY2xvc2U9InwiIG9wZW49InwiPjxtZnJhYz48bXJvdz48bW4+MDwvbW4+PG1vPi48L21v
+Pjxtbj44NTU4PC9tbj48bW8+LTwvbW8+PG1uPjE8L21uPjxtbz4uPC9tbz48bW4+MDQ3MjwvbW4+
+PC9tcm93Pjxtcm93Pjxtbj4wPC9tbj48bW8+LjwvbW8+PG1uPjg1NTg8L21uPjwvbXJvdz48L21m
+cmFjPjwvbWZlbmNlZD48bW8+JiMyMTU7PC9tbz48bW4+MTAwPC9tbj48bW8+JTwvbW8+PG1vPj08
+L21vPjxtbj4yMjwvbW4+PG1vPi48L21vPjxtbj4zNjU8L21uPjxtbz4lPC9tbz48L21hdGg+]]></data>
+        </mediaData>
+      </internal_media>
+      <internal_media>
+        <name>formula24.mml</name>
+        <consumerData>
+          <mediaID>13570164360888624</mediaID>
+          <testID>13570164368971854</testID>
+          <consumerID>13570164368971856</consumerID>
+          <overrideHeight>240</overrideHeight>
+          <overrideWidth>320</overrideWidth>
+          <originalMediaName>formula24.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>103</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1475138949777</creation>
+          <modified>1476879157557</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGg+PG1zdWI+PG1pPiYjOTQ5OzwvbWk+PG1pPnQ8L21pPjwvbXN1Yj48bW8+PTwvbW8+PG1u
+PjA8L21uPjxtbz4uPC9tbz48bW4+MDMxPC9tbj48bW8+JTwvbW8+PC9tYXRoPg==]]></data>
+        </mediaData>
+      </internal_media>
+      <internal_media>
+        <name>formula27.mml</name>
+        <consumerData>
+          <mediaID>13570164360889599</mediaID>
+          <testID>13570164368971854</testID>
+          <consumerID>13570164368971856</consumerID>
+          <overrideHeight>240</overrideHeight>
+          <overrideWidth>320</overrideWidth>
+          <originalMediaName>formula27.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>103</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1475139120959</creation>
+          <modified>1476879157557</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGg+PG1zdWI+PG1pPiYjOTQ5OzwvbWk+PG1pPnQ8L21pPjwvbXN1Yj48bW8+PTwvbW8+PG1u
+PjA8L21uPjxtbz4uPC9tbz48bW4+MDAxPC9tbj48bW8+JTwvbW8+PC9tYXRoPg==]]></data>
+        </mediaData>
+      </internal_media>
+      <internal_media>
+        <name>formula17.mml</name>
+        <consumerData>
+          <mediaID>13570164360944815</mediaID>
+          <testID>13570164368971854</testID>
+          <consumerID>13570164368971856</consumerID>
+          <overrideHeight>240</overrideHeight>
+          <overrideWidth>320</overrideWidth>
+          <originalMediaName>formula17.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>126</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1475138328919</creation>
+          <modified>1476879157557</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGg+PG1pPnNpbjwvbWk+PG1mZW5jZWQ+PG1mcmFjPjxtaT4mIzk2MDs8L21pPjxtbj4zPC9t
+bj48L21mcmFjPjwvbWZlbmNlZD48bW8+PTwvbW8+PG1uPjA8L21uPjxtbz4uPC9tbz48bW4+ODg2
+PC9tbj48L21hdGg+]]></data>
+        </mediaData>
+      </internal_media>
+      <internal_media>
+        <name>formula28.mml</name>
+        <consumerData>
+          <mediaID>13570164360945598</mediaID>
+          <testID>13570164368971854</testID>
+          <consumerID>13570164368971856</consumerID>
+          <overrideHeight>240</overrideHeight>
+          <overrideWidth>320</overrideWidth>
+          <originalMediaName>formula28.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>338</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1475139173084</creation>
+          <modified>1476879157557</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGg+PG1zdWI+PG1pPiYjOTQ5OzwvbWk+PG1pPmE8L21pPjwvbXN1Yj48bW8+PTwvbW8+PG1m
+ZW5jZWQgY2xvc2U9InwiIG9wZW49InwiPjxtZnJhYz48bXJvdz48bW4+MDwvbW4+PG1vPi48L21v
+Pjxtbj44NjYwPC9tbj48bW8+LTwvbW8+PG1uPjA8L21uPjxtbz4uPC9tbz48bW4+ODY2MzwvbW4+
+PC9tcm93Pjxtcm93Pjxtbj4wPC9tbj48bW8+LjwvbW8+PG1uPjg2NjA8L21uPjwvbXJvdz48L21m
+cmFjPjwvbWZlbmNlZD48bW8+JiMyMTU7PC9tbz48bW4+MTAwPC9tbj48bW8+JTwvbW8+PG1vPj08
+L21vPjxtbj4wPC9tbj48bW8+LjwvbW8+PG1uPjAzMjwvbW4+PG1vPiU8L21vPjwvbWF0aD4=]]></data>
+        </mediaData>
+      </internal_media>
+      <internal_media>
+        <name>formula15.mml</name>
+        <consumerData>
+          <mediaID>13570164374968749</mediaID>
+          <testID>13570164368971854</testID>
+          <consumerID>13570164368971856</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>formula15.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>383</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1479878030108</creation>
+          <modified>1479878106911</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGg+PG1pPnNpbjwvbWk+PG1vPiZuYnNwOzwvbW8+PG1pPng8L21pPjxtbz49PC9tbz48bWk+
+eDwvbWk+PG1vPi08L21vPjxtZnJhYz48bXN1cD48bWk+eDwvbWk+PG1uPjM8L21uPjwvbXN1cD48
+bXJvdz48bW4+MzwvbW4+PG1vPiE8L21vPjwvbXJvdz48L21mcmFjPjxtbz4rPC9tbz48bWZyYWM+
+PG1zdXA+PG1pPng8L21pPjxtbj41PC9tbj48L21zdXA+PG1yb3c+PG1uPjU8L21uPjxtbz4hPC9t
+bz48L21yb3c+PC9tZnJhYz48bW8+LTwvbW8+PG1mcmFjPjxtc3VwPjxtaT54PC9taT48bW4+Nzwv
+bW4+PC9tc3VwPjxtcm93Pjxtbj43PC9tbj48bW8+ITwvbW8+PC9tcm93PjwvbWZyYWM+PG1vPis8
+L21vPjxtbz4uPC9tbz48bW8+LjwvbW8+PG1vPi48L21vPjwvbWF0aD4=]]></data>
+        </mediaData>
+      </internal_media>
+      <internal_media>
+        <name>formula16.mml</name>
+        <consumerData>
+          <mediaID>13570164374968752</mediaID>
+          <testID>13570164368971854</testID>
+          <consumerID>13570164368971856</consumerID>
+          <overrideHeight>240</overrideHeight>
+          <overrideWidth>320</overrideWidth>
+          <originalMediaName>formula16.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>233</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1479878043846</creation>
+          <modified>1479878510580</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGg+PG1zdWI+PG1pPiYjOTQ5OzwvbWk+PG1pPnM8L21pPjwvbXN1Yj48bW8+PTwvbW8+PG1u
+PjA8L21uPjxtbz4uPC9tbz48bW4+NTwvbW4+PG1vPiYjMjE1OzwvbW8+PG1zdXA+PG1uPjEwPC9t
+bj48bXJvdz48bW4+MjwvbW4+PG1vPi08L21vPjxtbj4yPC9tbj48L21yb3c+PC9tc3VwPjxtbz4l
+PC9tbz48bW8+PTwvbW8+PG1uPjA8L21uPjxtbz4uPC9tbz48bW4+NTwvbW4+PG1vPiU8L21vPjwv
+bWF0aD4=]]></data>
+        </mediaData>
+      </internal_media>
+      <internal_media>
+        <name>formula16.mml</name>
+        <consumerData>
+          <mediaID>13570164374968752</mediaID>
+          <testID>13570164368971854</testID>
+          <consumerID>13570164368971856</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>formula16.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>233</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1479878043846</creation>
+          <modified>1479878510580</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGg+PG1zdWI+PG1pPiYjOTQ5OzwvbWk+PG1pPnM8L21pPjwvbXN1Yj48bW8+PTwvbW8+PG1u
+PjA8L21uPjxtbz4uPC9tbz48bW4+NTwvbW4+PG1vPiYjMjE1OzwvbW8+PG1zdXA+PG1uPjEwPC9t
+bj48bXJvdz48bW4+MjwvbW4+PG1vPi08L21vPjxtbj4yPC9tbj48L21yb3c+PC9tc3VwPjxtbz4l
+PC9tbz48bW8+PTwvbW8+PG1uPjA8L21uPjxtbz4uPC9tbz48bW4+NTwvbW4+PG1vPiU8L21vPjwv
+bWF0aD4=]]></data>
+        </mediaData>
+      </internal_media>
+      <internal_media>
+        <name>formula17.mml</name>
+        <consumerData>
+          <mediaID>13570164374968753</mediaID>
+          <testID>13570164368971854</testID>
+          <consumerID>13570164368971856</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>formula17.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>126</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1479878044161</creation>
+          <modified>1479878510580</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGg+PG1pPnNpbjwvbWk+PG1mZW5jZWQ+PG1mcmFjPjxtaT4mIzk2MDs8L21pPjxtbj4zPC9t
+bj48L21mcmFjPjwvbWZlbmNlZD48bW8+PTwvbW8+PG1uPjA8L21uPjxtbz4uPC9tbz48bW4+ODg2
+PC9tbj48L21hdGg+]]></data>
+        </mediaData>
+      </internal_media>
+      <internal_media>
+        <name>formula18.mml</name>
+        <consumerData>
+          <mediaID>13570164374968754</mediaID>
+          <testID>13570164368971854</testID>
+          <consumerID>13570164368971856</consumerID>
+          <overrideHeight>240</overrideHeight>
+          <overrideWidth>320</overrideWidth>
+          <originalMediaName>formula18.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>177</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1479878044474</creation>
+          <modified>1479878106924</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGg+PG1pPnNpbjwvbWk+PG1mZW5jZWQ+PG1mcmFjPjxtaT4mIzk2MDs8L21pPjxtbj4zPC9t
+bj48L21mcmFjPjwvbWZlbmNlZD48bW8+PTwvbW8+PG1mcmFjPjxtaT4mIzk2MDs8L21pPjxtbj4z
+PC9tbj48L21mcmFjPjxtbz49PC9tbz48bW4+MTwvbW4+PG1vPi48L21vPjxtbj4wNDcyPC9tbj48
+L21hdGg+]]></data>
+        </mediaData>
+      </internal_media>
+      <internal_media>
+        <name>formula18.mml</name>
+        <consumerData>
+          <mediaID>13570164374968754</mediaID>
+          <testID>13570164368971854</testID>
+          <consumerID>13570164368971856</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>formula18.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>177</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1479878044474</creation>
+          <modified>1479878106924</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGg+PG1pPnNpbjwvbWk+PG1mZW5jZWQ+PG1mcmFjPjxtaT4mIzk2MDs8L21pPjxtbj4zPC9t
+bj48L21mcmFjPjwvbWZlbmNlZD48bW8+PTwvbW8+PG1mcmFjPjxtaT4mIzk2MDs8L21pPjxtbj4z
+PC9tbj48L21mcmFjPjxtbz49PC9tbz48bW4+MTwvbW4+PG1vPi48L21vPjxtbj4wNDcyPC9tbj48
+L21hdGg+]]></data>
+        </mediaData>
+      </internal_media>
+      <internal_media>
+        <name>formula19.mml</name>
+        <consumerData>
+          <mediaID>13570164374968755</mediaID>
+          <testID>13570164368971854</testID>
+          <consumerID>13570164368971856</consumerID>
+          <overrideHeight>240</overrideHeight>
+          <overrideWidth>320</overrideWidth>
+          <originalMediaName>formula19.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>339</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1479878044772</creation>
+          <modified>1479878106924</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGg+PG1zdWI+PG1pPiYjOTQ5OzwvbWk+PG1pPnQ8L21pPjwvbXN1Yj48bW8+PTwvbW8+PG1m
+ZW5jZWQgY2xvc2U9InwiIG9wZW49InwiPjxtZnJhYz48bXJvdz48bW4+MDwvbW4+PG1vPi48L21v
+Pjxtbj44NjYwPC9tbj48bW8+LTwvbW8+PG1uPjE8L21uPjxtbz4uPC9tbz48bW4+MDQ3MjwvbW4+
+PC9tcm93Pjxtcm93Pjxtbj4wPC9tbj48bW8+LjwvbW8+PG1uPjg2NjA8L21uPjwvbXJvdz48L21m
+cmFjPjwvbWZlbmNlZD48bW8+JiMyMTU7PC9tbz48bW4+MTAwPC9tbj48bW8+JTwvbW8+PG1vPj08
+L21vPjxtbj4yMDwvbW4+PG1vPi48L21vPjxtbj45MjA8L21uPjxtbz4lPC9tbz48L21hdGg+]]></data>
+        </mediaData>
+      </internal_media>
+      <internal_media>
+        <name>formula19.mml</name>
+        <consumerData>
+          <mediaID>13570164374968755</mediaID>
+          <testID>13570164368971854</testID>
+          <consumerID>13570164368971856</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>formula19.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>339</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1479878044772</creation>
+          <modified>1479878106924</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGg+PG1zdWI+PG1pPiYjOTQ5OzwvbWk+PG1pPnQ8L21pPjwvbXN1Yj48bW8+PTwvbW8+PG1m
+ZW5jZWQgY2xvc2U9InwiIG9wZW49InwiPjxtZnJhYz48bXJvdz48bW4+MDwvbW4+PG1vPi48L21v
+Pjxtbj44NjYwPC9tbj48bW8+LTwvbW8+PG1uPjE8L21uPjxtbz4uPC9tbz48bW4+MDQ3MjwvbW4+
+PC9tcm93Pjxtcm93Pjxtbj4wPC9tbj48bW8+LjwvbW8+PG1uPjg2NjA8L21uPjwvbXJvdz48L21m
+cmFjPjwvbWZlbmNlZD48bW8+JiMyMTU7PC9tbz48bW4+MTAwPC9tbj48bW8+JTwvbW8+PG1vPj08
+L21vPjxtbj4yMDwvbW4+PG1vPi48L21vPjxtbj45MjA8L21uPjxtbz4lPC9tbz48L21hdGg+]]></data>
+        </mediaData>
+      </internal_media>
+      <internal_media>
+        <name>formula20.mml</name>
+        <consumerData>
+          <mediaID>13570164374968756</mediaID>
+          <testID>13570164368971854</testID>
+          <consumerID>13570164368971856</consumerID>
+          <overrideHeight>240</overrideHeight>
+          <overrideWidth>320</overrideWidth>
+          <originalMediaName>formula20.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>340</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1479878045135</creation>
+          <modified>1479878106924</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGg+PG1pPnNpbjwvbWk+PG1mZW5jZWQ+PG1mcmFjPjxtaT4mIzk2MDs8L21pPjxtbj4zPC9t
+bj48L21mcmFjPjwvbWZlbmNlZD48bW8+PTwvbW8+PG1uPjE8L21uPjxtbz4uPC9tbz48bW4+MDQ3
+MjwvbW4+PG1vPi08L21vPjxtZnJhYz48bXN1cD48bWZlbmNlZD48bXN0eWxlIGRpc3BsYXlzdHls
+ZT0idHJ1ZSI+PG1mcmFjIGJldmVsbGVkPSJ0cnVlIj48bWk+JiM5NjA7PC9taT48bW4+MzwvbW4+
+PC9tZnJhYz48L21zdHlsZT48L21mZW5jZWQ+PG1uPjM8L21uPjwvbXN1cD48bW4+NjwvbW4+PC9t
+ZnJhYz48bW8+PTwvbW8+PG1uPjA8L21uPjxtbz4uPC9tbz48bW4+ODU1ODwvbW4+PC9tYXRoPg==]]></data>
+        </mediaData>
+      </internal_media>
+      <internal_media>
+        <name>formula20.mml</name>
+        <consumerData>
+          <mediaID>13570164374968756</mediaID>
+          <testID>13570164368971854</testID>
+          <consumerID>13570164368971856</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>formula20.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>340</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1479878045135</creation>
+          <modified>1479878106924</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGg+PG1pPnNpbjwvbWk+PG1mZW5jZWQ+PG1mcmFjPjxtaT4mIzk2MDs8L21pPjxtbj4zPC9t
+bj48L21mcmFjPjwvbWZlbmNlZD48bW8+PTwvbW8+PG1uPjE8L21uPjxtbz4uPC9tbz48bW4+MDQ3
+MjwvbW4+PG1vPi08L21vPjxtZnJhYz48bXN1cD48bWZlbmNlZD48bXN0eWxlIGRpc3BsYXlzdHls
+ZT0idHJ1ZSI+PG1mcmFjIGJldmVsbGVkPSJ0cnVlIj48bWk+JiM5NjA7PC9taT48bW4+MzwvbW4+
+PC9tZnJhYz48L21zdHlsZT48L21mZW5jZWQ+PG1uPjM8L21uPjwvbXN1cD48bW4+NjwvbW4+PC9t
+ZnJhYz48bW8+PTwvbW8+PG1uPjA8L21uPjxtbz4uPC9tbz48bW4+ODU1ODwvbW4+PC9tYXRoPg==]]></data>
+        </mediaData>
+      </internal_media>
+      <internal_media>
+        <name>formula21.mml</name>
+        <consumerData>
+          <mediaID>13570164374968757</mediaID>
+          <testID>13570164368971854</testID>
+          <consumerID>13570164368971856</consumerID>
+          <overrideHeight>240</overrideHeight>
+          <overrideWidth>320</overrideWidth>
+          <originalMediaName>formula21.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>103</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1479878045461</creation>
+          <modified>1479878106924</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGg+PG1zdWI+PG1pPiYjOTQ5OzwvbWk+PG1pPnQ8L21pPjwvbXN1Yj48bW8+PTwvbW8+PG1u
+PjE8L21uPjxtbz4uPC9tbz48bW4+MTgxPC9tbj48bW8+JTwvbW8+PC9tYXRoPg==]]></data>
+        </mediaData>
+      </internal_media>
+      <internal_media>
+        <name>formula21.mml</name>
+        <consumerData>
+          <mediaID>13570164374968757</mediaID>
+          <testID>13570164368971854</testID>
+          <consumerID>13570164368971856</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>formula21.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>103</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1479878045461</creation>
+          <modified>1479878106924</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGg+PG1zdWI+PG1pPiYjOTQ5OzwvbWk+PG1pPnQ8L21pPjwvbXN1Yj48bW8+PTwvbW8+PG1u
+PjE8L21uPjxtbz4uPC9tbz48bW4+MTgxPC9tbj48bW8+JTwvbW8+PC9tYXRoPg==]]></data>
+        </mediaData>
+      </internal_media>
+      <internal_media>
+        <name>formula22.mml</name>
+        <consumerData>
+          <mediaID>13570164374968758</mediaID>
+          <testID>13570164368971854</testID>
+          <consumerID>13570164368971856</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>formula22.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>339</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1479878045779</creation>
+          <modified>1479878510580</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGg+PG1zdWI+PG1pPiYjOTQ5OzwvbWk+PG1pPmE8L21pPjwvbXN1Yj48bW8+PTwvbW8+PG1m
+ZW5jZWQgY2xvc2U9InwiIG9wZW49InwiPjxtZnJhYz48bXJvdz48bW4+MDwvbW4+PG1vPi48L21v
+Pjxtbj44NTU4PC9tbj48bW8+LTwvbW8+PG1uPjE8L21uPjxtbz4uPC9tbz48bW4+MDQ3MjwvbW4+
+PC9tcm93Pjxtcm93Pjxtbj4wPC9tbj48bW8+LjwvbW8+PG1uPjg1NTg8L21uPjwvbXJvdz48L21m
+cmFjPjwvbWZlbmNlZD48bW8+JiMyMTU7PC9tbz48bW4+MTAwPC9tbj48bW8+JTwvbW8+PG1vPj08
+L21vPjxtbj4yMjwvbW4+PG1vPi48L21vPjxtbj4zNjU8L21uPjxtbz4lPC9tbz48L21hdGg+]]></data>
+        </mediaData>
+      </internal_media>
+      <internal_media>
+        <name>formula23.mml</name>
+        <consumerData>
+          <mediaID>13570164374968759</mediaID>
+          <testID>13570164368971854</testID>
+          <consumerID>13570164368971856</consumerID>
+          <overrideHeight>240</overrideHeight>
+          <overrideWidth>320</overrideWidth>
+          <originalMediaName>formula23.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>342</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1479878046105</creation>
+          <modified>1479878510580</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGg+PG1pPnNpbjwvbWk+PG1mZW5jZWQ+PG1mcmFjPjxtaT4mIzk2MDs8L21pPjxtbj4zPC9t
+bj48L21mcmFjPjwvbWZlbmNlZD48bW8+PTwvbW8+PG1uPjA8L21uPjxtbz4uPC9tbz48bW4+ODU1
+ODwvbW4+PG1vPis8L21vPjxtZnJhYz48bXN1cD48bWZlbmNlZD48bXN0eWxlIGRpc3BsYXlzdHls
+ZT0idHJ1ZSI+PG1mcmFjIGJldmVsbGVkPSJ0cnVlIj48bWk+JiM5NjA7PC9taT48bW4+MzwvbW4+
+PC9tZnJhYz48L21zdHlsZT48L21mZW5jZWQ+PG1uPjU8L21uPjwvbXN1cD48bW4+MTIwPC9tbj48
+L21mcmFjPjxtbz49PC9tbz48bW4+MDwvbW4+PG1vPi48L21vPjxtbj44NjYzPC9tbj48L21hdGg+
+]]></data>
+        </mediaData>
+      </internal_media>
+      <internal_media>
+        <name>formula23.mml</name>
+        <consumerData>
+          <mediaID>13570164374968759</mediaID>
+          <testID>13570164368971854</testID>
+          <consumerID>13570164368971856</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>formula23.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>342</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1479878046105</creation>
+          <modified>1479878510580</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGg+PG1pPnNpbjwvbWk+PG1mZW5jZWQ+PG1mcmFjPjxtaT4mIzk2MDs8L21pPjxtbj4zPC9t
+bj48L21mcmFjPjwvbWZlbmNlZD48bW8+PTwvbW8+PG1uPjA8L21uPjxtbz4uPC9tbz48bW4+ODU1
+ODwvbW4+PG1vPis8L21vPjxtZnJhYz48bXN1cD48bWZlbmNlZD48bXN0eWxlIGRpc3BsYXlzdHls
+ZT0idHJ1ZSI+PG1mcmFjIGJldmVsbGVkPSJ0cnVlIj48bWk+JiM5NjA7PC9taT48bW4+MzwvbW4+
+PC9tZnJhYz48L21zdHlsZT48L21mZW5jZWQ+PG1uPjU8L21uPjwvbXN1cD48bW4+MTIwPC9tbj48
+L21mcmFjPjxtbz49PC9tbz48bW4+MDwvbW4+PG1vPi48L21vPjxtbj44NjYzPC9tbj48L21hdGg+
+]]></data>
+        </mediaData>
+      </internal_media>
+      <internal_media>
+        <name>formula24.mml</name>
+        <consumerData>
+          <mediaID>13570164374968760</mediaID>
+          <testID>13570164368971854</testID>
+          <consumerID>13570164368971856</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>formula24.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>103</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1479878046402</creation>
+          <modified>1479878510580</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGg+PG1zdWI+PG1pPiYjOTQ5OzwvbWk+PG1pPnQ8L21pPjwvbXN1Yj48bW8+PTwvbW8+PG1u
+PjA8L21uPjxtbz4uPC9tbz48bW4+MDMxPC9tbj48bW8+JTwvbW8+PC9tYXRoPg==]]></data>
+        </mediaData>
+      </internal_media>
+      <internal_media>
+        <name>formula25.mml</name>
+        <consumerData>
+          <mediaID>13570164374968761</mediaID>
+          <testID>13570164368971854</testID>
+          <consumerID>13570164368971856</consumerID>
+          <overrideHeight>240</overrideHeight>
+          <overrideWidth>320</overrideWidth>
+          <originalMediaName>formula25.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>338</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1479878046728</creation>
+          <modified>1479878106924</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGg+PG1zdWI+PG1pPiYjOTQ5OzwvbWk+PG1pPmE8L21pPjwvbXN1Yj48bW8+PTwvbW8+PG1m
+ZW5jZWQgY2xvc2U9InwiIG9wZW49InwiPjxtZnJhYz48bXJvdz48bW4+MDwvbW4+PG1vPi48L21v
+Pjxtbj44NjYzPC9tbj48bW8+LTwvbW8+PG1uPjA8L21uPjxtbz4uPC9tbz48bW4+ODU1ODwvbW4+
+PC9tcm93Pjxtcm93Pjxtbj4wPC9tbj48bW8+LjwvbW8+PG1uPjg2NjM8L21uPjwvbXJvdz48L21m
+cmFjPjwvbWZlbmNlZD48bW8+JiMyMTU7PC9tbz48bW4+MTAwPC9tbj48bW8+JTwvbW8+PG1vPj08
+L21vPjxtbj4xPC9tbj48bW8+LjwvbW8+PG1uPjIxMTwvbW4+PG1vPiU8L21vPjwvbWF0aD4=]]></data>
+        </mediaData>
+      </internal_media>
+      <internal_media>
+        <name>formula25.mml</name>
+        <consumerData>
+          <mediaID>13570164374968761</mediaID>
+          <testID>13570164368971854</testID>
+          <consumerID>13570164368971856</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>formula25.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>338</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1479878046728</creation>
+          <modified>1479878106924</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGg+PG1zdWI+PG1pPiYjOTQ5OzwvbWk+PG1pPmE8L21pPjwvbXN1Yj48bW8+PTwvbW8+PG1m
+ZW5jZWQgY2xvc2U9InwiIG9wZW49InwiPjxtZnJhYz48bXJvdz48bW4+MDwvbW4+PG1vPi48L21v
+Pjxtbj44NjYzPC9tbj48bW8+LTwvbW8+PG1uPjA8L21uPjxtbz4uPC9tbz48bW4+ODU1ODwvbW4+
+PC9tcm93Pjxtcm93Pjxtbj4wPC9tbj48bW8+LjwvbW8+PG1uPjg2NjM8L21uPjwvbXJvdz48L21m
+cmFjPjwvbWZlbmNlZD48bW8+JiMyMTU7PC9tbz48bW4+MTAwPC9tbj48bW8+JTwvbW8+PG1vPj08
+L21vPjxtbj4xPC9tbj48bW8+LjwvbW8+PG1uPjIxMTwvbW4+PG1vPiU8L21vPjwvbWF0aD4=]]></data>
+        </mediaData>
+      </internal_media>
+      <internal_media>
+        <name>formula26.mml</name>
+        <consumerData>
+          <mediaID>13570164374968762</mediaID>
+          <testID>13570164368971854</testID>
+          <consumerID>13570164368971856</consumerID>
+          <overrideHeight>240</overrideHeight>
+          <overrideWidth>320</overrideWidth>
+          <originalMediaName>formula26.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>343</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1479878047059</creation>
+          <modified>1479878106924</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGg+PG1pPnNpbjwvbWk+PG1mZW5jZWQ+PG1mcmFjPjxtaT4mIzk2MDs8L21pPjxtbj4zPC9t
+bj48L21mcmFjPjwvbWZlbmNlZD48bW8+PTwvbW8+PG1uPjA8L21uPjxtbz4uPC9tbz48bW4+ODY2
+MzwvbW4+PG1vPi08L21vPjxtZnJhYz48bXN1cD48bWZlbmNlZD48bXN0eWxlIGRpc3BsYXlzdHls
+ZT0idHJ1ZSI+PG1mcmFjIGJldmVsbGVkPSJ0cnVlIj48bWk+JiM5NjA7PC9taT48bW4+MzwvbW4+
+PC9tZnJhYz48L21zdHlsZT48L21mZW5jZWQ+PG1uPjc8L21uPjwvbXN1cD48bW4+NTA0MDwvbW4+
+PC9tZnJhYz48bW8+PTwvbW8+PG1uPjA8L21uPjxtbz4uPC9tbz48bW4+ODY2MDwvbW4+PC9tYXRo
+Pg==]]></data>
+        </mediaData>
+      </internal_media>
+      <internal_media>
+        <name>formula26.mml</name>
+        <consumerData>
+          <mediaID>13570164374968762</mediaID>
+          <testID>13570164368971854</testID>
+          <consumerID>13570164368971856</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>formula26.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>343</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1479878047059</creation>
+          <modified>1479878106924</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGg+PG1pPnNpbjwvbWk+PG1mZW5jZWQ+PG1mcmFjPjxtaT4mIzk2MDs8L21pPjxtbj4zPC9t
+bj48L21mcmFjPjwvbWZlbmNlZD48bW8+PTwvbW8+PG1uPjA8L21uPjxtbz4uPC9tbz48bW4+ODY2
+MzwvbW4+PG1vPi08L21vPjxtZnJhYz48bXN1cD48bWZlbmNlZD48bXN0eWxlIGRpc3BsYXlzdHls
+ZT0idHJ1ZSI+PG1mcmFjIGJldmVsbGVkPSJ0cnVlIj48bWk+JiM5NjA7PC9taT48bW4+MzwvbW4+
+PC9tZnJhYz48L21zdHlsZT48L21mZW5jZWQ+PG1uPjc8L21uPjwvbXN1cD48bW4+NTA0MDwvbW4+
+PC9tZnJhYz48bW8+PTwvbW8+PG1uPjA8L21uPjxtbz4uPC9tbz48bW4+ODY2MDwvbW4+PC9tYXRo
+Pg==]]></data>
+        </mediaData>
+      </internal_media>
+      <internal_media>
+        <name>formula27.mml</name>
+        <consumerData>
+          <mediaID>13570164374968763</mediaID>
+          <testID>13570164368971854</testID>
+          <consumerID>13570164368971856</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>formula27.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>106</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1479878047380</creation>
+          <modified>1479878510580</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGg+PG1zdWI+PG1pPiYjOTQ5OzwvbWk+PG1pPnQ8L21pPjwvbXN1Yj48bW8+PTwvbW8+PG1u
+PjA8L21uPjxtbz4uPC9tbz48bW4+MDAwNDc3PC9tbj48bW8+JTwvbW8+PC9tYXRoPg==]]></data>
+        </mediaData>
+      </internal_media>
+      <internal_media>
+        <name>formula28.mml</name>
+        <consumerData>
+          <mediaID>13570164374968764</mediaID>
+          <testID>13570164368971854</testID>
+          <consumerID>13570164368971856</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>formula28.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>338</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1479878047697</creation>
+          <modified>1479878106924</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGg+PG1zdWI+PG1pPiYjOTQ5OzwvbWk+PG1pPmE8L21pPjwvbXN1Yj48bW8+PTwvbW8+PG1m
+ZW5jZWQgY2xvc2U9InwiIG9wZW49InwiPjxtZnJhYz48bXJvdz48bW4+MDwvbW4+PG1vPi48L21v
+Pjxtbj44NjYwPC9tbj48bW8+LTwvbW8+PG1uPjA8L21uPjxtbz4uPC9tbz48bW4+ODY2MzwvbW4+
+PC9tcm93Pjxtcm93Pjxtbj4wPC9tbj48bW8+LjwvbW8+PG1uPjg2NjA8L21uPjwvbXJvdz48L21m
+cmFjPjwvbWZlbmNlZD48bW8+JiMyMTU7PC9tbz48bW4+MTAwPC9tbj48bW8+JTwvbW8+PG1vPj08
+L21vPjxtbj4wPC9tbj48bW8+LjwvbW8+PG1uPjAzMjwvbW4+PG1vPiU8L21vPjwvbWF0aD4=]]></data>
+        </mediaData>
+      </internal_media>
+    </media_set>
+    <questionProperties>
+      <property name="pageTag" type="string" value="" />
+      <property name="customType" type="string" value="" />
+      <property name="completeIncompleteGrading" type="string" value="false" />
+      <property name="instructor_info" type="string" value="" />
+      <property name="forceManualScoring" type="string" value="automatic" />
+      <property name="audioPlayerPosition" type="string" value="above" />
+      <property name="problemSolution" type="string" value="&lt;p&gt;The values of sin(&amp;#960;/3), the true error, and the approximate error are given below.&lt;/p&gt;  &lt;p&gt;&amp;nbsp;&lt;/p&gt;  &lt;table class=&quot;table table-bordered table-hover table-condensed&quot; cellspacing=&quot;1&quot; cellpadding=&quot;1&quot; border=&quot;1&quot;&gt;  &lt;tbody&gt;   &lt;tr&gt;    &lt;td&gt;Order&lt;/td&gt;    &lt;td&gt;Value of sin(&amp;#960;/3)&lt;/td&gt;    &lt;td&gt;True error(%)&lt;/td&gt;    &lt;td&gt;Approximate error(%)&lt;/td&gt;   &lt;/tr&gt;   &lt;tr&gt;    &lt;td style=&quot;text-align: center;&quot;&gt;Zero&lt;/td&gt;    &lt;td style=&quot;text-align: center;&quot;&gt;1.0472&lt;/td&gt;    &lt;td style=&quot;text-align: center;&quot;&gt;20.920&lt;/td&gt;    &lt;td style=&quot;text-align: center;&quot;&gt;&amp;nbsp;&lt;/td&gt;   &lt;/tr&gt;   &lt;tr&gt;    &lt;td style=&quot;text-align: center;&quot;&gt;First&lt;/td&gt;    &lt;td style=&quot;text-align: center;&quot;&gt;0.8558&lt;/td&gt;    &lt;td style=&quot;text-align: center;&quot;&gt;1.181&lt;/td&gt;    &lt;td style=&quot;text-align: center;&quot;&gt;22.365&lt;/td&gt;   &lt;/tr&gt;   &lt;tr&gt;    &lt;td style=&quot;text-align: center;&quot;&gt;Second&lt;/td&gt;    &lt;td style=&quot;text-align: center;&quot;&gt;0.8663&lt;/td&gt;    &lt;td style=&quot;text-align: center;&quot;&gt;0.031&lt;/td&gt;    &lt;td style=&quot;text-align: center;&quot;&gt;1.211&lt;/td&gt;   &lt;/tr&gt;   &lt;tr&gt;    &lt;td style=&quot;text-align: center;&quot;&gt;Third&lt;/td&gt;    &lt;td style=&quot;text-align: center;&quot;&gt;0.8660&lt;/td&gt;    &lt;td style=&quot;text-align: center;&quot;&gt;0&lt;/td&gt;    &lt;td style=&quot;text-align: center;&quot;&gt;0.032&lt;/td&gt;   &lt;/tr&gt;  &lt;/tbody&gt; &lt;/table&gt;  &lt;p&gt;&amp;nbsp;&lt;/p&gt; " />
+      <property name="attached_media" type="string" value="formula15.mml,formula16.mml,formula17.mml,formula18.mml,formula19.mml,formula20.mml,formula21.mml,formula22.mml,formula23.mml,formula24.mml,formula25.mml,formula26.mml,formula27.mml,formula28.mml" />
+      <property name="aggregatedGrading" type="string" value="false" />
+      <property name="useCommonFeedback" type="string" value="true" />
+    </questionProperties>
+    <hints>
+      <hint>
+        <name>hint #1</name>
+        <type>html</type>
+        <value><![CDATA[What is the formula for calculating the true and approximate errors?]]></value>
+      </hint>
+    </hints>
+    <worksheet>
+      <stem><![CDATA[<p>The Maclaurin series expansion for sin <em>x</em> is</p>
+
+<p>&nbsp;</p>
+
+<p>%media:formula15.mml%</p>
+
+<p>&nbsp;</p>
+
+<p>Starting with the simplest version, sin <em>x</em> = <em>x</em>, add terms one at a time to estimate sin(<em>&#960;</em>/3). After each new term is added, compute the true and approximate percent relative errors. Use your calculator to determine the true value. Add terms until the absolute value of the approximate error estimate falls below an error criterion conforming to two significant figures. (Round the value of sin(<em>&#960;</em>/3) to four decimal places and the value of true and approximate error to three decimal places.)</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<table class="table table-bordered table-hover table-condensed">
+	<tbody>
+	</tbody>
+</table>
+
+<table class="table table-bordered table-hover table-condensed" cellspacing="1" cellpadding="1" border="1">
+	<tbody>
+		<tr>
+			<td style="text-align: center;">Order</td>
+			<td style="text-align: center;">Value of sin(<em>&#960;</em>/3)</td>
+			<td style="text-align: center;">True error(%)</td>
+			<td style="text-align: center;">Approximate error(%)</td>
+		</tr>
+		<tr>
+			<td style="text-align: center;">Zero</td>
+			<td style="text-align: center;">__a__</td>
+			<td style="text-align: center;">__1__</td>
+			<td style="text-align: center;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td style="text-align: center;">First</td>
+			<td style="text-align: center;">__b__</td>
+			<td style="text-align: center;">__2__</td>
+			<td style="text-align: center;">__6__</td>
+		</tr>
+		<tr>
+			<td style="text-align: center;">Second</td>
+			<td style="text-align: center;">__c__</td>
+			<td style="text-align: center;">__3__</td>
+			<td style="text-align: center;">__7__</td>
+		</tr>
+		<tr>
+			<td style="text-align: center;">Third</td>
+			<td style="text-align: center;">__d__</td>
+			<td style="text-align: center;">__4__</td>
+			<td style="text-align: center;">__8__</td>
+		</tr>
+	</tbody>
+</table>]]></stem>
+      <commonFeedback><![CDATA[<p>The condition for the stopping criterion is given as follows:</p>
+
+<p>&nbsp;</p>
+
+<p>%media:formula16.mml%</p>
+
+<p>&nbsp;</p>
+
+<p>The true value is given by</p>
+
+<p>&nbsp;</p>
+
+<p>%media:formula17.mml%</p>
+
+<p>&nbsp;</p>
+
+<p>At zero-order approximation,</p>
+
+<p>&nbsp;</p>
+
+<p>%media:formula18.mml%</p>
+
+<p>&nbsp;</p>
+
+<p>%media:formula19.mml%</p>
+
+<p>&nbsp;</p>
+
+<p>At first-order approximation,</p>
+
+<p>&nbsp;</p>
+
+<p>%media:formula20.mml%</p>
+
+<p>&nbsp;</p>
+
+<p>%media:formula21.mml%</p>
+
+<p>&nbsp;</p>
+
+<p>%media:formula22.mml%</p>
+
+<p>&nbsp;</p>
+
+<p>At second-order approximation,</p>
+
+<p>&nbsp;</p>
+
+<p>%media:formula23.mml%</p>
+
+<p>&nbsp;</p>
+
+<p>%media:formula24.mml%</p>
+
+<p>&nbsp;</p>
+
+<p>%media:formula25.mml%</p>
+
+<p>&nbsp;</p>
+
+<p>At third-order approximation,</p>
+
+<p>&nbsp;</p>
+
+<p>%media:formula26.mml%</p>
+
+<p>&nbsp;</p>
+
+<p>%media:formula27.mml%</p>
+
+<p>&nbsp;</p>
+
+<p>%media:formula28.mml%</p>
+
+<p>&nbsp;</p>
+
+<p>Since the approximate error is below 0.5%, the computation can be terminated.</p>
+
+<p>&nbsp;</p>
+]]></commonFeedback>
+      <answers>
+        <numberAnswer>
+          <name><![CDATA[a]]></name>
+          <weight>100</weight>
+          <answerProperties>
+            <property name="completeIncompleteGrading" type="string" value="false" />
+          </answerProperties>
+          <fieldWidth>7</fieldWidth>
+          <correctAnswer><![CDATA[1.0472]]></correctAnswer>
+          <formatString><![CDATA[0.0000]]></formatString>
+          <precisionString><![CDATA[2]]></precisionString>
+          <units></units>
+          <precisionType>2</precisionType>
+          <engineeringUnits>false</engineeringUnits>
+          <currency>false</currency>
+        </numberAnswer>
+        <numberAnswer>
+          <name><![CDATA[b]]></name>
+          <weight>100</weight>
+          <answerProperties>
+            <property name="completeIncompleteGrading" type="string" value="false" />
+          </answerProperties>
+          <fieldWidth>7</fieldWidth>
+          <correctAnswer><![CDATA[0.8558]]></correctAnswer>
+          <formatString><![CDATA[0.0000]]></formatString>
+          <precisionString><![CDATA[2]]></precisionString>
+          <units></units>
+          <precisionType>2</precisionType>
+          <engineeringUnits>false</engineeringUnits>
+          <currency>false</currency>
+        </numberAnswer>
+        <numberAnswer>
+          <name><![CDATA[c]]></name>
+          <weight>100</weight>
+          <answerProperties>
+            <property name="completeIncompleteGrading" type="string" value="false" />
+          </answerProperties>
+          <fieldWidth>7</fieldWidth>
+          <correctAnswer><![CDATA[0.8663]]></correctAnswer>
+          <formatString><![CDATA[0.0000]]></formatString>
+          <precisionString><![CDATA[2]]></precisionString>
+          <units></units>
+          <precisionType>2</precisionType>
+          <engineeringUnits>false</engineeringUnits>
+          <currency>false</currency>
+        </numberAnswer>
+        <numberAnswer>
+          <name><![CDATA[d]]></name>
+          <weight>100</weight>
+          <answerProperties>
+            <property name="completeIncompleteGrading" type="string" value="false" />
+          </answerProperties>
+          <fieldWidth>7</fieldWidth>
+          <correctAnswer><![CDATA[0.8660]]></correctAnswer>
+          <formatString><![CDATA[0.0000]]></formatString>
+          <precisionString><![CDATA[2]]></precisionString>
+          <units></units>
+          <precisionType>2</precisionType>
+          <engineeringUnits>false</engineeringUnits>
+          <currency>false</currency>
+        </numberAnswer>
+        <numberAnswer>
+          <name><![CDATA[1]]></name>
+          <weight>100</weight>
+          <answerProperties>
+            <property name="completeIncompleteGrading" type="string" value="false" />
+          </answerProperties>
+          <fieldWidth>7</fieldWidth>
+          <correctAnswer><![CDATA[20.920]]></correctAnswer>
+          <formatString><![CDATA[0.000]]></formatString>
+          <precisionString><![CDATA[2]]></precisionString>
+          <units></units>
+          <precisionType>2</precisionType>
+          <engineeringUnits>false</engineeringUnits>
+          <currency>false</currency>
+        </numberAnswer>
+        <numberAnswer>
+          <name><![CDATA[2]]></name>
+          <weight>100</weight>
+          <answerProperties>
+            <property name="completeIncompleteGrading" type="string" value="false" />
+          </answerProperties>
+          <fieldWidth>7</fieldWidth>
+          <correctAnswer><![CDATA[1.181]]></correctAnswer>
+          <formatString><![CDATA[0.000]]></formatString>
+          <precisionString><![CDATA[2]]></precisionString>
+          <units></units>
+          <precisionType>2</precisionType>
+          <engineeringUnits>false</engineeringUnits>
+          <currency>false</currency>
+        </numberAnswer>
+        <numberAnswer>
+          <name><![CDATA[3]]></name>
+          <weight>100</weight>
+          <answerProperties>
+            <property name="completeIncompleteGrading" type="string" value="false" />
+          </answerProperties>
+          <fieldWidth>7</fieldWidth>
+          <correctAnswer><![CDATA[0.031]]></correctAnswer>
+          <formatString><![CDATA[0.000]]></formatString>
+          <precisionString><![CDATA[2]]></precisionString>
+          <units></units>
+          <precisionType>2</precisionType>
+          <engineeringUnits>false</engineeringUnits>
+          <currency>false</currency>
+        </numberAnswer>
+        <numberAnswer>
+          <name><![CDATA[4]]></name>
+          <weight>100</weight>
+          <answerProperties>
+            <property name="completeIncompleteGrading" type="string" value="false" />
+          </answerProperties>
+          <fieldWidth>7</fieldWidth>
+          <correctAnswer><![CDATA[0]]></correctAnswer>
+          <formatString><![CDATA[0]]></formatString>
+          <precisionString><![CDATA[2]]></precisionString>
+          <units></units>
+          <precisionType>2</precisionType>
+          <engineeringUnits>false</engineeringUnits>
+          <currency>false</currency>
+        </numberAnswer>
+        <numberAnswer>
+          <name><![CDATA[6]]></name>
+          <weight>100</weight>
+          <answerProperties>
+            <property name="completeIncompleteGrading" type="string" value="false" />
+          </answerProperties>
+          <fieldWidth>7</fieldWidth>
+          <correctAnswer><![CDATA[22.365]]></correctAnswer>
+          <formatString><![CDATA[0.000]]></formatString>
+          <precisionString><![CDATA[2]]></precisionString>
+          <units></units>
+          <precisionType>2</precisionType>
+          <engineeringUnits>false</engineeringUnits>
+          <currency>false</currency>
+        </numberAnswer>
+        <numberAnswer>
+          <name><![CDATA[7]]></name>
+          <weight>100</weight>
+          <answerProperties>
+            <property name="completeIncompleteGrading" type="string" value="false" />
+          </answerProperties>
+          <fieldWidth>7</fieldWidth>
+          <correctAnswer><![CDATA[1.211]]></correctAnswer>
+          <formatString><![CDATA[0.000]]></formatString>
+          <precisionString><![CDATA[2]]></precisionString>
+          <units></units>
+          <precisionType>2</precisionType>
+          <engineeringUnits>false</engineeringUnits>
+          <currency>false</currency>
+        </numberAnswer>
+        <numberAnswer>
+          <name><![CDATA[8]]></name>
+          <weight>100</weight>
+          <answerProperties>
+            <property name="completeIncompleteGrading" type="string" value="false" />
+          </answerProperties>
+          <fieldWidth>7</fieldWidth>
+          <correctAnswer><![CDATA[0.032]]></correctAnswer>
+          <formatString><![CDATA[0.000]]></formatString>
+          <precisionString><![CDATA[2]]></precisionString>
+          <units></units>
+          <precisionType>2</precisionType>
+          <engineeringUnits>false</engineeringUnits>
+          <currency>false</currency>
+        </numberAnswer>
+      </answers>
+    </worksheet>
+  </question>
+  <question>
+    <format>1</format>
+    <ezid>13570164368971861</ezid>
+    <version>1579774407110</version>
+    <title><![CDATA[Problem 04.025]]></title>
+    <multipart>13570164361948692</multipart>
+    <type>SB</type>
+    <categories>
+      <internal_category>
+        <catid>13570164352964634</catid>
+        <title><![CDATA[Chapter:  04 Roundoff and Truncation Errors]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164352964637</catid>
+        <title><![CDATA[Topic:  Roundoff and Truncation Errors]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164365969335</catid>
+        <title><![CDATA[Section:  04.01 ERRORS]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164352964746</catid>
+        <title><![CDATA[Subtopic:  ERRORS]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040730414</catid>
+        <title><![CDATA[Difficulty:  Medium]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164266036554</catid>
+        <title><![CDATA[Units:  NA]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164202016094</catid>
+        <title><![CDATA[Bloom's Verb: 3. Apply]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164196995740</catid>
+        <title><![CDATA[Bloom's Object: 3. Procedural]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164343377093</catid>
+        <title><![CDATA[ABET Outcomes:  (a) an ability to apply knowledge of mathematics, science, and engineering]]></title>
+      </internal_category>
+    </categories>
+    <questionProperties>
+      <property name="pageTag" type="string" value="" />
+      <property name="customType" type="string" value="" />
+      <property name="suppressPopupControl" type="string" value="false" />
+      <property name="instructor_info" type="string" value="" />
+      <property name="mpSuppressBreak" type="string" value="false" />
+      <property name="mpCustomProgression" type="string" value="oneway" />
+      <property name="audioPlayerPosition" type="string" value="above" />
+    </questionProperties>
+    <sectionBreak>
+      <stem><![CDATA[<p>The MATLAB function to compute the Maclaurin series expansion for the exponential function is given by</p>
+
+<p>&nbsp;</p>
+
+<p><span style="font-family:monospace;">function [fx,ea,iter] = IterMeth(x,es,maxit)<br>
+% Maclaurin series of exponential function<br>
+% [fx,ea,iter] = IterMeth(x,es,maxit)<br>
+% input:<br>
+% x = value at which series evaluated<br>
+% es = stopping criterion (default = 0.0001)<br>
+% maxit = maximum iterations (default = 50)<br>
+% output:<br>
+% fx = estimated value<br>
+% ea = approximate relative error (%)<br>
+% iter = number of iterations<br>
+% defaults:<br>
+if nargin &lt; 2|isempty(es),es = 0.0001;end<br>
+if nargin &lt; 3|isempty(maxit),maxit = 50;end<br>
+% initialization<br>
+iter = 1; sol = 1; ea = 100;<br>
+% iterative calculation<br>
+while (1)<br>
+solold = sol;<br>
+sol = sol + x ^ iter / factorial(iter);<br>
+iter = iter + 1;<br>
+if sol~ = 0<br>
+ea = abs((sol &#8722; solold)/sol)*100;<br>
+end<br>
+if ea&lt; = es | iter&gt; = maxit,break,end<br>
+end<br>
+fx = sol;<br>
+end</span></p>
+
+<p>&nbsp;</p>]]></stem>
+    </sectionBreak>
+  </question>
+  <question>
+    <format>1</format>
+    <ezid>13570164368971862</ezid>
+    <version>1579774407110</version>
+    <title><![CDATA[Problem 04.025.a]]></title>
+    <multipart>13570164361948692</multipart>
+    <type>DO</type>
+    <categories>
+      <internal_category>
+        <catid>13570164352964634</catid>
+        <title><![CDATA[Chapter:  04 Roundoff and Truncation Errors]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164352964637</catid>
+        <title><![CDATA[Topic:  Roundoff and Truncation Errors]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164365969335</catid>
+        <title><![CDATA[Section:  04.01 ERRORS]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164352964746</catid>
+        <title><![CDATA[Subtopic:  ERRORS]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040730414</catid>
+        <title><![CDATA[Difficulty:  Medium]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164266036554</catid>
+        <title><![CDATA[Units:  NA]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164202016094</catid>
+        <title><![CDATA[Bloom's Verb: 3. Apply]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164196995740</catid>
+        <title><![CDATA[Bloom's Object: 3. Procedural]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164343377093</catid>
+        <title><![CDATA[ABET Outcomes:  (a) an ability to apply knowledge of mathematics, science, and engineering]]></title>
+      </internal_category>
+    </categories>
+    <media_set>
+      <internal_media>
+        <name>formula31.mml</name>
+        <consumerData>
+          <mediaID>13570164361881910</mediaID>
+          <testID>13570164368971854</testID>
+          <consumerID>13570164368971862</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>formula31.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>451</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1475558250197</creation>
+          <modified>1476879298645</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGg+PG1pPmNvczwvbWk+PG1vPiZuYnNwOzwvbW8+PG1pPng8L21pPjxtbz49PC9tbz48bW4+
+MTwvbW4+PG1vPi08L21vPjxtZnJhYz48bXN1cD48bWk+eDwvbWk+PG1uPjI8L21uPjwvbXN1cD48
+bW4+MjwvbW4+PC9tZnJhYz48bW8+KzwvbW8+PG1mcmFjPjxtc3VwPjxtaT54PC9taT48bW4+NDwv
+bW4+PC9tc3VwPjxtcm93Pjxtbj40PC9tbj48bW8+ITwvbW8+PC9tcm93PjwvbWZyYWM+PG1vPi08
+L21vPjxtZnJhYz48bXN1cD48bWk+eDwvbWk+PG1uPjY8L21uPjwvbXN1cD48bXJvdz48bW4+Njwv
+bW4+PG1vPiE8L21vPjwvbXJvdz48L21mcmFjPjxtbz4rPC9tbz48bWZyYWM+PG1zdXA+PG1pPng8
+L21pPjxtbj44PC9tbj48L21zdXA+PG1yb3c+PG1uPjg8L21uPjxtbz4hPC9tbz48L21yb3c+PC9t
+ZnJhYz48bW8+LTwvbW8+PG1vPi48L21vPjxtbz4uPC9tbz48bW8+LjwvbW8+PC9tYXRoPg==]]></data>
+        </mediaData>
+      </internal_media>
+    </media_set>
+    <questionProperties>
+      <property name="pageTag" type="string" value="" />
+      <property name="instructor_info" type="string" value="" />
+      <property name="state" type="string" value="{}" />
+      <property name="audioPlayerPosition" type="string" value="above" />
+    </questionProperties>
+    <doc>
+      <stem><![CDATA[<p>The Maclaurin series expansion for the cosine function is</p>
+
+<p>&nbsp;</p>
+
+<p>%media:formula31.mml%</p>
+
+<p>&nbsp;</p>
+
+<p>As the same pattern in the given M-file, develop a well-structured MATLAB function to compute the Maclaurin series expansion for the cosine function.</p>
+
+<p>&nbsp;</p>
+
+<p>(Please upload your response/solution using the controls below.)</p>]]></stem>
+      <info>question data is all stored in questionProperties...</info>
+    </doc>
+  </question>
+  <question>
+    <format>1</format>
+    <ezid>13570164368971857</ezid>
+    <version>1579774407110</version>
+    <title><![CDATA[Problem 04.025.b]]></title>
+    <multipart>13570164361948692</multipart>
+    <type>WK</type>
+    <categories>
+      <internal_category>
+        <catid>13570164352964634</catid>
+        <title><![CDATA[Chapter:  04 Roundoff and Truncation Errors]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164352964637</catid>
+        <title><![CDATA[Topic:  Roundoff and Truncation Errors]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164365969335</catid>
+        <title><![CDATA[Section:  04.01 ERRORS]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164352964746</catid>
+        <title><![CDATA[Subtopic:  ERRORS]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040730414</catid>
+        <title><![CDATA[Difficulty:  Medium]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164266036554</catid>
+        <title><![CDATA[Units:  NA]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164202016094</catid>
+        <title><![CDATA[Bloom's Verb: 3. Apply]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164196995740</catid>
+        <title><![CDATA[Bloom's Object: 3. Procedural]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164343377093</catid>
+        <title><![CDATA[ABET Outcomes:  (a) an ability to apply knowledge of mathematics, science, and engineering]]></title>
+      </internal_category>
+    </categories>
+    <questionProperties>
+      <property name="pageTag" type="string" value="" />
+      <property name="customType" type="string" value="" />
+      <property name="completeIncompleteGrading" type="string" value="false" />
+      <property name="instructor_info" type="string" value="" />
+      <property name="forceManualScoring" type="string" value="automatic" />
+      <property name="audioPlayerPosition" type="string" value="above" />
+      <property name="problemSolution" type="string" value="&lt;p&gt;The value of cosine for &lt;em&gt;&amp;#952;&lt;/em&gt; = &lt;em&gt;&amp;#960;&lt;/em&gt;/3 is 0.50.&lt;/p&gt;  &lt;p&gt;The value of cosine for &lt;em&gt;&amp;#952;&lt;/em&gt; = 7&lt;em&gt;&amp;#960;&lt;/em&gt;/3 is 0.50.&lt;/p&gt;" />
+      <property name="attached_media" type="string" value="" />
+      <property name="aggregatedGrading" type="string" value="false" />
+      <property name="useCommonFeedback" type="string" value="true" />
+    </questionProperties>
+    <hints>
+      <hint>
+        <name>hint #1</name>
+        <type>html</type>
+        <value><![CDATA[Are the values of cosine for <em>&#952;</em> = <em>&#960;</em>/3 and <em>&#952;</em> = 7<em>&#960;</em>/3 the same?]]></value>
+      </hint>
+    </hints>
+    <worksheet>
+      <stem><![CDATA[<p>Use the developed M-file to estimate the values of&nbsp; the cosine function for <em>&#952;</em> = <em>&#960;</em>/3 (60&#176;) and <em>&#952;</em> = 2<em>&#960;</em> + <em>&#960;</em>/3 = 7<em>&#960;</em>/3 (420 &#176;). (Round the final answers to two decimal places.)</p>
+
+<p>&nbsp;</p>
+
+<p>The value of the cosine for <em>&#952;</em> = <em>&#960;</em>/3 is __a__.</p>
+
+<p>The value of the cosine for <em>&#952;</em> = 7<em>&#960;</em>/3 is __b__.</p>]]></stem>
+      <commonFeedback><![CDATA[<p>A MATLAB function can be then written as follows:</p>
+
+<p>&nbsp;</p>
+
+<p><span style="font-family:monospace;">function [fx,ea,iter] = cosine(x,es,maxit)<br>
+% Maclaurin series of cosine<br>
+% [fx,ea,iter] = IterMeth(x,es,maxit)<br>
+% input:<br>
+% x = value at which series evaluated<br>
+% es = stopping criterion (default = 0.0001)<br>
+% maxit = maximum iterations (default = 50)<br>
+% output:<br>
+% fx = estimated value<br>
+% ea = approximate relative error (%)<br>
+% iter = number of iterations</span></p>
+
+<p><span style="font-family:monospace;">% defaults:<br>
+if nargin&lt;2|isempty(es),es=0.0001;end<br>
+if nargin&lt;3|isempty(maxit),maxit=50;end<br>
+% initialization<br>
+iter = 0; sol = 0; ea = 100;<br>
+% iterative calculation<br>
+while (1)<br>
+&nbsp; solold = sol;<br>
+&nbsp; sol = sol + (-1)^iter * x^(2*iter) / factorial(2*iter);<br>
+&nbsp; iter = iter + 1;<br>
+&nbsp; if sol~=0<br>
+&nbsp;&nbsp;&nbsp; ea=abs((sol - solold)/sol)*100;<br>
+&nbsp; end<br>
+&nbsp; if ea&lt;=es | iter&gt;=maxit,break,end<br>
+end<br>
+fx = sol;</span></p>
+
+<p>&nbsp;</p>
+
+<p>The following script can be used to check if the function yields the correct result:</p>
+
+<p>&nbsp;</p>
+
+<p><span style="font-family:monospace;">clc, format compact</span></p>
+
+<p><span style="font-family:monospace;">[ser, ea, i] = cosine(pi/3)</span></p>
+
+<p><span style="font-family:monospace;">[ser, ea, i] = cosine(7*pi/3)</span></p>
+
+<p>&nbsp;</p>
+
+<p>Output</p>
+
+<p>&nbsp;</p>
+
+<p><span style="font-family:monospace;">ser =<br>
+&nbsp;&nbsp;&nbsp; 0.5000<br>
+ea =<br>
+&nbsp; &nbsp; 8.7408e-05<br>
+i&nbsp; =<br>
+&nbsp;&nbsp;&nbsp; 6<br>
+ser =<br>
+&nbsp;&nbsp;&nbsp; 0.5000<br>
+ea =<br>
+&nbsp;&nbsp;&nbsp; 6.7791e-05<br>
+i =<br>
+&nbsp;&nbsp;&nbsp; 16</span></p>
+
+<p>&nbsp;</p>]]></commonFeedback>
+      <answers>
+        <numberAnswer>
+          <name><![CDATA[a]]></name>
+          <weight>100</weight>
+          <answerProperties>
+            <property name="completeIncompleteGrading" type="string" value="false" />
+          </answerProperties>
+          <fieldWidth>7</fieldWidth>
+          <correctAnswer><![CDATA[0.50]]></correctAnswer>
+          <formatString><![CDATA[0.00]]></formatString>
+          <precisionString><![CDATA[2]]></precisionString>
+          <units></units>
+          <precisionType>2</precisionType>
+          <engineeringUnits>false</engineeringUnits>
+          <currency>false</currency>
+        </numberAnswer>
+        <numberAnswer>
+          <name><![CDATA[b]]></name>
+          <weight>100</weight>
+          <answerProperties>
+            <property name="completeIncompleteGrading" type="string" value="false" />
+          </answerProperties>
+          <fieldWidth>7</fieldWidth>
+          <correctAnswer><![CDATA[0.50]]></correctAnswer>
+          <formatString><![CDATA[0.00]]></formatString>
+          <precisionString><![CDATA[2]]></precisionString>
+          <units></units>
+          <precisionType>2</precisionType>
+          <engineeringUnits>false</engineeringUnits>
+          <currency>false</currency>
+        </numberAnswer>
+      </answers>
+    </worksheet>
+  </question>
+  <question>
+    <format>1</format>
+    <ezid>13570164368971858</ezid>
+    <version>1579774407110</version>
+    <title><![CDATA[Problem 04.025.c]]></title>
+    <multipart>13570164361948692</multipart>
+    <type>TF</type>
+    <categories>
+      <internal_category>
+        <catid>13570164352964634</catid>
+        <title><![CDATA[Chapter:  04 Roundoff and Truncation Errors]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164352964637</catid>
+        <title><![CDATA[Topic:  Roundoff and Truncation Errors]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164365969335</catid>
+        <title><![CDATA[Section:  04.01 ERRORS]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164352964746</catid>
+        <title><![CDATA[Subtopic:  ERRORS]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040730414</catid>
+        <title><![CDATA[Difficulty:  Medium]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164266036554</catid>
+        <title><![CDATA[Units:  NA]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164202016094</catid>
+        <title><![CDATA[Bloom's Verb: 3. Apply]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164196995716</catid>
+        <title><![CDATA[Bloom's Object: 2. Conceptual]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164343377093</catid>
+        <title><![CDATA[ABET Outcomes:  (a) an ability to apply knowledge of mathematics, science, and engineering]]></title>
+      </internal_category>
+    </categories>
+    <questionProperties>
+      <property name="followupTag" type="string" value="" />
+      <property name="pageTag" type="string" value="" />
+      <property name="instructor_info" type="string" value="" />
+      <property name="forceManualScoring" type="string" value="automatic" />
+      <property name="commonFeedback" type="string" value="&lt;p&gt;Both cases yield the correct result of cos(&lt;em&gt;&amp;#960;&lt;/em&gt;/3) = cos(7&lt;em&gt;&amp;#960;&lt;/em&gt;/3) = 0.5. However, more iterations (6 versus 16) are required in the second case to obtain the correct result with the desired approximate absolute error (&lt;em&gt;&amp;#949;&lt;sub&gt;a&lt;/sub&gt;&lt;/em&gt;). This is because the second angle is farther away from zero, and hence, more terms in the series are required to attain the desired accuracy.&lt;/p&gt;  &lt;p&gt;&amp;nbsp;&lt;/p&gt;" />
+      <property name="palette" type="string" value="" />
+      <property name="audioPlayerPosition" type="string" value="above" />
+      <property name="problemSolution" type="string" value="True. The accuracy of the result increases with the number of the iterations." />
+      <property name="includeNotApplicable" type="boolean" value="false" />
+      <property name="useCommonFeedback" type="boolean" value="true" />
+    </questionProperties>
+    <hints>
+      <hint>
+        <name>hint #1</name>
+        <type>html</type>
+        <value><![CDATA[Is the second angle farther away from zero?]]></value>
+      </hint>
+    </hints>
+    <trueFalse>
+      <stem><![CDATA[The accuracy of the result increases with the number of the iterations.]]></stem>
+      <commonFeedback><![CDATA[<p>Both cases yield the correct result of cos(<em>&#960;</em>/3) = cos(7<em>&#960;</em>/3) = 0.5. However, more iterations (6 versus 16) are required in the second case to obtain the correct result with the desired approximate absolute error (<em>&#949;<sub>a</sub></em>). This is because the second angle is farther away from zero, and hence, more terms in the series are required to attain the desired accuracy.</p>
+
+<p>&nbsp;</p>]]></commonFeedback>
+      <trueInfo>
+        <credit>1</credit>
+        <feedback><![CDATA[<p>Both cases yield the correct result of cos(<em>&#960;</em>/3) = cos(7<em>&#960;</em>/3) = 0.5. However, more iterations (6 versus 16) are required in the second case to obtain the correct result with the desired approximate absolute error (<em>&#949;<sub>a</sub></em>). This is because the second angle is farther away from zero, and hence, more terms in the series are required to attain the desired accuracy.</p>
+
+<p>&nbsp;</p>]]></feedback>
+      </trueInfo>
+      <falseInfo>
+        <credit>0</credit>
+        <feedback><![CDATA[<p>Both cases yield the correct result of cos(<em>&#960;</em>/3) = cos(7<em>&#960;</em>/3) = 0.5. However, more iterations (6 versus 16) are required in the second case to obtain the correct result with the desired approximate absolute error (<em>&#949;<sub>a</sub></em>). This is because the second angle is farther away from zero, and hence, more terms in the series are required to attain the desired accuracy.</p>
+
+<p>&nbsp;</p>]]></feedback>
+      </falseInfo>
+    </trueFalse>
+  </question>
+  <question>
+    <format>1</format>
+    <ezid>13570164368971863</ezid>
+    <version>1579774407110</version>
+    <title><![CDATA[Problem 04.026]]></title>
+    <multipart>13570164361955237</multipart>
+    <type>SB</type>
+    <categories>
+      <internal_category>
+        <catid>13570164352964634</catid>
+        <title><![CDATA[Chapter:  04 Roundoff and Truncation Errors]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164352964637</catid>
+        <title><![CDATA[Topic:  Roundoff and Truncation Errors]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164365969335</catid>
+        <title><![CDATA[Section:  04.01 ERRORS]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164352964746</catid>
+        <title><![CDATA[Subtopic:  ERRORS]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040730414</catid>
+        <title><![CDATA[Difficulty:  Medium]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164266036554</catid>
+        <title><![CDATA[Units:  NA]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164202016094</catid>
+        <title><![CDATA[Bloom's Verb: 3. Apply]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164196995740</catid>
+        <title><![CDATA[Bloom's Object: 3. Procedural]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164343377093</catid>
+        <title><![CDATA[ABET Outcomes:  (a) an ability to apply knowledge of mathematics, science, and engineering]]></title>
+      </internal_category>
+    </categories>
+    <questionProperties>
+      <property name="pageTag" type="string" value="" />
+      <property name="customType" type="string" value="" />
+      <property name="suppressPopupControl" type="string" value="false" />
+      <property name="instructor_info" type="string" value="" />
+      <property name="mpSuppressBreak" type="string" value="false" />
+      <property name="mpCustomProgression" type="string" value="twoway" />
+      <property name="audioPlayerPosition" type="string" value="above" />
+    </questionProperties>
+    <sectionBreak>
+      <stem><![CDATA[<p>The MATLAB function to compute the Maclaurin series expansion for the exponential function is given by</p>
+
+<p>&nbsp;</p>
+
+<p><span style="font-family:monospace;">function [fx,ea,iter] = IterMeth(x,es,maxit)<br>
+% Maclaurin series of exponential function<br>
+% [fx,ea,iter] = IterMeth(x,es,maxit)<br>
+% input:<br>
+% x = value at which series evaluated<br>
+% es = stopping criterion (default = 0.0001)<br>
+% maxit = maximum iterations (default = 50)<br>
+% output:<br>
+% fx = estimated value<br>
+% ea = approximate relative error (%)<br>
+% iter = number of iterations<br>
+% defaults:<br>
+if nargin &lt; 2|isempty(es),es = 0.0001;end<br>
+if nargin &lt; 3|isempty(maxit),maxit = 50;end<br>
+% initialization<br>
+iter = 1; sol = 1; ea = 100;<br>
+% iterative calculation<br>
+while (1)<br>
+solold = sol;<br>
+sol = sol + x ^ iter / factorial(iter);<br>
+iter = iter + 1;<br>
+if sol~ = 0<br>
+ea = abs((sol &#8722; solold)/sol)*100;<br>
+end<br>
+if ea&lt; = es | iter&gt; = maxit,break,end<br>
+end<br>
+fx = sol;<br>
+end</span></p>
+
+<p>&nbsp;</p>]]></stem>
+    </sectionBreak>
+  </question>
+  <question>
+    <format>1</format>
+    <ezid>13570164368971864</ezid>
+    <version>1579774407110</version>
+    <title><![CDATA[Problem 04.026.a]]></title>
+    <multipart>13570164361955237</multipart>
+    <type>DO</type>
+    <categories>
+      <internal_category>
+        <catid>13570164352964634</catid>
+        <title><![CDATA[Chapter:  04 Roundoff and Truncation Errors]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164352964637</catid>
+        <title><![CDATA[Topic:  Roundoff and Truncation Errors]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164365969335</catid>
+        <title><![CDATA[Section:  04.01 ERRORS]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164352964746</catid>
+        <title><![CDATA[Subtopic:  ERRORS]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040730414</catid>
+        <title><![CDATA[Difficulty:  Medium]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164266036554</catid>
+        <title><![CDATA[Units:  NA]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164202016094</catid>
+        <title><![CDATA[Bloom's Verb: 3. Apply]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164196995740</catid>
+        <title><![CDATA[Bloom's Object: 3. Procedural]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164343377093</catid>
+        <title><![CDATA[ABET Outcomes:  (a) an ability to apply knowledge of mathematics, science, and engineering]]></title>
+      </internal_category>
+    </categories>
+    <media_set>
+      <internal_media>
+        <name>formula30.mml</name>
+        <consumerData>
+          <mediaID>13570164361894006</mediaID>
+          <testID>13570164368971854</testID>
+          <consumerID>13570164368971864</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>formula30.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>383</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1475560696672</creation>
+          <modified>1476879692553</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGg+PG1pPnNpbjwvbWk+PG1vPiZuYnNwOzwvbW8+PG1pPng8L21pPjxtbz49PC9tbz48bWk+
+eDwvbWk+PG1vPi08L21vPjxtZnJhYz48bXN1cD48bWk+eDwvbWk+PG1uPjM8L21uPjwvbXN1cD48
+bXJvdz48bW4+MzwvbW4+PG1vPiE8L21vPjwvbXJvdz48L21mcmFjPjxtbz4rPC9tbz48bWZyYWM+
+PG1zdXA+PG1pPng8L21pPjxtbj41PC9tbj48L21zdXA+PG1yb3c+PG1uPjU8L21uPjxtbz4hPC9t
+bz48L21yb3c+PC9tZnJhYz48bW8+LTwvbW8+PG1mcmFjPjxtc3VwPjxtaT54PC9taT48bW4+Nzwv
+bW4+PC9tc3VwPjxtcm93Pjxtbj43PC9tbj48bW8+ITwvbW8+PC9tcm93PjwvbWZyYWM+PG1vPis8
+L21vPjxtbz4uPC9tbz48bW8+LjwvbW8+PG1vPi48L21vPjwvbWF0aD4=]]></data>
+        </mediaData>
+      </internal_media>
+    </media_set>
+    <questionProperties>
+      <property name="pageTag" type="string" value="" />
+      <property name="instructor_info" type="string" value="" />
+      <property name="state" type="string" value="{}" />
+      <property name="audioPlayerPosition" type="string" value="above" />
+    </questionProperties>
+    <doc>
+      <stem><![CDATA[<p>The Maclaurin series expansion for the sine function is</p>
+
+<p>&nbsp;</p>
+
+<p>%media:formula30.mml%</p>
+
+<p>&nbsp;</p>
+
+<p>As the same pattern in the given M-file, develop a well-structured MATLAB function to compute the Maclaurin series expansion for the sine function.</p>
+
+<p>&nbsp;</p>
+
+<p>(Please upload your response/solution using the controls below.)</p>]]></stem>
+      <info>question data is all stored in questionProperties...</info>
+    </doc>
+  </question>
+  <question>
+    <format>1</format>
+    <ezid>13570164368971859</ezid>
+    <version>1579774407110</version>
+    <title><![CDATA[Problem 04.026.b]]></title>
+    <multipart>13570164361955237</multipart>
+    <type>WK</type>
+    <categories>
+      <internal_category>
+        <catid>13570164352964634</catid>
+        <title><![CDATA[Chapter:  04 Roundoff and Truncation Errors]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164352964637</catid>
+        <title><![CDATA[Topic:  Roundoff and Truncation Errors]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164365969335</catid>
+        <title><![CDATA[Section:  04.01 ERRORS]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164352964746</catid>
+        <title><![CDATA[Subtopic:  ERRORS]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040730414</catid>
+        <title><![CDATA[Difficulty:  Medium]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164266036554</catid>
+        <title><![CDATA[Units:  NA]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164202016094</catid>
+        <title><![CDATA[Bloom's Verb: 3. Apply]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164196995740</catid>
+        <title><![CDATA[Bloom's Object: 3. Procedural]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164343377093</catid>
+        <title><![CDATA[ABET Outcomes:  (a) an ability to apply knowledge of mathematics, science, and engineering]]></title>
+      </internal_category>
+    </categories>
+    <media_set>
+      <internal_media>
+        <name>formula32.mml</name>
+        <consumerData>
+          <mediaID>13570164361964876</mediaID>
+          <testID>13570164368971854</testID>
+          <consumerID>13570164368971859</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>formula32.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>395</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1475561198438</creation>
+          <modified>1476879855538</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGg+PG1pPnNpbjwvbWk+PG1pPng8L21pPjxtbz49PC9tbz48bXVuZGVyb3Zlcj48bW8+JiM4
+NzIxOzwvbW8+PG1yb3c+PG1pPmk8L21pPjxtbz49PC9tbz48bW4+MDwvbW4+PC9tcm93Pjxtbz4m
+Izg3MzQ7PC9tbz48L211bmRlcm92ZXI+PG1mcmFjPjxtcm93Pjxtbz4oPC9tbz48bW8+LTwvbW8+
+PG1uPjE8L21uPjxtc3VwPjxtbz4pPC9tbz48bWk+aTwvbWk+PC9tc3VwPjxtc3VwPjxtaT54PC9t
+aT48bXJvdz48bW4+MjwvbW4+PG1pPmk8L21pPjxtbz4rPC9tbz48bW4+MTwvbW4+PC9tcm93Pjwv
+bXN1cD48L21yb3c+PG1yb3c+PG1uPjI8L21uPjxtbz4oPC9tbz48bWk+aTwvbWk+PG1vPis8L21v
+Pjxtbj4xPC9tbj48bW8+KTwvbW8+PG1vPiE8L21vPjwvbXJvdz48L21mcmFjPjwvbWF0aD4=]]></data>
+        </mediaData>
+      </internal_media>
+      <internal_media>
+        <name>formula32.mml</name>
+        <consumerData>
+          <mediaID>13570164361964876</mediaID>
+          <testID>13570164368971854</testID>
+          <consumerID>13570164368971859</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>formula32.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>395</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1475561198438</creation>
+          <modified>1476879855538</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGg+PG1pPnNpbjwvbWk+PG1pPng8L21pPjxtbz49PC9tbz48bXVuZGVyb3Zlcj48bW8+JiM4
+NzIxOzwvbW8+PG1yb3c+PG1pPmk8L21pPjxtbz49PC9tbz48bW4+MDwvbW4+PC9tcm93Pjxtbz4m
+Izg3MzQ7PC9tbz48L211bmRlcm92ZXI+PG1mcmFjPjxtcm93Pjxtbz4oPC9tbz48bW8+LTwvbW8+
+PG1uPjE8L21uPjxtc3VwPjxtbz4pPC9tbz48bWk+aTwvbWk+PC9tc3VwPjxtc3VwPjxtaT54PC9t
+aT48bXJvdz48bW4+MjwvbW4+PG1pPmk8L21pPjxtbz4rPC9tbz48bW4+MTwvbW4+PC9tcm93Pjwv
+bXN1cD48L21yb3c+PG1yb3c+PG1uPjI8L21uPjxtbz4oPC9tbz48bWk+aTwvbWk+PG1vPis8L21v
+Pjxtbj4xPC9tbj48bW8+KTwvbW8+PG1vPiE8L21vPjwvbXJvdz48L21mcmFjPjwvbWF0aD4=]]></data>
+        </mediaData>
+      </internal_media>
+    </media_set>
+    <questionProperties>
+      <property name="pageTag" type="string" value="" />
+      <property name="customType" type="string" value="" />
+      <property name="completeIncompleteGrading" type="string" value="false" />
+      <property name="instructor_info" type="string" value="" />
+      <property name="forceManualScoring" type="string" value="automatic" />
+      <property name="audioPlayerPosition" type="string" value="above" />
+      <property name="problemSolution" type="string" value="&lt;p&gt;The value of sine for &lt;em&gt;&amp;#952;&lt;/em&gt; = &lt;em&gt;&amp;#960;&lt;/em&gt;/3 is 0.866.&lt;/p&gt;  &lt;p&gt;The value of sine for &lt;em&gt;&amp;#952;&lt;/em&gt; = 7&lt;em&gt;&amp;#960;&lt;/em&gt;/3 is 0.866.&lt;/p&gt;" />
+      <property name="attached_media" type="string" value="formula32.mml,formula32.mml" />
+      <property name="aggregatedGrading" type="string" value="false" />
+      <property name="useCommonFeedback" type="string" value="true" />
+    </questionProperties>
+    <hints>
+      <hint>
+        <name>hint #1</name>
+        <type>html</type>
+        <value><![CDATA[are the values of sine for <em>&#952;</em> = <em>&#960;</em>/3 and <em>&#952;</em> = 7<em>&#960;</em>/3 the same?]]></value>
+      </hint>
+    </hints>
+    <worksheet>
+      <stem><![CDATA[<p>Use the developed M-file to estimate the values of the sine function for <em>&#952;</em> = <em>&#960;</em>/3 (60&#176;) and <em>&#952;</em> = 2<em>&#960;</em> + <em>&#960;</em>/3 = 7<em>&#960;</em>/3 (420&#176;). (Round the final answers to three decimal places.)</p>
+
+<p>&nbsp;</p>
+
+<p>The value of the sine for <em>&#952;</em> = <em>&#960;</em>/3 is __a__.</p>
+
+<p>The value of the sine for <em>&#952;</em> = 7<em>&#960;</em>/3 is __b__.</p>
+]]></stem>
+      <commonFeedback><![CDATA[<p>It is useful to first express the series as a summation.</p>
+
+<p>&nbsp;</p>
+
+<p>%media:formula32.mml%</p>
+
+<p>&nbsp;</p>
+
+<p>A MATLAB function can be then written as follows:</p>
+
+<p>&nbsp;</p>
+
+<p><span style="font-family:monospace;">function [fx,ea,iter] = sine(x,es,maxit)<br>
+% Maclaurin series of cosine<br>
+% [fx,ea,iter] = IterMeth(x,es,maxit)<br>
+% input:<br>
+% x = value at which series evaluated<br>
+% es = stopping criterion (default = 0.0001)<br>
+% maxit = maximum iterations (default = 50)<br>
+% output:<br>
+% fx = estimated value<br>
+% ea = approximate relative error (%)<br>
+% iter = number of iterations</span></p>
+
+<p><span style="font-family:monospace;">% defaults:<br>
+if nargin&lt;2||isempty(es),es=0.0001;end<br>
+if nargin&lt;3||isempty(maxit),maxit=50;end<br>
+% initialization<br>
+iter = 0; sol = 0; ea = 100;<br>
+% iterative calculation<br>
+while (1)<br>
+&nbsp; solold = sol;<br>
+&nbsp; sol = sol + (-1)^iter * x^(2*iter+1) / factorial(2*iter+1);<br>
+&nbsp; iter = iter + 1;<br>
+&nbsp; if sol~=0<br>
+&nbsp;&nbsp;&nbsp; ea=abs((sol - solold)/sol)*100;<br>
+&nbsp; end<br>
+&nbsp; if ea&lt;=es || iter&gt;=maxit,break,end<br>
+end<br>
+fx = sol;</span></p>
+
+<p>&nbsp;</p>
+
+<p>The following script can be used to check that the function yields the correct result:</p>
+
+<p>&nbsp;</p>
+
+<p><span style="font-family:monospace;">clc, format compact<br>
+[ser, ea, i] = sine(pi/3)<br>
+[ser, ea, i] = sine(7*pi/3)</span></p>
+
+<p>&nbsp;</p>
+
+<p>Output</p>
+
+<p>&nbsp;</p>
+
+<p><span style="font-family:monospace;">ser =<br>
+&nbsp;&nbsp; &nbsp; 0.8660<br>
+ea =<br>
+&nbsp; &nbsp;&nbsp; 4.8043e-06<br>
+i =<br>
+&nbsp;&nbsp;&nbsp;&nbsp; 6<br>
+ser =<br>
+&nbsp;&nbsp; &nbsp; 0.8660<br>
+ea =<br>
+&nbsp;&nbsp;&nbsp;&nbsp; 9.2549e-06<br>
+i =<br>
+&nbsp;&nbsp; &nbsp; 16</span></p>
+
+<p>&nbsp;</p>]]></commonFeedback>
+      <answers>
+        <numberAnswer>
+          <name><![CDATA[a]]></name>
+          <weight>100</weight>
+          <answerProperties>
+            <property name="completeIncompleteGrading" type="string" value="false" />
+          </answerProperties>
+          <fieldWidth>7</fieldWidth>
+          <correctAnswer><![CDATA[0.866]]></correctAnswer>
+          <formatString><![CDATA[0.000]]></formatString>
+          <precisionString><![CDATA[2]]></precisionString>
+          <units></units>
+          <precisionType>2</precisionType>
+          <engineeringUnits>false</engineeringUnits>
+          <currency>false</currency>
+        </numberAnswer>
+        <numberAnswer>
+          <name><![CDATA[b]]></name>
+          <weight>100</weight>
+          <answerProperties>
+            <property name="completeIncompleteGrading" type="string" value="false" />
+          </answerProperties>
+          <fieldWidth>7</fieldWidth>
+          <correctAnswer><![CDATA[0.866]]></correctAnswer>
+          <formatString><![CDATA[0.000]]></formatString>
+          <precisionString><![CDATA[2]]></precisionString>
+          <units></units>
+          <precisionType>2</precisionType>
+          <engineeringUnits>false</engineeringUnits>
+          <currency>false</currency>
+        </numberAnswer>
+      </answers>
+    </worksheet>
+  </question>
+  <question>
+    <format>1</format>
+    <ezid>13570164368971860</ezid>
+    <version>1579774407110</version>
+    <title><![CDATA[Problem 04.026.c]]></title>
+    <multipart>13570164361955237</multipart>
+    <type>TF</type>
+    <categories>
+      <internal_category>
+        <catid>13570164352964634</catid>
+        <title><![CDATA[Chapter:  04 Roundoff and Truncation Errors]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164352964637</catid>
+        <title><![CDATA[Topic:  Roundoff and Truncation Errors]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164365969335</catid>
+        <title><![CDATA[Section:  04.01 ERRORS]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164352964746</catid>
+        <title><![CDATA[Subtopic:  ERRORS]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040730414</catid>
+        <title><![CDATA[Difficulty:  Medium]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164266036554</catid>
+        <title><![CDATA[Units:  NA]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164202016094</catid>
+        <title><![CDATA[Bloom's Verb: 3. Apply]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164196995716</catid>
+        <title><![CDATA[Bloom's Object: 2. Conceptual]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164343377093</catid>
+        <title><![CDATA[ABET Outcomes:  (a) an ability to apply knowledge of mathematics, science, and engineering]]></title>
+      </internal_category>
+    </categories>
+    <questionProperties>
+      <property name="followupTag" type="string" value="" />
+      <property name="pageTag" type="string" value="" />
+      <property name="instructor_info" type="string" value="" />
+      <property name="forceManualScoring" type="string" value="automatic" />
+      <property name="commonFeedback" type="string" value="&lt;p&gt;The both cases yield the correct result of sin(&lt;em&gt;&amp;#960;&lt;/em&gt;/3) = sin(7&lt;em&gt;&amp;#960;&lt;/em&gt;/3) = 0.866. However, more iterations (6 versus 16) are required in the second case to obtain the correct result with the desired approximate absolute error (&lt;em&gt;&amp;#949;&lt;sub&gt;a&lt;/sub&gt;&lt;/em&gt;). This is because the second angle is farther away from zero and hence more terms in the series are required.&lt;/p&gt;  &lt;p&gt;&amp;nbsp;&lt;/p&gt;" />
+      <property name="palette" type="string" value="" />
+      <property name="audioPlayerPosition" type="string" value="above" />
+      <property name="problemSolution" type="string" value="True. The accuracy of the result increases with the number of the iterations." />
+      <property name="includeNotApplicable" type="boolean" value="false" />
+      <property name="useCommonFeedback" type="boolean" value="true" />
+    </questionProperties>
+    <hints>
+      <hint>
+        <name>hint #1</name>
+        <type>html</type>
+        <value><![CDATA[Is the second angle farther away from zero?]]></value>
+      </hint>
+    </hints>
+    <trueFalse>
+      <stem><![CDATA[The accuracy of the result increases with the number of the iterations.]]></stem>
+      <commonFeedback><![CDATA[<p>The both cases yield the correct result of sin(<em>&#960;</em>/3) = sin(7<em>&#960;</em>/3) = 0.866. However, more iterations (6 versus 16) are required in the second case to obtain the correct result with the desired approximate absolute error (<em>&#949;<sub>a</sub></em>). This is because the second angle is farther away from zero and hence more terms in the series are required.</p>  <p>&nbsp;</p>]]></commonFeedback>
+      <trueInfo>
+        <credit>1</credit>
+        <feedback><![CDATA[<p>The both cases yield the correct result of sin(<em>&#960;</em>/3) = sin(7<em>&#960;</em>/3) = 0.866. However, more iterations (6 versus 16) are required in the second case to obtain the correct result with the desired approximate absolute error (<em>&#949;<sub>a</sub></em>). This is because the second angle is farther away from zero and hence more terms in the series are required.</p>  <p>&nbsp;</p>]]></feedback>
+      </trueInfo>
+      <falseInfo>
+        <credit>0</credit>
+        <feedback><![CDATA[<p>The both cases yield the correct result of sin(<em>&#960;</em>/3) = sin(7<em>&#960;</em>/3) = 0.866. However, more iterations (6 versus 16) are required in the second case to obtain the correct result with the desired approximate absolute error (<em>&#949;<sub>a</sub></em>). This is because the second angle is farther away from zero and hence more terms in the series are required.</p>  <p>&nbsp;</p>]]></feedback>
+      </falseInfo>
+    </trueFalse>
+  </question>
+  <question>
+    <format>1</format>
+    <ezid>13570164368971868</ezid>
+    <version>1579774407110</version>
+    <title><![CDATA[Problem 04.027]]></title>
+    <type>MC</type>
+    <media_set>
+      <internal_media>
+        <name>formula61.mml</name>
+        <consumerData>
+          <mediaID>13570164367618351</mediaID>
+          <testID>13570164368971854</testID>
+          <consumerID>13570164368971868</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>formula61.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>419</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1477475147722</creation>
+          <modified>1477475437744</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGg+PG1vPj08L21vPjxtaT5jb3M8L21pPjxtbz4oPC9tbz48bW4+MDwvbW4+PG1vPik8L21v
+Pjxtbz4tPC9tbz48bWk+c2luPC9taT48bW8+KDwvbW8+PG1uPjA8L21uPjxtbz4pPC9tbz48bWk+
+eDwvbWk+PG1vPi08L21vPjxtaT5jb3M8L21pPjxtbz4oPC9tbz48bW4+MDwvbW4+PG1vPik8L21v
+PjxtZnJhYz48bXN1cD48bWk+eDwvbWk+PG1uPjI8L21uPjwvbXN1cD48bXJvdz48bW4+MjwvbW4+
+PG1vPiE8L21vPjwvbXJvdz48L21mcmFjPjxtbz4rPC9tbz48bWk+c2luPC9taT48bW8+KDwvbW8+
+PG1uPjA8L21uPjxtbz4pPC9tbz48bWZyYWM+PG1zdXA+PG1pPng8L21pPjxtbj4zPC9tbj48L21z
+dXA+PG1yb3c+PG1uPjM8L21uPjxtbz4hPC9tbz48L21yb3c+PC9tZnJhYz48bW8+KzwvbW8+PG1v
+PiYjODIzMDs8L21vPjwvbWF0aD4=]]></data>
+        </mediaData>
+      </internal_media>
+      <internal_media>
+        <name>formula61.mml</name>
+        <consumerData>
+          <mediaID>13570164367618351</mediaID>
+          <testID>13570164368971854</testID>
+          <consumerID>13570164368971868</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>formula61.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>419</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1477475147722</creation>
+          <modified>1477475437744</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGg+PG1vPj08L21vPjxtaT5jb3M8L21pPjxtbz4oPC9tbz48bW4+MDwvbW4+PG1vPik8L21v
+Pjxtbz4tPC9tbz48bWk+c2luPC9taT48bW8+KDwvbW8+PG1uPjA8L21uPjxtbz4pPC9tbz48bWk+
+eDwvbWk+PG1vPi08L21vPjxtaT5jb3M8L21pPjxtbz4oPC9tbz48bW4+MDwvbW4+PG1vPik8L21v
+PjxtZnJhYz48bXN1cD48bWk+eDwvbWk+PG1uPjI8L21uPjwvbXN1cD48bXJvdz48bW4+MjwvbW4+
+PG1vPiE8L21vPjwvbXJvdz48L21mcmFjPjxtbz4rPC9tbz48bWk+c2luPC9taT48bW8+KDwvbW8+
+PG1uPjA8L21uPjxtbz4pPC9tbz48bWZyYWM+PG1zdXA+PG1pPng8L21pPjxtbj4zPC9tbj48L21z
+dXA+PG1yb3c+PG1uPjM8L21uPjxtbz4hPC9tbz48L21yb3c+PC9tZnJhYz48bW8+KzwvbW8+PG1v
+PiYjODIzMDs8L21vPjwvbWF0aD4=]]></data>
+        </mediaData>
+      </internal_media>
+      <internal_media>
+        <name>formula55.mml</name>
+        <consumerData>
+          <mediaID>13570164367745458</mediaID>
+          <testID>13570164368971854</testID>
+          <consumerID>13570164368971868</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>formula55.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>322</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1477474272753</creation>
+          <modified>1477475832082</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGg+PG1uPjE8L21uPjxtbz4tPC9tbz48bWZyYWM+PG1zdXA+PG1pPng8L21pPjxtbj4yPC9t
+bj48L21zdXA+PG1yb3c+PG1uPjI8L21uPjxtbz4hPC9tbz48L21yb3c+PC9tZnJhYz48bW8+Kzwv
+bW8+PG1mcmFjPjxtc3VwPjxtaT54PC9taT48bW4+NDwvbW4+PC9tc3VwPjxtcm93Pjxtbj40PC9t
+bj48bW8+ITwvbW8+PC9tcm93PjwvbWZyYWM+PG1vPi08L21vPjxtZnJhYz48bXN1cD48bWk+eDwv
+bWk+PG1uPjY8L21uPjwvbXN1cD48bXJvdz48bW4+NjwvbW4+PG1vPiE8L21vPjwvbXJvdz48L21m
+cmFjPjxtbz4rPC9tbz48bW8+JiM4MjMwOzwvbW8+PC9tYXRoPg==]]></data>
+        </mediaData>
+      </internal_media>
+      <internal_media>
+        <name>formula56.mml</name>
+        <consumerData>
+          <mediaID>13570164367745611</mediaID>
+          <testID>13570164368971854</testID>
+          <consumerID>13570164368971868</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>formula56.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>322</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1477474348367</creation>
+          <modified>1477475832092</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGg+PG1uPjE8L21uPjxtbz4rPC9tbz48bWZyYWM+PG1zdXA+PG1pPng8L21pPjxtbj4yPC9t
+bj48L21zdXA+PG1yb3c+PG1uPjI8L21uPjxtbz4hPC9tbz48L21yb3c+PC9tZnJhYz48bW8+Kzwv
+bW8+PG1mcmFjPjxtc3VwPjxtaT54PC9taT48bW4+NDwvbW4+PC9tc3VwPjxtcm93Pjxtbj40PC9t
+bj48bW8+ITwvbW8+PC9tcm93PjwvbWZyYWM+PG1vPis8L21vPjxtZnJhYz48bXN1cD48bWk+eDwv
+bWk+PG1uPjY8L21uPjwvbXN1cD48bXJvdz48bW4+NjwvbW4+PG1vPiE8L21vPjwvbXJvdz48L21m
+cmFjPjxtbz4rPC9tbz48bW8+JiM4MjMwOzwvbW8+PC9tYXRoPg==]]></data>
+        </mediaData>
+      </internal_media>
+      <internal_media>
+        <name>formula57.mml</name>
+        <consumerData>
+          <mediaID>13570164367745759</mediaID>
+          <testID>13570164368971854</testID>
+          <consumerID>13570164368971868</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>formula57.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>319</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1477474493520</creation>
+          <modified>1477475832102</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGg+PG1uPjE8L21uPjxtbz4tPC9tbz48bWk+eDwvbWk+PG1vPis8L21vPjxtZnJhYz48bXN1
+cD48bWk+eDwvbWk+PG1uPjI8L21uPjwvbXN1cD48bW4+MjwvbW4+PC9tZnJhYz48bW8+LTwvbW8+
+PG1mcmFjPjxtc3VwPjxtaT54PC9taT48bW4+MzwvbW4+PC9tc3VwPjxtcm93Pjxtbj4zPC9tbj48
+bW8+ITwvbW8+PC9tcm93PjwvbWZyYWM+PG1vPis8L21vPjxtZnJhYz48bXN1cD48bWk+eDwvbWk+
+PG1uPjQ8L21uPjwvbXN1cD48bXJvdz48bW4+NDwvbW4+PG1vPiE8L21vPjwvbXJvdz48L21mcmFj
+Pjxtbz4tPC9tbz48bW8+JiM4MjMwOzwvbW8+PC9tYXRoPg==]]></data>
+        </mediaData>
+      </internal_media>
+      <internal_media>
+        <name>formula58.mml</name>
+        <consumerData>
+          <mediaID>13570164367745863</mediaID>
+          <testID>13570164368971854</testID>
+          <consumerID>13570164368971868</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>formula58.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>342</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1477474578653</creation>
+          <modified>1477475832110</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGg+PG1uPjE8L21uPjxtbz4rPC9tbz48bWk+eDwvbWk+PG1vPis8L21vPjxtZnJhYz48bXN1
+cD48bWk+eDwvbWk+PG1uPjI8L21uPjwvbXN1cD48bXJvdz48bW4+MjwvbW4+PG1vPiE8L21vPjwv
+bXJvdz48L21mcmFjPjxtbz4rPC9tbz48bWZyYWM+PG1zdXA+PG1pPng8L21pPjxtbj4zPC9tbj48
+L21zdXA+PG1yb3c+PG1uPjM8L21uPjxtbz4hPC9tbz48L21yb3c+PC9tZnJhYz48bW8+KzwvbW8+
+PG1mcmFjPjxtc3VwPjxtaT54PC9taT48bW4+NDwvbW4+PC9tc3VwPjxtcm93Pjxtbj40PC9tbj48
+bW8+ITwvbW8+PC9tcm93PjwvbWZyYWM+PG1vPis8L21vPjxtbz4mIzgyMzA7PC9tbz48L21hdGg+
+]]></data>
+        </mediaData>
+      </internal_media>
+      <internal_media>
+        <name>formula59.mml</name>
+        <consumerData>
+          <mediaID>13570164367745962</mediaID>
+          <testID>13570164368971854</testID>
+          <consumerID>13570164368971868</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>formula59.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>659</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1477474716716</creation>
+          <modified>1477475437744</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGg+PG1pPmY8L21pPjxtbz4oPC9tbz48bXN1Yj48bWk+eDwvbWk+PG1yb3c+PG1pPmk8L21p
+Pjxtbz4rPC9tbz48bW4+MTwvbW4+PC9tcm93PjwvbXN1Yj48bW8+KTwvbW8+PG1vPj08L21vPjxt
+aT5mPC9taT48bW8+KDwvbW8+PG1zdWI+PG1pPng8L21pPjxtaT5pPC9taT48L21zdWI+PG1vPik8
+L21vPjxtbz4rPC9tbz48bWk+ZjwvbWk+PG1vPic8L21vPjxtbz4oPC9tbz48bXN1Yj48bWk+eDwv
+bWk+PG1pPmk8L21pPjwvbXN1Yj48bW8+KTwvbW8+PG1pPmg8L21pPjxtbz4rPC9tbz48bWk+Zjwv
+bWk+PG1vPic8L21vPjxtbz4nPC9tbz48bW8+KDwvbW8+PG1zdWI+PG1pPng8L21pPjxtaT5pPC9t
+aT48L21zdWI+PG1vPik8L21vPjxtZnJhYz48bXN1cD48bWk+aDwvbWk+PG1uPjI8L21uPjwvbXN1
+cD48bXJvdz48bW4+MjwvbW4+PG1vPiE8L21vPjwvbXJvdz48L21mcmFjPjxtbz4rPC9tbz48bWk+
+ZjwvbWk+PG1vPic8L21vPjxtbz4nPC9tbz48bW8+JzwvbW8+PG1vPig8L21vPjxtc3ViPjxtaT54
+PC9taT48bWk+aTwvbWk+PC9tc3ViPjxtbz4pPC9tbz48bWZyYWM+PG1zdXA+PG1pPmg8L21pPjxt
+bj4zPC9tbj48L21zdXA+PG1yb3c+PG1uPjM8L21uPjxtbz4hPC9tbz48L21yb3c+PC9tZnJhYz48
+bW8+KzwvbW8+PG1vPiYjODIzMDs8L21vPjwvbWF0aD4=]]></data>
+        </mediaData>
+      </internal_media>
+      <internal_media>
+        <name>formula59.mml</name>
+        <consumerData>
+          <mediaID>13570164367745962</mediaID>
+          <testID>13570164368971854</testID>
+          <consumerID>13570164368971868</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>formula59.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>659</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1477474716716</creation>
+          <modified>1477475437744</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGg+PG1pPmY8L21pPjxtbz4oPC9tbz48bXN1Yj48bWk+eDwvbWk+PG1yb3c+PG1pPmk8L21p
+Pjxtbz4rPC9tbz48bW4+MTwvbW4+PC9tcm93PjwvbXN1Yj48bW8+KTwvbW8+PG1vPj08L21vPjxt
+aT5mPC9taT48bW8+KDwvbW8+PG1zdWI+PG1pPng8L21pPjxtaT5pPC9taT48L21zdWI+PG1vPik8
+L21vPjxtbz4rPC9tbz48bWk+ZjwvbWk+PG1vPic8L21vPjxtbz4oPC9tbz48bXN1Yj48bWk+eDwv
+bWk+PG1pPmk8L21pPjwvbXN1Yj48bW8+KTwvbW8+PG1pPmg8L21pPjxtbz4rPC9tbz48bWk+Zjwv
+bWk+PG1vPic8L21vPjxtbz4nPC9tbz48bW8+KDwvbW8+PG1zdWI+PG1pPng8L21pPjxtaT5pPC9t
+aT48L21zdWI+PG1vPik8L21vPjxtZnJhYz48bXN1cD48bWk+aDwvbWk+PG1uPjI8L21uPjwvbXN1
+cD48bXJvdz48bW4+MjwvbW4+PG1vPiE8L21vPjwvbXJvdz48L21mcmFjPjxtbz4rPC9tbz48bWk+
+ZjwvbWk+PG1vPic8L21vPjxtbz4nPC9tbz48bW8+JzwvbW8+PG1vPig8L21vPjxtc3ViPjxtaT54
+PC9taT48bWk+aTwvbWk+PC9tc3ViPjxtbz4pPC9tbz48bWZyYWM+PG1zdXA+PG1pPmg8L21pPjxt
+bj4zPC9tbj48L21zdXA+PG1yb3c+PG1uPjM8L21uPjxtbz4hPC9tbz48L21yb3c+PC9tZnJhYz48
+bW8+KzwvbW8+PG1vPiYjODIzMDs8L21vPjwvbWF0aD4=]]></data>
+        </mediaData>
+      </internal_media>
+      <internal_media>
+        <name>formula60.mml</name>
+        <consumerData>
+          <mediaID>13570164367746006</mediaID>
+          <testID>13570164368971854</testID>
+          <consumerID>13570164368971868</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>formula60.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>399</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1477474924978</creation>
+          <modified>1477475437744</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGg+PG1vPj08L21vPjxtaT5jb3M8L21pPjxtaT54PC9taT48bW8+KzwvbW8+PG1vPig8L21v
+Pjxtbz4tPC9tbz48bWk+c2luPC9taT48bWk+eDwvbWk+PG1vPik8L21vPjxtaT54PC9taT48bW8+
+KzwvbW8+PG1vPig8L21vPjxtbz4tPC9tbz48bWk+Y29zPC9taT48bWk+eDwvbWk+PG1vPik8L21v
+PjxtZnJhYz48bXN1cD48bWk+eDwvbWk+PG1uPjI8L21uPjwvbXN1cD48bXJvdz48bW4+MjwvbW4+
+PG1vPiE8L21vPjwvbXJvdz48L21mcmFjPjxtbz4rPC9tbz48bWk+c2luPC9taT48bWk+eDwvbWk+
+PG1mcmFjPjxtc3VwPjxtaT54PC9taT48bW4+MzwvbW4+PC9tc3VwPjxtcm93Pjxtbj4zPC9tbj48
+bW8+ITwvbW8+PC9tcm93PjwvbWZyYWM+PG1vPis8L21vPjxtbz4mIzgyMzA7PC9tbz48L21hdGg+
+]]></data>
+        </mediaData>
+      </internal_media>
+      <internal_media>
+        <name>formula60.mml</name>
+        <consumerData>
+          <mediaID>13570164367746006</mediaID>
+          <testID>13570164368971854</testID>
+          <consumerID>13570164368971868</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>formula60.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>399</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1477474924978</creation>
+          <modified>1477475437744</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGg+PG1vPj08L21vPjxtaT5jb3M8L21pPjxtaT54PC9taT48bW8+KzwvbW8+PG1vPig8L21v
+Pjxtbz4tPC9tbz48bWk+c2luPC9taT48bWk+eDwvbWk+PG1vPik8L21vPjxtaT54PC9taT48bW8+
+KzwvbW8+PG1vPig8L21vPjxtbz4tPC9tbz48bWk+Y29zPC9taT48bWk+eDwvbWk+PG1vPik8L21v
+PjxtZnJhYz48bXN1cD48bWk+eDwvbWk+PG1uPjI8L21uPjwvbXN1cD48bXJvdz48bW4+MjwvbW4+
+PG1vPiE8L21vPjwvbXJvdz48L21mcmFjPjxtbz4rPC9tbz48bWk+c2luPC9taT48bWk+eDwvbWk+
+PG1mcmFjPjxtc3VwPjxtaT54PC9taT48bW4+MzwvbW4+PC9tc3VwPjxtcm93Pjxtbj4zPC9tbj48
+bW8+ITwvbW8+PC9tcm93PjwvbWZyYWM+PG1vPis8L21vPjxtbz4mIzgyMzA7PC9tbz48L21hdGg+
+]]></data>
+        </mediaData>
+      </internal_media>
+      <internal_media>
+        <name>formula62.mml</name>
+        <consumerData>
+          <mediaID>13570164367746460</mediaID>
+          <testID>13570164368971854</testID>
+          <consumerID>13570164368971868</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>formula62.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>332</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1477475213877</creation>
+          <modified>1477475437744</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGg+PG1vPj08L21vPjxtbj4xPC9tbj48bW8+LTwvbW8+PG1mcmFjPjxtc3VwPjxtaT54PC9t
+aT48bW4+MjwvbW4+PC9tc3VwPjxtcm93Pjxtbj4yPC9tbj48bW8+ITwvbW8+PC9tcm93PjwvbWZy
+YWM+PG1vPis8L21vPjxtZnJhYz48bXN1cD48bWk+eDwvbWk+PG1uPjQ8L21uPjwvbXN1cD48bXJv
+dz48bW4+NDwvbW4+PG1vPiE8L21vPjwvbXJvdz48L21mcmFjPjxtbz4tPC9tbz48bWZyYWM+PG1z
+dXA+PG1pPng8L21pPjxtbj42PC9tbj48L21zdXA+PG1yb3c+PG1uPjY8L21uPjxtbz4hPC9tbz48
+L21yb3c+PC9tZnJhYz48bW8+KzwvbW8+PG1vPiYjODIzMDs8L21vPjwvbWF0aD4=]]></data>
+        </mediaData>
+      </internal_media>
+      <internal_media>
+        <name>formula63.mml</name>
+        <consumerData>
+          <mediaID>13570164367746587</mediaID>
+          <testID>13570164368971854</testID>
+          <consumerID>13570164368971868</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>formula63.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>322</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1477475388982</creation>
+          <modified>1477475437779</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGg+PG1uPjE8L21uPjxtbz4tPC9tbz48bWZyYWM+PG1zdXA+PG1pPng8L21pPjxtbj4yPC9t
+bj48L21zdXA+PG1yb3c+PG1uPjI8L21uPjxtbz4hPC9tbz48L21yb3c+PC9tZnJhYz48bW8+Kzwv
+bW8+PG1mcmFjPjxtc3VwPjxtaT54PC9taT48bW4+NDwvbW4+PC9tc3VwPjxtcm93Pjxtbj40PC9t
+bj48bW8+ITwvbW8+PC9tcm93PjwvbWZyYWM+PG1vPi08L21vPjxtZnJhYz48bXN1cD48bWk+eDwv
+bWk+PG1uPjY8L21uPjwvbXN1cD48bXJvdz48bW4+NjwvbW4+PG1vPiE8L21vPjwvbXJvdz48L21m
+cmFjPjxtbz4rPC9tbz48bW8+JiM4MjMwOzwvbW8+PC9tYXRoPg==]]></data>
+        </mediaData>
+      </internal_media>
+    </media_set>
+    <questionProperties>
+      <property name="layout" type="string" value="vertical" />
+      <property name="pageTag" type="string" value="" />
+      <property name="completeIncompleteGrading" type="string" value="false" />
+      <property name="instructor_info" type="string" value="" />
+      <property name="forceManualScoring" type="string" value="automatic" />
+      <property name="commonFeedback" type="string" value="&lt;p&gt;The Taylor series expansion is as follows.&lt;/p&gt;  &lt;p&gt;&amp;nbsp;&lt;/p&gt;  &lt;p&gt;%media:formula59.mml%&lt;/p&gt;  &lt;p&gt;&amp;nbsp;&lt;/p&gt;  &lt;p&gt;Substitute cos &lt;em&gt;x&lt;/em&gt; in the equation, and put &lt;em&gt;h&lt;/em&gt; = &lt;em&gt;x&lt;/em&gt;.&lt;em&gt; &lt;/em&gt;&lt;/p&gt;  &lt;p&gt;&amp;nbsp;&lt;/p&gt;  &lt;p&gt;%media:formula60.mml%&lt;/p&gt;  &lt;p&gt;&amp;nbsp;&lt;/p&gt;  &lt;p&gt;Taylor series expansion of a function about 0 is as follows.&lt;/p&gt;  &lt;p&gt;&amp;nbsp;&lt;/p&gt;  &lt;p&gt;%media:formula61.mml%&lt;/p&gt;  &lt;p&gt;&amp;nbsp;&lt;/p&gt;  &lt;p&gt;%media:formula62.mml%&lt;/p&gt;  &lt;p&gt;&amp;nbsp;&lt;/p&gt;" />
+      <property name="audioPlayerPosition" type="string" value="above" />
+      <property name="problemSolution" type="string" value="The Maclaurin series expansion for the cosine function is %media:formula63.mml%" />
+      <property name="otherItem" type="string" value="" />
+      <property name="useCommonFeedback" type="boolean" value="false" />
+      <property name="order" type="string" value="scrambled" />
+    </questionProperties>
+    <hints>
+      <hint>
+        <name>hint #1</name>
+        <type>html</type>
+        <value><![CDATA[What is the differentiation of cos <em>x</em>?]]></value>
+      </hint>
+    </hints>
+    <multipleChoice>
+      <stem><![CDATA[Identify the Maclaurin series expansion for the cosine function using the Taylor series expansion.]]></stem>
+      <commonFeedback><![CDATA[<p>The Taylor series expansion is as follows.</p>  <p>&nbsp;</p>  <p>%media:formula59.mml%</p>  <p>&nbsp;</p>  <p>Substitute cos <em>x</em> in the equation, and put <em>h</em> = <em>x</em>.<em> </em></p>  <p>&nbsp;</p>  <p>%media:formula60.mml%</p>  <p>&nbsp;</p>  <p>Taylor series expansion of a function about 0 is as follows.</p>  <p>&nbsp;</p>  <p>%media:formula61.mml%</p>  <p>&nbsp;</p>  <p>%media:formula62.mml%</p>  <p>&nbsp;</p>]]></commonFeedback>
+      <choices>
+        <choice>
+          <distractor><![CDATA[<p>%media:formula55.mml%</p>
+
+<p>&nbsp;</p>]]></distractor>
+          <credit>1</credit>
+          <feedback></feedback>
+        </choice>
+        <choice>
+          <distractor><![CDATA[<p>%media:formula56.mml%</p>
+
+<p>&nbsp;</p>]]></distractor>
+          <credit>0</credit>
+          <feedback></feedback>
+        </choice>
+        <choice>
+          <distractor><![CDATA[<p>%media:formula57.mml%</p>
+
+<p>&nbsp;</p>]]></distractor>
+          <credit>0</credit>
+          <feedback></feedback>
+        </choice>
+        <choice>
+          <distractor><![CDATA[<p>%media:formula58.mml%</p>
+
+<p>&nbsp;</p>]]></distractor>
+          <credit>0</credit>
+          <feedback></feedback>
+        </choice>
+      </choices>
+    </multipleChoice>
+  </question>
+  <question>
+    <format>1</format>
+    <ezid>13570164368971865</ezid>
+    <version>1579774407110</version>
+    <title><![CDATA[Problem 04.028]]></title>
+    <multipart>13570164361970176</multipart>
+    <type>SB</type>
+    <categories>
+      <internal_category>
+        <catid>13570164352964634</catid>
+        <title><![CDATA[Chapter:  04 Roundoff and Truncation Errors]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164352964637</catid>
+        <title><![CDATA[Topic:  Roundoff and Truncation Errors]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164365969335</catid>
+        <title><![CDATA[Section:  04.01 ERRORS]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164352964746</catid>
+        <title><![CDATA[Subtopic:  ERRORS]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040730414</catid>
+        <title><![CDATA[Difficulty:  Medium]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164266036554</catid>
+        <title><![CDATA[Units:  NA]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164202016094</catid>
+        <title><![CDATA[Bloom's Verb: 3. Apply]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164196995740</catid>
+        <title><![CDATA[Bloom's Object: 3. Procedural]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164343377093</catid>
+        <title><![CDATA[ABET Outcomes:  (a) an ability to apply knowledge of mathematics, science, and engineering]]></title>
+      </internal_category>
+    </categories>
+    <media_set>
+      <internal_media>
+        <name>formula33.mml</name>
+        <consumerData>
+          <mediaID>13570164361970513</mediaID>
+          <testID>13570164368971854</testID>
+          <consumerID>13570164368971865</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>formula33.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>383</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1475562524585</creation>
+          <modified>1476879966976</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGg+PG10ZXh0PmFyYzwvbXRleHQ+PG1pPnRhbjwvbWk+PG1pPng8L21pPjxtbz49PC9tbz48
+bXVuZGVyb3Zlcj48bW8+JiM4NzIxOzwvbW8+PG1yb3c+PG1pPm48L21pPjxtbz49PC9tbz48bW4+
+MDwvbW4+PC9tcm93Pjxtbz4mIzg3MzQ7PC9tbz48L211bmRlcm92ZXI+PG1mcmFjPjxtcm93Pjxt
+bz4oPC9tbz48bW8+LTwvbW8+PG1uPjE8L21uPjxtc3VwPjxtbz4pPC9tbz48bWk+bjwvbWk+PC9t
+c3VwPjwvbXJvdz48bXJvdz48bW4+MjwvbW4+PG1pPm48L21pPjxtbz4rPC9tbz48bW4+MTwvbW4+
+PC9tcm93PjwvbWZyYWM+PG1zdXA+PG1pPng8L21pPjxtcm93Pjxtbj4yPC9tbj48bWk+bjwvbWk+
+PG1vPis8L21vPjxtbj4xPC9tbj48L21yb3c+PC9tc3VwPjwvbWF0aD4=]]></data>
+        </mediaData>
+      </internal_media>
+      <internal_media>
+        <name>formula33.mml</name>
+        <consumerData>
+          <mediaID>13570164361970513</mediaID>
+          <testID>13570164368971854</testID>
+          <consumerID>13570164368971865</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>formula33.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>383</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1475562524585</creation>
+          <modified>1476879966976</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGg+PG10ZXh0PmFyYzwvbXRleHQ+PG1pPnRhbjwvbWk+PG1pPng8L21pPjxtbz49PC9tbz48
+bXVuZGVyb3Zlcj48bW8+JiM4NzIxOzwvbW8+PG1yb3c+PG1pPm48L21pPjxtbz49PC9tbz48bW4+
+MDwvbW4+PC9tcm93Pjxtbz4mIzg3MzQ7PC9tbz48L211bmRlcm92ZXI+PG1mcmFjPjxtcm93Pjxt
+bz4oPC9tbz48bW8+LTwvbW8+PG1uPjE8L21uPjxtc3VwPjxtbz4pPC9tbz48bWk+bjwvbWk+PC9t
+c3VwPjwvbXJvdz48bXJvdz48bW4+MjwvbW4+PG1pPm48L21pPjxtbz4rPC9tbz48bW4+MTwvbW4+
+PC9tcm93PjwvbWZyYWM+PG1zdXA+PG1pPng8L21pPjxtcm93Pjxtbj4yPC9tbj48bWk+bjwvbWk+
+PG1vPis8L21vPjxtbj4xPC9tbj48L21yb3c+PC9tc3VwPjwvbWF0aD4=]]></data>
+        </mediaData>
+      </internal_media>
+    </media_set>
+    <questionProperties>
+      <property name="pageTag" type="string" value="" />
+      <property name="customType" type="string" value="" />
+      <property name="suppressPopupControl" type="string" value="false" />
+      <property name="instructor_info" type="string" value="" />
+      <property name="mpSuppressBreak" type="string" value="false" />
+      <property name="mpCustomProgression" type="string" value="twoway" />
+      <property name="audioPlayerPosition" type="string" value="above" />
+    </questionProperties>
+    <sectionBreak>
+      <stem><![CDATA[<p>The Maclaurin series expansion for the arctangent of <em>x</em> is defined for |<em>x</em>| &#8804; 1 as follows:</p>
+
+<p>&nbsp;</p>
+
+<p>%media:formula33.mml%</p>
+
+<p>&nbsp;</p>]]></stem>
+    </sectionBreak>
+  </question>
+  <question>
+    <format>1</format>
+    <ezid>13570164368971866</ezid>
+    <version>1579774407110</version>
+    <title><![CDATA[Problem 04.028.a]]></title>
+    <multipart>13570164361970176</multipart>
+    <type>MC</type>
+    <categories>
+      <internal_category>
+        <catid>13570164352964634</catid>
+        <title><![CDATA[Chapter:  04 Roundoff and Truncation Errors]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164352964637</catid>
+        <title><![CDATA[Topic:  Roundoff and Truncation Errors]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164365969335</catid>
+        <title><![CDATA[Section:  04.01 ERRORS]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164352964746</catid>
+        <title><![CDATA[Subtopic:  ERRORS]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040730414</catid>
+        <title><![CDATA[Difficulty:  Medium]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164266036554</catid>
+        <title><![CDATA[Units:  NA]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164202016094</catid>
+        <title><![CDATA[Bloom's Verb: 3. Apply]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164196995716</catid>
+        <title><![CDATA[Bloom's Object: 2. Conceptual]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164343377093</catid>
+        <title><![CDATA[ABET Outcomes:  (a) an ability to apply knowledge of mathematics, science, and engineering]]></title>
+      </internal_category>
+    </categories>
+    <media_set>
+      <internal_media>
+        <name>formula34.mml</name>
+        <consumerData>
+          <mediaID>13570164361972296</mediaID>
+          <testID>13570164368971854</testID>
+          <consumerID>13570164368971866</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>formula34.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>277</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1475562758504</creation>
+          <modified>1475563715304</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGg+PG10ZXh0PmFyYzwvbXRleHQ+PG1pPnRhbjwvbWk+PG1pPng8L21pPjxtbz49PC9tbz48
+bWk+eDwvbWk+PG1vPi08L21vPjxtZnJhYz48bXN1cD48bWk+eDwvbWk+PG1uPjM8L21uPjwvbXN1
+cD48bW4+MzwvbW4+PC9tZnJhYz48bW8+KzwvbW8+PG1mcmFjPjxtc3VwPjxtaT54PC9taT48bW4+
+NTwvbW4+PC9tc3VwPjxtbj41PC9tbj48L21mcmFjPjxtbz4tPC9tbz48bWZyYWM+PG1zdXA+PG1p
+Png8L21pPjxtbj43PC9tbj48L21zdXA+PG1uPjc8L21uPjwvbWZyYWM+PC9tYXRoPg==]]></data>
+        </mediaData>
+      </internal_media>
+      <internal_media>
+        <name>formula35.mml</name>
+        <consumerData>
+          <mediaID>13570164361972640</mediaID>
+          <testID>13570164368971854</testID>
+          <consumerID>13570164368971866</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>formula35.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>346</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1475562822782</creation>
+          <modified>1475563715318</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGg+PG10ZXh0PmFyYzwvbXRleHQ+PG1pPnRhbjwvbWk+PG1pPng8L21pPjxtbz49PC9tbz48
+bWk+eDwvbWk+PG1vPi08L21vPjxtZnJhYz48bXN1cD48bWk+eDwvbWk+PG1uPjM8L21uPjwvbXN1
+cD48bXJvdz48bW4+MzwvbW4+PG1vPiE8L21vPjwvbXJvdz48L21mcmFjPjxtbz4rPC9tbz48bWZy
+YWM+PG1zdXA+PG1pPng8L21pPjxtbj41PC9tbj48L21zdXA+PG1yb3c+PG1uPjU8L21uPjxtbz4h
+PC9tbz48L21yb3c+PC9tZnJhYz48bW8+LTwvbW8+PG1mcmFjPjxtc3VwPjxtaT54PC9taT48bW4+
+NzwvbW4+PC9tc3VwPjxtcm93Pjxtbj43PC9tbj48bW8+ITwvbW8+PC9tcm93PjwvbWZyYWM+PC9t
+YXRoPg==]]></data>
+        </mediaData>
+      </internal_media>
+      <internal_media>
+        <name>formula36.mml</name>
+        <consumerData>
+          <mediaID>13570164361972908</mediaID>
+          <testID>13570164368971854</testID>
+          <consumerID>13570164368971866</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>formula36.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>323</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1475562912732</creation>
+          <modified>1475563715331</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGg+PG10ZXh0PmFyYzwvbXRleHQ+PG1pPnRhbjwvbWk+PG1pPng8L21pPjxtbz49PC9tbz48
+bW4+MTwvbW4+PG1vPi08L21vPjxtZnJhYz48bXN1cD48bWk+eDwvbWk+PG1uPjI8L21uPjwvbXN1
+cD48bW4+MjwvbW4+PC9tZnJhYz48bW8+KzwvbW8+PG1mcmFjPjxtc3VwPjxtaT54PC9taT48bW4+
+NDwvbW4+PC9tc3VwPjxtcm93Pjxtbj40PC9tbj48bW8+ITwvbW8+PC9tcm93PjwvbWZyYWM+PG1v
+Pi08L21vPjxtZnJhYz48bXN1cD48bWk+eDwvbWk+PG1uPjY8L21uPjwvbXN1cD48bXJvdz48bW4+
+NjwvbW4+PG1vPiE8L21vPjwvbXJvdz48L21mcmFjPjwvbWF0aD4=]]></data>
+        </mediaData>
+      </internal_media>
+      <internal_media>
+        <name>formula37.mml</name>
+        <consumerData>
+          <mediaID>13570164361973747</mediaID>
+          <testID>13570164368971854</testID>
+          <consumerID>13570164368971866</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>formula37.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>277</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1475562965762</creation>
+          <modified>1475563715345</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGg+PG10ZXh0PmFyYzwvbXRleHQ+PG1pPnRhbjwvbWk+PG1pPng8L21pPjxtbz49PC9tbz48
+bW4+MTwvbW4+PG1vPi08L21vPjxtZnJhYz48bXN1cD48bWk+eDwvbWk+PG1uPjI8L21uPjwvbXN1
+cD48bW4+MjwvbW4+PC9tZnJhYz48bW8+KzwvbW8+PG1mcmFjPjxtc3VwPjxtaT54PC9taT48bW4+
+NDwvbW4+PC9tc3VwPjxtbj40PC9tbj48L21mcmFjPjxtbz4tPC9tbz48bWZyYWM+PG1zdXA+PG1p
+Png8L21pPjxtbj42PC9tbj48L21zdXA+PG1uPjY8L21uPjwvbWZyYWM+PC9tYXRoPg==]]></data>
+        </mediaData>
+      </internal_media>
+      <internal_media>
+        <name>formula38.mml</name>
+        <consumerData>
+          <mediaID>13570164361976257</mediaID>
+          <testID>13570164368971854</testID>
+          <consumerID>13570164368971866</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>formula38.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>1176</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1475563369092</creation>
+          <modified>1475563715256</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGg+PG10ZXh0PmFyYzwvbXRleHQ+PG1pPnRhbjwvbWk+PG1pPng8L21pPjxtbz4mIzg3NzM7
+PC9tbz48bWZyYWM+PG1yb3c+PG1vPig8L21vPjxtbz4tPC9tbz48bW4+MTwvbW4+PG1zdXA+PG1v
+Pik8L21vPjxtbj4wPC9tbj48L21zdXA+PC9tcm93Pjxtcm93Pjxtbj4yPC9tbj48bW8+KDwvbW8+
+PG1uPjA8L21uPjxtbz4pPC9tbz48bW8+KzwvbW8+PG1uPjE8L21uPjwvbXJvdz48L21mcmFjPjxt
+c3VwPjxtaT54PC9taT48bXJvdz48bW4+MjwvbW4+PG1vPig8L21vPjxtbj4wPC9tbj48bW8+KTwv
+bW8+PG1vPis8L21vPjxtbj4xPC9tbj48L21yb3c+PC9tc3VwPjxtbz4rPC9tbz48bWZyYWM+PG1y
+b3c+PG1vPig8L21vPjxtbz4tPC9tbz48bW4+MTwvbW4+PG1zdXA+PG1vPik8L21vPjxtbj4xPC9t
+bj48L21zdXA+PC9tcm93Pjxtcm93Pjxtbj4yPC9tbj48bW8+KDwvbW8+PG1uPjE8L21uPjxtbz4p
+PC9tbz48bW8+KzwvbW8+PG1uPjE8L21uPjwvbXJvdz48L21mcmFjPjxtc3VwPjxtaT54PC9taT48
+bXJvdz48bW4+MjwvbW4+PG1vPig8L21vPjxtbj4xPC9tbj48bW8+KTwvbW8+PG1vPis8L21vPjxt
+bj4xPC9tbj48L21yb3c+PC9tc3VwPjxtbz4rPC9tbz48bWZyYWM+PG1yb3c+PG1vPig8L21vPjxt
+bz4tPC9tbz48bW4+MTwvbW4+PG1zdXA+PG1vPik8L21vPjxtbj4yPC9tbj48L21zdXA+PC9tcm93
+Pjxtcm93Pjxtbj4yPC9tbj48bW8+KDwvbW8+PG1uPjI8L21uPjxtbz4pPC9tbz48bW8+KzwvbW8+
+PG1uPjE8L21uPjwvbXJvdz48L21mcmFjPjxtc3VwPjxtaT54PC9taT48bXJvdz48bW4+MjwvbW4+
+PG1vPig8L21vPjxtbj4yPC9tbj48bW8+KTwvbW8+PG1vPis8L21vPjxtbj4xPC9tbj48L21yb3c+
+PC9tc3VwPjxtbz4rPC9tbz48bWZyYWM+PG1yb3c+PG1vPig8L21vPjxtbz4tPC9tbz48bW4+MTwv
+bW4+PG1zdXA+PG1vPik8L21vPjxtbj4zPC9tbj48L21zdXA+PC9tcm93Pjxtcm93Pjxtbj4yPC9t
+bj48bW8+KDwvbW8+PG1uPjM8L21uPjxtbz4pPC9tbz48bW8+KzwvbW8+PG1uPjE8L21uPjwvbXJv
+dz48L21mcmFjPjxtc3VwPjxtaT54PC9taT48bXJvdz48bW4+MjwvbW4+PG1vPig8L21vPjxtbj4z
+PC9tbj48bW8+KTwvbW8+PG1vPis8L21vPjxtbj4xPC9tbj48L21yb3c+PC9tc3VwPjxtc3BhY2Ug
+bGluZWJyZWFrPSJuZXdsaW5lIj48L21zcGFjZT48L21hdGg+]]></data>
+        </mediaData>
+      </internal_media>
+      <internal_media>
+        <name>formula38.mml</name>
+        <consumerData>
+          <mediaID>13570164361976257</mediaID>
+          <testID>13570164368971854</testID>
+          <consumerID>13570164368971866</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>formula38.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>1176</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1475563369092</creation>
+          <modified>1475563715256</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGg+PG10ZXh0PmFyYzwvbXRleHQ+PG1pPnRhbjwvbWk+PG1pPng8L21pPjxtbz4mIzg3NzM7
+PC9tbz48bWZyYWM+PG1yb3c+PG1vPig8L21vPjxtbz4tPC9tbz48bW4+MTwvbW4+PG1zdXA+PG1v
+Pik8L21vPjxtbj4wPC9tbj48L21zdXA+PC9tcm93Pjxtcm93Pjxtbj4yPC9tbj48bW8+KDwvbW8+
+PG1uPjA8L21uPjxtbz4pPC9tbz48bW8+KzwvbW8+PG1uPjE8L21uPjwvbXJvdz48L21mcmFjPjxt
+c3VwPjxtaT54PC9taT48bXJvdz48bW4+MjwvbW4+PG1vPig8L21vPjxtbj4wPC9tbj48bW8+KTwv
+bW8+PG1vPis8L21vPjxtbj4xPC9tbj48L21yb3c+PC9tc3VwPjxtbz4rPC9tbz48bWZyYWM+PG1y
+b3c+PG1vPig8L21vPjxtbz4tPC9tbz48bW4+MTwvbW4+PG1zdXA+PG1vPik8L21vPjxtbj4xPC9t
+bj48L21zdXA+PC9tcm93Pjxtcm93Pjxtbj4yPC9tbj48bW8+KDwvbW8+PG1uPjE8L21uPjxtbz4p
+PC9tbz48bW8+KzwvbW8+PG1uPjE8L21uPjwvbXJvdz48L21mcmFjPjxtc3VwPjxtaT54PC9taT48
+bXJvdz48bW4+MjwvbW4+PG1vPig8L21vPjxtbj4xPC9tbj48bW8+KTwvbW8+PG1vPis8L21vPjxt
+bj4xPC9tbj48L21yb3c+PC9tc3VwPjxtbz4rPC9tbz48bWZyYWM+PG1yb3c+PG1vPig8L21vPjxt
+bz4tPC9tbz48bW4+MTwvbW4+PG1zdXA+PG1vPik8L21vPjxtbj4yPC9tbj48L21zdXA+PC9tcm93
+Pjxtcm93Pjxtbj4yPC9tbj48bW8+KDwvbW8+PG1uPjI8L21uPjxtbz4pPC9tbz48bW8+KzwvbW8+
+PG1uPjE8L21uPjwvbXJvdz48L21mcmFjPjxtc3VwPjxtaT54PC9taT48bXJvdz48bW4+MjwvbW4+
+PG1vPig8L21vPjxtbj4yPC9tbj48bW8+KTwvbW8+PG1vPis8L21vPjxtbj4xPC9tbj48L21yb3c+
+PC9tc3VwPjxtbz4rPC9tbz48bWZyYWM+PG1yb3c+PG1vPig8L21vPjxtbz4tPC9tbz48bW4+MTwv
+bW4+PG1zdXA+PG1vPik8L21vPjxtbj4zPC9tbj48L21zdXA+PC9tcm93Pjxtcm93Pjxtbj4yPC9t
+bj48bW8+KDwvbW8+PG1uPjM8L21uPjxtbz4pPC9tbz48bW8+KzwvbW8+PG1uPjE8L21uPjwvbXJv
+dz48L21mcmFjPjxtc3VwPjxtaT54PC9taT48bXJvdz48bW4+MjwvbW4+PG1vPig8L21vPjxtbj4z
+PC9tbj48bW8+KTwvbW8+PG1vPis8L21vPjxtbj4xPC9tbj48L21yb3c+PC9tc3VwPjxtc3BhY2Ug
+bGluZWJyZWFrPSJuZXdsaW5lIj48L21zcGFjZT48L21hdGg+]]></data>
+        </mediaData>
+      </internal_media>
+      <internal_media>
+        <name>formula39.mml</name>
+        <consumerData>
+          <mediaID>13570164361976264</mediaID>
+          <testID>13570164368971854</testID>
+          <consumerID>13570164368971866</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>formula39.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>277</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1475563425321</creation>
+          <modified>1475563715256</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGg+PG10ZXh0PmFyYzwvbXRleHQ+PG1pPnRhbjwvbWk+PG1pPng8L21pPjxtbz49PC9tbz48
+bWk+eDwvbWk+PG1vPi08L21vPjxtZnJhYz48bXN1cD48bWk+eDwvbWk+PG1uPjM8L21uPjwvbXN1
+cD48bW4+MzwvbW4+PC9tZnJhYz48bW8+KzwvbW8+PG1mcmFjPjxtc3VwPjxtaT54PC9taT48bW4+
+NTwvbW4+PC9tc3VwPjxtbj41PC9tbj48L21mcmFjPjxtbz4tPC9tbz48bWZyYWM+PG1zdXA+PG1p
+Png8L21pPjxtbj43PC9tbj48L21zdXA+PG1uPjc8L21uPjwvbWZyYWM+PC9tYXRoPg==]]></data>
+        </mediaData>
+      </internal_media>
+      <internal_media>
+        <name>formula40.mml</name>
+        <consumerData>
+          <mediaID>13570164361977033</mediaID>
+          <testID>13570164368971854</testID>
+          <consumerID>13570164368971866</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>formula40.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>277</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1475563488268</creation>
+          <modified>1476765453239</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGg+PG10ZXh0PmFyYzwvbXRleHQ+PG1pPnRhbjwvbWk+PG1pPng8L21pPjxtbz49PC9tbz48
+bWk+eDwvbWk+PG1vPi08L21vPjxtZnJhYz48bXN1cD48bWk+eDwvbWk+PG1uPjM8L21uPjwvbXN1
+cD48bW4+MzwvbW4+PC9tZnJhYz48bW8+KzwvbW8+PG1mcmFjPjxtc3VwPjxtaT54PC9taT48bW4+
+NTwvbW4+PC9tc3VwPjxtbj41PC9tbj48L21mcmFjPjxtbz4tPC9tbz48bWZyYWM+PG1zdXA+PG1p
+Png8L21pPjxtbj43PC9tbj48L21zdXA+PG1uPjc8L21uPjwvbWZyYWM+PC9tYXRoPg==]]></data>
+        </mediaData>
+      </internal_media>
+    </media_set>
+    <questionProperties>
+      <property name="layout" type="string" value="vertical" />
+      <property name="pageTag" type="string" value="" />
+      <property name="completeIncompleteGrading" type="string" value="false" />
+      <property name="instructor_info" type="string" value="" />
+      <property name="forceManualScoring" type="string" value="automatic" />
+      <property name="commonFeedback" type="string" value="&lt;p&gt;%media:formula38.mml%&lt;/p&gt;  &lt;p&gt;&amp;nbsp;&lt;/p&gt;  &lt;p&gt;%media:formula39.mml%&lt;/p&gt;  &lt;p&gt;&amp;nbsp;&lt;/p&gt;" />
+      <property name="audioPlayerPosition" type="string" value="above" />
+      <property name="problemSolution" type="string" value="&lt;p&gt;The first 4 terms are as follows.&lt;/p&gt;  &lt;p&gt;&amp;nbsp;&lt;/p&gt;  &lt;p&gt;%media:formula40.mml%&lt;/p&gt;" />
+      <property name="otherItem" type="string" value="" />
+      <property name="useCommonFeedback" type="boolean" value="false" />
+      <property name="order" type="string" value="scrambled" />
+    </questionProperties>
+    <hints>
+      <hint>
+        <name>hint #1</name>
+        <type>html</type>
+        <value><![CDATA[What is the relation between sin(<em>x</em>) and arctan(<em>x</em>)?]]></value>
+      </hint>
+    </hints>
+    <multipleChoice>
+      <stem><![CDATA[Identify the first 4 terms (<em>n</em> = 0,...,3) of the given equation:]]></stem>
+      <commonFeedback><![CDATA[<p>%media:formula38.mml%</p>  <p>&nbsp;</p>  <p>%media:formula39.mml%</p>  <p>&nbsp;</p>]]></commonFeedback>
+      <choices>
+        <choice>
+          <distractor><![CDATA[<p>%media:formula34.mml%</p>
+
+<p>&nbsp;</p>]]></distractor>
+          <credit>1</credit>
+          <feedback></feedback>
+        </choice>
+        <choice>
+          <distractor><![CDATA[<p>%media:formula35.mml%</p>
+
+<p>&nbsp;</p>]]></distractor>
+          <credit>0</credit>
+          <feedback></feedback>
+        </choice>
+        <choice>
+          <distractor><![CDATA[%media:formula36.mml%]]></distractor>
+          <credit>0</credit>
+          <feedback></feedback>
+        </choice>
+        <choice>
+          <distractor><![CDATA[<p>%media:formula37.mml%</p>
+
+<p>&nbsp;</p>]]></distractor>
+          <credit>0</credit>
+          <feedback></feedback>
+        </choice>
+      </choices>
+    </multipleChoice>
+  </question>
+  <question>
+    <format>1</format>
+    <ezid>13570164368971867</ezid>
+    <version>1579774407110</version>
+    <title><![CDATA[Problem 04.028.b]]></title>
+    <multipart>13570164361970176</multipart>
+    <type>WK</type>
+    <categories>
+      <internal_category>
+        <catid>13570164352964634</catid>
+        <title><![CDATA[Chapter:  04 Roundoff and Truncation Errors]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164352964637</catid>
+        <title><![CDATA[Topic:  Roundoff and Truncation Errors]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164365969335</catid>
+        <title><![CDATA[Section:  04.01 ERRORS]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164352964746</catid>
+        <title><![CDATA[Subtopic:  ERRORS]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040730414</catid>
+        <title><![CDATA[Difficulty:  Medium]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164266036554</catid>
+        <title><![CDATA[Units:  NA]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164202016094</catid>
+        <title><![CDATA[Bloom's Verb: 3. Apply]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164196995740</catid>
+        <title><![CDATA[Bloom's Object: 3. Procedural]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164343377093</catid>
+        <title><![CDATA[ABET Outcomes:  (a) an ability to apply knowledge of mathematics, science, and engineering]]></title>
+      </internal_category>
+    </categories>
+    <media_set>
+      <internal_media>
+        <name>formula43.mml</name>
+        <consumerData>
+          <mediaID>13570164362001843</mediaID>
+          <testID>13570164368971854</testID>
+          <consumerID>13570164368971867</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>formula43.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>477</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1475568822019</creation>
+          <modified>1475829880612</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGggaWQ9ImZvcm11bGE0My5tbWwiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8xOTk4L01h
+dGgvTWF0aE1MIj48bXRleHQ+YXJjPC9tdGV4dD48bWk+dGFuPC9taT48bWZlbmNlZD48bWZyYWM+
+PG1pPiYjOTYwOzwvbWk+PG1uPjY8L21uPjwvbWZyYWM+PC9tZmVuY2VkPjxtbz4mIzg3NzM7PC9t
+bz48bWZyYWM+PG1pPiYjOTYwOzwvbWk+PG1uPjY8L21uPjwvbWZyYWM+PG1vPi08L21vPjxtZnJh
+Yz48bWZlbmNlZD48bXJvdz48bWk+JiM5NjA7PC9taT48bW8+LzwvbW8+PG1zdXA+PG1uPjY8L21u
+Pjxtbj4zPC9tbj48L21zdXA+PC9tcm93PjwvbWZlbmNlZD48bW4+MzwvbW4+PC9tZnJhYz48bW8+
+PTwvbW8+PG1uPjA8L21uPjxtbz4uPC9tbz48bW4+NTIzNjA8L21uPjxtbz4tPC9tbz48bW4+MDwv
+bW4+PG1vPi48L21vPjxtbj4wNDc4NTwvbW4+PG1vPj08L21vPjxtbj4wPC9tbj48bW8+LjwvbW8+
+PG1uPjQ3NTc1PC9tbj48L21hdGg+]]></data>
+        </mediaData>
+      </internal_media>
+      <internal_media>
+        <name>formula44.mml</name>
+        <consumerData>
+          <mediaID>13570164362007702</mediaID>
+          <testID>13570164368971854</testID>
+          <consumerID>13570164368971867</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>formula44.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>404</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1475570722285</creation>
+          <modified>1475829880877</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGggaWQ9ImZvcm11bGE0NC5tbWwiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8xOTk4L01h
+dGgvTWF0aE1MIj48bXN1Yj48bWk+JiM5NDk7PC9taT48bWk+dDwvbWk+PC9tc3ViPjxtbz49PC9t
+bz48bWZlbmNlZCBjbG9zZT0ifCIgb3Blbj0ifCI+PG1mcmFjPjxtcm93Pjxtbj4wPC9tbj48bW8+
+LjwvbW8+PG1uPjQ4MjM0ODwvbW4+PG1vPi08L21vPjxtbj4wPC9tbj48bW8+LjwvbW8+PG1uPjQ3
+NTc1PC9tbj48L21yb3c+PG1yb3c+PG1uPjA8L21uPjxtbz4uPC9tbz48bW4+NDgyMzQ4PC9tbj48
+L21yb3c+PC9tZnJhYz48L21mZW5jZWQ+PG1vPiYjMjE1OzwvbW8+PG1uPjEwMDwvbW4+PG1vPiU8
+L21vPjxtbz49PC9tbz48bW4+MTwvbW4+PG1vPi48L21vPjxtbj4zNzwvbW4+PG1vPiU8L21vPjwv
+bWF0aD4=]]></data>
+        </mediaData>
+      </internal_media>
+      <internal_media>
+        <name>formula45.mml</name>
+        <consumerData>
+          <mediaID>13570164362009049</mediaID>
+          <testID>13570164368971854</testID>
+          <consumerID>13570164368971867</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>formula45.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>403</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1475570837675</creation>
+          <modified>1475829881162</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGggaWQ9ImZvcm11bGE0NS5tbWwiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8xOTk4L01h
+dGgvTWF0aE1MIj48bXN1Yj48bWk+JiM5NDk7PC9taT48bWk+YTwvbWk+PC9tc3ViPjxtbz49PC9t
+bz48bWZlbmNlZCBjbG9zZT0ifCIgb3Blbj0ifCI+PG1mcmFjPjxtcm93Pjxtbj4wPC9tbj48bW8+
+LjwvbW8+PG1uPjQ3NTc1PC9tbj48bW8+LTwvbW8+PG1uPjA8L21uPjxtbz4uPC9tbz48bW4+NTIz
+NjA8L21uPjwvbXJvdz48bXJvdz48bW4+MDwvbW4+PG1vPi48L21vPjxtbj40NzU3NTwvbW4+PC9t
+cm93PjwvbWZyYWM+PC9tZmVuY2VkPjxtbz4mIzIxNTs8L21vPjxtbj4xMDA8L21uPjxtbz4lPC9t
+bz48bW8+PTwvbW8+PG1uPjEwPC9tbj48bW8+LjwvbW8+PG1uPjA2PC9tbj48bW8+JTwvbW8+PC9t
+YXRoPg==]]></data>
+        </mediaData>
+      </internal_media>
+      <internal_media>
+        <name>formula46.mml</name>
+        <consumerData>
+          <mediaID>13570164362010635</mediaID>
+          <testID>13570164368971854</testID>
+          <consumerID>13570164368971867</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>formula46.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>603</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1475571019095</creation>
+          <modified>1475829881440</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGggaWQ9ImZvcm11bGE0Ni5tbWwiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8xOTk4L01h
+dGgvTWF0aE1MIj48bXRleHQ+YXJjPC9tdGV4dD48bWk+dGFuPC9taT48bWZlbmNlZD48bWZyYWM+
+PG1pPiYjOTYwOzwvbWk+PG1uPjY8L21uPjwvbWZyYWM+PC9tZmVuY2VkPjxtbz4mIzg3NzM7PC9t
+bz48bWZyYWM+PG1pPiYjOTYwOzwvbWk+PG1uPjY8L21uPjwvbWZyYWM+PG1vPi08L21vPjxtZnJh
+Yz48bXN1cD48bWZlbmNlZD48bXJvdz48bWk+JiM5NjA7PC9taT48bW8+LzwvbW8+PG1uPjY8L21u
+PjwvbXJvdz48L21mZW5jZWQ+PG1uPjM8L21uPjwvbXN1cD48bW4+MzwvbW4+PC9tZnJhYz48bW8+
+KzwvbW8+PG1mcmFjPjxtc3VwPjxtZmVuY2VkPjxtcm93PjxtaT4mIzk2MDs8L21pPjxtbz4vPC9t
+bz48bW4+NjwvbW4+PC9tcm93PjwvbWZlbmNlZD48bW4+NTwvbW4+PC9tc3VwPjxtbj41PC9tbj48
+L21mcmFjPjxtbz49PC9tbz48bW4+MDwvbW4+PG1vPi48L21vPjxtbj40NzU3NTwvbW4+PG1vPis8
+L21vPjxtbj4wPC9tbj48bW8+LjwvbW8+PG1uPjAwNzg3MTwvbW4+PG1vPj08L21vPjxtbj4wPC9t
+bj48bW8+LjwvbW8+PG1uPjQ4MzYyPC9tbj48L21hdGg+]]></data>
+        </mediaData>
+      </internal_media>
+      <internal_media>
+        <name>formula47.mml</name>
+        <consumerData>
+          <mediaID>13570164362013725</mediaID>
+          <testID>13570164368971854</testID>
+          <consumerID>13570164368971867</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>formula47.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>404</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1475571435662</creation>
+          <modified>1475829881715</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGggaWQ9ImZvcm11bGE0Ny5tbWwiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8xOTk4L01h
+dGgvTWF0aE1MIj48bXN1Yj48bWk+JiM5NDk7PC9taT48bWk+dDwvbWk+PC9tc3ViPjxtbz49PC9t
+bz48bWZlbmNlZCBjbG9zZT0ifCIgb3Blbj0ifCI+PG1mcmFjPjxtcm93Pjxtbj4wPC9tbj48bW8+
+LjwvbW8+PG1uPjQ4MjM0ODwvbW4+PG1vPi08L21vPjxtbj4wPC9tbj48bW8+LjwvbW8+PG1uPjQ4
+MzYyPC9tbj48L21yb3c+PG1yb3c+PG1uPjA8L21uPjxtbz4uPC9tbz48bW4+NDgyMzQ4PC9tbj48
+L21yb3c+PC9tZnJhYz48L21mZW5jZWQ+PG1vPiYjMjE1OzwvbW8+PG1uPjEwMDwvbW4+PG1vPiU8
+L21vPjxtbz49PC9tbz48bW4+MDwvbW4+PG1vPi48L21vPjxtbj4yNjwvbW4+PG1vPiU8L21vPjwv
+bWF0aD4=]]></data>
+        </mediaData>
+      </internal_media>
+      <internal_media>
+        <name>formula53.mml</name>
+        <consumerData>
+          <mediaID>13570164362025794</mediaID>
+          <testID>13570164368971854</testID>
+          <consumerID>13570164368971867</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>formula53.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>404</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1475572310995</creation>
+          <modified>1475829883393</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGggaWQ9ImZvcm11bGE1My5tbWwiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8xOTk4L01h
+dGgvTWF0aE1MIj48bXN1Yj48bWk+JiM5NDk7PC9taT48bWk+dDwvbWk+PC9tc3ViPjxtbz49PC9t
+bz48bWZlbmNlZCBjbG9zZT0ifCIgb3Blbj0ifCI+PG1mcmFjPjxtcm93Pjxtbj4wPC9tbj48bW8+
+LjwvbW8+PG1uPjQ4MjM0ODwvbW4+PG1vPi08L21vPjxtbj4wPC9tbj48bW8+LjwvbW8+PG1uPjQ4
+MjQxPC9tbj48L21yb3c+PG1yb3c+PG1uPjA8L21uPjxtbz4uPC9tbz48bW4+NDgyMzQ4PC9tbj48
+L21yb3c+PC9tZnJhYz48L21mZW5jZWQ+PG1vPiYjMjE1OzwvbW8+PG1uPjEwMDwvbW4+PG1vPiU8
+L21vPjxtbz49PC9tbz48bW4+MDwvbW4+PG1vPi48L21vPjxtbj4wMTwvbW4+PG1vPiU8L21vPjwv
+bWF0aD4=]]></data>
+        </mediaData>
+      </internal_media>
+      <internal_media>
+        <name>formula41.mml</name>
+        <consumerData>
+          <mediaID>13570164362076202</mediaID>
+          <testID>13570164368971854</testID>
+          <consumerID>13570164368971867</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>formula41.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>264</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1475568317098</creation>
+          <modified>1475829879748</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGggaWQ9ImZvcm11bGE0MS5tbWwiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8xOTk4L01h
+dGgvTWF0aE1MIj48bXRleHQ+YXJjPC9tdGV4dD48bWk+dGFuPC9taT48bWZlbmNlZD48bWZyYWM+
+PG1pPiYjOTYwOzwvbWk+PG1uPjY8L21uPjwvbWZyYWM+PC9tZmVuY2VkPjxtbz4mIzg3NzM7PC9t
+bz48bWZyYWM+PG1pPiYjOTYwOzwvbWk+PG1uPjY8L21uPjwvbWZyYWM+PG1vPj08L21vPjxtbj4w
+PC9tbj48bW8+LjwvbW8+PG1uPjUyMzYwPC9tbj48L21hdGg+]]></data>
+        </mediaData>
+      </internal_media>
+      <internal_media>
+        <name>formula42.mml</name>
+        <consumerData>
+          <mediaID>13570164362076335</mediaID>
+          <testID>13570164368971854</testID>
+          <consumerID>13570164368971867</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>formula42.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>402</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1475568592854</creation>
+          <modified>1475829880026</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGggaWQ9ImZvcm11bGE0Mi5tbWwiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8xOTk4L01h
+dGgvTWF0aE1MIj48bXN1Yj48bWk+JiM5NDk7PC9taT48bWk+dDwvbWk+PC9tc3ViPjxtbz49PC9t
+bz48bWZlbmNlZCBjbG9zZT0ifCIgb3Blbj0ifCI+PG1mcmFjPjxtcm93Pjxtbj4wPC9tbj48bW8+
+LjwvbW8+PG1uPjQ4MjM1PC9tbj48bW8+LTwvbW8+PG1uPjA8L21uPjxtbz4uPC9tbz48bW4+NTIz
+NjA8L21uPjwvbXJvdz48bXJvdz48bW4+MDwvbW4+PG1vPi48L21vPjxtbj40ODIzNTwvbW4+PC9t
+cm93PjwvbWZyYWM+PC9tZmVuY2VkPjxtbz4mIzIxNTs8L21vPjxtbj4xMDA8L21uPjxtbz4lPC9t
+bz48bW8+PTwvbW8+PG1uPjg8L21uPjxtbz4uPC9tbz48bW4+NTU8L21uPjxtbz4lPC9tbz48L21h
+dGg+]]></data>
+        </mediaData>
+      </internal_media>
+      <internal_media>
+        <name>formula48.mml</name>
+        <consumerData>
+          <mediaID>13570164362086134</mediaID>
+          <testID>13570164368971854</testID>
+          <consumerID>13570164368971867</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>formula48.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>402</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1475571521099</creation>
+          <modified>1475829881982</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGggaWQ9ImZvcm11bGE0OC5tbWwiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8xOTk4L01h
+dGgvTWF0aE1MIj48bXN1Yj48bWk+JiM5NDk7PC9taT48bWk+YTwvbWk+PC9tc3ViPjxtbz49PC9t
+bz48bWZlbmNlZCBjbG9zZT0ifCIgb3Blbj0ifCI+PG1mcmFjPjxtcm93Pjxtbj4wPC9tbj48bW8+
+LjwvbW8+PG1uPjQ4MzYyPC9tbj48bW8+LTwvbW8+PG1uPjA8L21uPjxtbz4uPC9tbz48bW4+NDc1
+NzU8L21uPjwvbXJvdz48bXJvdz48bW4+MDwvbW4+PG1vPi48L21vPjxtbj40ODM2MjwvbW4+PC9t
+cm93PjwvbWZyYWM+PC9tZmVuY2VkPjxtbz4mIzIxNTs8L21vPjxtbj4xMDA8L21uPjxtbz4lPC9t
+bz48bW8+PTwvbW8+PG1uPjE8L21uPjxtbz4uPC9tbz48bW4+NjM8L21uPjxtbz4lPC9tbz48L21h
+dGg+]]></data>
+        </mediaData>
+      </internal_media>
+      <internal_media>
+        <name>formula49.mml</name>
+        <consumerData>
+          <mediaID>13570164362088525</mediaID>
+          <testID>13570164368971854</testID>
+          <consumerID>13570164368971867</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>formula49.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>728</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1475571709775</creation>
+          <modified>1475829882294</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGggaWQ9ImZvcm11bGE0OS5tbWwiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8xOTk4L01h
+dGgvTWF0aE1MIj48bXRleHQ+YXJjPC9tdGV4dD48bWk+dGFuPC9taT48bWZlbmNlZD48bWZyYWM+
+PG1pPiYjOTYwOzwvbWk+PG1uPjY8L21uPjwvbWZyYWM+PC9tZmVuY2VkPjxtbz4mIzg3NzM7PC9t
+bz48bWZyYWM+PG1pPiYjOTYwOzwvbWk+PG1uPjY8L21uPjwvbWZyYWM+PG1vPi08L21vPjxtZnJh
+Yz48bXN1cD48bWZlbmNlZD48bXJvdz48bWk+JiM5NjA7PC9taT48bW8+LzwvbW8+PG1uPjY8L21u
+PjwvbXJvdz48L21mZW5jZWQ+PG1uPjM8L21uPjwvbXN1cD48bW4+MzwvbW4+PC9tZnJhYz48bW8+
+KzwvbW8+PG1mcmFjPjxtc3VwPjxtZmVuY2VkPjxtcm93PjxtaT4mIzk2MDs8L21pPjxtbz4vPC9t
+bz48bW4+NjwvbW4+PC9tcm93PjwvbWZlbmNlZD48bW4+NTwvbW4+PC9tc3VwPjxtbj41PC9tbj48
+L21mcmFjPjxtbz4tPC9tbz48bWZyYWM+PG1zdXA+PG1mZW5jZWQ+PG1yb3c+PG1pPiYjOTYwOzwv
+bWk+PG1vPi88L21vPjxtbj42PC9tbj48L21yb3c+PC9tZmVuY2VkPjxtbj43PC9tbj48L21zdXA+
+PG1uPjc8L21uPjwvbWZyYWM+PG1vPj08L21vPjxtbj4wPC9tbj48bW8+LjwvbW8+PG1uPjQ4MzYy
+PC9tbj48bW8+LTwvbW8+PG1uPjA8L21uPjxtbz4uPC9tbz48bW4+MDAxNTQ8L21uPjxtbz49PC9t
+bz48bW4+MDwvbW4+PG1vPi48L21vPjxtbj40ODIwNzk8L21uPjwvbWF0aD4=]]></data>
+        </mediaData>
+      </internal_media>
+      <internal_media>
+        <name>formula50.mml</name>
+        <consumerData>
+          <mediaID>13570164362091419</mediaID>
+          <testID>13570164368971854</testID>
+          <consumerID>13570164368971867</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>formula50.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>404</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1475571818473</creation>
+          <modified>1475829882548</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGggaWQ9ImZvcm11bGE1MC5tbWwiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8xOTk4L01h
+dGgvTWF0aE1MIj48bXN1Yj48bWk+JiM5NDk7PC9taT48bWk+dDwvbWk+PC9tc3ViPjxtbz49PC9t
+bz48bWZlbmNlZCBjbG9zZT0ifCIgb3Blbj0ifCI+PG1mcmFjPjxtcm93Pjxtbj4wPC9tbj48bW8+
+LjwvbW8+PG1uPjQ4MjM0ODwvbW4+PG1vPi08L21vPjxtbj4wPC9tbj48bW8+LjwvbW8+PG1uPjQ4
+MjA4PC9tbj48L21yb3c+PG1yb3c+PG1uPjA8L21uPjxtbz4uPC9tbz48bW4+NDgyMzQ4PC9tbj48
+L21yb3c+PC9tZnJhYz48L21mZW5jZWQ+PG1vPiYjMjE1OzwvbW8+PG1uPjEwMDwvbW4+PG1vPiU8
+L21vPjxtbz49PC9tbz48bW4+MDwvbW4+PG1vPi48L21vPjxtbj4wNjwvbW4+PG1vPiU8L21vPjwv
+bWF0aD4=]]></data>
+        </mediaData>
+      </internal_media>
+      <internal_media>
+        <name>formula51.mml</name>
+        <consumerData>
+          <mediaID>13570164362091468</mediaID>
+          <testID>13570164368971854</testID>
+          <consumerID>13570164368971867</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>formula51.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>402</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1475571885515</creation>
+          <modified>1475829882859</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGggaWQ9ImZvcm11bGE1MS5tbWwiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8xOTk4L01h
+dGgvTWF0aE1MIj48bXN1Yj48bWk+JiM5NDk7PC9taT48bWk+YTwvbWk+PC9tc3ViPjxtbz49PC9t
+bz48bWZlbmNlZCBjbG9zZT0ifCIgb3Blbj0ifCI+PG1mcmFjPjxtcm93Pjxtbj4wPC9tbj48bW8+
+LjwvbW8+PG1uPjQ4MjA4PC9tbj48bW8+LTwvbW8+PG1uPjA8L21uPjxtbz4uPC9tbz48bW4+NDgz
+NjI8L21uPjwvbXJvdz48bXJvdz48bW4+MDwvbW4+PG1vPi48L21vPjxtbj40ODIwODwvbW4+PC9t
+cm93PjwvbWZyYWM+PC9tZmVuY2VkPjxtbz4mIzIxNTs8L21vPjxtbj4xMDA8L21uPjxtbz4lPC9t
+bz48bW8+PTwvbW8+PG1uPjA8L21uPjxtbz4uPC9tbz48bW4+MzI8L21uPjxtbz4lPC9tbz48L21h
+dGg+]]></data>
+        </mediaData>
+      </internal_media>
+      <internal_media>
+        <name>formula52.mml</name>
+        <consumerData>
+          <mediaID>13570164362097337</mediaID>
+          <testID>13570164368971854</testID>
+          <consumerID>13570164368971867</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>formula52.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>853</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1475572228251</creation>
+          <modified>1475829883115</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGggaWQ9ImZvcm11bGE1Mi5tbWwiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8xOTk4L01h
+dGgvTWF0aE1MIj48bXRleHQ+YXJjPC9tdGV4dD48bWk+dGFuPC9taT48bWZlbmNlZD48bWZyYWM+
+PG1pPiYjOTYwOzwvbWk+PG1uPjY8L21uPjwvbWZyYWM+PC9tZmVuY2VkPjxtbz4mIzg3NzM7PC9t
+bz48bWZyYWM+PG1pPiYjOTYwOzwvbWk+PG1uPjY8L21uPjwvbWZyYWM+PG1vPi08L21vPjxtZnJh
+Yz48bXN1cD48bWZlbmNlZD48bXJvdz48bWk+JiM5NjA7PC9taT48bW8+LzwvbW8+PG1uPjY8L21u
+PjwvbXJvdz48L21mZW5jZWQ+PG1uPjM8L21uPjwvbXN1cD48bW4+MzwvbW4+PC9tZnJhYz48bW8+
+KzwvbW8+PG1mcmFjPjxtc3VwPjxtZmVuY2VkPjxtcm93PjxtaT4mIzk2MDs8L21pPjxtbz4vPC9t
+bz48bW4+NjwvbW4+PC9tcm93PjwvbWZlbmNlZD48bW4+NTwvbW4+PC9tc3VwPjxtbj41PC9tbj48
+L21mcmFjPjxtbz4tPC9tbz48bWZyYWM+PG1zdXA+PG1mZW5jZWQ+PG1yb3c+PG1pPiYjOTYwOzwv
+bWk+PG1vPi88L21vPjxtbj42PC9tbj48L21yb3c+PC9tZmVuY2VkPjxtbj43PC9tbj48L21zdXA+
+PG1uPjc8L21uPjwvbWZyYWM+PG1vPis8L21vPjxtZnJhYz48bXN1cD48bWZlbmNlZD48bXJvdz48
+bWk+JiM5NjA7PC9taT48bW8+LzwvbW8+PG1uPjY8L21uPjwvbXJvdz48L21mZW5jZWQ+PG1uPjk8
+L21uPjwvbXN1cD48bW4+OTwvbW4+PC9tZnJhYz48bW8+PTwvbW8+PG1uPjA8L21uPjxtbz4uPC9t
+bz48bW4+NDgyMDg8L21uPjxtbz4rPC9tbz48bW4+MDwvbW4+PG1vPi48L21vPjxtbj4wMDAzMjk8
+L21uPjxtbz49PC9tbz48bW4+MDwvbW4+PG1vPi48L21vPjxtbj40ODI0MTwvbW4+PC9tYXRoPg==]]></data>
+        </mediaData>
+      </internal_media>
+      <internal_media>
+        <name>formula54.mml</name>
+        <consumerData>
+          <mediaID>13570164362098888</mediaID>
+          <testID>13570164368971854</testID>
+          <consumerID>13570164368971867</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>formula54.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>402</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1475572443675</creation>
+          <modified>1475829883709</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGggaWQ9ImZvcm11bGE1NC5tbWwiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8xOTk4L01h
+dGgvTWF0aE1MIj48bXN1Yj48bWk+JiM5NDk7PC9taT48bWk+YTwvbWk+PC9tc3ViPjxtbz49PC9t
+bz48bWZlbmNlZCBjbG9zZT0ifCIgb3Blbj0ifCI+PG1mcmFjPjxtcm93Pjxtbj4wPC9tbj48bW8+
+LjwvbW8+PG1uPjQ4MjQxPC9tbj48bW8+LTwvbW8+PG1uPjA8L21uPjxtbz4uPC9tbz48bW4+NDgy
+MDg8L21uPjwvbXJvdz48bXJvdz48bW4+MDwvbW4+PG1vPi48L21vPjxtbj40ODI0MTwvbW4+PC9t
+cm93PjwvbWZyYWM+PC9tZmVuY2VkPjxtbz4mIzIxNTs8L21vPjxtbj4xMDA8L21uPjxtbz4lPC9t
+bz48bW8+PTwvbW8+PG1uPjA8L21uPjxtbz4uPC9tbz48bW4+MDc8L21uPjxtbz4lPC9tbz48L21h
+dGg+]]></data>
+        </mediaData>
+      </internal_media>
+    </media_set>
+    <questionProperties>
+      <property name="pageTag" type="string" value="" />
+      <property name="customType" type="string" value="" />
+      <property name="completeIncompleteGrading" type="string" value="false" />
+      <property name="instructor_info" type="string" value="" />
+      <property name="forceManualScoring" type="string" value="automatic" />
+      <property name="audioPlayerPosition" type="string" value="above" />
+      <property name="problemSolution" type="string" value="&lt;p&gt;The true value is 0.48234.&lt;/p&gt;  &lt;p&gt;&amp;nbsp;&lt;/p&gt;  &lt;p&gt;The solutions are as follows:&lt;/p&gt;  &lt;p&gt;&amp;nbsp;&lt;/p&gt;  &lt;table border=&quot;1&quot; width=&quot;520&quot; height=&quot;180&quot; cellspacing=&quot;1&quot; cellpadding=&quot;1&quot;&gt;  &lt;tbody&gt;   &lt;tr&gt;    &lt;td style=&quot;width: 125px; text-align: center;&quot;&gt;&amp;nbsp;&lt;/td&gt;    &lt;td style=&quot;width: 104px; text-align: center;&quot;&gt;&lt;strong&gt;The value of arctan(&lt;em&gt;&amp;#960;&lt;/em&gt;/6)&lt;/strong&gt;&lt;/td&gt;    &lt;td style=&quot;width: 121px; text-align: center;&quot;&gt;&lt;strong&gt;True error(%)&lt;/strong&gt;&lt;/td&gt;    &lt;td style=&quot;width: 148px; text-align: center;&quot;&gt;&lt;strong&gt;Approximate error(%)&lt;/strong&gt;&lt;/td&gt;   &lt;/tr&gt;   &lt;tr&gt;    &lt;td style=&quot;width: 125px; text-align: center;&quot;&gt;&lt;strong&gt;Zero order&lt;/strong&gt;&lt;/td&gt;    &lt;td style=&quot;width: 104px; text-align: center;&quot;&gt;0.52360&lt;/td&gt;    &lt;td style=&quot;width: 121px; text-align: center;&quot;&gt;8.55%&lt;/td&gt;    &lt;td style=&quot;width: 148px; text-align: center;&quot;&gt;&amp;nbsp;&lt;/td&gt;   &lt;/tr&gt;   &lt;tr&gt;    &lt;td style=&quot;width: 125px; text-align: center;&quot;&gt;&lt;strong&gt;First order&lt;/strong&gt;&lt;/td&gt;    &lt;td style=&quot;width: 104px; text-align: center;&quot;&gt;0.47575&lt;/td&gt;    &lt;td style=&quot;width: 121px; text-align: center;&quot;&gt;1.37%&lt;/td&gt;    &lt;td style=&quot;width: 148px; text-align: center;&quot;&gt;10.06%&lt;/td&gt;   &lt;/tr&gt;   &lt;tr&gt;    &lt;td style=&quot;width: 125px; text-align: center;&quot;&gt;&lt;strong&gt;Second order&lt;/strong&gt;&lt;/td&gt;    &lt;td style=&quot;width: 104px; text-align: center;&quot;&gt;0.48362&lt;/td&gt;    &lt;td style=&quot;width: 121px; text-align: center;&quot;&gt;0.26%&lt;/td&gt;    &lt;td style=&quot;width: 148px; text-align: center;&quot;&gt;1.63%&lt;/td&gt;   &lt;/tr&gt;   &lt;tr&gt;    &lt;td style=&quot;width: 125px; text-align: center;&quot;&gt;&lt;strong&gt;Third order&lt;/strong&gt;&lt;/td&gt;    &lt;td style=&quot;width: 104px; text-align: center;&quot;&gt;0.48208&lt;/td&gt;    &lt;td style=&quot;width: 121px; text-align: center;&quot;&gt;0.06%&lt;/td&gt;    &lt;td style=&quot;width: 148px; text-align: center;&quot;&gt;0.32%&lt;/td&gt;   &lt;/tr&gt;  &lt;/tbody&gt; &lt;/table&gt;  &lt;p&gt;&amp;nbsp;&lt;/p&gt;" />
+      <property name="attached_media" type="string" value="formula43.mml,formula44.mml,formula45.mml,formula46.mml,formula47.mml,formula53.mml,formula41.mml,formula42.mml,formula48.mml,formula49.mml,formula50.mml,formula51.mml,formula52.mml,formula54.mml" />
+      <property name="aggregatedGrading" type="string" value="false" />
+      <property name="useCommonFeedback" type="string" value="true" />
+    </questionProperties>
+    <hints>
+      <hint>
+        <name>hint #1</name>
+        <type>html</type>
+        <value><![CDATA[What is the Maclaurin series expansion for the arctan <em>x</em>?]]></value>
+      </hint>
+    </hints>
+    <worksheet>
+      <stem><![CDATA[<p>Starting with the simplest version, arctan <em>x</em> = <em>x</em>, add terms one at a time to estimate arctan(<em>&#960;</em>/6). After each new term is added, compute the true and approximate percent relative errors. Determine the true value. Add terms until the absolute value of the approximate error estimate falls below an error criterion conforming to two significant figures.Stopping criterion <em>&#949;<sub>s</sub></em> = 0.5%. (Round the final answers to five decimal places, and round the true and absolute percent relative error to two decimal places.)</p>
+
+<p>&nbsp;</p>
+
+<p>True value is __v__ . (Round the final answer to six decimal places.)</p>
+
+<p>&nbsp;</p>
+
+<p>The solutions are as follows:</p>
+
+<p>&nbsp;</p>
+
+<table border="1" width="532" height="180" cellspacing="1" cellpadding="1">
+	<tbody>
+		<tr>
+			<td style="width: 111px; text-align: center;">&nbsp;</td>
+			<td style="width: 121px; text-align: center;"><strong>The value of arctan (<em>&#960;</em>/6)</strong></td>
+			<td style="width: 126px; text-align: center;"><strong>True error(%)</strong></td>
+			<td style="width: 150px; text-align: center;"><strong>Approximate&nbsp; error(%)</strong></td>
+		</tr>
+		<tr>
+			<td style="width: 111px; text-align: center;"><strong>Zero order</strong></td>
+			<td style="width: 121px; text-align: center;">__a__</td>
+			<td style="width: 126px; text-align: center;">__f__</td>
+			<td style="width: 150px; text-align: center;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td style="width: 111px; text-align: center;"><strong>First order</strong></td>
+			<td style="width: 121px; text-align: center;">__b__</td>
+			<td style="width: 126px; text-align: center;">__g__%</td>
+			<td style="width: 150px; text-align: center;">__i__%</td>
+		</tr>
+		<tr>
+			<td style="width: 111px; text-align: center;"><strong>Second order</strong></td>
+			<td style="width: 121px; text-align: center;">__c__</td>
+			<td style="width: 126px; text-align: center;">0.26%</td>
+			<td style="width: 150px; text-align: center;">__j__%</td>
+		</tr>
+		<tr>
+			<td style="width: 111px; text-align: center;"><strong>Third order</strong></td>
+			<td style="width: 121px; text-align: center;">__d__</td>
+			<td style="width: 126px; text-align: center;">__h__%</td>
+			<td style="width: 150px; text-align: center;">0.32%</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>]]></stem>
+      <commonFeedback><![CDATA[<p>Use the stopping criterion <em>&#949;<sub>s</sub></em> = 0.5 &#215; 10<sup>2 &#8211; 2</sup>% = 0.5%</p>
+
+<p>The true value is given by</p>
+
+<p>arctan(<em>&#960;</em>/6) = 0.48234</p>
+
+<p>&nbsp;</p>
+
+<p>Zero order</p>
+
+<p>&nbsp;</p>
+
+<p>%media:formula41.mml%&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; %media:formula42.mml%</p>
+
+<p>&nbsp;</p>
+
+<p>First order</p>
+
+<p>&nbsp;</p>
+
+<p>%media:formula43.mml%</p>
+
+<p>&nbsp;</p>
+
+<p>%media:formula44.mml%&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; %media:formula45.mml%</p>
+
+<p>&nbsp;</p>
+
+<p>Second order</p>
+
+<p>&nbsp;</p>
+
+<p>%media:formula46.mml%</p>
+
+<p>&nbsp;</p>
+
+<p><br>
+%media:formula47.mml%&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; %media:formula48.mml%</p>
+
+<p>&nbsp;</p>
+
+<p>Third order</p>
+
+<p>&nbsp;</p>
+
+<p>%media:formula49.mml%</p>
+
+<p>&nbsp;</p>
+
+<p>%media:formula50.mml%&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; %media:formula51.mml%</p>
+
+<p>&nbsp;</p>
+
+<p>Since the approximate error is below 0.5%, the computation can be terminated.</p>
+
+<p>&nbsp;</p>]]></commonFeedback>
+      <answers>
+        <numberAnswer>
+          <name><![CDATA[a]]></name>
+          <weight>100</weight>
+          <answerProperties>
+            <property name="completeIncompleteGrading" type="string" value="false" />
+          </answerProperties>
+          <fieldWidth>7</fieldWidth>
+          <correctAnswer><![CDATA[0.52360]]></correctAnswer>
+          <formatString><![CDATA[0.00000]]></formatString>
+          <precisionString><![CDATA[2]]></precisionString>
+          <units></units>
+          <precisionType>2</precisionType>
+          <engineeringUnits>false</engineeringUnits>
+          <currency>false</currency>
+        </numberAnswer>
+        <numberAnswer>
+          <name><![CDATA[b]]></name>
+          <weight>100</weight>
+          <answerProperties>
+            <property name="completeIncompleteGrading" type="string" value="false" />
+          </answerProperties>
+          <fieldWidth>7</fieldWidth>
+          <correctAnswer><![CDATA[0.47575]]></correctAnswer>
+          <formatString><![CDATA[0.00000]]></formatString>
+          <precisionString><![CDATA[2]]></precisionString>
+          <units></units>
+          <precisionType>2</precisionType>
+          <engineeringUnits>false</engineeringUnits>
+          <currency>false</currency>
+        </numberAnswer>
+        <numberAnswer>
+          <name><![CDATA[c]]></name>
+          <weight>100</weight>
+          <answerProperties>
+            <property name="completeIncompleteGrading" type="string" value="false" />
+          </answerProperties>
+          <fieldWidth>7</fieldWidth>
+          <correctAnswer><![CDATA[0.48362]]></correctAnswer>
+          <formatString><![CDATA[0.00000]]></formatString>
+          <precisionString><![CDATA[2]]></precisionString>
+          <units></units>
+          <precisionType>2</precisionType>
+          <engineeringUnits>false</engineeringUnits>
+          <currency>false</currency>
+        </numberAnswer>
+        <numberAnswer>
+          <name><![CDATA[d]]></name>
+          <weight>100</weight>
+          <answerProperties>
+            <property name="completeIncompleteGrading" type="string" value="false" />
+          </answerProperties>
+          <fieldWidth>7</fieldWidth>
+          <correctAnswer><![CDATA[0.48208]]></correctAnswer>
+          <formatString><![CDATA[0.00000]]></formatString>
+          <precisionString><![CDATA[2]]></precisionString>
+          <units></units>
+          <precisionType>2</precisionType>
+          <engineeringUnits>false</engineeringUnits>
+          <currency>false</currency>
+        </numberAnswer>
+        <numberAnswer>
+          <name><![CDATA[f]]></name>
+          <weight>100</weight>
+          <answerProperties>
+            <property name="completeIncompleteGrading" type="string" value="false" />
+          </answerProperties>
+          <fieldWidth>7</fieldWidth>
+          <correctAnswer><![CDATA[8.55]]></correctAnswer>
+          <formatString><![CDATA[0.00]]></formatString>
+          <precisionString><![CDATA[2]]></precisionString>
+          <units></units>
+          <precisionType>2</precisionType>
+          <engineeringUnits>false</engineeringUnits>
+          <currency>false</currency>
+        </numberAnswer>
+        <numberAnswer>
+          <name><![CDATA[g]]></name>
+          <weight>100</weight>
+          <answerProperties>
+            <property name="completeIncompleteGrading" type="string" value="false" />
+          </answerProperties>
+          <fieldWidth>7</fieldWidth>
+          <correctAnswer><![CDATA[1.37]]></correctAnswer>
+          <formatString><![CDATA[0.00]]></formatString>
+          <precisionString><![CDATA[2]]></precisionString>
+          <units></units>
+          <precisionType>2</precisionType>
+          <engineeringUnits>false</engineeringUnits>
+          <currency>false</currency>
+        </numberAnswer>
+        <numberAnswer>
+          <name><![CDATA[h]]></name>
+          <weight>100</weight>
+          <answerProperties>
+            <property name="completeIncompleteGrading" type="string" value="false" />
+          </answerProperties>
+          <fieldWidth>7</fieldWidth>
+          <correctAnswer><![CDATA[0.06]]></correctAnswer>
+          <formatString><![CDATA[0.00]]></formatString>
+          <precisionString><![CDATA[2]]></precisionString>
+          <units></units>
+          <precisionType>2</precisionType>
+          <engineeringUnits>false</engineeringUnits>
+          <currency>false</currency>
+        </numberAnswer>
+        <numberAnswer>
+          <name><![CDATA[i]]></name>
+          <weight>100</weight>
+          <answerProperties>
+            <property name="completeIncompleteGrading" type="string" value="false" />
+          </answerProperties>
+          <fieldWidth>7</fieldWidth>
+          <correctAnswer><![CDATA[10.06]]></correctAnswer>
+          <formatString><![CDATA[0.00]]></formatString>
+          <precisionString><![CDATA[2]]></precisionString>
+          <units></units>
+          <precisionType>2</precisionType>
+          <engineeringUnits>false</engineeringUnits>
+          <currency>false</currency>
+        </numberAnswer>
+        <numberAnswer>
+          <name><![CDATA[j]]></name>
+          <weight>100</weight>
+          <answerProperties>
+            <property name="completeIncompleteGrading" type="string" value="false" />
+          </answerProperties>
+          <fieldWidth>7</fieldWidth>
+          <correctAnswer><![CDATA[1.63]]></correctAnswer>
+          <formatString><![CDATA[0.00]]></formatString>
+          <precisionString><![CDATA[2]]></precisionString>
+          <units></units>
+          <precisionType>2</precisionType>
+          <engineeringUnits>false</engineeringUnits>
+          <currency>false</currency>
+        </numberAnswer>
+        <numberAnswer>
+          <name><![CDATA[k]]></name>
+          <weight>100</weight>
+          <answerProperties>
+            <property name="completeIncompleteGrading" type="string" value="false" />
+          </answerProperties>
+          <fieldWidth>7</fieldWidth>
+          <correctAnswer><![CDATA[0.07]]></correctAnswer>
+          <formatString><![CDATA[0.00]]></formatString>
+          <precisionString><![CDATA[2]]></precisionString>
+          <units></units>
+          <precisionType>2</precisionType>
+          <engineeringUnits>false</engineeringUnits>
+          <currency>false</currency>
+        </numberAnswer>
+        <numberAnswer>
+          <name><![CDATA[v]]></name>
+          <weight>100</weight>
+          <answerProperties>
+            <property name="completeIncompleteGrading" type="string" value="false" />
+          </answerProperties>
+          <fieldWidth>7</fieldWidth>
+          <correctAnswer><![CDATA[0.482348]]></correctAnswer>
+          <formatString><![CDATA[0.000000]]></formatString>
+          <precisionString><![CDATA[2]]></precisionString>
+          <units></units>
+          <precisionType>2</precisionType>
+          <engineeringUnits>false</engineeringUnits>
+          <currency>false</currency>
+        </numberAnswer>
+      </answers>
+    </worksheet>
+  </question>
+</questionSet>
+

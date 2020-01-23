@@ -1,0 +1,1710 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questionSet>
+  <question>
+    <format>1</format>
+    <ezid>13570164368971727</ezid>
+    <version>1579774323887</version>
+    <title><![CDATA[Problem 02.001]]></title>
+    <type>WK</type>
+    <categories>
+      <internal_category>
+        <catid>13570164350606841</catid>
+        <title><![CDATA[Chapter:  02 MATLAB Fundamentals]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164326004845</catid>
+        <title><![CDATA[Topic: MATLAB Fundamentals]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164365886980</catid>
+        <title><![CDATA[Section:  02.04 USE OF BUILT-IN FUNCTIONS]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164350607308</catid>
+        <title><![CDATA[Subtopic:  USE OF BUILT-IN FUNCTIONS]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164365784785</catid>
+        <title><![CDATA[Bloom's Verb 3. Apply]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164309912673</catid>
+        <title><![CDATA[Bloom's Object 3. Procedural]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164266036554</catid>
+        <title><![CDATA[Units:  NA]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164343377093</catid>
+        <title><![CDATA[ABET Outcomes:  (a) an ability to apply knowledge of mathematics, science, and engineering]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040730414</catid>
+        <title><![CDATA[Difficulty:  Medium]]></title>
+      </internal_category>
+    </categories>
+    <media_set>
+      <internal_media>
+        <name>p2.1cl-c-1.jpg</name>
+        <consumerData>
+          <mediaID>13570164360803721</mediaID>
+          <testID>13570164368971726</testID>
+          <consumerID>13570164368971727</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>p2.1cl-c-1.jpg</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>2683</size>
+          <mime_type>image/jpeg</mime_type>
+          <creation>1475128341186</creation>
+          <modified>1475128341186</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[/9j/4AAQSkZJRgABAQEAYABgAAD/4QBmRXhpZgAATU0AKgAAAAgABgESAAMAAAABAAEAAAMBAAUA
+AAABAAAAVgMDAAEAAAABAAAAAFEQAAEAAAABAQAAAFERAAQAAAABAAAOwlESAAQAAAABAAAOwgAA
+AAAAAYagAACxj//bAEMAAgEBAgEBAgICAgICAgIDBQMDAwMDBgQEAwUHBgcHBwYHBwgJCwkICAoI
+BwcKDQoKCwwMDAwHCQ4PDQwOCwwMDP/bAEMBAgICAwMDBgMDBgwIBwgMDAwMDAwMDAwMDAwMDAwM
+DAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDP/AABEIAGoAqAMBIgACEQEDEQH/xAAf
+AAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgv/xAC1EAACAQMDAgQDBQUEBAAAAX0BAgMABBEF
+EiExQQYTUWEHInEUMoGRoQgjQrHBFVLR8CQzYnKCCQoWFxgZGiUmJygpKjQ1Njc4OTpDREVGR0hJ
+SlNUVVZXWFlaY2RlZmdoaWpzdHV2d3h5eoOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4eLj5OXm5+jp6vHy8/T19vf4+fr/xAAfAQADAQEBAQEBAQEB
+AAAAAAAAAQIDBAUGBwgJCgv/xAC1EQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIy
+gQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNk
+ZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfI
+ycrS09TV1tfY2dri4+Tl5ufo6ery8/T19vf4+fr/2gAMAwEAAhEDEQA/AP34S6jldlVlZkOGAP3T
+704PmsnQR/xNNS7ZkzyPdq8n8Cftu2Piz9qrW/hLqXgPx54U1XSonmtdZ1UabJo+tAFiiW8lreTS
+rI8UbziKeKKQRJuZUJVSbvl6htds9wzRuqMuoBy31rxOb/gpf+zfB4ubw+/7QHwTTXkvDp7aa3jn
+TBeLch/L8jyvP3+Zv+XZjdu4xmle+i3DzPcKKFOVopgFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAF
+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
+AH//2Q==]]></data>
+        </mediaData>
+      </internal_media>
+      <internal_media>
+        <name>p2.1cl-c-2.jpg</name>
+        <consumerData>
+          <mediaID>13570164360803738</mediaID>
+          <testID>13570164368971726</testID>
+          <consumerID>13570164368971727</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>p2.1cl-c-2.jpg</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>2799</size>
+          <mime_type>image/jpeg</mime_type>
+          <creation>1475128346559</creation>
+          <modified>1475128346559</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[/9j/4AAQSkZJRgABAQEAYABgAAD/4QBmRXhpZgAATU0AKgAAAAgABgESAAMAAAABAAEAAAMBAAUA
+AAABAAAAVgMDAAEAAAABAAAAAFEQAAEAAAABAQAAAFERAAQAAAABAAAOw1ESAAQAAAABAAAOwwAA
+AAAAAYagAACxj//bAEMAAgEBAgEBAgICAgICAgIDBQMDAwMDBgQEAwUHBgcHBwYHBwgJCwkICAoI
+BwcKDQoKCwwMDAwHCQ4PDQwOCwwMDP/bAEMBAgICAwMDBgMDBgwIBwgMDAwMDAwMDAwMDAwMDAwM
+DAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDP/AABEIAGoAqAMBIgACEQEDEQH/xAAf
+AAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgv/xAC1EAACAQMDAgQDBQUEBAAAAX0BAgMABBEF
+EiExQQYTUWEHInEUMoGRoQgjQrHBFVLR8CQzYnKCCQoWFxgZGiUmJygpKjQ1Njc4OTpDREVGR0hJ
+SlNUVVZXWFlaY2RlZmdoaWpzdHV2d3h5eoOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4eLj5OXm5+jp6vHy8/T19vf4+fr/xAAfAQADAQEBAQEBAQEB
+AAAAAAAAAQIDBAUGBwgJCgv/xAC1EQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIy
+gQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNk
+ZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfI
+ycrS09TV1tfY2dri4+Tl5ufo6ery8/T19vf4+fr/2gAMAwEAAhEDEQA/AP3ug1LzdWktfL2+Wu7d
+u69O341c68Vj2rf8VbdHp+6H/sleTeMv23bPwB+1hpPwr1jwF48tE16MPZeLANNl0ByQoVXKXjXk
+LPM4t0821QPKDtLIC4nTmUe+3+QdG+yu/Q9zopN3y5rxb4g/8FGv2e/hL401Dw34r+O/wa8L+ItL
+k8m90vVvGum2V7ZPgNtlhkmV0bBBwwBwRRza2A9pzntS1S0fV7XX9Ltb+xuLe8sb2JZ7e4t5BJFP
+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
+iiigD//Z]]></data>
+        </mediaData>
+      </internal_media>
+      <internal_media>
+        <name>p2.1cl-c-3.jpg</name>
+        <consumerData>
+          <mediaID>13570164360803739</mediaID>
+          <testID>13570164368971726</testID>
+          <consumerID>13570164368971727</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>p2.1cl-c-3.jpg</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>2036</size>
+          <mime_type>image/jpeg</mime_type>
+          <creation>1475128350735</creation>
+          <modified>1475128350735</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAIBAQIBAQICAgICAgICAwUDAwMDAwYEBAMFBwYHBwcG
+BwcICQsJCAgKCAcHCg0KCgsMDAwMBwkODw0MDgsMDAz/2wBDAQICAgMDAwYDAwYMCAcIDAwMDAwM
+DAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAz/wAARCABqAKgDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD9/KKK
+KACiiuE8BftS/DL4q/EzXPBfhf4i+BPEnjHwyZBrGg6Xr9peanpPlyCKT7RbRyNLFskIRt6jDEA8
+8Ubuy3Dpfod3RRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAV+Z0/7QHxJf
+9oe4+Okfwi1w+F4fiNDoX2lvDPi9fGJ8Oi0ey8kaH/YG57bc8upCYXXlh2WM4m/cH9MaKI6SUnr5
+dN0/0t8+qum7+649+vXZr9b/AC76qO1uFu7aOVQ4WVQ4DoUYAjPKsAQfYjIr4nuv+CYHxUuPi3J4
+hX467NOfVzqI0/8AtD4ifLEZvM8nA8ai2+78uBbCL/pjt+SvtyihaTVSO62/r5Cd3Bwls9wooooA
+KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAo
+oooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAPHfC/xO+IMX7ZWq+EPECeDY/Bt7oM2r6BFp
+0Ny+pxiCe2hZ7q4d1iPmGd8QxwjyxGv76XeQnsVeJX37HmsX37Tlv8Tf+F1/FWJ7YNbR+HUtPDv9
+kCyeWOaSyydKN35TNEmX+0+cBnEozXttFP8AgwUvi1v/AOBNr/yVpadU7aWCX8WbXw6W/wDAUn/5
+Mm/Rq+twooooAKKKKAPnnxr8Zfit4B/ay8IaDdal8KLvwz421e4srHwpbW95/wAJNFpkFq8kusG9
+acQsscoiWSD7GqL9piQXTyMiyfQ1fPPwq/4J/N8Iv2l/E3xNsfjB8Ur++8Y6k1/q+l6jbeHrm2u4
+QGENgLk6X/aCWUG4+TAl2qxksRzJIX+hqIfwo336/hp2/wCC3tHlSc7e0fLt+e+vl29En8Tk2UUU
+UCCiiigAooooAKKKKACiiigAooooAKKKKAPG9U/bIt9B+Odl4Q1H4efEzT9G1TWP+EesvGNzplum
+h3Wo+S0ogVftH24Idjoty1qLZnUKsx3Lu9kr5X8F/Cb4/wCtftry+MfiDpHw41jwTpOo3UXhNNO8
+e6hB/wAI3YPE8QujpR0gR3WpyozJJLLfbIo5XSARhpjP9UUQ1pRk93/wNGu+/lay1acpOelRxWy/
+4Oz7bfO72aSKKKKBBRRRQB5Z4k/a88MeHv2nfD3wojttZ1TxDriSG4urKCN9P0NxbTXUMN3KzqUl
+nht52jjRXbbHucRq8bP6nXyR8Qf+CeUmmftx+BPiR4G0d7fSYvE114q8XT3nxW8SWouLuaymsy1v
+oqrLp7tteIsxaHcsRjI2sTX1vRHWnFvfr6/nbonZXtfrZD0m0tun9bedr6bdLsooooAKKKKACiii
+gAooooAKKKKACiiigAooooA4y6/aN+Htj8aLb4bzePPBkPxEvLY3lv4WfW7ZdangCs5lSzL+cybU
+dtwTGEY5wDXZ18S/GK3h8SftdeFtH8I+Fvizo1/p/j+01XXfDA+Hsdr4M1xlJabxHPrsVqqNcrbm
+ORANRZ5Ht4YJLMuXC/bVFP3qSm92/wALJ3/Fr5dHeMXNctRxW1l+un3Wfz0urSkUUUUCCiiigDi/
+iP8AtI/Dv4OeMfDvh7xd498F+FfEHi+cW2g6ZrGt21jea3LvSPy7WKV1edt8ka7Ywxy6jqRXaV+f
+i+G/it8HP+CiXxB1pNV8ctq/jnxdof8AYmk6X4BF94X1zw0qwQT/ANpa/wDYZpbSW1RtQkjtzeWq
+RyIHSG4+1N5v6B0Q1oxqdX+GidvVXs9d09EOouWo4LZf1f0e68vwKKKKBBRRRQAUUUUAFFFFABRR
+RQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQB//9k=]]></data>
+        </mediaData>
+      </internal_media>
+      <internal_media>
+        <name>p2.1cl-c-4.jpg</name>
+        <consumerData>
+          <mediaID>13570164360803758</mediaID>
+          <testID>13570164368971726</testID>
+          <consumerID>13570164368971727</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>p2.1cl-c-4.jpg</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>3463</size>
+          <mime_type>image/jpeg</mime_type>
+          <creation>1475128354348</creation>
+          <modified>1475128354348</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[/9j/4AAQSkZJRgABAQEAYABgAAD/4QAiRXhpZgAATU0AKgAAAAgAAQESAAMAAAABAAEAAAAAAAD/
+2wBDAAIBAQIBAQICAgICAgICAwUDAwMDAwYEBAMFBwYHBwcGBwcICQsJCAgKCAcHCg0KCgsMDAwM
+BwkODw0MDgsMDAz/2wBDAQICAgMDAwYDAwYMCAcIDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwM
+DAwMDAwMDAwMDAwMDAwMDAwMDAwMDAz/wAARCABqAKgDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEA
+AAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJx
+FDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNk
+ZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJ
+ytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQF
+BgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMz
+UvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3
+eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna
+4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD9/PvCk2CqHiT/AJAM3/Af/QhXB/tV/tFt
++yx8Hr3xk3gnxh46tdNcfa7Hw22n/bYYiG/ehb26tkkG4KgSN3lZpECxtzhXDdnplFct8IfifYfG
+r4Z6L4p02C9s7XWLYTfZLxVS6sZOVkt5lRmVZYpA8bhWYB0YBiOazvjb+0t8Of2Z9Fs9S+JHxA8F
+fD/T9SnNtaXXiXXLXSYbqUKWMcbzuis20E4BJwM03oB3OaWuD+CP7TXw3/aZ02+vvhv8QvBHxAst
+LlWC8uPDeu2urRWsjDcqSNA7hGI5AJBIrvCcUarcAooooAKKKKACiiigAooooAKKKKACiiigAooo
+oAKKKKAM/wAS/wDIEuP+A/8AoQrwn9vz4I/E79oPRfA/hvwFqGnaHosfiS01fxLqw15dO1S0hs5U
+nthZRTaXqFtcN9oWOVkuERCLZY8/vTJF7t4m/wCQHP8A8B/9CFX2GTU/8ALnzx+wl8DPif8As9S+
+P/DvjbVLHxJ4YuvEl3rXhnWptdS81m6ju5DLOt5bQaVYWlsWnMk4W3DqDcuhLbPMk9O+Nn7P2h/t
+AaLZ2GvX/jaxt7Gc3ETeG/GOr+GpmYqVxJLptzbySLg/cdmXPOM813J4o/iodnuhLRto4X4H/s+6
+D+z9pt9Z6Df+OL+LUJVmlbxL4z1jxNKjAYAjk1K6uHiXHVYyqk8kE813ZGaTGaWq33GFFFFABRRR
+QAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQBQ8Tf8AIDn/AOA/+hCr9UPE3/IDn/4D/wChCr9ABRRR
+QAUUUUAFFGaM0AFFFFABRRRQAUUZozQAUUUUAFFFFABRRmjNABRRRQBQ8Tf8gOf/AID/AOhCr9UP
+E3/IDn/4D/6EKv0AFFFFABRRQTigDzf9qXwA/wASvgbr2mL4h8U+GYxCbmW58P6i2m30qR5kMIuY
+x50KvtAZoHjlxnbIuc1Y/Zc1m71/9mn4f319c3F5e3nhzT7i4uLiQySzyPbRszuxyWYkkkk5JNaX
+xg+B/gr9oXwe3h3x74P8L+N/D7TJcNpniDSoNTs2lTOxzDMrJuXJwcZGeKj+DfwF8C/s6eE5PD/w
+98F+E/AmhTXLXj6b4e0i30u0adgqtKYoERC5CIC2MkKvPAqYRs5N9bW+V/8AMUtXFrpe/wA7f5HZ
+UUUVQwooooA8j/bP8XfEjwh8ELtvhX4W1PxR4rv7qCxC6fNp6Xel20jbZ72FL+4t7aaWGPLJFJKq
+s+zdlQwPK/8ABMPxDrXiX9j7Sf7es/HVnfaZrGtaap8YatDqusTRQardxRme4iubkSMqKIyTKTmI
+4+XaT7xrei2fiLSbnT9QtLe+sL6J7e5triISwzxOCro6MCGVgSCCMEE5rA+EPwQ8F/s/eDo/DvgP
+wh4Y8E+H45XuF0zQNKg02zWR+XcQwqqBmwMnGT3pR0un1t+HQUtbNHW0UUUxhRRRQB4/+2pq/hPR
+/go7eNvF/i7wloc1/bQsPC97c2msa5Kz/utOtWs1N80s7gKI7IrcPjarYLAt/Yj8HeJvBfwAsbXx
+PN4sE9xfXt5p9h4n1IanrOi2EtxI9pZ3d4JJTcTRQlAzvLK4PymWYp5r9Z8av2d/AH7SXhu30X4i
++BvB/j7SLO4F5BY+JNFttUtYZwrKJVjnR1VwrsNwGcMRnk1c+EnwX8H/AAB8FQ+G/AvhPw34K8O2
+8jyw6VoOmQ6dZRO7bnZYYVVAWYkkgck5NTHS9wlrZL+v6/rZHVUUUVQFDxN/yA5/+A/+hCr9UPE3
+/IDn/wCA/wDoQq/QAUUUUAFFFFAHF/G5vHA8CyR+AbrwlpviCWeNTqPiSCe6sdNt92ZZjbQvE9ww
+UYWLz4AS2TKNuG5X9iz4x+IPjt8DLXxF4hm8L6pcSahe2tprfhoSLpHiS0huZIodRto5JJHiinRA
+4QyzL3SWVGSRo/2z/wBkGx/bW+FVv4O1Txh4w8JaTHqMV/eLoI09xq6R7sWl3DfWt1b3FoxILwSR
+FJNihgy5U9p8HPh1f/CvwFa6LqXi/wAReOLi1Zsarrdvp1vduhPyxlLC1tbcKgwq7YQcAZJPNTC+
+t/l/X9fkErWX4/1/X5nXUUUVQBRRRQB5D+218VvGHwZ+AV3rnge3+0a5HqOn22//AIRLUfFf2S2m
+vIYrm4/szT5I7u58qF5H2ROD8mTwDVn9kD4xzfGv4M2+p33iKx8Sa1a3U9lqk1t4P1Hwg1vOjkiG
+XStRllvLSQRNEdsz5dWWRQEkSug+Nnwmk+Mfg5NNtfFXi7wVqFrdR3tnrHhy8S3vLSVCeqSxy288
+ZBYNDcwyxNkEpuVWWt8BPgVB8BvDeo2v9v8AiLxZrGvag+razr2uyQNf6vdNHHCJJFt4obeMLDDB
+EqQQxoEhX5d25mmGl0+uq/D/AIIS6W+Z31FFFUAUUUUAeR/tn/teeGf2KfghdeM/E15pttG11Bpm
+nJqGoRabaXN9cNsgjmupSIraIty80h2oiu2GICnL/wCCfn7TT/tafswaT4vuvEXgbxNqhv8AUdNv
+7/wdN5mjzS2t7PArQZmmYK8aRyANIxIkB6EV7FrOnTappV1b297c6bPcRPHHd26xtNaswIEiCRXQ
+sucjerLkDKkcVxH7NHwC/wCGbfhgvhj/AISzxP4z2395qJ1HX0sVvHkuriS5lBFnbW0O3zZZGGIg
+RuxnAAEx6p+Vgl0a+Z6KKKBwKKoCh4m/5Ac//Af/AEIVfqh4m/5Ac/8AwH/0IVfoAKKKKACiiigD
+j/jR8Vv+FOeDP7Wj8N+LPF15NcRWdnpHh3T/ALXeXs8jbUXLMkMCZ+9NcyxQRjl5EHNZ/wCz98eL
+P9oPwbdalDouueGdQ0vUJtK1XRdZFsb7SruEjdFI1tNPbudrI4aGaRcOPm3BlDf2mfDvirxb8Kbz
+TfCeieA/FVxfH7NqOgeMXmh0nXbCRWjuLWSaKKcw7kfO5ra4RgpjaPEm9OR/YT/Z51j9mz4Qaho2
+qaX4P8Lx6hrd1qlh4V8JzTTaD4Stpdm2ys5JYoWeMusk7EQQIJLqVUiVVXMxu277f8N/wf8AgdSV
+7Ll76+n9f129woooqgCiiigDgfjv8Y9Q+DHhzTbzS/AHjb4jahqV+thFpXhhLL7THmKWUzSyXtzb
+W8UKiIgvJMvzPGoBZwKq/s2ftAj9pDwPf6x/wifirwVPpmrXei3Wma/9ia6juLaTy5SHs7m5t5ED
+hl3RzNhkdThlIHday14mmXTWKW8l8InNulw5SJpMHaHZQSFzjJAJAzwa5X9nn4YS/Bj4K+HPDdzc
+JfalptoDqV4gIF/fSEy3Vxzj/W3DyyH3ekut/IJdLHcUUUUwCiiigDkvjH8X9D+BPw/v/E3iCa8X
+T7ExxiKztJb27u5pHWOK3t7eJWlmnlkdESONSzs6gAk1V+CHxN1r4seFp9S1z4e+MfhtdR3BhTTf
+Elxpc11Om1WEynT7y7iCEsVw0ivlGygG0ngv+Cg/7Iy/tqfs43vg7fayTR39nq0NhfXEsGm629rO
+k32C9eEGVbW4CmGRkBZVkLbZNvlsfsKfs66l+zl4B8Q2F94Z8E+AbXWtcfUtP8H+Db1rvw/4ZhNt
+bwtFau1pZn97LFLcuq28aCS4fAJ3SPNPXmv8vTT8dwlbS3zPdKKKKoCh4m/5Ac//AAH/ANCFX6KK
+ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigD/2Q==]]></data>
+        </mediaData>
+      </internal_media>
+      <internal_media>
+        <name>p2.1cl-c-5.jpg</name>
+        <consumerData>
+          <mediaID>13570164360803807</mediaID>
+          <testID>13570164368971726</testID>
+          <consumerID>13570164368971727</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>p2.1cl-c-5.jpg</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>1612</size>
+          <mime_type>image/jpeg</mime_type>
+          <creation>1475128358091</creation>
+          <modified>1475128358091</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[/9j/4AAQSkZJRgABAQEAYABgAAD/4QAiRXhpZgAATU0AKgAAAAgAAQESAAMAAAABAAEAAAAAAAD/
+2wBDAAIBAQIBAQICAgICAgICAwUDAwMDAwYEBAMFBwYHBwcGBwcICQsJCAgKCAcHCg0KCgsMDAwM
+BwkODw0MDgsMDAz/2wBDAQICAgMDAwYDAwYMCAcIDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwM
+DAwMDAwMDAwMDAwMDAwMDAwMDAwMDAz/wAARCABqAKgDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEA
+AAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJx
+FDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNk
+ZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJ
+ytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQF
+BgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMz
+UvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3
+eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna
+4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD9/KKKKACiiigAooooAKKKM0AFFFFABRRR
+QAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFQwTebLMvH7two/75U/1qaq1sf391/wBdBj/v
+haAJi1L1HSvlv9jr9pj4k+Mfi9rPh34k6p8P9c0nVrjU08F6x4a0S60b+0V0q5S01FZobi+vMv58
+v7vy5BujgkfGDhPpTxHrkfhjw/fajMN0OnwSXEg8yOPKopY/NIyovA6uyqO5A5qZSSjzva1w+049
+UzSJxRmvi34Cf8FwPhh+0N8YvD/gnR9J8nUvEl2LO3k/4WR4A1DaxBP/AB72PiG4upOn3YYJG/2a
++0UbcKqz36BdXsLRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFYviDRrjxH4e1vT7TVL
+/Qrq+hkt4dSsVha6093hCrPEJo5IjIhIZRJG6ZUbkYZU7VV7X/j5uv8ArqP/AEBKTV1YD5F+FH/B
+F/4a/A3Wvh1rnhHWNX8O+Mfh/ezXc/irT/DPha113xasqmNoNUu49IV54zE8iMY/KkkMhkkd5lSV
+fsDHNHQUFspTcm1boG7uOooByKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKr2v/
+AB83X/XUf+gJViq9r/x83X/XUf8AoCUAWKKKKACiiigBpxQcE1zfg/4u+FPiHruvaZ4f8TeH9d1L
+wrdiw1u007UYbqfR7kruENyiMWhk287HAOOcVm+Bv2jvh58TviLr3hHw3468G+IPFnhVimt6Lput
+W13qOjsG2EXNvG5khO75fnUc8VO+wdLncUUUVQBRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABVe1/4
++br/AK6j/wBASrFV7X/j5uv+uo/9ASgCxRRRQAUUUHpQB8l/su/GDwfY/tefEHRfDngn4jeGtH1a
+ysItNeb4V6/oekSTWx1Ca8K3E1hFbKS8u4MXHnPL8hdm55n9i/4q6X+0f+0xp+rS/DHxZ8K9N8Da
+bqmneC/D2pfC7XNDmtobieE3d5dahPZQ2ETTeTH5dlbyyfKxlkkkkIjtvtgUY/8A11K0kpPs/wAf
+62DZWXcdRRRVAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFMjiWN3YDlzlvc4A/kBT6KACiiigAoo
+ooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiii
+gAooooAKKKKACiiigD//2Q==]]></data>
+        </mediaData>
+      </internal_media>
+      <internal_media>
+        <name>p2.1cl-d-1.jpg</name>
+        <consumerData>
+          <mediaID>13570164360803808</mediaID>
+          <testID>13570164368971726</testID>
+          <consumerID>13570164368971727</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>p2.1cl-d-1.jpg</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>2456</size>
+          <mime_type>image/jpeg</mime_type>
+          <creation>1475128361153</creation>
+          <modified>1475128361153</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAIBAQIBAQICAgICAgICAwUDAwMDAwYEBAMFBwYHBwcG
+BwcICQsJCAgKCAcHCg0KCgsMDAwMBwkODw0MDgsMDAz/2wBDAQICAgMDAwYDAwYMCAcIDAwMDAwM
+DAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAz/wAARCABqAKgDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD9/KKK
+4RP2pfhlJ8cG+GS/EXwI3xJVPMbwmNftP7cC+T5+42Xmefjyf3mdn3Pm6c0buyDpc7uiiigAoooo
+AKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAr83/ANsb4tfFHxd+0X8RvGvg74UXet2H
+wTbR7TRLzVdH8U2GrTyQXwuNQOk2sOhXEeqRXp2WbNBdIoS28xikLJM36QUULScanWLuvX8/ua3K
+uuVwez0fpfVfPzuvJmV4I8X23j/wfpmt2UGqW1pqtsl1DDqWnXGnXkSuAQsttcIk0LjPKSIrKeCA
+a+SP2hv+Ca/xO+MPxo8QeJtG+Nn/AAjml6vcCa3037d4/T7IuxV27bDxjZWg5BP7m1hXn7uck/Zl
+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
+ooA//9k=]]></data>
+        </mediaData>
+      </internal_media>
+      <internal_media>
+        <name>p2.1cl-d-2.jpg</name>
+        <consumerData>
+          <mediaID>13570164360803810</mediaID>
+          <testID>13570164368971726</testID>
+          <consumerID>13570164368971727</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>p2.1cl-d-2.jpg</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>1496</size>
+          <mime_type>image/jpeg</mime_type>
+          <creation>1475128364356</creation>
+          <modified>1475128364356</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAIBAQIBAQICAgICAgICAwUDAwMDAwYEBAMFBwYHBwcG
+BwcICQsJCAgKCAcHCg0KCgsMDAwMBwkODw0MDgsMDAz/2wBDAQICAgMDAwYDAwYMCAcIDAwMDAwM
+DAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAz/wAARCABqAKgDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD9/KKK
+KACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACm+avm7Ny7
+8btueceuKdVD/mZ/+3X/ANnoAv0V89/Eb9sHxh8MP2x9K8B3/gLw9cfD/UorRpvFdp4plfUNJe8l
+FpZLc6c1iqKLi+3wxlLt/ljZ2CnEZ+hKI+9BVFs7r5rcck4y5Hvo/vV1+AUV4z8Q/wBvDwR8MPGm
+oaDqWh/Ga5vtMk8qaXSfhD4s1eyc4B/dXVppstvMOfvRyMM5Gcg169pGpx61pVteQrcJDdxJMi3F
+u9vKqsAQHjkCujYPKsoYHggEYoWq5lsJ6Ple5YooooAKKKKACiiigAooooAKKKKACiiigAooooAK
+KKKACqH/ADM//br/AOz1fqh/zM//AG6/+z0AfG/x9/4JOeIv2ivGfxe8Sa38Uo7fX/HUlknhmbTY
+vEmm2nhq3s3Bto7yytfEEVpqrRfNKjSRRAXEsjsrxlYF+wvBFlrOneD9Mg8Rajp2r69DbImoXun2
+D2FrdzgDfJHbvNM0SE5IQyyEdNx61q0U07R5Ft/X59e+7uwesuZ7/wDDf5adtbbu/jPxD/4Jy/s9
+fF3xpqHiTxZ8B/gz4n8RatJ519qmreCtNvb29fAXdLNJCzu2ABliTgCvXtI0m10DSraxsba3srGy
+iS3t7e3jEcUEaAKqIowFUAAAAYAFWKKS0XKtger5nuFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFF
+FFABRRRQAVQ/5mf/ALdf/Z6v1Q/5mf8A7df/AGegC/RRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRR
+RQAUUUUAFFFFABRRRQAVQ/5mf/t1/wDZ6v1U+zP/AG752P3fkbM577s0AW6KKKACiiigAr81f+Ch
+tl4Nm/bh1DUNf8Z/CjQ/FumL4dbw1o3iXTI7rx3qW25LlvCV1JfRGzaVyYiI7S4Ms8bh8rtUfpVR
+QtJxn2d/6/p+gPWEod1b+v6QUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUU
+AFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQA
+UUUUAFFFFABRRRQB/9k=]]></data>
+        </mediaData>
+      </internal_media>
+    </media_set>
+    <questionProperties>
+      <property name="pageTag" type="string" value="" />
+      <property name="customType" type="string" value="" />
+      <property name="completeIncompleteGrading" type="string" value="false" />
+      <property name="instructor_info" type="string" value="" />
+      <property name="forceManualScoring" type="string" value="automatic" />
+      <property name="audioPlayerPosition" type="string" value="above" />
+      <property name="problemSolution" type="string" value="&lt;p&gt;The MATLAB script gives the following output:&lt;/p&gt;  &lt;p&gt;&amp;nbsp;&lt;/p&gt;  &lt;p&gt;&lt;span style=&quot;font-family:monospace;&quot;&gt;&amp;gt;&amp;gt; A = [1:3;2:2:6;3:-1:1]&lt;/span&gt;&lt;/p&gt;  &lt;p&gt;&amp;nbsp;&lt;/p&gt;  &lt;p&gt;&lt;span style=&quot;font-family:monospace;&quot;&gt;A =&lt;/span&gt;&lt;/p&gt;  &lt;p&gt;&lt;span style=&quot;font-family:monospace;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 1&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 2&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 3&lt;br&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 2&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 4&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 6&lt;br&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 3&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 2&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 1&lt;/span&gt;&lt;/p&gt;  &lt;p&gt;&amp;nbsp;&lt;/p&gt;  &lt;p&gt;&lt;span style=&quot;font-family:monospace;&quot;&gt;&amp;gt;&amp;gt; A = A'&lt;/span&gt;&lt;/p&gt;  &lt;p&gt;&amp;nbsp;&lt;/p&gt;  &lt;p&gt;&lt;span style=&quot;font-family:monospace;&quot;&gt;A =&lt;/span&gt;&lt;/p&gt;  &lt;p&gt;&lt;span style=&quot;font-family:monospace;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 1&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 2&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 3&lt;br&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 2&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 4&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 2&lt;br&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 3&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 6&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 1&lt;/span&gt;&lt;/p&gt;  &lt;p&gt;&amp;nbsp;&lt;/p&gt;  &lt;p&gt;&lt;span style=&quot;font-family:monospace;&quot;&gt;&amp;gt;&amp;gt; A(:,3) = []&lt;/span&gt;&lt;/p&gt;  &lt;p&gt;&amp;nbsp;&lt;/p&gt;  &lt;p&gt;&lt;span style=&quot;font-family:monospace;&quot;&gt;A =&lt;/span&gt;&lt;/p&gt;  &lt;p&gt;&lt;span style=&quot;font-family:monospace;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 1&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 2&lt;br&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 2&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 4&lt;br&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 3&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 6&lt;/span&gt;&lt;/p&gt;  &lt;p&gt;&amp;nbsp;&lt;/p&gt;  &lt;p&gt;&lt;span style=&quot;font-family:monospace;&quot;&gt;&amp;gt;&amp;gt; A = [A(:,1) [4 5 7]' A(:,2)]&lt;/span&gt;&lt;/p&gt;  &lt;p&gt;&amp;nbsp;&lt;/p&gt;  &lt;p&gt;&lt;span style=&quot;font-family:monospace;&quot;&gt;A =&lt;/span&gt;&lt;/p&gt;  &lt;p&gt;&lt;span style=&quot;font-family:monospace;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 1&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 4&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 2&lt;br&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 2&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 5&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 4&lt;br&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 3&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 7&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 6&lt;/span&gt;&lt;/p&gt;  &lt;p&gt;&amp;nbsp;&lt;/p&gt;  &lt;p&gt;&lt;span style=&quot;font-family:monospace;&quot;&gt;&amp;gt;&amp;gt; A = sum(diag(A))&lt;/span&gt;&lt;/p&gt;  &lt;p&gt;&amp;nbsp;&lt;/p&gt;  &lt;p&gt;&lt;span style=&quot;font-family:monospace;&quot;&gt;A =&lt;/span&gt;&lt;/p&gt;  &lt;p&gt;&lt;span style=&quot;font-family:monospace;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; 12&lt;/span&gt;&lt;/p&gt;  &lt;p&gt;&amp;nbsp;&lt;/p&gt;" />
+      <property name="attached_media" type="string" value="p2.1cl-c-1.jpg,p2.1cl-c-2.jpg,p2.1cl-c-3.jpg,p2.1cl-c-4.jpg,p2.1cl-c-5.jpg,p2.1cl-d-1.jpg,p2.1cl-d-2.jpg" />
+      <property name="aggregatedGrading" type="string" value="false" />
+      <property name="useCommonFeedback" type="string" value="true" />
+    </questionProperties>
+    <hints>
+      <hint>
+        <name>hint #1</name>
+        <type>html</type>
+        <value><![CDATA[Is the order of executing the commands important?]]></value>
+      </hint>
+    </hints>
+    <worksheet>
+      <stem><![CDATA[<p>Use MATLAB to run the following commands:</p>
+
+<p>&nbsp;</p>
+
+<p>a) <span style="font-family:monospace;">A = [1:3;2:2:6;3:-1:1]</span></p>
+
+<p><br>
+b) <span style="font-family:monospace;">A = A'</span></p>
+
+<p><br>
+c) <span style="font-family:monospace;">A(:,3) = []</span></p>
+
+<p><br>
+d) <span style="font-family:monospace;">A = [A(:,1) [4 5 7]' A(:,2)]</span></p>
+
+<p><br>
+e) <span style="font-family:monospace;">A = sum(diag(A))</span></p>
+
+<p>&nbsp;</p>
+
+<p>Click and drag to match the output obtained in MATLAB.</p>
+
+<p>&nbsp;</p>
+
+<p>__A__</p>]]></stem>
+      <commonFeedback></commonFeedback>
+      <answers>
+        <externalAnswer>
+          <name><![CDATA[A]]></name>
+          <weight>100</weight>
+          <answerProperties>
+            <property name="identifier" type="string" value="common/clickanddrag/2.0/clickdrag.html" />
+            <property name="customType" type="string" value="" />
+            <property name="completeIncompleteGrading" type="string" value="false" />
+            <property name="width" type="string" value="400" />
+            <property name="palette" type="string" value="" />
+            <property name="state" type="string" value="%7B%22adminData%22%3A%7B%22GFS%22%3A%2214%22%2C%22CSO%22%3A%22pi_connectstylev2.swf%22%2C%22OTM%22%3Afalse%2C%22OTO%22%3Atrue%2C%22AW%22%3A800%2C%22AH%22%3A600%2C%22TYPE%22%3Afalse%2C%22HRO%22%3A%22D%22%2C%22FRO%22%3A%22D%22%2C%22RLO%22%3A%22T%22%2C%22ICS%22%3Afalse%2C%22HGL%22%3A%5B%5D%2C%22VGL%22%3A%5B%5D%2C%22ET%22%3A%22SLE%22%2C%22SLELD%22%3A%22163%2C111%22%2C%22ZHP%22%3A%22200%2C200%2C350%2C390%2C2%2C120%2C70%2C566%2C715%22%2C%22feedbackHeight%22%3A%2270%22%2C%22feedbackWidth%22%3A%22120%22%2C%22AVP%22%3A%22233%2C259%22%2C%22DOCSAMEASLABEL%22%3Atrue%2C%22showZoomInAuth%22%3A%22F%22%2C%22audioList%22%3A%5B%5D%2C%22imageList%22%3A%5B%22p2.1cl-c-1.jpg%22%2C%22p2.1cl-c-2.jpg%22%2C%22p2.1cl-c-3.jpg%22%2C%22p2.1cl-c-4.jpg%22%2C%22p2.1cl-c-5.jpg%22%2C%22p2.1cl-d-1.jpg%22%2C%22p2.1cl-d-2.jpg%22%5D%2C%22magnificationData%22%3A%22global%22%2C%22showHintOrFeedbackInAuthoring%22%3A%22none%22%7D%2C%22DCKLD%22%3A%22163%2C111%22%2C%22FrameData%22%3A%5B%7B%22frameBGVisible%22%3A%22f%22%2C%22frameFIBButtonX%22%3A%22%22%2C%22frameFIBButtonY%22%3A%22%22%2C%22frameFIBOutput%22%3A%22%22%2C%22frameFlag%22%3A%221%22%2C%22frameHeight%22%3A600%2C%22frameId%22%3A%22fr0%22%2C%22frameImageList%22%3A%7B%7D%2C%22frameLabelObj%22%3A%22null%25d%25null%22%2C%22frameMediaList%22%3A%22N%22%2C%22frameMediaXY%22%3A%7B%22x%22%3A%220%22%2C%22y%22%3A%220%22%7D%2C%22frameOptionX%22%3A%22233%22%2C%22frameOptionY%22%3A%22259%22%2C%22frameOriginalX%22%3A0%2C%22frameOriginalY%22%3A0%2C%22frameStudentGUI%22%3A%5B%7B%22Component%22%3A%22R%22%2C%22x%22%3A283%2C%22y%22%3A875%2C%22visible%22%3Atrue%7D%2C%7B%22Component%22%3A%22Z%22%2C%22x%22%3A480%2C%22y%22%3A770%2C%22visible%22%3Afalse%7D%5D%2C%22frameTextList%22%3A%5B%7B%22textAlign%22%3A%22center%22%2C%22border%22%3A%22F%22%2C%22fill%22%3A%22F%22%2C%22fontSize%22%3A%2214%22%2C%22fontType%22%3A%22normal%22%2C%22underlineVal%22%3A%22F%22%2C%22maxWidth%22%3A162%2C%22minHeight%22%3A20%2C%22textX%22%3A38%2C%22textY%22%3A34%2C%22textValue%22%3A%22%3Cb%3E%28a%29%3C/b%3E%22%2C%22absolutePosition%22%3Atrue%2C%22textGroupObjID%22%3A%22txt_0_0%22%2C%22zIndex%22%3A0%7D%2C%7B%22textAlign%22%3A%22center%22%2C%22border%22%3A%22F%22%2C%22fill%22%3A%22F%22%2C%22fontSize%22%3A%2214%22%2C%22fontType%22%3A%22normal%22%2C%22underlineVal%22%3A%22F%22%2C%22maxWidth%22%3A158%2C%22minHeight%22%3A26%2C%22textX%22%3A37%2C%22textY%22%3A177%2C%22textValue%22%3A%22%3Cb%3E%28b%29%3C/b%3E%22%2C%22absolutePosition%22%3Atrue%2C%22textGroupObjID%22%3A%22txt_1_0%22%2C%22zIndex%22%3A1%7D%2C%7B%22textAlign%22%3A%22center%22%2C%22border%22%3A%22F%22%2C%22fill%22%3A%22F%22%2C%22fontSize%22%3A%2214%22%2C%22fontType%22%3A%22normal%22%2C%22underlineVal%22%3A%22F%22%2C%22maxWidth%22%3A162%2C%22minHeight%22%3A24%2C%22textX%22%3A35%2C%22textY%22%3A339%2C%22textValue%22%3A%22%3Cb%3E%28c%29%3C/b%3E%22%2C%22absolutePosition%22%3Atrue%2C%22textGroupObjID%22%3A%22txt_2_0%22%2C%22zIndex%22%3A2%7D%2C%7B%22textAlign%22%3A%22center%22%2C%22border%22%3A%22F%22%2C%22fill%22%3A%22F%22%2C%22fontSize%22%3A%2214%22%2C%22fontType%22%3A%22normal%22%2C%22underlineVal%22%3A%22F%22%2C%22maxWidth%22%3A155%2C%22minHeight%22%3A19%2C%22textX%22%3A36%2C%22textY%22%3A501%2C%22textValue%22%3A%22%3Cb%3E%28d%29%3C/b%3E%22%2C%22absolutePosition%22%3Atrue%2C%22textGroupObjID%22%3A%22txt_3_0%22%2C%22zIndex%22%3A3%7D%2C%7B%22border%22%3A%22F%22%2C%22fill%22%3A%22F%22%2C%22fontSize%22%3A%2214%22%2C%22maxWidth%22%3A155%2C%22minHeight%22%3A20%2C%22textValue%22%3A%22%3Cb%3E%28e%29%3C/b%3E%22%2C%22textX%22%3A37%2C%22textY%22%3A670%2C%22textAlign%22%3A%22center%22%2C%22textFillColor%22%3A%22F%22%2C%22textBorderColor%22%3A%22transparent%22%2C%22textGroupObjID%22%3A%22txt_4_0%22%2C%22underlineVal%22%3A%22F%22%2C%22fontType%22%3A%22normal%22%2C%22txtGroupComponentNo%22%3A1%2C%22absolutePosition%22%3Atrue%2C%22zIndex%22%3A13%7D%5D%2C%22frameWidth%22%3A800%2C%22frameX%22%3A0%2C%22frameY%22%3A0%2C%22groupId%22%3A%22frame_group%22%2C%22frameGroupID%22%3A%22frame_0%22%2C%22zIndex%22%3A3%7D%2C%7B%22frameX%22%3A12%2C%22frameY%22%3A15%2C%22frameWidth%22%3A185%2C%22frameHeight%22%3A856%2C%22lockStatus%22%3Atrue%2C%22frameImageList%22%3A%7B%7D%2C%22frameTextList%22%3A%7B%7D%2C%22frameStudentGUI%22%3A%5B%7B%22component%22%3A%22%22%2C%22x%22%3A%22%22%2C%22y%22%3A%22%22%7D%5D%2C%22frameBGVisible%22%3A%22t%22%2C%22frameFlag%22%3A1%2C%22frameMediaList%22%3A%22N%22%2C%22frameMediaXY%22%3A%7B%22x%22%3A0%2C%22y%22%3A0%7D%2C%22frameOptionX%22%3A233%2C%22frameOptionY%22%3A259%2C%22frameLabelObj%22%3A%7B%7D%2C%22frameFIBOutput%22%3A%22%22%2C%22frameFIBButtonX%22%3A%22%22%2C%22frameFIBButtonY%22%3A%22%22%2C%22frameGroupID%22%3A%22frame_1%22%2C%22zIndex%22%3A4%2C%22frameId%22%3A%22fr1%22%2C%22groupId%22%3A%22frame_group%22%7D%2C%7B%22frameX%22%3A209%2C%22frameY%22%3A14%2C%22frameWidth%22%3A183%2C%22frameHeight%22%3A855%2C%22lockStatus%22%3Atrue%2C%22frameImageList%22%3A%7B%7D%2C%22frameTextList%22%3A%7B%7D%2C%22frameStudentGUI%22%3A%5B%7B%22component%22%3A%22%22%2C%22x%22%3A%22%22%2C%22y%22%3A%22%22%7D%5D%2C%22frameBGVisible%22%3A%22t%22%2C%22frameFlag%22%3A1%2C%22frameMediaList%22%3A%22N%22%2C%22frameMediaXY%22%3A%7B%22x%22%3A0%2C%22y%22%3A0%7D%2C%22frameOptionX%22%3A233%2C%22frameOptionY%22%3A259%2C%22frameLabelObj%22%3A%7B%7D%2C%22frameFIBOutput%22%3A%22%22%2C%22frameFIBButtonX%22%3A%22%22%2C%22frameFIBButtonY%22%3A%22%22%2C%22frameGroupID%22%3A%22frame_2%22%2C%22zIndex%22%3A5%2C%22frameId%22%3A%22fr2%22%2C%22groupId%22%3A%22frame_group%22%7D%5D%2C%22SLEData%22%3A%7B%22SLE0%22%3A%7B%22label_value%22%3A%22%22%2C%22hint_value%22%3A%22%25n%25%22%2C%22holder_x%22%3A219%2C%22holder_y%22%3A24%2C%22image_data%22%3A%22p2.1cl-c-1.jpg%7C128%7C81%22%2C%22doc_x%22%3A22%2C%22doc_y%22%3A43%2C%22image_data_1%22%3A%22N%22%2C%22feedback_value%22%3A%22%22%2C%22connector_facing%22%3A%22R%22%2C%22connector_mx%22%3A20%2C%22connector_my%22%3A0%2C%22connector_lx%22%3A40%2C%22connector_ly%22%3A0%2C%22connector_options%22%3A%7B%22connectorPresent%22%3A%22F%22%2C%22connectorType%22%3A%22D%22%2C%22zoomingPresent%22%3A%22T%22%2C%22showInAuthoring%22%3A%22T%22%7D%2C%22local_magnification%22%3A%7B%22localMagnificationWidth%22%3A%22200%22%2C%22localMagnificationHeight%22%3A%22200%22%2C%22localMagnificationFactor%22%3A%222%22%7D%2C%22transparent_border%22%3A%22F%22%2C%22transparent%22%3A%22T%22%2C%22transparent_hint%22%3A%22F%22%2C%22transparent_border_1%22%3A%22F%22%2C%22transparent_1%22%3A%22semitransparent%22%2C%22media_value%22%3A%22N%22%2C%22media_dock_value%22%3A%22N%22%2C%22media_label_XY%22%3A%220%7C0%22%2C%22media_dock_XY%22%3A%22N%22%2C%22play_option_L0_X%22%3A233%2C%22play_option_L0_Y%22%3A259%2C%22play_option_D0_X%22%3A233%2C%22play_option_D0_Y%22%3A259%2C%22label_Audio_Value%22%3A%22N%22%2C%22label_play_option_value%22%3A%22N%22%2C%22distractor_label%22%3A%22F%22%2C%22FIB_value%22%3A%22N%22%2C%22class_array_SLE%22%3A0%2C%22edit_button_X%22%3A5%2C%22edit_button_Y%22%3A0%2C%22dock_hint_value%22%3A%22%25n%25%22%2C%22FIB_Dock%22%3A%22N%22%2C%22doc_transparent_value%22%3A%22semitransparent%22%2C%22visibility%22%3Atrue%2C%22name%22%3A%22label_0%22%2C%22textFormat%22%3A%7B%22underline_value%22%3A%22F%22%2C%22fontSize%22%3A14%2C%22fontStyle%22%3A%22normal%22%2C%22align%22%3A%22center%22%7D%2C%22lockStatus%22%3Afalse%2C%22dockLockStatus%22%3Afalse%2C%22publishingOption%22%3A%22S%22%2C%22zIndex%22%3A6%2C%22labelGroupId%22%3A%22label_0%22%2C%22infoHideText%22%3A%22T%22%2C%22connector_mx_authoring%22%3A20%2C%22connector_my_authoring%22%3A0%2C%22connector_lx_authoring%22%3A40%2C%22connector_ly_authoring%22%3A0%2C%22imageDimension%22%3A%7B%22imageHeight%22%3A81%2C%22imageWidth%22%3A128%7D%7D%2C%22SLE1%22%3A%7B%22label_value%22%3A%22%22%2C%22hint_value%22%3A%22%25n%25%22%2C%22holder_x%22%3A219%2C%22holder_y%22%3A145%2C%22image_data%22%3A%22p2.1cl-c-2.jpg%7C128%7C81%22%2C%22doc_x%22%3A24%2C%22doc_y%22%3A193%2C%22image_data_1%22%3A%22N%22%2C%22feedback_value%22%3A%22%22%2C%22connector_facing%22%3A%22R%22%2C%22connector_mx%22%3A20%2C%22connector_my%22%3A0%2C%22connector_lx%22%3A40%2C%22connector_ly%22%3A0%2C%22connector_options%22%3A%7B%22connectorPresent%22%3A%22F%22%2C%22connectorType%22%3A%22D%22%2C%22zoomingPresent%22%3A%22T%22%2C%22showInAuthoring%22%3A%22T%22%7D%2C%22local_magnification%22%3A%7B%22localMagnificationWidth%22%3A%22200%22%2C%22localMagnificationHeight%22%3A%22200%22%2C%22localMagnificationFactor%22%3A%222%22%7D%2C%22transparent_border%22%3A%22F%22%2C%22transparent%22%3A%22T%22%2C%22transparent_hint%22%3A%22F%22%2C%22transparent_border_1%22%3A%22F%22%2C%22transparent_1%22%3A%22semitransparent%22%2C%22media_value%22%3A%22N%22%2C%22media_dock_value%22%3A%22N%22%2C%22media_label_XY%22%3A%220%7C0%22%2C%22media_dock_XY%22%3A%22N%22%2C%22play_option_L0_X%22%3A233%2C%22play_option_L0_Y%22%3A259%2C%22play_option_D0_X%22%3A233%2C%22play_option_D0_Y%22%3A259%2C%22label_Audio_Value%22%3A%22N%22%2C%22label_play_option_value%22%3A%22N%22%2C%22distractor_label%22%3A%22F%22%2C%22FIB_value%22%3A%22N%22%2C%22class_array_SLE%22%3A0%2C%22edit_button_X%22%3A5%2C%22edit_button_Y%22%3A0%2C%22dock_hint_value%22%3A%22%25n%25%22%2C%22FIB_Dock%22%3A%22N%22%2C%22doc_transparent_value%22%3A%22semitransparent%22%2C%22visibility%22%3Atrue%2C%22name%22%3A%22label_1%22%2C%22textFormat%22%3A%7B%22underline_value%22%3A%22F%22%2C%22fontSize%22%3A14%2C%22fontStyle%22%3A%22normal%22%2C%22align%22%3A%22center%22%7D%2C%22lockStatus%22%3Afalse%2C%22dockLockStatus%22%3Afalse%2C%22publishingOption%22%3A%22S%22%2C%22zIndex%22%3A8%2C%22labelGroupId%22%3A%22label_1%22%2C%22infoHideText%22%3A%22T%22%2C%22connector_mx_authoring%22%3A20%2C%22connector_my_authoring%22%3A0%2C%22connector_lx_authoring%22%3A40%2C%22connector_ly_authoring%22%3A0%2C%22imageDimension%22%3A%7B%22imageHeight%22%3A81%2C%22imageWidth%22%3A128%7D%7D%2C%22SLE2%22%3A%7B%22label_value%22%3A%22%22%2C%22hint_value%22%3A%22%25n%25%22%2C%22holder_x%22%3A219%2C%22holder_y%22%3A266%2C%22image_data%22%3A%22p2.1cl-c-3.jpg%7C128%7C81%22%2C%22doc_x%22%3A24%2C%22doc_y%22%3A349%2C%22image_data_1%22%3A%22N%22%2C%22feedback_value%22%3A%22%22%2C%22connector_facing%22%3A%22R%22%2C%22connector_mx%22%3A20%2C%22connector_my%22%3A0%2C%22connector_lx%22%3A40%2C%22connector_ly%22%3A0%2C%22connector_options%22%3A%7B%22connectorPresent%22%3A%22F%22%2C%22connectorType%22%3A%22D%22%2C%22zoomingPresent%22%3A%22T%22%2C%22showInAuthoring%22%3A%22T%22%7D%2C%22local_magnification%22%3A%7B%22localMagnificationWidth%22%3A%22200%22%2C%22localMagnificationHeight%22%3A%22200%22%2C%22localMagnificationFactor%22%3A%222%22%7D%2C%22transparent_border%22%3A%22F%22%2C%22transparent%22%3A%22T%22%2C%22transparent_hint%22%3A%22F%22%2C%22transparent_border_1%22%3A%22F%22%2C%22transparent_1%22%3A%22semitransparent%22%2C%22media_value%22%3A%22N%22%2C%22media_dock_value%22%3A%22N%22%2C%22media_label_XY%22%3A%220%7C0%22%2C%22media_dock_XY%22%3A%22N%22%2C%22play_option_L0_X%22%3A233%2C%22play_option_L0_Y%22%3A259%2C%22play_option_D0_X%22%3A233%2C%22play_option_D0_Y%22%3A259%2C%22label_Audio_Value%22%3A%22N%22%2C%22label_play_option_value%22%3A%22N%22%2C%22distractor_label%22%3A%22F%22%2C%22FIB_value%22%3A%22N%22%2C%22class_array_SLE%22%3A0%2C%22edit_button_X%22%3A5%2C%22edit_button_Y%22%3A0%2C%22dock_hint_value%22%3A%22%25n%25%22%2C%22FIB_Dock%22%3A%22N%22%2C%22doc_transparent_value%22%3A%22semitransparent%22%2C%22visibility%22%3Atrue%2C%22name%22%3A%22label_2%22%2C%22textFormat%22%3A%7B%22underline_value%22%3A%22F%22%2C%22fontSize%22%3A14%2C%22fontStyle%22%3A%22normal%22%2C%22align%22%3A%22center%22%7D%2C%22lockStatus%22%3Afalse%2C%22dockLockStatus%22%3Afalse%2C%22publishingOption%22%3A%22S%22%2C%22zIndex%22%3A10%2C%22labelGroupId%22%3A%22label_2%22%2C%22infoHideText%22%3A%22T%22%2C%22connector_mx_authoring%22%3A20%2C%22connector_my_authoring%22%3A0%2C%22connector_lx_authoring%22%3A40%2C%22connector_ly_authoring%22%3A0%2C%22imageDimension%22%3A%7B%22imageHeight%22%3A81%2C%22imageWidth%22%3A128%7D%7D%2C%22SLE3%22%3A%7B%22label_value%22%3A%22%22%2C%22hint_value%22%3A%22%25n%25%22%2C%22holder_x%22%3A219%2C%22holder_y%22%3A387%2C%22image_data%22%3A%22p2.1cl-c-4.jpg%7C128%7C81%22%2C%22doc_x%22%3A23%2C%22doc_y%22%3A510%2C%22image_data_1%22%3A%22N%22%2C%22feedback_value%22%3A%22%22%2C%22connector_facing%22%3A%22R%22%2C%22connector_mx%22%3A20%2C%22connector_my%22%3A0%2C%22connector_lx%22%3A40%2C%22connector_ly%22%3A0%2C%22connector_options%22%3A%7B%22connectorPresent%22%3A%22F%22%2C%22connectorType%22%3A%22D%22%2C%22zoomingPresent%22%3A%22T%22%2C%22showInAuthoring%22%3A%22T%22%7D%2C%22local_magnification%22%3A%7B%22localMagnificationWidth%22%3A%22200%22%2C%22localMagnificationHeight%22%3A%22200%22%2C%22localMagnificationFactor%22%3A%222%22%7D%2C%22transparent_border%22%3A%22F%22%2C%22transparent%22%3A%22T%22%2C%22transparent_hint%22%3A%22F%22%2C%22transparent_border_1%22%3A%22F%22%2C%22transparent_1%22%3A%22semitransparent%22%2C%22media_value%22%3A%22N%22%2C%22media_dock_value%22%3A%22N%22%2C%22media_label_XY%22%3A%220%7C0%22%2C%22media_dock_XY%22%3A%22N%22%2C%22play_option_L0_X%22%3A233%2C%22play_option_L0_Y%22%3A259%2C%22play_option_D0_X%22%3A233%2C%22play_option_D0_Y%22%3A259%2C%22label_Audio_Value%22%3A%22N%22%2C%22label_play_option_value%22%3A%22N%22%2C%22distractor_label%22%3A%22F%22%2C%22FIB_value%22%3A%22N%22%2C%22class_array_SLE%22%3A0%2C%22edit_button_X%22%3A5%2C%22edit_button_Y%22%3A0%2C%22dock_hint_value%22%3A%22%25n%25%22%2C%22FIB_Dock%22%3A%22N%22%2C%22doc_transparent_value%22%3A%22semitransparent%22%2C%22visibility%22%3Atrue%2C%22name%22%3A%22label_3%22%2C%22textFormat%22%3A%7B%22underline_value%22%3A%22F%22%2C%22fontSize%22%3A14%2C%22fontStyle%22%3A%22normal%22%2C%22align%22%3A%22center%22%7D%2C%22lockStatus%22%3Afalse%2C%22dockLockStatus%22%3Afalse%2C%22publishingOption%22%3A%22S%22%2C%22zIndex%22%3A12%2C%22labelGroupId%22%3A%22label_3%22%2C%22infoHideText%22%3A%22T%22%2C%22connector_mx_authoring%22%3A20%2C%22connector_my_authoring%22%3A0%2C%22connector_lx_authoring%22%3A40%2C%22connector_ly_authoring%22%3A0%2C%22imageDimension%22%3A%7B%22imageHeight%22%3A81%2C%22imageWidth%22%3A128%7D%7D%2C%22SLE4%22%3A%7B%22label_value%22%3A%22%22%2C%22hint_value%22%3A%22%25n%25%22%2C%22holder_x%22%3A219%2C%22holder_y%22%3A508%2C%22image_data%22%3A%22p2.1cl-c-5.jpg%7C128%7C81%22%2C%22doc_x%22%3A22%2C%22doc_y%22%3A679%2C%22image_data_1%22%3A%22N%22%2C%22feedback_value%22%3A%22%22%2C%22connector_facing%22%3A%22R%22%2C%22connector_mx%22%3A20%2C%22connector_my%22%3A0%2C%22connector_lx%22%3A40%2C%22connector_ly%22%3A0%2C%22connector_options%22%3A%7B%22connectorPresent%22%3A%22F%22%2C%22connectorType%22%3A%22D%22%2C%22zoomingPresent%22%3A%22T%22%2C%22showInAuthoring%22%3A%22T%22%7D%2C%22local_magnification%22%3A%7B%22localMagnificationWidth%22%3A%22200%22%2C%22localMagnificationHeight%22%3A%22200%22%2C%22localMagnificationFactor%22%3A%222%22%7D%2C%22transparent_border%22%3A%22F%22%2C%22transparent%22%3A%22T%22%2C%22transparent_hint%22%3A%22F%22%2C%22transparent_border_1%22%3A%22F%22%2C%22transparent_1%22%3A%22semitransparent%22%2C%22media_value%22%3A%22N%22%2C%22media_dock_value%22%3A%22N%22%2C%22media_label_XY%22%3A%220%7C0%22%2C%22media_dock_XY%22%3A%22N%22%2C%22play_option_L0_X%22%3A233%2C%22play_option_L0_Y%22%3A259%2C%22play_option_D0_X%22%3A233%2C%22play_option_D0_Y%22%3A259%2C%22label_Audio_Value%22%3A%22N%22%2C%22label_play_option_value%22%3A%22N%22%2C%22distractor_label%22%3A%22F%22%2C%22FIB_value%22%3A%22N%22%2C%22class_array_SLE%22%3A0%2C%22edit_button_X%22%3A5%2C%22edit_button_Y%22%3A0%2C%22dock_hint_value%22%3A%22%25n%25%22%2C%22FIB_Dock%22%3A%22N%22%2C%22doc_transparent_value%22%3A%22semitransparent%22%2C%22visibility%22%3Atrue%2C%22name%22%3A%22label_4%22%2C%22textFormat%22%3A%7B%22underline_value%22%3A%22F%22%2C%22fontSize%22%3A14%2C%22fontStyle%22%3A%22normal%22%2C%22align%22%3A%22center%22%7D%2C%22lockStatus%22%3Afalse%2C%22dockLockStatus%22%3Afalse%2C%22publishingOption%22%3A%22S%22%2C%22zIndex%22%3A14%2C%22labelGroupId%22%3A%22label_4%22%2C%22infoHideText%22%3A%22T%22%2C%22connector_mx_authoring%22%3A20%2C%22connector_my_authoring%22%3A0%2C%22connector_lx_authoring%22%3A40%2C%22connector_ly_authoring%22%3A0%2C%22imageDimension%22%3A%7B%22imageHeight%22%3A81%2C%22imageWidth%22%3A128%7D%7D%2C%22SLE5%22%3A%7B%22label_value%22%3A%22%22%2C%22hint_value%22%3A%22%25n%25%22%2C%22holder_x%22%3A219%2C%22holder_y%22%3A629%2C%22image_data%22%3A%22p2.1cl-d-1.jpg%7C128%7C81%22%2C%22doc_x%22%3A230%2C%22doc_y%22%3A400%2C%22image_data_1%22%3A%22N%22%2C%22feedback_value%22%3A%22%22%2C%22connector_facing%22%3A%22R%22%2C%22connector_mx%22%3A20%2C%22connector_my%22%3A0%2C%22connector_lx%22%3A40%2C%22connector_ly%22%3A0%2C%22connector_options%22%3A%7B%22connectorPresent%22%3A%22F%22%2C%22connectorType%22%3A%22D%22%2C%22zoomingPresent%22%3A%22T%22%2C%22showInAuthoring%22%3A%22T%22%7D%2C%22local_magnification%22%3A%7B%22localMagnificationWidth%22%3A%22200%22%2C%22localMagnificationHeight%22%3A%22200%22%2C%22localMagnificationFactor%22%3A%222%22%7D%2C%22transparent_border%22%3A%22F%22%2C%22transparent%22%3A%22T%22%2C%22transparent_hint%22%3A%22F%22%2C%22transparent_border_1%22%3A%22F%22%2C%22transparent_1%22%3A%22semitransparent%22%2C%22media_value%22%3A%22N%22%2C%22media_dock_value%22%3A%22N%22%2C%22media_label_XY%22%3A%220%7C0%22%2C%22media_dock_XY%22%3A%22N%22%2C%22play_option_L0_X%22%3A233%2C%22play_option_L0_Y%22%3A259%2C%22play_option_D0_X%22%3A233%2C%22play_option_D0_Y%22%3A259%2C%22label_Audio_Value%22%3A%22N%22%2C%22label_play_option_value%22%3A%22N%22%2C%22distractor_label%22%3A%22T%22%2C%22FIB_value%22%3A%22N%22%2C%22class_array_SLE%22%3A0%2C%22edit_button_X%22%3A5%2C%22edit_button_Y%22%3A0%2C%22dock_hint_value%22%3A%22%25n%25%22%2C%22FIB_Dock%22%3A%22N%22%2C%22doc_transparent_value%22%3A%22semitransparent%22%2C%22visibility%22%3Atrue%2C%22name%22%3A%22label_5%22%2C%22textFormat%22%3A%7B%22underline_value%22%3A%22F%22%2C%22fontSize%22%3A14%2C%22fontStyle%22%3A%22normal%22%2C%22align%22%3A%22center%22%7D%2C%22lockStatus%22%3Afalse%2C%22dockLockStatus%22%3Afalse%2C%22publishingOption%22%3A%22S%22%2C%22zIndex%22%3A16%2C%22labelGroupId%22%3A%22label_5%22%2C%22infoHideText%22%3A%22T%22%2C%22connector_mx_authoring%22%3A20%2C%22connector_my_authoring%22%3A0%2C%22connector_lx_authoring%22%3A40%2C%22connector_ly_authoring%22%3A0%2C%22imageDimension%22%3A%7B%22imageHeight%22%3A81%2C%22imageWidth%22%3A128%7D%7D%2C%22SLE6%22%3A%7B%22label_value%22%3A%22%22%2C%22hint_value%22%3A%22%25n%25%22%2C%22holder_x%22%3A219%2C%22holder_y%22%3A750%2C%22image_data%22%3A%22p2.1cl-d-2.jpg%7C128%7C81%22%2C%22doc_x%22%3A230%2C%22doc_y%22%3A470%2C%22image_data_1%22%3A%22N%22%2C%22feedback_value%22%3A%22%22%2C%22connector_facing%22%3A%22R%22%2C%22connector_mx%22%3A20%2C%22connector_my%22%3A0%2C%22connector_lx%22%3A40%2C%22connector_ly%22%3A0%2C%22connector_options%22%3A%7B%22connectorPresent%22%3A%22F%22%2C%22connectorType%22%3A%22D%22%2C%22zoomingPresent%22%3A%22T%22%2C%22showInAuthoring%22%3A%22T%22%7D%2C%22local_magnification%22%3A%7B%22localMagnificationWidth%22%3A%22200%22%2C%22localMagnificationHeight%22%3A%22200%22%2C%22localMagnificationFactor%22%3A%222%22%7D%2C%22transparent_border%22%3A%22F%22%2C%22transparent%22%3A%22T%22%2C%22transparent_hint%22%3A%22F%22%2C%22transparent_border_1%22%3A%22F%22%2C%22transparent_1%22%3A%22semitransparent%22%2C%22media_value%22%3A%22N%22%2C%22media_dock_value%22%3A%22N%22%2C%22media_label_XY%22%3A%220%7C0%22%2C%22media_dock_XY%22%3A%22N%22%2C%22play_option_L0_X%22%3A233%2C%22play_option_L0_Y%22%3A259%2C%22play_option_D0_X%22%3A233%2C%22play_option_D0_Y%22%3A259%2C%22label_Audio_Value%22%3A%22N%22%2C%22label_play_option_value%22%3A%22N%22%2C%22distractor_label%22%3A%22T%22%2C%22FIB_value%22%3A%22N%22%2C%22class_array_SLE%22%3A0%2C%22edit_button_X%22%3A5%2C%22edit_button_Y%22%3A0%2C%22dock_hint_value%22%3A%22%25n%25%22%2C%22FIB_Dock%22%3A%22N%22%2C%22doc_transparent_value%22%3A%22semitransparent%22%2C%22visibility%22%3Atrue%2C%22name%22%3A%22label_6%22%2C%22textFormat%22%3A%7B%22underline_value%22%3A%22F%22%2C%22fontSize%22%3A14%2C%22fontStyle%22%3A%22normal%22%2C%22align%22%3A%22center%22%7D%2C%22lockStatus%22%3Afalse%2C%22dockLockStatus%22%3Afalse%2C%22publishingOption%22%3A%22S%22%2C%22zIndex%22%3A18%2C%22labelGroupId%22%3A%22label_6%22%2C%22infoHideText%22%3A%22T%22%2C%22connector_mx_authoring%22%3A20%2C%22connector_my_authoring%22%3A0%2C%22connector_lx_authoring%22%3A40%2C%22connector_ly_authoring%22%3A0%2C%22imageDimension%22%3A%7B%22imageHeight%22%3A81%2C%22imageWidth%22%3A128%7D%7D%7D%2C%22SLEGV%22%3A%22%22%2C%22SLERQ%22%3A%22%22%2C%22SLERN%22%3A%220%2C1%2C2%2C3%2C4%2C5%2C6%22%2C%22SLEPS%22%3A%7B%22totalRandomLabels%22%3A%225%22%2C%22totalRandomDistractors%22%3A%222%22%2C%22showFeedbackAfter%22%3A%22N%22%2C%22showInstantFeedbackAfter%22%3A%22N%22%2C%22showHintsAfter%22%3A0%2C%22studentGradeFormat%22%3A%22P%22%2C%22discrete%22%3A%22%22%7D%2C%22SLEGP%22%3A%7B%22borderGlobal%22%3A%22F%22%2C%22backGroundGlobal%22%3A%22F%22%2C%22labelBorderGlobal%22%3A%22N%22%2C%22labelBGGlobal%22%3A%22N%22%2C%22dockBGGlobal%22%3A%22N%22%7D%2C%22SLEDXY%22%3A%22%22%2C%22VST%22%3A0%2C%22SLEDS%22%3A%22%22%2C%22SLESD%22%3A%22%22%2C%22SLEDC%22%3A%22%22%7D" />
+            <property name="height" type="string" value="900" />
+          </answerProperties>
+        </externalAnswer>
+      </answers>
+    </worksheet>
+  </question>
+  <question>
+    <format>1</format>
+    <ezid>13570164368971732</ezid>
+    <version>1579774323887</version>
+    <title><![CDATA[Problem 02.002]]></title>
+    <multipart>13570164360936077</multipart>
+    <type>SB</type>
+    <categories>
+      <internal_category>
+        <catid>13570164350606841</catid>
+        <title><![CDATA[Chapter:  02 MATLAB Fundamentals]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164326004845</catid>
+        <title><![CDATA[Topic: MATLAB Fundamentals]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164365886960</catid>
+        <title><![CDATA[Section:  02.03 MATHEMATICAL OPERATIONS]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164350607307</catid>
+        <title><![CDATA[Subtopic:  MATHEMATICAL OPERATIONS]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164365784785</catid>
+        <title><![CDATA[Bloom's Verb 3. Apply]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164309912673</catid>
+        <title><![CDATA[Bloom's Object 3. Procedural]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164266036554</catid>
+        <title><![CDATA[Units:  NA]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164343377093</catid>
+        <title><![CDATA[ABET Outcomes:  (a) an ability to apply knowledge of mathematics, science, and engineering]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040730414</catid>
+        <title><![CDATA[Difficulty:  Medium]]></title>
+      </internal_category>
+    </categories>
+    <questionProperties>
+      <property name="pageTag" type="string" value="" />
+      <property name="customType" type="string" value="" />
+      <property name="suppressPopupControl" type="string" value="false" />
+      <property name="instructor_info" type="string" value="" />
+      <property name="mpSuppressBreak" type="string" value="false" />
+      <property name="mpCustomProgression" type="string" value="twoway" />
+      <property name="audioPlayerPosition" type="string" value="above" />
+    </questionProperties>
+    <sectionBreak>
+      <stem><![CDATA[<p>You want to write MATLAB equations to compute a vector of <em>y</em> values. Make sure that you use periods only where necessary so that the equation handles vector operations properly. Extra periods will be considered incorrect.</p>
+
+<p>&nbsp;</p>]]></stem>
+    </sectionBreak>
+  </question>
+  <question>
+    <format>1</format>
+    <ezid>13570164368971728</ezid>
+    <version>1579774323887</version>
+    <title><![CDATA[Problem 02.002.a]]></title>
+    <multipart>13570164360936077</multipart>
+    <type>MC</type>
+    <categories>
+      <internal_category>
+        <catid>13570164350606841</catid>
+        <title><![CDATA[Chapter:  02 MATLAB Fundamentals]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164326004845</catid>
+        <title><![CDATA[Topic: MATLAB Fundamentals]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164365886960</catid>
+        <title><![CDATA[Section:  02.03 MATHEMATICAL OPERATIONS]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164350607307</catid>
+        <title><![CDATA[Subtopic:  MATHEMATICAL OPERATIONS]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164365784785</catid>
+        <title><![CDATA[Bloom's Verb 3. Apply]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164309912673</catid>
+        <title><![CDATA[Bloom's Object 3. Procedural]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164266036554</catid>
+        <title><![CDATA[Units:  NA]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164343377093</catid>
+        <title><![CDATA[ABET Outcomes:  (a) an ability to apply knowledge of mathematics, science, and engineering]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040730414</catid>
+        <title><![CDATA[Difficulty:  Medium]]></title>
+      </internal_category>
+    </categories>
+    <media_set>
+      <internal_media>
+        <name>formula1.mml</name>
+        <consumerData>
+          <mediaID>13570164360936842</mediaID>
+          <testID>13570164368971726</testID>
+          <consumerID>13570164368971728</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>formula1.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>262</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1475131715197</creation>
+          <modified>1476709318147</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGg+PG1pPnk8L21pPjxtbz49PC9tbz48bWZyYWM+PG1yb3c+PG1uPjY8L21uPjxtc3VwPjxt
+aT50PC9taT48bW4+MzwvbW4+PC9tc3VwPjxtbz4tPC9tbz48bW4+MzwvbW4+PG1pPnQ8L21pPjxt
+bz4tPC9tbz48bW4+NDwvbW4+PC9tcm93Pjxtcm93Pjxtbj44PC9tbj48bW8+Jm5ic3A7PC9tbz48
+bXRleHQ+c2luPC9tdGV4dD48bWZlbmNlZD48bXJvdz48bW4+NTwvbW4+PG1pPnQ8L21pPjwvbXJv
+dz48L21mZW5jZWQ+PC9tcm93PjwvbWZyYWM+PC9tYXRoPg==]]></data>
+        </mediaData>
+      </internal_media>
+    </media_set>
+    <questionProperties>
+      <property name="layout" type="string" value="vertical" />
+      <property name="pageTag" type="string" value="" />
+      <property name="completeIncompleteGrading" type="string" value="false" />
+      <property name="instructor_info" type="string" value="" />
+      <property name="forceManualScoring" type="string" value="automatic" />
+      <property name="commonFeedback" type="string" value="" />
+      <property name="audioPlayerPosition" type="string" value="above" />
+      <property name="problemSolution" type="string" value="&lt;p&gt;The correct MATLAB equation is&lt;/p&gt;  &lt;p&gt;&amp;nbsp;&lt;/p&gt;  &lt;p&gt;&lt;span style=&quot;font-family:monospace;&quot;&gt;y=(6*t.^3-3*t-4)./(8*sin(5*t))&lt;/span&gt;&lt;/p&gt;" />
+      <property name="otherItem" type="string" value="" />
+      <property name="useCommonFeedback" type="boolean" value="false" />
+      <property name="order" type="string" value="scrambled" />
+    </questionProperties>
+    <hints>
+      <hint>
+        <name>hint #1</name>
+        <type>html</type>
+        <value><![CDATA[For which mathematical operations should the period operator be used in MATLAB equations?]]></value>
+      </hint>
+    </hints>
+    <multipleChoice>
+      <stem><![CDATA[<p>Identify the MATLAB equation to find the vector <em>y</em> of the equation</p>
+
+<p>&nbsp;</p>
+
+<p>%media:formula1.mml%</p>
+
+<p>&nbsp;</p>
+
+<p>where <em>t</em> is a vector.</p>
+
+<p>&nbsp;</p>]]></stem>
+      <commonFeedback></commonFeedback>
+      <choices>
+        <choice>
+          <distractor><![CDATA[<span style="font-family:monospace;">y=(6*t.^3-3*t-4)./(8*sin(5*t))</span>]]></distractor>
+          <credit>1</credit>
+          <feedback></feedback>
+        </choice>
+        <choice>
+          <distractor><![CDATA[<span style="font-family:monospace;">y=(6*t.^3-3.*t-4)./(8*sin(5.*t))</span>]]></distractor>
+          <credit>0</credit>
+          <feedback></feedback>
+        </choice>
+        <choice>
+          <distractor><![CDATA[<span style="font-family:monospace;">y=(6*t^3-3.*t-4)./(8*sin(5*t))</span>]]></distractor>
+          <credit>0</credit>
+          <feedback></feedback>
+        </choice>
+        <choice>
+          <distractor><![CDATA[<span style="font-family:monospace;">y=(6*t^3-3*t-4)./(8*sin(5*t))</span>]]></distractor>
+          <credit>0</credit>
+          <feedback></feedback>
+        </choice>
+      </choices>
+    </multipleChoice>
+  </question>
+  <question>
+    <format>1</format>
+    <ezid>13570164368971733</ezid>
+    <version>1579774323887</version>
+    <title><![CDATA[Problem 02.002.b]]></title>
+    <multipart>13570164360936077</multipart>
+    <type>MC</type>
+    <categories>
+      <internal_category>
+        <catid>13570164350606841</catid>
+        <title><![CDATA[Chapter:  02 MATLAB Fundamentals]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164326004845</catid>
+        <title><![CDATA[Topic: MATLAB Fundamentals]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164365886960</catid>
+        <title><![CDATA[Section:  02.03 MATHEMATICAL OPERATIONS]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164350607307</catid>
+        <title><![CDATA[Subtopic:  MATHEMATICAL OPERATIONS]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164365784785</catid>
+        <title><![CDATA[Bloom's Verb 3. Apply]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164309912673</catid>
+        <title><![CDATA[Bloom's Object 3. Procedural]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164266036554</catid>
+        <title><![CDATA[Units:  NA]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164343377093</catid>
+        <title><![CDATA[ABET Outcomes:  (a) an ability to apply knowledge of mathematics, science, and engineering]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040730414</catid>
+        <title><![CDATA[Difficulty:  Medium]]></title>
+      </internal_category>
+    </categories>
+    <media_set>
+      <internal_media>
+        <name>formula2.mml</name>
+        <consumerData>
+          <mediaID>13570164360937137</mediaID>
+          <testID>13570164368971726</testID>
+          <consumerID>13570164368971733</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>formula2.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>194</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1475132231268</creation>
+          <modified>1475132649677</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGg+PG1pPnk8L21pPjxtbz49PC9tbz48bWZyYWM+PG1yb3c+PG1uPjY8L21uPjxtaT50PC9t
+aT48bW8+LTwvbW8+PG1uPjQ8L21uPjwvbXJvdz48bXJvdz48bW4+ODwvbW4+PG1pPnQ8L21pPjwv
+bXJvdz48L21mcmFjPjxtbz4tPC9tbz48bWZyYWM+PG1pPiYjOTYwOzwvbWk+PG1uPjI8L21uPjwv
+bWZyYWM+PG1pPnQ8L21pPjwvbWF0aD4=]]></data>
+        </mediaData>
+      </internal_media>
+    </media_set>
+    <questionProperties>
+      <property name="layout" type="string" value="vertical" />
+      <property name="pageTag" type="string" value="" />
+      <property name="completeIncompleteGrading" type="string" value="false" />
+      <property name="instructor_info" type="string" value="" />
+      <property name="forceManualScoring" type="string" value="automatic" />
+      <property name="commonFeedback" type="string" value="" />
+      <property name="audioPlayerPosition" type="string" value="above" />
+      <property name="problemSolution" type="string" value="&lt;p&gt;The correct MATLAB equation is&lt;/p&gt;  &lt;p&gt;&amp;nbsp;&lt;/p&gt;  &lt;p&gt;&lt;span style=&quot;font-family:monospace;&quot;&gt;y=(6*t-4)./(8*t)-pi/2*t&lt;/span&gt;&lt;/p&gt; " />
+      <property name="otherItem" type="string" value="" />
+      <property name="useCommonFeedback" type="boolean" value="false" />
+      <property name="order" type="string" value="scrambled" />
+    </questionProperties>
+    <hints>
+      <hint>
+        <name>hint #1</name>
+        <type>html</type>
+        <value><![CDATA[For which mathematical operations should the period operator be used in MATLAB equations?]]></value>
+      </hint>
+    </hints>
+    <multipleChoice>
+      <stem><![CDATA[<p>Identify the MATLAB equation to find the vector <em>y</em> of the equation</p>
+
+<p>&nbsp;</p>
+
+<p>%media:formula2.mml%</p>
+
+<p>&nbsp;</p>
+
+<p>where <em>t</em> is a vector.</p>]]></stem>
+      <commonFeedback></commonFeedback>
+      <choices>
+        <choice>
+          <distractor><![CDATA[<span style="font-family:monospace;">y=(6*t-4)./(8*t)-pi/2*t</span>]]></distractor>
+          <credit>1</credit>
+          <feedback></feedback>
+        </choice>
+        <choice>
+          <distractor><![CDATA[<span style="font-family:monospace;">y=(6*t-4)/(8*t)-pi/2*t</span>]]></distractor>
+          <credit>0</credit>
+          <feedback></feedback>
+        </choice>
+        <choice>
+          <distractor><![CDATA[<span style="font-family:monospace;">y=(6*t-4)/(8*t)-pi/2.*t</span>]]></distractor>
+          <credit>0</credit>
+          <feedback></feedback>
+        </choice>
+        <choice>
+          <distractor><![CDATA[<span style="font-family:monospace;">y=(6.*t-4)/(8.*t)-pi./2.*t</span>]]></distractor>
+          <credit>0</credit>
+          <feedback></feedback>
+        </choice>
+      </choices>
+    </multipleChoice>
+  </question>
+  <question>
+    <format>1</format>
+    <ezid>13570164368971729</ezid>
+    <version>1579774323887</version>
+    <title><![CDATA[Problem 02.003]]></title>
+    <type>MC</type>
+    <categories>
+      <internal_category>
+        <catid>13570164350606841</catid>
+        <title><![CDATA[Chapter:  02 MATLAB Fundamentals]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164326004845</catid>
+        <title><![CDATA[Topic: MATLAB Fundamentals]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164365886960</catid>
+        <title><![CDATA[Section:  02.03 MATHEMATICAL OPERATIONS]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164350607307</catid>
+        <title><![CDATA[Subtopic:  MATHEMATICAL OPERATIONS]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164365784785</catid>
+        <title><![CDATA[Bloom's Verb 3. Apply]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164309912673</catid>
+        <title><![CDATA[Bloom's Object 3. Procedural]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164266036554</catid>
+        <title><![CDATA[Units:  NA]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164343377093</catid>
+        <title><![CDATA[ABET Outcomes:  (a) an ability to apply knowledge of mathematics, science, and engineering]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040730414</catid>
+        <title><![CDATA[Difficulty:  Medium]]></title>
+      </internal_category>
+    </categories>
+    <media_set>
+      <internal_media>
+        <name>formula3.mml</name>
+        <consumerData>
+          <mediaID>13570164360941144</mediaID>
+          <testID>13570164368971726</testID>
+          <consumerID>13570164368971729</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>formula3.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>284</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1475135173147</creation>
+          <modified>1475135348840</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGg+PG1pPng8L21pPjxtbz49PC9tbz48bWZyYWM+PG1yb3c+PG1pPnk8L21pPjxtc3VwPjxt
+ZmVuY2VkPjxtcm93PjxtaT5hPC9taT48bW8+KzwvbW8+PG1pPmI8L21pPjxtaT56PC9taT48L21y
+b3c+PC9tZmVuY2VkPjxtcm93Pjxtbj4xPC9tbj48bW8+LjwvbW8+PG1uPjg8L21uPjwvbXJvdz48
+L21zdXA+PC9tcm93Pjxtcm93PjxtaT56PC9taT48bWZlbmNlZD48bXJvdz48bW4+MTwvbW4+PG1v
+Pi08L21vPjxtaT55PC9taT48L21yb3c+PC9tZmVuY2VkPjwvbXJvdz48L21mcmFjPjwvbWF0aD4=]]></data>
+        </mediaData>
+      </internal_media>
+    </media_set>
+    <questionProperties>
+      <property name="layout" type="string" value="vertical" />
+      <property name="pageTag" type="string" value="" />
+      <property name="completeIncompleteGrading" type="string" value="false" />
+      <property name="instructor_info" type="string" value="" />
+      <property name="forceManualScoring" type="string" value="automatic" />
+      <property name="commonFeedback" type="string" value="" />
+      <property name="audioPlayerPosition" type="string" value="above" />
+      <property name="problemSolution" type="string" value="&lt;p&gt;The correct MATLAB expression is&lt;/p&gt;  &lt;p&gt;&amp;nbsp;&lt;/p&gt;  &lt;p&gt;&lt;span style=&quot;font-family:monospace;&quot;&gt;x=y.*(a+b*z).^1.8./(z.*(1-y))&lt;/span&gt;&lt;/p&gt; " />
+      <property name="otherItem" type="string" value="" />
+      <property name="useCommonFeedback" type="boolean" value="false" />
+      <property name="order" type="string" value="scrambled" />
+    </questionProperties>
+    <hints>
+      <hint>
+        <name>hint #1</name>
+        <type>html</type>
+        <value><![CDATA[Is it required to use period operator for scalar operations?]]></value>
+      </hint>
+    </hints>
+    <multipleChoice>
+      <stem><![CDATA[<p>Identify the MATLAB expression to compute and display the values of a vector of <em>x</em> values using the following equation</p>
+
+<p>&nbsp;</p>
+
+<p>%media:formula3.mml%</p>
+
+<p>&nbsp;</p>
+
+<p>Assume that <em>y</em> and <em>z</em> are vector quantities of equal length and <em>a</em> and <em>b</em> are scalars.</p>
+
+<p>&nbsp;</p>]]></stem>
+      <commonFeedback></commonFeedback>
+      <choices>
+        <choice>
+          <distractor><![CDATA[<span style="font-family:monospace;">x=y.*(a+b*z).^1.8./(z.*(1-y))</span>]]></distractor>
+          <credit>1</credit>
+          <feedback></feedback>
+        </choice>
+        <choice>
+          <distractor><![CDATA[<span style="font-family:monospace;">x=y.*(a+b.*z).^1.8./(z.*(1-y))</span>]]></distractor>
+          <credit>0</credit>
+          <feedback></feedback>
+        </choice>
+        <choice>
+          <distractor><![CDATA[<span style="font-family:monospace;">x=y*(a+b.*z).^1.8/(z.*(1-y))</span>]]></distractor>
+          <credit>0</credit>
+          <feedback></feedback>
+        </choice>
+        <choice>
+          <distractor><![CDATA[<span style="font-family:monospace;">x=y*(a+b*z)^1.8./(z.*(1-y))</span>]]></distractor>
+          <credit>0</credit>
+          <feedback></feedback>
+        </choice>
+      </choices>
+    </multipleChoice>
+  </question>
+  <question>
+    <format>1</format>
+    <ezid>13570164368971730</ezid>
+    <version>1579774323887</version>
+    <title><![CDATA[Problem 02.004]]></title>
+    <type>WK</type>
+    <categories>
+      <internal_category>
+        <catid>13570164350606841</catid>
+        <title><![CDATA[Chapter:  02 MATLAB Fundamentals]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164326004845</catid>
+        <title><![CDATA[Topic: MATLAB Fundamentals]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164365886960</catid>
+        <title><![CDATA[Section:  02.03 MATHEMATICAL OPERATIONS]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164350607307</catid>
+        <title><![CDATA[Subtopic:  MATHEMATICAL OPERATIONS]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164365784785</catid>
+        <title><![CDATA[Bloom's Verb 3. Apply]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164309912673</catid>
+        <title><![CDATA[Bloom's Object 3. Procedural]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164266036554</catid>
+        <title><![CDATA[Units:  NA]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164343377093</catid>
+        <title><![CDATA[ABET Outcomes:  (a) an ability to apply knowledge of mathematics, science, and engineering]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040730414</catid>
+        <title><![CDATA[Difficulty:  Medium]]></title>
+      </internal_category>
+    </categories>
+    <media_set>
+      <internal_media>
+        <name>p2-4cl-c-1.jpg</name>
+        <consumerData>
+          <mediaID>13570164360941652</mediaID>
+          <testID>13570164368971726</testID>
+          <consumerID>13570164368971730</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>p2-4cl-c-1.jpg</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>2066</size>
+          <mime_type>image/jpeg</mime_type>
+          <creation>1475136096207</creation>
+          <modified>1475136096207</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[/9j/4AAQSkZJRgABAQEAYABgAAD/4QAiRXhpZgAATU0AKgAAAAgAAQESAAMAAAABAAEAAAAAAAD/
+2wBDAAIBAQIBAQICAgICAgICAwUDAwMDAwYEBAMFBwYHBwcGBwcICQsJCAgKCAcHCg0KCgsMDAwM
+BwkODw0MDgsMDAz/2wBDAQICAgMDAwYDAwYMCAcIDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwM
+DAwMDAwMDAwMDAwMDAwMDAwMDAwMDAz/wAARCACBAGUDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEA
+AAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJx
+FDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNk
+ZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJ
+ytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQF
+BgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMz
+UvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3
+eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna
+4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD9/KKKKACiiigAooooAKKKKACiiigAoooo
+AKKKKACgnAopkjbB2/GgBTJzQr5NeRfGf9t7wH8APFk+keJV8dRtZ2y3l5fad4D13VtJ0+JtxL3N
+/aWctpbhVUu/myp5aYd9qkGoPjV+3f8ADX9nzXdA0rxFfeKHvvFQcaHFovg7Wdd/topEkrLamxtZ
+hO4ifzNkZZvLjlfG2KUpN9vPQdj2TePWjd89eN2X7eXwr1X9nh/igviK8i8Gx3X2GSW50TULW+S4
+8wJ5TWEkC3ivyHCmHJjIlx5ZD1pfs+/tgeBf2m9e8R6T4UuvEi6v4RFq+sabrvhbVPDt9YLdCRrd
+mg1C2gk2yCGQghSMLnoRlrflW63F9m56mGBpQ1U9Qvo9K0+4uJFmeO3jaWQRQvNIygEkKiAszHsq
+gkngAmvCH/4KTfDttynw78fT2I/4UV43/wDlT/WlF3dkD0R9B7qKqaRqcWt6Xa3kK3Kw3cSTotxb
+vbzKrAMA8bhXRhnlWUMpyCAat1QBRRRQAUUUUAFNlG5exJPGadRmk9UB8K/tu/sG/Fz9obx38RV0
+tdK1zQ/GlkLDS7m7+MfinwfbeH4Gs0geKbRdIt/s+pgS+dMz3FyrzLMICY440r0q3+BfxS1Tx38A
+9R1Twd8K7iD4Y2Fympyt4rvJ5rK6k05LQS2KtpQEhBMyF2aFvLc9dzLX0919KUHNJaKxUpOTv5WP
+hK4/Yu+MniL9ljxR4L1/4d/A+9uPEHi631j+yIfiJrtpaNZpZRxMY9RtdNt7q1uVnt4W+SJ0kiea
+Niu7J9U/4J//ALJviT9njxJ8RNe8S6fpejXnjSXTwunweONV8dXIFrFKnnza1q0EN9IHEiotqwaG
+AQlozuuJRX0wRgUHnFOMlG7XUnpYq3+nx6rYT20rTpHdRtEzQzNDIAwIO10IZWx0ZSCDyCDXhK/8
+E1/h2Wz/AMJD8fun/RdfG/6/8TavoELhaXGKUe4blPSNMi0PTrWxha5eK0iSFDPcSXEzKowC8khZ
+3bjlmYsx5JJq5RiiqAKKKKACiiigAooooAaUB/ClC4paKACjGaKKACiiigAooooAKKKKACiiigAo
+oooAKKKKACiiigAoJxRTZV3oRjNAHkXxj/br+G/wL8Z3Xh7Wb7xRqOsaZbR3mp23hvwhrHiQ6LDI
+CY5L5tOtZ1s1dVdkNwY96o7LlVYj1XR9bs/EGlWt9YXVvfWN9CtxbXEEgkiuI2AZXRlJDKwIIIOC
+CDXyj/wUG+LMl5FrHg2PWv2lPA90ukzrbS+BPhh/wlum+K1uIQFSSZdNvkh8t1eIxyT2MnzsxYIY
+px9C/s/aPqHh74D+C7HVNHt/Duq2eg2EF7pME/2iLS5kt4w9ukhdy6xsCgYu+QudzdSo6ptg90js
+6KKKYBRRRQAUUUUAFFFFABRRRQAU2QFl4/ninE4NNkGRjJ5PagBqDKqefXBHIpu7GPpk8YI9q+U/
++Cgv7d3jL9n2eXQfhb4V03xdr+l6XNrXiTULsSzWHhC1RfNhN1FGY97XUcN2kYE8bI0avtkBVH+r
+I3DIvuPSppyU03Ha9vmEtGk+1yaijHNFUAUUUUAFFFFABRRRQAUUUUAIwyKR+nenUFcik1cD4o/4
+Kw/8E3r/APa98FahcfDn4W/swa38QtcsZNPvfEfxK8NNc3tvHmJYmt7qCCSZWSMz7S2QrCLAxur6
+4+HGl3WgfD7QrC+ttJs76x0+3gubfSY2j0+GRY1DJbqwBEIIIQHkKADW8UBHSk2ClBcq5fO/4WCW
+r5vKw5aKKKoAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigA
+ooooAKKKKACiiigD/9k=]]></data>
+        </mediaData>
+      </internal_media>
+      <internal_media>
+        <name>p2-4cl-c-2.jpg</name>
+        <consumerData>
+          <mediaID>13570164360941655</mediaID>
+          <testID>13570164368971726</testID>
+          <consumerID>13570164368971730</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>p2-4cl-c-2.jpg</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>5108</size>
+          <mime_type>image/jpeg</mime_type>
+          <creation>1475136104931</creation>
+          <modified>1475136104931</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAIBAQIBAQICAgICAgICAwUDAwMDAwYEBAMFBwYHBwcG
+BwcICQsJCAgKCAcHCg0KCgsMDAwMBwkODw0MDgsMDAz/2wBDAQICAgMDAwYDAwYMCAcIDAwMDAwM
+DAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAz/wAARCACBAGUDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD93Ljx
+hpPw/wDh1da5r2qadomiaRby3l/qF/cpbWtlAm5nlllchURVBJZiAACSaydF/aW+HPiTW/Cumad4
+/wDBN/qXjuxfVPDVpba5ayz+IbRE3vcWaK5a4iVPmLxBlA5JxW1HdW1j4CuJr2CW5s4beZ7iGK1e
+6eWMbiyrCis8hIyAiqzNnABJxXzV/wAE5obnx/r/AIi1m+s/GFtonw8L+C/AieJfCmreH7z+xmMd
+ybhotRt4JXdh9mtWYB8rpaOWVpnQOnaUpRfRX+Wq/wDSnG3lzPoE/dgpd3b8n+CUr+fL3Ppvx34+
+0L4W+D9R8Q+Jta0nw7oGkQtc3+p6peR2lnZRL1kllkIRFHcsQK89+EP7enwN/aC8ZJ4c8BfGf4T+
+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]]></data>
+        </mediaData>
+      </internal_media>
+      <internal_media>
+        <name>p2-4cl-c-3.jpg</name>
+        <consumerData>
+          <mediaID>13570164360941656</mediaID>
+          <testID>13570164368971726</testID>
+          <consumerID>13570164368971730</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>p2-4cl-c-3.jpg</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>1948</size>
+          <mime_type>image/jpeg</mime_type>
+          <creation>1475136110751</creation>
+          <modified>1475136110751</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAIBAQIBAQICAgICAgICAwUDAwMDAwYEBAMFBwYHBwcG
+BwcICQsJCAgKCAcHCg0KCgsMDAwMBwkODw0MDgsMDAz/2wBDAQICAgMDAwYDAwYMCAcIDAwMDAwM
+DAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAz/wAARCACBAGUDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD9/KKK
+KACiiigAooooAKKKKACiiigAooooAKKKKACiisjVtTnttdtoUfEcmzcNo5yxBoA16KKKACiiigAo
+oooAKKKKACiiigAooooAKwdd/wCRns/+Af8AoZrerB13/kZ7P/gH/oZoA4L9tD9pm4/ZW+D8ev6d
+pFh4i1y/1GDTNL0i5n1BH1KaTczJEmn2N/eTSLFHLJsgtJW2xszBEV5E8x+BX/BQjxd8cPgP8SNe
+j+F0eh+MPhqzm60bWbzWdGstQj+xG6ieGbUdHtb4BuI2MmnqoIco0gUbvZ/2g/2fIvj1YaC8Pijx
+N4J1/wALai2qaPr2gCye90+Zrea2k2x3tvc2zh4LiaMiSF8B8rtYKw8o+G3/AATRt/hlpfxNitfj
+F8W72++LUMaeINRu4/D5uHmS0NktxEqaWkSSC2EMePLMf+jRts3NK0nPV9s6dRU97PlfZ6W0tZr4
+rt6rRJNarop+y56bntpzLuru/mntt2+8+AX7aHxM8cfFTwZo3j/4S+G/BGj/ABA0ganpF3pvjhtb
+vraRoJLmO2vLc2FvHE/kwTb2huJ0VwiqZFYuvmX7WH/BW3x7+zP8T9S0lfgLdXGh2M8Fsmqa/rl7
+4et3aS2WfzH1GXS30GOPcTEM6v5rSAIIt5CV7Vo/7Ccuk/Ez4b+JG+LvxRvP+Fa6fBp9tps0Ogiz
+1cRwzwGW6KaYs3mPHcOreRLCvClVU5J898G/8EcfCPhj4a2/w+vviZ8WPEnwpguWvG8E6jJo0emz
+zHLBmubfTodQ+WU+aAt2BuUAgplD20HD67CVX+EpO6XWHOrdb3cL7NXejcdJLkq8ywc/Z61uVct9
+ubkd9e3Pbps7p6cr+vq+c/24P2y/Gv7LniHQbPwp8Nf+E7h1a3lmuJvsviub7IyMoC/8SXw7qyDI
+JP754W4+VWGSPoyisWndWZomtbnh/wCxD+1F4r/ah8La5f8AirwJ/wAIJcaXdJbwQfZ/EUP2pWTc
+XxrWiaTIcHj91HKvq6nivcKKKqTTeiJjdLUKKKKQwooooAKwdd/5Gez/AOAf+hmt6sHXf+Rns/8A
+gH/oZoA3qKKKACiiigAooooAKKKKACiiigAooooAKwdd/wCRns/+Af8AoZrerB13/kZ7P/gH/oZo
+A3qKKKACiiigAooooAKKraxrNp4d0i61DULq2sbCxhe4ubm4lEUNvEilnd3YgKqgEkk4ABzXj/7J
+/wC3P4X/AGw/EfjHTvDmi+LdKPg17Qyza1ZR2i6jBdCZ7a4gQStII5IohKBMkbhJY8oG3KtQhKfN
+ya8qu/JXUb/e0iZyUeXm+07L1s3+Sf8ATR7TRRRUlBRRRQAVg67/AMjPZ/8AAP8A0M1vVg67/wAj
+PZ/8A/8AQzQBvUUUUAFFFFABRRRQBwn7TfwA039qb4C+Jvh9rGp6zo2m+KbT7HcXuktCt7bruVt0
+Rmilj3ZUffjYcnivlr/gmb8BPi18Lf2xfj54k+IFr8XW0Lxj/Zn9j6n4yn8Is2qm2WWN5Gj0Qho3
+ww2AxohjY7h5gGPuCirozlTnKcftRcX2s3GX33iv12VpqQU4pPo0/PZr7rN/03coooqCgooooAKw
+dd/5Gez/AOAf+hmt6sHXf+Rns/8AgH/oZoA3qKKKACiiigAooooAKKKKACiiigAooooAKjktYpZQ
+7Rozr0YqCR+NSUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAU
+UUUAFFFFAH//2Q==]]></data>
+        </mediaData>
+      </internal_media>
+      <internal_media>
+        <name>p2-4cl-d-1.jpg</name>
+        <consumerData>
+          <mediaID>13570164360941657</mediaID>
+          <testID>13570164368971726</testID>
+          <consumerID>13570164368971730</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>p2-4cl-d-1.jpg</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>1633</size>
+          <mime_type>image/jpeg</mime_type>
+          <creation>1475136114883</creation>
+          <modified>1475136114883</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAIBAQIBAQICAgICAgICAwUDAwMDAwYEBAMFBwYHBwcG
+BwcICQsJCAgKCAcHCg0KCgsMDAwMBwkODw0MDgsMDAz/2wBDAQICAgMDAwYDAwYMCAcIDAwMDAwM
+DAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAz/wAARCACBAGUDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD9/KKK
+KACiiigAooooAKKKKACiiigAooooAKKKKACiikfGw54GOTnGKTdlcBaK/Nn9if8Aa98P/BL47RNL
+qP7Qt54N+MWtXGm6Snjax8V6lpekzC+it9GNjqerq0DxXtq9xdP5FxIMbSAUQbf0mrTkfs4Vekv6
+a7ad1dBKyqypfyv+v6f5WbKK+I7r44ftlp8W5LSL4e58KjVzClz/AMK90M5svOwH87/hPxJ/q+d/
+2QN38gH93X25UR1gp9+nX5g9JuPb7gooooAKKKKACiiigAooooAKwfin8M9E+NXwx8R+DfE1l/aX
+hvxbpdzo2rWfnSQ/arS5iaGaPfGyum6N2G5GDDOQQea3qKBptO6Pj3xt/wAEDv2TPiL8DPA3w21n
+4UfbPBXw2nv7jw5p3/CT6zH/AGdJfSJLdHzUuxLJvdFOJHYLjC7RkV9d6ZpsOjabb2dsnl29rEsM
+SZJ2ooAAyeTwB1qeiq55NNN7u/z7+pNlp5beV3d/e9fUKKKKkYUUUUAFFFFABRRRQAUUUUAFFFFA
+BRRRQAUUUUAFFFcZ4v8A2jvh58PvifofgjXvHngzRPGnidQ+j6BqGt21tqmrKSy5t7Z3EsoyrD5F
+PKn0o3aS3YdG+iOzooooAKKKKACiiigAooooAKKKKACiiigAr4n/AGpPi1pXxB/arufhRcfC/wAX
+aT4WudU0S/8AFvi9fhXr2sR+LpreWK4s7O0u7KyktlWF44hLfXM6/ZwCkSFiZ7f7YooXxxk9k7/d
+t/n59bq6bv7rS3/r+vy1szO8I2FlpXhPTLXTYZbbTra0iitYZUkSSKJUARWWT5wQoAIf5hjnmtGi
+iqnJyk5PqRCKjFRXQKKKKkoKKKKACiiigAooooAKKKKACvkb/go38NPG/hkn4peG9c8XTWHhaKLU
+b/yPH15o1v4Rs7WSOW4urbRrWFLXXHeISvJBqlxtxCqxEeYyH65rx/4rfsH/AAw+NfxHk8UeI9F1
+e6v7trV9Rs7fxJqdlpGutbMDAdQ02C4Syvyu1FzdQy5SNEOURVB9uMuzv/X/AA69R6WafVf1/Vn6
+HZfs/wDjT/hY/wABvBPiEahcasNe0Cw1EX1xaJaS3vnW8cnmvChKxM+7cUUkKTgEgV11VNB0Gx8K
+6HZaZpllaadpunQJa2lpawrDBawooVI40UBVRVAAUAAAACrdaVpKVSUoqybZFOPLFR7ed/x6+oUU
+UVmUFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRR
+RQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAH//2Q==]]></data>
+        </mediaData>
+      </internal_media>
+      <internal_media>
+        <name>p2-4cl-d-2.jpg</name>
+        <consumerData>
+          <mediaID>13570164360941658</mediaID>
+          <testID>13570164368971726</testID>
+          <consumerID>13570164368971730</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>p2-4cl-d-2.jpg</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>4102</size>
+          <mime_type>image/jpeg</mime_type>
+          <creation>1475136118773</creation>
+          <modified>1475136118773</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAIBAQIBAQICAgICAgICAwUDAwMDAwYEBAMFBwYHBwcG
+BwcICQsJCAgKCAcHCg0KCgsMDAwMBwkODw0MDgsMDAz/2wBDAQICAgMDAwYDAwYMCAcIDAwMDAwM
+DAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAz/wAARCACFAGUDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD9+IZ/
+NklXGPLfb9flB/rUlVY5hbm9kIZgj7iFUsxxGvQDkn2r80P2Pv8Agpf4h8bfth6XoPib43eCbjwr
+8QtO1eePRrrxhot/rvgy5jCz21rcW1po1pHpt4kXnh7S7vtQkP2eQDd5E0hXMnLkW9m/69ehXK+X
+n6XS+/8ArU/Tmivz3/Yo/bCvbjxN8DtR8RftU6X8Ul+MlzrWkR6Lcnw3a2khtBIYJbP7DbxXD3Sm
+KKOXMrxO9y5WGHdEiY37H/7afj347f8ABQHw9Zaf+0H4C+JHgHXLrWrq48N+FNY0vVbrT7NIZms2
+vdO/sm01DRYoyYkd57++c3BhhIAlMi3GLk0l1Tf3b/MjmSTk+jS+/b5H6Q0VS8Rw3dz4evo9Pfyr
+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]]></data>
+        </mediaData>
+      </internal_media>
+    </media_set>
+    <questionProperties>
+      <property name="pageTag" type="string" value="" />
+      <property name="customType" type="string" value="" />
+      <property name="completeIncompleteGrading" type="string" value="false" />
+      <property name="instructor_info" type="string" value="" />
+      <property name="forceManualScoring" type="string" value="automatic" />
+      <property name="audioPlayerPosition" type="string" value="above" />
+      <property name="problemSolution" type="string" value="&lt;p&gt;The MATLAB gives the following output:&lt;/p&gt;  &lt;p&gt;&amp;nbsp;&lt;/p&gt;  &lt;p&gt;&lt;span style=&quot;font-family:monospace;&quot;&gt;&amp;gt;&amp;gt; A = [1 2; 3 4; 5 6]; A(2,:)'&lt;/span&gt;&lt;/p&gt;  &lt;p&gt;&lt;span style=&quot;font-family:monospace;&quot;&gt;ans =&lt;/span&gt;&lt;/p&gt;  &lt;p&gt;&lt;span style=&quot;font-family:monospace;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 3&lt;br&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 4&lt;/span&gt;&lt;/p&gt;  &lt;p&gt;&lt;br&gt; &lt;span style=&quot;font-family:monospace;&quot;&gt;&amp;gt;&amp;gt; y = [0:1.5:7]'&lt;/span&gt;&lt;/p&gt;  &lt;p&gt;&lt;span style=&quot;font-family:monospace;&quot;&gt;y =&lt;/span&gt;&lt;/p&gt;  &lt;p&gt;&lt;span style=&quot;font-family:monospace;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 0&lt;br&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp; 1.5000&lt;br&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp; 3.0000&lt;br&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp; 4.5000&lt;br&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp; 6.0000&lt;/span&gt;&lt;/p&gt;  &lt;p&gt;&amp;nbsp;&lt;/p&gt;  &lt;p&gt;&lt;span style=&quot;font-family:monospace;&quot;&gt;&amp;gt;&amp;gt; a = 2; b = 8; c = 4; a + b / c&lt;/span&gt;&lt;/p&gt;  &lt;p&gt;&lt;span style=&quot;font-family:monospace;&quot;&gt;ans =&lt;/span&gt;&lt;/p&gt;  &lt;p&gt;&lt;span style=&quot;font-family:monospace;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 4&lt;/span&gt;&lt;/p&gt;  &lt;p&gt;&amp;nbsp;&lt;/p&gt;" />
+      <property name="attached_media" type="string" value="p2-4cl-c-1.jpg,p2-4cl-c-2.jpg,p2-4cl-c-3.jpg,p2-4cl-d-1.jpg,p2-4cl-d-2.jpg" />
+      <property name="aggregatedGrading" type="string" value="false" />
+      <property name="useCommonFeedback" type="string" value="true" />
+    </questionProperties>
+    <hints>
+      <hint>
+        <name>hint #1</name>
+        <type>html</type>
+        <value><![CDATA[How are the variables created in the workspace?]]></value>
+      </hint>
+    </hints>
+    <worksheet>
+      <stem><![CDATA[<p>Click and drag to match the outputs when the following MATLAB statements are executed.</p>
+
+<p>&nbsp;</p>
+
+<p>(a) <span style="font-family:monospace;">A = [1 2; 3 4; 5 6]; A(2,:)'</span></p>
+
+<p>&nbsp;</p>
+
+<p>(b) <span style="font-family:monospace;">y = [0:1.5:7]'</span></p>
+
+<p>&nbsp;</p>
+
+<p>(c) <span style="font-family:monospace;">a = 2; b = 8; c = 4; a + b / c</span></p>
+
+<p>&nbsp;</p>
+
+<p>__A__</p>]]></stem>
+      <commonFeedback></commonFeedback>
+      <answers>
+        <externalAnswer>
+          <name><![CDATA[A]]></name>
+          <weight>100</weight>
+          <answerProperties>
+            <property name="identifier" type="string" value="common/clickanddrag/2.0/clickdrag.html" />
+            <property name="customType" type="string" value="" />
+            <property name="completeIncompleteGrading" type="string" value="false" />
+            <property name="width" type="string" value="300" />
+            <property name="palette" type="string" value="" />
+            <property name="state" type="string" value="%7B%22adminData%22%3A%7B%22GFS%22%3A%2214%22%2C%22CSO%22%3A%22pi_connectstylev2.swf%22%2C%22OTM%22%3Afalse%2C%22OTO%22%3Atrue%2C%22AW%22%3A800%2C%22AH%22%3A600%2C%22TYPE%22%3Afalse%2C%22HRO%22%3A%22D%22%2C%22FRO%22%3A%22D%22%2C%22RLO%22%3A%22T%22%2C%22ICS%22%3Afalse%2C%22HGL%22%3A%5B%5D%2C%22VGL%22%3A%5B%5D%2C%22ET%22%3A%22SLE%22%2C%22SLELD%22%3A%22105%2C120%22%2C%22ZHP%22%3A%22200%2C200%2C350%2C390%2C2%2C120%2C70%2C366%2C615%22%2C%22feedbackHeight%22%3A%2270%22%2C%22feedbackWidth%22%3A%22120%22%2C%22AVP%22%3A%22233%2C259%22%2C%22DOCSAMEASLABEL%22%3Atrue%2C%22showZoomInAuth%22%3A%22F%22%2C%22audioList%22%3A%5B%5D%2C%22imageList%22%3A%5B%22p2-4cl-c-1.jpg%22%2C%22p2-4cl-c-2.jpg%22%2C%22p2-4cl-c-3.jpg%22%2C%22p2-4cl-d-1.jpg%22%2C%22p2-4cl-d-2.jpg%22%5D%2C%22magnificationData%22%3A%22global%22%2C%22showHintOrFeedbackInAuthoring%22%3A%22none%22%7D%2C%22DCKLD%22%3A%22105%2C120%22%2C%22FrameData%22%3A%5B%7B%22frameBGVisible%22%3A%22f%22%2C%22frameFIBButtonX%22%3A%22%22%2C%22frameFIBButtonY%22%3A%22%22%2C%22frameFIBOutput%22%3A%22%22%2C%22frameFlag%22%3A%221%22%2C%22frameHeight%22%3A600%2C%22frameId%22%3A%22fr0%22%2C%22frameImageList%22%3A%7B%7D%2C%22frameLabelObj%22%3A%22null%25d%25null%22%2C%22frameMediaList%22%3A%22N%22%2C%22frameMediaXY%22%3A%7B%22x%22%3A%220%22%2C%22y%22%3A%220%22%7D%2C%22frameOptionX%22%3A%22233%22%2C%22frameOptionY%22%3A%22259%22%2C%22frameOriginalX%22%3A0%2C%22frameOriginalY%22%3A0%2C%22frameStudentGUI%22%3A%5B%7B%22Component%22%3A%22R%22%2C%22x%22%3A340%2C%22y%22%3A670%2C%22visible%22%3Atrue%7D%2C%7B%22Component%22%3A%22Z%22%2C%22x%22%3A280%2C%22y%22%3A670%2C%22visible%22%3Afalse%7D%5D%2C%22frameTextList%22%3A%5B%7B%22textAlign%22%3A%22center%22%2C%22border%22%3A%22F%22%2C%22fill%22%3A%22F%22%2C%22fontSize%22%3A%2214%22%2C%22fontType%22%3A%22normal%22%2C%22underlineVal%22%3A%22F%22%2C%22maxWidth%22%3A106%2C%22minHeight%22%3A40%2C%22textX%22%3A35%2C%22textY%22%3A35%2C%22textValue%22%3A%22%3Cb%3E%28a%29%3C/b%3E%22%2C%22absolutePosition%22%3Atrue%2C%22textGroupObjID%22%3A%22txt_0_0%22%2C%22zIndex%22%3A0%7D%2C%7B%22textAlign%22%3A%22center%22%2C%22border%22%3A%22F%22%2C%22fill%22%3A%22F%22%2C%22fontSize%22%3A%2214%22%2C%22fontType%22%3A%22normal%22%2C%22underlineVal%22%3A%22F%22%2C%22maxWidth%22%3A99%2C%22minHeight%22%3A35%2C%22textX%22%3A34%2C%22textY%22%3A258%2C%22textValue%22%3A%22%3Cb%3E%28b%29%3C/b%3E%22%2C%22absolutePosition%22%3Atrue%2C%22textGroupObjID%22%3A%22txt_1_0%22%2C%22zIndex%22%3A1%7D%2C%7B%22textAlign%22%3A%22center%22%2C%22border%22%3A%22F%22%2C%22fill%22%3A%22F%22%2C%22fontSize%22%3A%2214%22%2C%22fontType%22%3A%22normal%22%2C%22underlineVal%22%3A%22F%22%2C%22maxWidth%22%3A105%2C%22minHeight%22%3A29%2C%22textX%22%3A33%2C%22textY%22%3A485%2C%22textValue%22%3A%22%3Cb%3E%28c%29%3C/b%3E%22%2C%22absolutePosition%22%3Atrue%2C%22textGroupObjID%22%3A%22txt_2_0%22%2C%22zIndex%22%3A2%7D%5D%2C%22frameWidth%22%3A800%2C%22frameX%22%3A0%2C%22frameY%22%3A0%2C%22groupId%22%3A%22frame_group%22%2C%22frameGroupID%22%3A%22frame_0%22%2C%22zIndex%22%3A3%7D%2C%7B%22frameX%22%3A10%2C%22frameY%22%3A10%2C%22frameWidth%22%3A%22125%22%2C%22frameHeight%22%3A%22658%22%2C%22lockStatus%22%3Afalse%2C%22frameImageList%22%3A%7B%7D%2C%22frameTextList%22%3A%7B%7D%2C%22frameStudentGUI%22%3A%5B%7B%22component%22%3A%22%22%2C%22x%22%3A%22%22%2C%22y%22%3A%22%22%7D%5D%2C%22frameBGVisible%22%3A%22t%22%2C%22frameFlag%22%3A1%2C%22frameMediaList%22%3A%22N%22%2C%22frameMediaXY%22%3A%7B%22x%22%3A0%2C%22y%22%3A0%7D%2C%22frameOptionX%22%3A233%2C%22frameOptionY%22%3A259%2C%22frameLabelObj%22%3A%7B%7D%2C%22frameFIBOutput%22%3A%22%22%2C%22frameFIBButtonX%22%3A%22%22%2C%22frameFIBButtonY%22%3A%22%22%2C%22frameGroupID%22%3A%22frame_1%22%2C%22zIndex%22%3A4%2C%22frameId%22%3A%22fr1%22%2C%22groupId%22%3A%22frame_group%22%7D%2C%7B%22frameX%22%3A151%2C%22frameY%22%3A11%2C%22frameWidth%22%3A125%2C%22frameHeight%22%3A660%2C%22lockStatus%22%3Afalse%2C%22frameImageList%22%3A%7B%7D%2C%22frameTextList%22%3A%7B%7D%2C%22frameStudentGUI%22%3A%5B%7B%22component%22%3A%22%22%2C%22x%22%3A%22%22%2C%22y%22%3A%22%22%7D%5D%2C%22frameBGVisible%22%3A%22F%22%2C%22frameFlag%22%3A1%2C%22frameMediaList%22%3A%22N%22%2C%22frameMediaXY%22%3A%7B%22x%22%3A0%2C%22y%22%3A0%7D%2C%22frameOptionX%22%3A233%2C%22frameOptionY%22%3A259%2C%22frameLabelObj%22%3A%7B%7D%2C%22frameFIBOutput%22%3A%22%22%2C%22frameFIBButtonX%22%3A%22%22%2C%22frameFIBButtonY%22%3A%22%22%2C%22frameGroupID%22%3A%22frame_2%22%2C%22zIndex%22%3A5%2C%22frameId%22%3A%22fr2%22%2C%22groupId%22%3A%22frame_group%22%7D%5D%2C%22SLEData%22%3A%7B%22SLE0%22%3A%7B%22label_value%22%3A%22%22%2C%22hint_value%22%3A%22%25n%25%22%2C%22holder_x%22%3A161%2C%22holder_y%22%3A21%2C%22image_data%22%3A%22p2-4cl-c-1.jpg%7C70%7C90%22%2C%22doc_x%22%3A20%2C%22doc_y%22%3A69%2C%22image_data_1%22%3A%22N%22%2C%22feedback_value%22%3A%22%22%2C%22connector_facing%22%3A%22R%22%2C%22connector_mx%22%3A20%2C%22connector_my%22%3A0%2C%22connector_lx%22%3A40%2C%22connector_ly%22%3A0%2C%22connector_options%22%3A%7B%22connectorPresent%22%3A%22F%22%2C%22connectorType%22%3A%22D%22%2C%22zoomingPresent%22%3A%22T%22%2C%22showInAuthoring%22%3A%22T%22%7D%2C%22local_magnification%22%3A%7B%22localMagnificationWidth%22%3A%22200%22%2C%22localMagnificationHeight%22%3A%22200%22%2C%22localMagnificationFactor%22%3A%222%22%7D%2C%22transparent_border%22%3A%22F%22%2C%22transparent%22%3A%22T%22%2C%22transparent_hint%22%3A%22F%22%2C%22transparent_border_1%22%3A%22F%22%2C%22transparent_1%22%3A%22semitransparent%22%2C%22media_value%22%3A%22N%22%2C%22media_dock_value%22%3A%22N%22%2C%22media_label_XY%22%3A%220%7C0%22%2C%22media_dock_XY%22%3A%22N%22%2C%22play_option_L0_X%22%3A233%2C%22play_option_L0_Y%22%3A259%2C%22play_option_D0_X%22%3A233%2C%22play_option_D0_Y%22%3A259%2C%22label_Audio_Value%22%3A%22N%22%2C%22label_play_option_value%22%3A%22N%22%2C%22distractor_label%22%3A%22F%22%2C%22FIB_value%22%3A%22N%22%2C%22class_array_SLE%22%3A0%2C%22edit_button_X%22%3A5%2C%22edit_button_Y%22%3A0%2C%22dock_hint_value%22%3A%22%25n%25%22%2C%22FIB_Dock%22%3A%22N%22%2C%22doc_transparent_value%22%3A%22semitransparent%22%2C%22visibility%22%3Atrue%2C%22name%22%3A%22label_0%22%2C%22textFormat%22%3A%7B%22underline_value%22%3A%22F%22%2C%22fontSize%22%3A14%2C%22fontStyle%22%3A%22normal%22%2C%22align%22%3A%22center%22%7D%2C%22lockStatus%22%3Afalse%2C%22dockLockStatus%22%3Afalse%2C%22publishingOption%22%3A%22S%22%2C%22zIndex%22%3A6%2C%22labelGroupId%22%3A%22label_0%22%2C%22infoHideText%22%3A%22T%22%2C%22connector_mx_authoring%22%3A20%2C%22connector_my_authoring%22%3A0%2C%22connector_lx_authoring%22%3A40%2C%22connector_ly_authoring%22%3A0%2C%22imageDimension%22%3A%7B%22imageHeight%22%3A90%2C%22imageWidth%22%3A70%7D%7D%2C%22SLE1%22%3A%7B%22label_value%22%3A%22%22%2C%22hint_value%22%3A%22%25n%25%22%2C%22holder_x%22%3A161%2C%22holder_y%22%3A151%2C%22image_data%22%3A%22p2-4cl-c-2.jpg%7C70%7C90%22%2C%22doc_x%22%3A20%2C%22doc_y%22%3A285%2C%22image_data_1%22%3A%22N%22%2C%22feedback_value%22%3A%22%22%2C%22connector_facing%22%3A%22R%22%2C%22connector_mx%22%3A20%2C%22connector_my%22%3A0%2C%22connector_lx%22%3A40%2C%22connector_ly%22%3A0%2C%22connector_options%22%3A%7B%22connectorPresent%22%3A%22F%22%2C%22connectorType%22%3A%22D%22%2C%22zoomingPresent%22%3A%22T%22%2C%22showInAuthoring%22%3A%22T%22%7D%2C%22local_magnification%22%3A%7B%22localMagnificationWidth%22%3A%22200%22%2C%22localMagnificationHeight%22%3A%22200%22%2C%22localMagnificationFactor%22%3A%222%22%7D%2C%22transparent_border%22%3A%22F%22%2C%22transparent%22%3A%22T%22%2C%22transparent_hint%22%3A%22F%22%2C%22transparent_border_1%22%3A%22F%22%2C%22transparent_1%22%3A%22semitransparent%22%2C%22media_value%22%3A%22N%22%2C%22media_dock_value%22%3A%22N%22%2C%22media_label_XY%22%3A%220%7C0%22%2C%22media_dock_XY%22%3A%22N%22%2C%22play_option_L0_X%22%3A233%2C%22play_option_L0_Y%22%3A259%2C%22play_option_D0_X%22%3A233%2C%22play_option_D0_Y%22%3A259%2C%22label_Audio_Value%22%3A%22N%22%2C%22label_play_option_value%22%3A%22N%22%2C%22distractor_label%22%3A%22F%22%2C%22FIB_value%22%3A%22N%22%2C%22class_array_SLE%22%3A0%2C%22edit_button_X%22%3A5%2C%22edit_button_Y%22%3A0%2C%22dock_hint_value%22%3A%22%25n%25%22%2C%22FIB_Dock%22%3A%22N%22%2C%22doc_transparent_value%22%3A%22semitransparent%22%2C%22visibility%22%3Atrue%2C%22name%22%3A%22label_1%22%2C%22textFormat%22%3A%7B%22underline_value%22%3A%22F%22%2C%22fontSize%22%3A14%2C%22fontStyle%22%3A%22normal%22%2C%22align%22%3A%22center%22%7D%2C%22lockStatus%22%3Afalse%2C%22dockLockStatus%22%3Afalse%2C%22publishingOption%22%3A%22S%22%2C%22zIndex%22%3A8%2C%22labelGroupId%22%3A%22label_1%22%2C%22infoHideText%22%3A%22T%22%2C%22connector_mx_authoring%22%3A20%2C%22connector_my_authoring%22%3A0%2C%22connector_lx_authoring%22%3A40%2C%22connector_ly_authoring%22%3A0%2C%22imageDimension%22%3A%7B%22imageHeight%22%3A90%2C%22imageWidth%22%3A70%7D%7D%2C%22SLE2%22%3A%7B%22label_value%22%3A%22%22%2C%22hint_value%22%3A%22%25n%25%22%2C%22holder_x%22%3A161%2C%22holder_y%22%3A281%2C%22image_data%22%3A%22p2-4cl-c-3.jpg%7C70%7C90%22%2C%22doc_x%22%3A19%2C%22doc_y%22%3A510%2C%22image_data_1%22%3A%22N%22%2C%22feedback_value%22%3A%22%22%2C%22connector_facing%22%3A%22R%22%2C%22connector_mx%22%3A20%2C%22connector_my%22%3A0%2C%22connector_lx%22%3A40%2C%22connector_ly%22%3A0%2C%22connector_options%22%3A%7B%22connectorPresent%22%3A%22F%22%2C%22connectorType%22%3A%22D%22%2C%22zoomingPresent%22%3A%22T%22%2C%22showInAuthoring%22%3A%22T%22%7D%2C%22local_magnification%22%3A%7B%22localMagnificationWidth%22%3A%22200%22%2C%22localMagnificationHeight%22%3A%22200%22%2C%22localMagnificationFactor%22%3A%222%22%7D%2C%22transparent_border%22%3A%22F%22%2C%22transparent%22%3A%22T%22%2C%22transparent_hint%22%3A%22F%22%2C%22transparent_border_1%22%3A%22F%22%2C%22transparent_1%22%3A%22semitransparent%22%2C%22media_value%22%3A%22N%22%2C%22media_dock_value%22%3A%22N%22%2C%22media_label_XY%22%3A%220%7C0%22%2C%22media_dock_XY%22%3A%22N%22%2C%22play_option_L0_X%22%3A233%2C%22play_option_L0_Y%22%3A259%2C%22play_option_D0_X%22%3A233%2C%22play_option_D0_Y%22%3A259%2C%22label_Audio_Value%22%3A%22N%22%2C%22label_play_option_value%22%3A%22N%22%2C%22distractor_label%22%3A%22F%22%2C%22FIB_value%22%3A%22N%22%2C%22class_array_SLE%22%3A0%2C%22edit_button_X%22%3A5%2C%22edit_button_Y%22%3A0%2C%22dock_hint_value%22%3A%22%25n%25%22%2C%22FIB_Dock%22%3A%22N%22%2C%22doc_transparent_value%22%3A%22semitransparent%22%2C%22visibility%22%3Atrue%2C%22name%22%3A%22label_2%22%2C%22textFormat%22%3A%7B%22underline_value%22%3A%22F%22%2C%22fontSize%22%3A14%2C%22fontStyle%22%3A%22normal%22%2C%22align%22%3A%22center%22%7D%2C%22lockStatus%22%3Afalse%2C%22dockLockStatus%22%3Afalse%2C%22publishingOption%22%3A%22S%22%2C%22zIndex%22%3A10%2C%22labelGroupId%22%3A%22label_2%22%2C%22infoHideText%22%3A%22T%22%2C%22connector_mx_authoring%22%3A20%2C%22connector_my_authoring%22%3A0%2C%22connector_lx_authoring%22%3A40%2C%22connector_ly_authoring%22%3A0%2C%22imageDimension%22%3A%7B%22imageHeight%22%3A90%2C%22imageWidth%22%3A70%7D%7D%2C%22SLE3%22%3A%7B%22label_value%22%3A%22%22%2C%22hint_value%22%3A%22%25n%25%22%2C%22holder_x%22%3A161%2C%22holder_y%22%3A411%2C%22image_data%22%3A%22p2-4cl-d-1.jpg%7C70%7C90%22%2C%22doc_x%22%3A230%2C%22doc_y%22%3A260%2C%22image_data_1%22%3A%22N%22%2C%22feedback_value%22%3A%22%22%2C%22connector_facing%22%3A%22R%22%2C%22connector_mx%22%3A20%2C%22connector_my%22%3A0%2C%22connector_lx%22%3A40%2C%22connector_ly%22%3A0%2C%22connector_options%22%3A%7B%22connectorPresent%22%3A%22F%22%2C%22connectorType%22%3A%22D%22%2C%22zoomingPresent%22%3A%22T%22%2C%22showInAuthoring%22%3A%22T%22%7D%2C%22local_magnification%22%3A%7B%22localMagnificationWidth%22%3A%22200%22%2C%22localMagnificationHeight%22%3A%22200%22%2C%22localMagnificationFactor%22%3A%222%22%7D%2C%22transparent_border%22%3A%22F%22%2C%22transparent%22%3A%22T%22%2C%22transparent_hint%22%3A%22F%22%2C%22transparent_border_1%22%3A%22F%22%2C%22transparent_1%22%3A%22semitransparent%22%2C%22media_value%22%3A%22N%22%2C%22media_dock_value%22%3A%22N%22%2C%22media_label_XY%22%3A%220%7C0%22%2C%22media_dock_XY%22%3A%22N%22%2C%22play_option_L0_X%22%3A233%2C%22play_option_L0_Y%22%3A259%2C%22play_option_D0_X%22%3A233%2C%22play_option_D0_Y%22%3A259%2C%22label_Audio_Value%22%3A%22N%22%2C%22label_play_option_value%22%3A%22N%22%2C%22distractor_label%22%3A%22T%22%2C%22FIB_value%22%3A%22N%22%2C%22class_array_SLE%22%3A0%2C%22edit_button_X%22%3A5%2C%22edit_button_Y%22%3A0%2C%22dock_hint_value%22%3A%22%25n%25%22%2C%22FIB_Dock%22%3A%22N%22%2C%22doc_transparent_value%22%3A%22semitransparent%22%2C%22visibility%22%3Atrue%2C%22name%22%3A%22label_3%22%2C%22textFormat%22%3A%7B%22underline_value%22%3A%22F%22%2C%22fontSize%22%3A14%2C%22fontStyle%22%3A%22normal%22%2C%22align%22%3A%22center%22%7D%2C%22lockStatus%22%3Afalse%2C%22dockLockStatus%22%3Afalse%2C%22publishingOption%22%3A%22S%22%2C%22zIndex%22%3A12%2C%22labelGroupId%22%3A%22label_3%22%2C%22infoHideText%22%3A%22T%22%2C%22connector_mx_authoring%22%3A20%2C%22connector_my_authoring%22%3A0%2C%22connector_lx_authoring%22%3A40%2C%22connector_ly_authoring%22%3A0%2C%22imageDimension%22%3A%7B%22imageHeight%22%3A90%2C%22imageWidth%22%3A70%7D%7D%2C%22SLE4%22%3A%7B%22label_value%22%3A%22%22%2C%22hint_value%22%3A%22%25n%25%22%2C%22holder_x%22%3A161%2C%22holder_y%22%3A541%2C%22image_data%22%3A%22p2-4cl-d-2.jpg%7C68%7C90%22%2C%22doc_x%22%3A230%2C%22doc_y%22%3A330%2C%22image_data_1%22%3A%22N%22%2C%22feedback_value%22%3A%22%22%2C%22connector_facing%22%3A%22R%22%2C%22connector_mx%22%3A20%2C%22connector_my%22%3A0%2C%22connector_lx%22%3A40%2C%22connector_ly%22%3A0%2C%22connector_options%22%3A%7B%22connectorPresent%22%3A%22F%22%2C%22connectorType%22%3A%22D%22%2C%22zoomingPresent%22%3A%22T%22%2C%22showInAuthoring%22%3A%22T%22%7D%2C%22local_magnification%22%3A%7B%22localMagnificationWidth%22%3A%22200%22%2C%22localMagnificationHeight%22%3A%22200%22%2C%22localMagnificationFactor%22%3A%222%22%7D%2C%22transparent_border%22%3A%22F%22%2C%22transparent%22%3A%22T%22%2C%22transparent_hint%22%3A%22F%22%2C%22transparent_border_1%22%3A%22F%22%2C%22transparent_1%22%3A%22semitransparent%22%2C%22media_value%22%3A%22N%22%2C%22media_dock_value%22%3A%22N%22%2C%22media_label_XY%22%3A%220%7C0%22%2C%22media_dock_XY%22%3A%22N%22%2C%22play_option_L0_X%22%3A233%2C%22play_option_L0_Y%22%3A259%2C%22play_option_D0_X%22%3A233%2C%22play_option_D0_Y%22%3A259%2C%22label_Audio_Value%22%3A%22N%22%2C%22label_play_option_value%22%3A%22N%22%2C%22distractor_label%22%3A%22T%22%2C%22FIB_value%22%3A%22N%22%2C%22class_array_SLE%22%3A0%2C%22edit_button_X%22%3A5%2C%22edit_button_Y%22%3A0%2C%22dock_hint_value%22%3A%22%25n%25%22%2C%22FIB_Dock%22%3A%22N%22%2C%22doc_transparent_value%22%3A%22semitransparent%22%2C%22visibility%22%3Atrue%2C%22name%22%3A%22label_4%22%2C%22textFormat%22%3A%7B%22underline_value%22%3A%22F%22%2C%22fontSize%22%3A14%2C%22fontStyle%22%3A%22normal%22%2C%22align%22%3A%22center%22%7D%2C%22lockStatus%22%3Afalse%2C%22dockLockStatus%22%3Afalse%2C%22publishingOption%22%3A%22S%22%2C%22zIndex%22%3A14%2C%22labelGroupId%22%3A%22label_4%22%2C%22infoHideText%22%3A%22T%22%2C%22connector_mx_authoring%22%3A20%2C%22connector_my_authoring%22%3A0%2C%22connector_lx_authoring%22%3A40%2C%22connector_ly_authoring%22%3A0%2C%22imageDimension%22%3A%7B%22imageHeight%22%3A90%2C%22imageWidth%22%3A68%7D%7D%7D%2C%22SLEGV%22%3A%22%22%2C%22SLERQ%22%3A%22%22%2C%22SLERN%22%3A%220%2C1%2C2%2C3%2C4%22%2C%22SLEPS%22%3A%7B%22totalRandomLabels%22%3A%223%22%2C%22totalRandomDistractors%22%3A%222%22%2C%22showFeedbackAfter%22%3A%22N%22%2C%22showInstantFeedbackAfter%22%3A%22N%22%2C%22showHintsAfter%22%3A0%2C%22studentGradeFormat%22%3A%22P%22%2C%22discrete%22%3A%22%22%7D%2C%22SLEGP%22%3A%7B%22borderGlobal%22%3A%22F%22%2C%22backGroundGlobal%22%3A%22F%22%2C%22labelBorderGlobal%22%3A%22N%22%2C%22labelBGGlobal%22%3A%22N%22%2C%22dockBGGlobal%22%3A%22N%22%7D%2C%22SLEDXY%22%3A%22%22%2C%22VST%22%3A0%2C%22SLEDS%22%3A%22%22%2C%22SLESD%22%3A%22%22%2C%22SLEDC%22%3A%22%22%7D" />
+            <property name="height" type="string" value="700" />
+          </answerProperties>
+        </externalAnswer>
+      </answers>
+    </worksheet>
+  </question>
+  <question>
+    <format>1</format>
+    <ezid>13570164368971734</ezid>
+    <version>1579774323887</version>
+    <title><![CDATA[Problem 02.005]]></title>
+    <multipart>13570164360942265</multipart>
+    <type>SB</type>
+    <categories>
+      <internal_category>
+        <catid>13570164350606841</catid>
+        <title><![CDATA[Chapter:  02 MATLAB Fundamentals]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164326004845</catid>
+        <title><![CDATA[Topic: MATLAB Fundamentals]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164350606975</catid>
+        <title><![CDATA[Section:  02.05 GRAPHICS]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164350607311</catid>
+        <title><![CDATA[Subtopic:  GRAPHICS]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164365784785</catid>
+        <title><![CDATA[Bloom's Verb 3. Apply]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164309912673</catid>
+        <title><![CDATA[Bloom's Object 3. Procedural]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164266036554</catid>
+        <title><![CDATA[Units:  NA]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164343377093</catid>
+        <title><![CDATA[ABET Outcomes:  (a) an ability to apply knowledge of mathematics, science, and engineering]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040730414</catid>
+        <title><![CDATA[Difficulty:  Medium]]></title>
+      </internal_category>
+    </categories>
+    <media_set>
+      <internal_media>
+        <name>formula4.mml</name>
+        <consumerData>
+          <mediaID>13570164360942305</mediaID>
+          <testID>13570164368971726</testID>
+          <consumerID>13570164368971734</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>formula4.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>460</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1475136855399</creation>
+          <modified>1475137489259</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGg+PG1pPmY8L21pPjxtZmVuY2VkPjxtaT54PC9taT48L21mZW5jZWQ+PG1vPj08L21vPjxt
+ZnJhYz48bW4+MTwvbW4+PG1yb3c+PG1zdXA+PG1mZW5jZWQ+PG1yb3c+PG1pPng8L21pPjxtbz4t
+PC9tbz48bW4+MDwvbW4+PG1vPi48L21vPjxtbj4zPC9tbj48L21yb3c+PC9tZmVuY2VkPjxtbj4y
+PC9tbj48L21zdXA+PG1vPis8L21vPjxtbj4wPC9tbj48bW8+LjwvbW8+PG1uPjAxPC9tbj48L21y
+b3c+PC9tZnJhYz48bW8+KzwvbW8+PG1mcmFjPjxtbj4xPC9tbj48bXJvdz48bXN1cD48bWZlbmNl
+ZD48bXJvdz48bWk+eDwvbWk+PG1vPi08L21vPjxtbj4wPC9tbj48bW8+LjwvbW8+PG1uPjk8L21u
+PjwvbXJvdz48L21mZW5jZWQ+PG1uPjI8L21uPjwvbXN1cD48bW8+KzwvbW8+PG1uPjA8L21uPjxt
+bz4uPC9tbz48bW4+MDQ8L21uPjwvbXJvdz48L21mcmFjPjxtbz4tPC9tbz48bW4+NjwvbW4+PC9t
+YXRoPg==]]></data>
+        </mediaData>
+      </internal_media>
+    </media_set>
+    <questionProperties>
+      <property name="pageTag" type="string" value="" />
+      <property name="customType" type="string" value="" />
+      <property name="suppressPopupControl" type="string" value="false" />
+      <property name="instructor_info" type="string" value="" />
+      <property name="mpSuppressBreak" type="string" value="false" />
+      <property name="mpCustomProgression" type="string" value="twoway" />
+      <property name="audioPlayerPosition" type="string" value="above" />
+    </questionProperties>
+    <sectionBreak>
+      <stem><![CDATA[<p>The MATLAB <span style="font-family:monospace;">humps</span> function defines a curve that has 2 maxima (peaks) of unequal height over the interval 0 &#8804; <em>x</em> &#8804; 2:</p>
+
+<p>&nbsp;</p>
+
+<p>%media:formula4.mml%</p>
+
+<p>&nbsp;</p>
+
+<p>Use MATLAB to generate a plot of <em>f</em> (<em>x</em>) versus <em>x</em> with</p>
+
+<p>&nbsp;</p>
+
+<p><span style="font-family:monospace;">x = [0:1/256:2];</span></p>
+
+<p>&nbsp;</p>
+
+<p>Do not use MATLAB&#8217;s built-in <span style="font-family:monospace;">humps</span> function to generate the values of <em>f</em> (<em>x</em>). Also, employ the minimum number of periods to perform the vector operations needed to generate <em>f</em> (<em>x</em>) values for the plot.</p>]]></stem>
+    </sectionBreak>
+  </question>
+  <question>
+    <format>1</format>
+    <ezid>13570164368971735</ezid>
+    <version>1579774323887</version>
+    <title><![CDATA[Problem 02.005.a]]></title>
+    <multipart>13570164360942265</multipart>
+    <type>MC</type>
+    <categories>
+      <internal_category>
+        <catid>13570164350606841</catid>
+        <title><![CDATA[Chapter:  02 MATLAB Fundamentals]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164326004845</catid>
+        <title><![CDATA[Topic: MATLAB Fundamentals]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164350606975</catid>
+        <title><![CDATA[Section:  02.05 GRAPHICS]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164350607311</catid>
+        <title><![CDATA[Subtopic:  GRAPHICS]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164365784785</catid>
+        <title><![CDATA[Bloom's Verb 3. Apply]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164309912673</catid>
+        <title><![CDATA[Bloom's Object 3. Procedural]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164266036554</catid>
+        <title><![CDATA[Units:  NA]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164343377093</catid>
+        <title><![CDATA[ABET Outcomes:  (a) an ability to apply knowledge of mathematics, science, and engineering]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040730414</catid>
+        <title><![CDATA[Difficulty:  Medium]]></title>
+      </internal_category>
+    </categories>
+    <questionProperties>
+      <property name="layout" type="string" value="vertical" />
+      <property name="pageTag" type="string" value="" />
+      <property name="completeIncompleteGrading" type="string" value="false" />
+      <property name="instructor_info" type="string" value="" />
+      <property name="forceManualScoring" type="string" value="automatic" />
+      <property name="commonFeedback" type="string" value="" />
+      <property name="audioPlayerPosition" type="string" value="above" />
+      <property name="problemSolution" type="string" value="&lt;p&gt;The MATLAB script to generate the plot is&lt;/p&gt;  &lt;p&gt;&amp;nbsp;&lt;/p&gt;  &lt;p&gt;&lt;span style=&quot;font-family:monospace;&quot;&gt;clc,clf,format compact&lt;br&gt; x=[0:1/256:2];&lt;br&gt; y=1./((x-0.3).^2+0.01)+1./((x-0.9)^2+0.04)-6;&lt;br&gt; plot(x,y)&lt;/span&gt;&lt;/p&gt; " />
+      <property name="otherItem" type="string" value="" />
+      <property name="useCommonFeedback" type="boolean" value="false" />
+      <property name="order" type="string" value="scrambled" />
+    </questionProperties>
+    <hints>
+      <hint>
+        <name>hint #1</name>
+        <type>html</type>
+        <value><![CDATA[Recall the uses of period operator.]]></value>
+      </hint>
+    </hints>
+    <multipleChoice>
+      <stem><![CDATA[<p>Identify the MATLAB script to generate a plot of <em>f</em> (<em>x</em>) versus <em>x</em> as described in the problem.</p>
+
+<p>&nbsp;</p>]]></stem>
+      <commonFeedback></commonFeedback>
+      <choices>
+        <choice>
+          <distractor><![CDATA[<span style="font-family:monospace;">clc,clf,format compact<br>
+x=[0:1/256:2];<br>
+y=1./((x-0.3).^2+0.01)+1./((x-0.9).^2+0.04)-6;<br>
+plot(x,y)</span>]]></distractor>
+          <credit>1</credit>
+          <feedback></feedback>
+        </choice>
+        <choice>
+          <distractor><![CDATA[<span style="font-family:monospace;">clc,clf,format compact<br>
+x=[0:1/256:2];<br>
+y=1/((x-0.3).^2+0.01)+1./((x-0.9).^2+0.04)-6;<br>
+plot(x,y)</span>]]></distractor>
+          <credit>0</credit>
+          <feedback></feedback>
+        </choice>
+        <choice>
+          <distractor><![CDATA[<span style="font-family:monospace;">clc,clf,format compact<br>
+x=[0:1/256:2];<br>
+y=1./((x-0.3)^2+0.01)+1./((x-0.9).^2+0.04)-6;<br>
+plot(x,y)</span>]]></distractor>
+          <credit>0</credit>
+          <feedback></feedback>
+        </choice>
+        <choice>
+          <distractor><![CDATA[<span style="font-family:monospace;">clc,clf,format compact<br>
+x=[0:1/256:2];<br>
+y=1./((x-0.3).^2+0.01)+1./((x-0.9)^2+0.04)-6;<br>
+plot(x,y)</span>]]></distractor>
+          <credit>0</credit>
+          <feedback></feedback>
+        </choice>
+      </choices>
+    </multipleChoice>
+  </question>
+  <question>
+    <format>1</format>
+    <ezid>13570164368971731</ezid>
+    <version>1579774323887</version>
+    <title><![CDATA[Problem 02.005.b]]></title>
+    <multipart>13570164360942265</multipart>
+    <type>DO</type>
+    <categories>
+      <internal_category>
+        <catid>13570164350606841</catid>
+        <title><![CDATA[Chapter:  02 MATLAB Fundamentals]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164326004845</catid>
+        <title><![CDATA[Topic: MATLAB Fundamentals]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164350606975</catid>
+        <title><![CDATA[Section:  02.05 GRAPHICS]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164350607311</catid>
+        <title><![CDATA[Subtopic:  GRAPHICS]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164365784785</catid>
+        <title><![CDATA[Bloom's Verb 3. Apply]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164309912673</catid>
+        <title><![CDATA[Bloom's Object 3. Procedural]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164266036554</catid>
+        <title><![CDATA[Units:  NA]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164343377093</catid>
+        <title><![CDATA[ABET Outcomes:  (a) an ability to apply knowledge of mathematics, science, and engineering]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040730414</catid>
+        <title><![CDATA[Difficulty:  Medium]]></title>
+      </internal_category>
+    </categories>
+    <questionProperties>
+      <property name="pageTag" type="string" value="" />
+      <property name="instructor_info" type="string" value="" />
+      <property name="state" type="string" value="{}" />
+      <property name="audioPlayerPosition" type="string" value="above" />
+    </questionProperties>
+    <doc>
+      <stem><![CDATA[<p>Upload the plot generated using the MATLAB script you have developed.</p>
+
+<p>&nbsp;</p>
+
+<p>(Please upload your response/solution using the controls below.)</p>]]></stem>
+      <info>question data is all stored in questionProperties...</info>
+    </doc>
+  </question>
+</questionSet>
+

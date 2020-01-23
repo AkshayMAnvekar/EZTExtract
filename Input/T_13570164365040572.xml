@@ -1,0 +1,2489 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questionSet>
+  <question>
+    <format>1</format>
+    <ezid>13570164365040600</ezid>
+    <version>1579774644579</version>
+    <title><![CDATA[Problem 10.001]]></title>
+    <multipart>13570164335551635</multipart>
+    <type>SB</type>
+    <categories>
+      <internal_category>
+        <catid>13570164356316801</catid>
+        <title><![CDATA[Chapter:  10 LU Factorization]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164356316802</catid>
+        <title><![CDATA[Topic:  LU Factorization]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164356317340</catid>
+        <title><![CDATA[Section:  10.02 GAUSS ELIMINATION AS LU FACTORIZATION]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164356317591</catid>
+        <title><![CDATA[Subtopic:  GAUSS ELIMINATION AS LU FACTORIZATION]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040730414</catid>
+        <title><![CDATA[Difficulty:  Medium]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164266036554</catid>
+        <title><![CDATA[Units:  NA]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164202016094</catid>
+        <title><![CDATA[Bloom's Verb: 3. Apply]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164196995740</catid>
+        <title><![CDATA[Bloom's Object: 3. Procedural]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164343377093</catid>
+        <title><![CDATA[ABET Outcomes:  (a) an ability to apply knowledge of mathematics, science, and engineering]]></title>
+      </internal_category>
+    </categories>
+    <questionProperties>
+      <property name="pageTag" type="string" value="" />
+      <property name="customType" type="string" value="" />
+      <property name="suppressPopupControl" type="string" value="false" />
+      <property name="instructor_info" type="string" value="" />
+      <property name="mpSuppressBreak" type="string" value="false" />
+      <property name="mpCustomProgression" type="string" value="oneway" />
+      <property name="audioPlayerPosition" type="string" value="above" />
+    </questionProperties>
+    <sectionBreak>
+      <stem><![CDATA[<p>Identify the total flops as a function of the number of equations <em>n</em> for the each case of the <em>LU</em> factorization version of Gauss elimination.</p>]]></stem>
+    </sectionBreak>
+  </question>
+  <question>
+    <format>1</format>
+    <ezid>13570164365040601</ezid>
+    <version>1579774644579</version>
+    <title><![CDATA[Problem 10.001.a]]></title>
+    <multipart>13570164335551635</multipart>
+    <type>MC</type>
+    <categories>
+      <internal_category>
+        <catid>13570164356316801</catid>
+        <title><![CDATA[Chapter:  10 LU Factorization]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164356316802</catid>
+        <title><![CDATA[Topic:  LU Factorization]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164356317340</catid>
+        <title><![CDATA[Section:  10.02 GAUSS ELIMINATION AS LU FACTORIZATION]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164356317591</catid>
+        <title><![CDATA[Subtopic:  GAUSS ELIMINATION AS LU FACTORIZATION]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040730414</catid>
+        <title><![CDATA[Difficulty:  Medium]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164266036554</catid>
+        <title><![CDATA[Units:  NA]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164202016094</catid>
+        <title><![CDATA[Bloom's Verb: 3. Apply]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164196995740</catid>
+        <title><![CDATA[Bloom's Object: 3. Procedural]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164343377093</catid>
+        <title><![CDATA[ABET Outcomes:  (a) an ability to apply knowledge of mathematics, science, and engineering]]></title>
+      </internal_category>
+    </categories>
+    <media_set>
+      <internal_media>
+        <name>formula1.mml</name>
+        <consumerData>
+          <mediaID>13570164335585915</mediaID>
+          <testID>13570164365040572</testID>
+          <consumerID>13570164365040601</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>formula1.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>207</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1468990203698</creation>
+          <modified>1468990940947</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGg+PG1mcmFjPjxtcm93Pjxtbj4yPC9tbj48bXN1cD48bWk+bjwvbWk+PG1uPjM8L21uPjwv
+bXN1cD48L21yb3c+PG1uPjM8L21uPjwvbWZyYWM+PG1vPi08L21vPjxtZnJhYz48bXN1cD48bWk+
+bjwvbWk+PG1uPjI8L21uPjwvbXN1cD48bW4+MjwvbW4+PC9tZnJhYz48bW8+LTwvbW8+PG1mcmFj
+PjxtaT5uPC9taT48bW4+NjwvbW4+PC9tZnJhYz48L21hdGg+]]></data>
+        </mediaData>
+      </internal_media>
+      <internal_media>
+        <name>formula2.mml</name>
+        <consumerData>
+          <mediaID>13570164335586001</mediaID>
+          <testID>13570164365040572</testID>
+          <consumerID>13570164365040601</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>formula2.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>219</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1468990238860</creation>
+          <modified>1468990940957</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGg+PG1mcmFjPjxtcm93Pjxtbj4yPC9tbj48bXN1cD48bWk+bjwvbWk+PG1uPjM8L21uPjwv
+bXN1cD48L21yb3c+PG1uPjM8L21uPjwvbWZyYWM+PG1vPiYjODcyMjs8L21vPjxtZnJhYz48bXN1
+cD48bWk+bjwvbWk+PG1uPjI8L21uPjwvbXN1cD48bW4+NDwvbW4+PC9tZnJhYz48bW8+JiM4NzIy
+OzwvbW8+PG1mcmFjPjxtaT5uPC9taT48bW4+NjwvbW4+PC9tZnJhYz48L21hdGg+]]></data>
+        </mediaData>
+      </internal_media>
+      <internal_media>
+        <name>formula3.mml</name>
+        <consumerData>
+          <mediaID>13570164335586288</mediaID>
+          <testID>13570164365040572</testID>
+          <consumerID>13570164365040601</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>formula3.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>196</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1468990266841</creation>
+          <modified>1468990940968</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGg+PG1mcmFjPjxtc3VwPjxtaT5uPC9taT48bW4+MzwvbW4+PC9tc3VwPjxtbj4yPC9tbj48
+L21mcmFjPjxtbz4mIzg3MjI7PC9tbz48bWZyYWM+PG1zdXA+PG1pPm48L21pPjxtbj4yPC9tbj48
+L21zdXA+PG1uPjQ8L21uPjwvbWZyYWM+PG1vPiYjODcyMjs8L21vPjxtZnJhYz48bWk+bjwvbWk+
+PG1uPjY8L21uPjwvbWZyYWM+PC9tYXRoPg==]]></data>
+        </mediaData>
+      </internal_media>
+      <internal_media>
+        <name>formula4.mml</name>
+        <consumerData>
+          <mediaID>13570164335588034</mediaID>
+          <testID>13570164365040572</testID>
+          <consumerID>13570164365040601</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>formula4.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>219</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1468990291732</creation>
+          <modified>1468990940979</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGg+PG1mcmFjPjxtc3VwPjxtaT5uPC9taT48bW4+MzwvbW4+PC9tc3VwPjxtbj4yPC9tbj48
+L21mcmFjPjxtbz4mIzg3MjI7PC9tbz48bWZyYWM+PG1yb3c+PG1uPjI8L21uPjxtc3VwPjxtaT5u
+PC9taT48bW4+MjwvbW4+PC9tc3VwPjwvbXJvdz48bW4+MzwvbW4+PC9tZnJhYz48bW8+JiM4NzIy
+OzwvbW8+PG1mcmFjPjxtaT5uPC9taT48bW4+NjwvbW4+PC9tZnJhYz48L21hdGg+]]></data>
+        </mediaData>
+      </internal_media>
+      <internal_media>
+        <name>formula5.mml</name>
+        <consumerData>
+          <mediaID>13570164349886028</mediaID>
+          <testID>13570164365040572</testID>
+          <consumerID>13570164365040601</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>formula5.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>280</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1472627668049</creation>
+          <modified>1472627668049</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGggaWQ9ImZvcm11bGE1Lm1tbCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzE5OTgvTWF0
+aC9NYXRoTUwiPjxtZnJhYz48bXJvdz48bW4+MjwvbW4+PG1zdXA+PG1pPm48L21pPjxtbj4zPC9t
+bj48L21zdXA+PC9tcm93Pjxtbj4zPC9tbj48L21mcmFjPjxtbz4mIzg3MjI7PC9tbz48bWZyYWM+
+PG1zdXA+PG1pPm48L21pPjxtbj4yPC9tbj48L21zdXA+PG1uPjI8L21uPjwvbWZyYWM+PG1vPiYj
+ODcyMjs8L21vPjxtZnJhYz48bWk+bjwvbWk+PG1uPjY8L21uPjwvbWZyYWM+PC9tYXRoPg==]]></data>
+        </mediaData>
+      </internal_media>
+      <internal_media>
+        <name>formula6.mml</name>
+        <consumerData>
+          <mediaID>13570164353613786</mediaID>
+          <testID>13570164365040572</testID>
+          <consumerID>13570164365040601</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>formula6.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>539</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1473308545109</creation>
+          <modified>1473309457665</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGg+PG11bmRlcm92ZXI+PG1vPiYjODcyMTs8L21vPjxtcm93PjxtaT5rPC9taT48bW8+PTwv
+bW8+PG1uPjE8L21uPjwvbXJvdz48bXJvdz48bWk+bjwvbWk+PG1vPi08L21vPjxtbj4xPC9tbj48
+L21yb3c+PC9tdW5kZXJvdmVyPjxtbz4oPC9tbz48bWk+bjwvbWk+PG1vPi08L21vPjxtaT5rPC9t
+aT48bW8+KTwvbW8+PG1vPig8L21vPjxtaT5uPC9taT48bW8+LTwvbW8+PG1pPms8L21pPjxtbz4p
+PC9tbz48bW8+PTwvbW8+PG11bmRlcm92ZXI+PG1vPiYjODcyMTs8L21vPjxtcm93PjxtaT5rPC9t
+aT48bW8+PTwvbW8+PG1uPjE8L21uPjwvbXJvdz48bXJvdz48bWk+bjwvbWk+PG1vPi08L21vPjxt
+bj4xPC9tbj48L21yb3c+PC9tdW5kZXJvdmVyPjxtcm93Pjxtbz5bPC9tbz48bXJvdz48bXN1cD48
+bWk+bjwvbWk+PG1uPjI8L21uPjwvbXN1cD48bW8+LTwvbW8+PG1uPjI8L21uPjxtaT5uPC9taT48
+bWk+azwvbWk+PG1vPis8L21vPjxtc3VwPjxtaT5rPC9taT48bW4+MjwvbW4+PC9tc3VwPjwvbXJv
+dz48bW8+XTwvbW8+PC9tcm93PjwvbWF0aD4=]]></data>
+        </mediaData>
+      </internal_media>
+      <internal_media>
+        <name>formula6.mml</name>
+        <consumerData>
+          <mediaID>13570164353613786</mediaID>
+          <testID>13570164365040572</testID>
+          <consumerID>13570164365040601</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>formula6.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>539</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1473308545109</creation>
+          <modified>1473309457665</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGg+PG11bmRlcm92ZXI+PG1vPiYjODcyMTs8L21vPjxtcm93PjxtaT5rPC9taT48bW8+PTwv
+bW8+PG1uPjE8L21uPjwvbXJvdz48bXJvdz48bWk+bjwvbWk+PG1vPi08L21vPjxtbj4xPC9tbj48
+L21yb3c+PC9tdW5kZXJvdmVyPjxtbz4oPC9tbz48bWk+bjwvbWk+PG1vPi08L21vPjxtaT5rPC9t
+aT48bW8+KTwvbW8+PG1vPig8L21vPjxtaT5uPC9taT48bW8+LTwvbW8+PG1pPms8L21pPjxtbz4p
+PC9tbz48bW8+PTwvbW8+PG11bmRlcm92ZXI+PG1vPiYjODcyMTs8L21vPjxtcm93PjxtaT5rPC9t
+aT48bW8+PTwvbW8+PG1uPjE8L21uPjwvbXJvdz48bXJvdz48bWk+bjwvbWk+PG1vPi08L21vPjxt
+bj4xPC9tbj48L21yb3c+PC9tdW5kZXJvdmVyPjxtcm93Pjxtbz5bPC9tbz48bXJvdz48bXN1cD48
+bWk+bjwvbWk+PG1uPjI8L21uPjwvbXN1cD48bW8+LTwvbW8+PG1uPjI8L21uPjxtaT5uPC9taT48
+bWk+azwvbWk+PG1vPis8L21vPjxtc3VwPjxtaT5rPC9taT48bW4+MjwvbW4+PC9tc3VwPjwvbXJv
+dz48bW8+XTwvbW8+PC9tcm93PjwvbWF0aD4=]]></data>
+        </mediaData>
+      </internal_media>
+      <internal_media>
+        <name>formula8.mml</name>
+        <consumerData>
+          <mediaID>13570164353613787</mediaID>
+          <testID>13570164365040572</testID>
+          <consumerID>13570164365040601</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>formula8.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>483</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1473308545380</creation>
+          <modified>1473309457665</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGg+PG11bmRlcm92ZXI+PG1vPiYjODcyMTs8L21vPjxtcm93PjxtaT5rPC9taT48bW8+PTwv
+bW8+PG1uPjE8L21uPjwvbXJvdz48bXJvdz48bWk+bjwvbWk+PG1vPi08L21vPjxtbj4xPC9tbj48
+L21yb3c+PC9tdW5kZXJvdmVyPjxtcm93Pjxtbz5bPC9tbz48bXJvdz48bXN1cD48bWk+bjwvbWk+
+PG1uPjI8L21uPjwvbXN1cD48bW8+LTwvbW8+PG1uPjI8L21uPjxtaT5uPC9taT48bWk+azwvbWk+
+PG1vPis8L21vPjxtc3VwPjxtaT5rPC9taT48bW4+MjwvbW4+PC9tc3VwPjwvbXJvdz48bW8+XTwv
+bW8+PC9tcm93Pjxtbz49PC9tbz48bWZyYWM+PG1zdXA+PG1pPm48L21pPjxtbj4zPC9tbj48L21z
+dXA+PG1uPjM8L21uPjwvbWZyYWM+PG1vPi08L21vPjxtZnJhYz48bXN1cD48bWk+bjwvbWk+PG1u
+PjI8L21uPjwvbXN1cD48bW4+MjwvbW4+PC9tZnJhYz48bW8+KzwvbW8+PG1mcmFjPjxtaT5uPC9t
+aT48bW4+NjwvbW4+PC9tZnJhYz48L21hdGg+]]></data>
+        </mediaData>
+      </internal_media>
+      <internal_media>
+        <name>formula7.mml</name>
+        <consumerData>
+          <mediaID>13570164353613788</mediaID>
+          <testID>13570164365040572</testID>
+          <consumerID>13570164365040601</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>formula7.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>373</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1473308545880</creation>
+          <modified>1473309457665</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGg+PG11bmRlcm92ZXI+PG1vPiYjODcyMTs8L21vPjxtcm93PjxtaT5rPC9taT48bW8+PTwv
+bW8+PG1uPjE8L21uPjwvbXJvdz48bXJvdz48bWk+bjwvbWk+PG1vPi08L21vPjxtbj4xPC9tbj48
+L21yb3c+PC9tdW5kZXJvdmVyPjxtbz4oPC9tbz48bWk+bjwvbWk+PG1vPi08L21vPjxtaT5rPC9t
+aT48bW8+KTwvbW8+PG1vPig8L21vPjxtaT5uPC9taT48bW8+KzwvbW8+PG1uPjE8L21uPjxtbz4t
+PC9tbz48bWk+azwvbWk+PG1vPik8L21vPjxtbz49PC9tbz48bWZyYWM+PG1zdXA+PG1pPm48L21p
+Pjxtbj4zPC9tbj48L21zdXA+PG1uPjM8L21uPjwvbWZyYWM+PG1vPi08L21vPjxtZnJhYz48bWk+
+bjwvbWk+PG1uPjM8L21uPjwvbWZyYWM+PC9tYXRoPg==]]></data>
+        </mediaData>
+      </internal_media>
+      <internal_media>
+        <name>formula7.mml</name>
+        <consumerData>
+          <mediaID>13570164353613788</mediaID>
+          <testID>13570164365040572</testID>
+          <consumerID>13570164365040601</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>formula7.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>373</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1473308545880</creation>
+          <modified>1473309457665</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGg+PG11bmRlcm92ZXI+PG1vPiYjODcyMTs8L21vPjxtcm93PjxtaT5rPC9taT48bW8+PTwv
+bW8+PG1uPjE8L21uPjwvbXJvdz48bXJvdz48bWk+bjwvbWk+PG1vPi08L21vPjxtbj4xPC9tbj48
+L21yb3c+PC9tdW5kZXJvdmVyPjxtbz4oPC9tbz48bWk+bjwvbWk+PG1vPi08L21vPjxtaT5rPC9t
+aT48bW8+KTwvbW8+PG1vPig8L21vPjxtaT5uPC9taT48bW8+KzwvbW8+PG1uPjE8L21uPjxtbz4t
+PC9tbz48bWk+azwvbWk+PG1vPik8L21vPjxtbz49PC9tbz48bWZyYWM+PG1zdXA+PG1pPm48L21p
+Pjxtbj4zPC9tbj48L21zdXA+PG1uPjM8L21uPjwvbWZyYWM+PG1vPi08L21vPjxtZnJhYz48bWk+
+bjwvbWk+PG1uPjM8L21uPjwvbWZyYWM+PC9tYXRoPg==]]></data>
+        </mediaData>
+      </internal_media>
+      <internal_media>
+        <name>formula9.mml</name>
+        <consumerData>
+          <mediaID>13570164353613789</mediaID>
+          <testID>13570164365040572</testID>
+          <consumerID>13570164365040601</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>formula9.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>597</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1473308546145</creation>
+          <modified>1473309457665</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGg+PG1mZW5jZWQ+PG1yb3c+PG1zdXA+PG1pPm48L21pPjxtbj4zPC9tbj48L21zdXA+PG1v
+Pis8L21vPjxtaT5PPC9taT48bWZlbmNlZD48bXN1cD48bWk+bjwvbWk+PG1uPjI8L21uPjwvbXN1
+cD48L21mZW5jZWQ+PC9tcm93PjwvbWZlbmNlZD48bW8+LTwvbW8+PG1mZW5jZWQ+PG1yb3c+PG1z
+dXA+PG1pPm48L21pPjxtbj4zPC9tbj48L21zdXA+PG1vPis8L21vPjxtaT5PPC9taT48bW8+KDwv
+bW8+PG1pPm48L21pPjxtbz4pPC9tbz48L21yb3c+PC9tZmVuY2VkPjxtbz4rPC9tbz48bWZlbmNl
+ZD48bXJvdz48bWZyYWM+PG1uPjE8L21uPjxtbj4zPC9tbj48L21mcmFjPjxtc3VwPjxtaT5uPC9t
+aT48bW4+MzwvbW4+PC9tc3VwPjxtbz4rPC9tbz48bWk+TzwvbWk+PG1mZW5jZWQ+PG1zdXA+PG1p
+Pm48L21pPjxtbj4yPC9tbj48L21zdXA+PC9tZmVuY2VkPjwvbXJvdz48L21mZW5jZWQ+PG1vPj08
+L21vPjxtZnJhYz48bXN1cD48bWk+bjwvbWk+PG1uPjM8L21uPjwvbXN1cD48bW4+MzwvbW4+PC9t
+ZnJhYz48bW8+KzwvbW8+PG1pPk88L21pPjxtZmVuY2VkPjxtc3VwPjxtaT5uPC9taT48bW4+Mjwv
+bW4+PC9tc3VwPjwvbWZlbmNlZD48L21hdGg+]]></data>
+        </mediaData>
+      </internal_media>
+      <internal_media>
+        <name>formula9.mml</name>
+        <consumerData>
+          <mediaID>13570164353613789</mediaID>
+          <testID>13570164365040572</testID>
+          <consumerID>13570164365040601</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>formula9.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>597</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1473308546145</creation>
+          <modified>1473309457665</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGg+PG1mZW5jZWQ+PG1yb3c+PG1zdXA+PG1pPm48L21pPjxtbj4zPC9tbj48L21zdXA+PG1v
+Pis8L21vPjxtaT5PPC9taT48bWZlbmNlZD48bXN1cD48bWk+bjwvbWk+PG1uPjI8L21uPjwvbXN1
+cD48L21mZW5jZWQ+PC9tcm93PjwvbWZlbmNlZD48bW8+LTwvbW8+PG1mZW5jZWQ+PG1yb3c+PG1z
+dXA+PG1pPm48L21pPjxtbj4zPC9tbj48L21zdXA+PG1vPis8L21vPjxtaT5PPC9taT48bW8+KDwv
+bW8+PG1pPm48L21pPjxtbz4pPC9tbz48L21yb3c+PC9tZmVuY2VkPjxtbz4rPC9tbz48bWZlbmNl
+ZD48bXJvdz48bWZyYWM+PG1uPjE8L21uPjxtbj4zPC9tbj48L21mcmFjPjxtc3VwPjxtaT5uPC9t
+aT48bW4+MzwvbW4+PC9tc3VwPjxtbz4rPC9tbz48bWk+TzwvbWk+PG1mZW5jZWQ+PG1zdXA+PG1p
+Pm48L21pPjxtbj4yPC9tbj48L21zdXA+PC9tZmVuY2VkPjwvbXJvdz48L21mZW5jZWQ+PG1vPj08
+L21vPjxtZnJhYz48bXN1cD48bWk+bjwvbWk+PG1uPjM8L21uPjwvbXN1cD48bW4+MzwvbW4+PC9t
+ZnJhYz48bW8+KzwvbW8+PG1pPk88L21pPjxtZmVuY2VkPjxtc3VwPjxtaT5uPC9taT48bW4+Mjwv
+bW4+PC9tc3VwPjwvbWZlbmNlZD48L21hdGg+]]></data>
+        </mediaData>
+      </internal_media>
+      <internal_media>
+        <name>formula11.mml</name>
+        <consumerData>
+          <mediaID>13570164353613790</mediaID>
+          <testID>13570164365040572</testID>
+          <consumerID>13570164365040601</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>formula11.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>207</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1473308546412</creation>
+          <modified>1473309457665</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGg+PG1mcmFjPjxtcm93Pjxtbj4yPC9tbj48bXN1cD48bWk+bjwvbWk+PG1uPjM8L21uPjwv
+bXN1cD48L21yb3c+PG1uPjM8L21uPjwvbWZyYWM+PG1vPi08L21vPjxtZnJhYz48bXN1cD48bWk+
+bjwvbWk+PG1uPjI8L21uPjwvbXN1cD48bW4+MjwvbW4+PC9tZnJhYz48bW8+LTwvbW8+PG1mcmFj
+PjxtaT5uPC9taT48bW4+NjwvbW4+PC9tZnJhYz48L21hdGg+]]></data>
+        </mediaData>
+      </internal_media>
+    </media_set>
+    <questionProperties>
+      <property name="layout" type="string" value="vertical" />
+      <property name="pageTag" type="string" value="" />
+      <property name="completeIncompleteGrading" type="string" value="false" />
+      <property name="instructor_info" type="string" value="" />
+      <property name="forceManualScoring" type="string" value="automatic" />
+      <property name="commonFeedback" type="string" value="&lt;p&gt;The flop counts for &lt;em&gt;LU&lt;/em&gt; decomposition can be determined in a similar fashion as was done for Gauss elimination. The major difference is that the elimination is only implemented for the left-hand side coefficients.&lt;/p&gt;  &lt;p&gt;Thus, for every iteration of the inner loop, there are &lt;em&gt;n&lt;/em&gt; multiplications/divisions and &lt;em&gt;n&lt;/em&gt; &amp;#8211; 1 additions/subtractions.&lt;/p&gt;  &lt;p&gt;The computations can be summarized as&lt;/p&gt;  &lt;p&gt;&amp;nbsp;&lt;/p&gt;  &lt;table style=&quot;width: 500px;&quot; cellspacing=&quot;1&quot; cellpadding=&quot;1&quot; border=&quot;0&quot;&gt;  &lt;thead&gt;   &lt;tr&gt;    &lt;th scope=&quot;col&quot; style=&quot;width: 125px;&quot;&gt;    &lt;p&gt;Outer Loop&lt;/p&gt;     &lt;p&gt;&lt;em&gt;k&lt;/em&gt;&lt;/p&gt;    &lt;/th&gt;    &lt;th scope=&quot;col&quot; style=&quot;width: 125px;&quot;&gt;    &lt;p&gt;Inner Loop&lt;/p&gt;     &lt;p&gt;&lt;em&gt;i&lt;/em&gt;&lt;/p&gt;    &lt;/th&gt;    &lt;th scope=&quot;col&quot; style=&quot;width: 125px;&quot;&gt;    &lt;p&gt;Addition/Subtraction&lt;/p&gt;     &lt;p&gt;flops&lt;/p&gt;    &lt;/th&gt;    &lt;th scope=&quot;col&quot; style=&quot;width: 125px;&quot;&gt;    &lt;p&gt;Multiplication/Division&lt;/p&gt;     &lt;p&gt;flops&lt;/p&gt;    &lt;/th&gt;   &lt;/tr&gt;  &lt;/thead&gt;  &lt;tbody&gt;   &lt;tr&gt;    &lt;td style=&quot;width: 125px; text-align: center;&quot;&gt;1&lt;/td&gt;    &lt;td style=&quot;width: 125px; text-align: center;&quot;&gt;2, &lt;em&gt;n&lt;/em&gt;&lt;/td&gt;    &lt;td style=&quot;width: 125px; text-align: center;&quot;&gt;(&lt;em&gt;n&lt;/em&gt; &amp;#8211; 1)(&lt;em&gt;n&lt;/em&gt; &amp;#8211; 1)&lt;/td&gt;    &lt;td style=&quot;width: 125px; text-align: center;&quot;&gt;(&lt;em&gt;n&lt;/em&gt; &amp;#8211; 1)&lt;em&gt;n&lt;/em&gt;&lt;/td&gt;   &lt;/tr&gt;   &lt;tr&gt;    &lt;td style=&quot;width: 125px; text-align: center;&quot;&gt;2&lt;/td&gt;    &lt;td style=&quot;width: 125px; text-align: center;&quot;&gt;3, &lt;em&gt;n&lt;/em&gt;&lt;/td&gt;    &lt;td style=&quot;width: 125px; text-align: center;&quot;&gt;(&lt;em&gt;n&lt;/em&gt; &amp;#8211; 2)(&lt;em&gt;n&lt;/em&gt; &amp;#8211; 2)&lt;/td&gt;    &lt;td style=&quot;width: 125px; text-align: center;&quot;&gt;(&lt;em&gt;n&lt;/em&gt; &amp;#8211; 2)(&lt;em&gt;n&lt;/em&gt; &amp;#8211; 1)&lt;/td&gt;   &lt;/tr&gt;   &lt;tr&gt;    &lt;td style=&quot;width: 125px; text-align: center;&quot;&gt;.&lt;/td&gt;    &lt;td style=&quot;width: 125px; text-align: center;&quot;&gt;.&lt;/td&gt;    &lt;td style=&quot;width: 125px; text-align: center;&quot;&gt;&amp;nbsp;&lt;/td&gt;    &lt;td style=&quot;width: 125px; text-align: center;&quot;&gt;&amp;nbsp;&lt;/td&gt;   &lt;/tr&gt;   &lt;tr&gt;    &lt;td style=&quot;width: 125px; text-align: center;&quot;&gt;.&lt;/td&gt;    &lt;td style=&quot;width: 125px; text-align: center;&quot;&gt;.&lt;/td&gt;    &lt;td style=&quot;width: 125px; text-align: center;&quot;&gt;&amp;nbsp;&lt;/td&gt;    &lt;td style=&quot;width: 125px; text-align: center;&quot;&gt;&amp;nbsp;&lt;/td&gt;   &lt;/tr&gt;   &lt;tr&gt;    &lt;td style=&quot;width: 125px; text-align: center;&quot;&gt;.&lt;/td&gt;    &lt;td style=&quot;width: 125px; text-align: center;&quot;&gt;.&lt;/td&gt;    &lt;td style=&quot;width: 125px; text-align: center;&quot;&gt;&amp;nbsp;&lt;/td&gt;    &lt;td style=&quot;width: 125px; text-align: center;&quot;&gt;&amp;nbsp;&lt;/td&gt;   &lt;/tr&gt;   &lt;tr&gt;    &lt;td style=&quot;width: 125px; text-align: center;&quot;&gt;&lt;em&gt;k&lt;/em&gt;&lt;/td&gt;    &lt;td style=&quot;width: 125px; text-align: center;&quot;&gt;&lt;em&gt;k&lt;/em&gt; + 1, &lt;em&gt;n&lt;/em&gt;&lt;/td&gt;    &lt;td style=&quot;width: 125px; text-align: center;&quot;&gt;(&lt;em&gt;n&lt;/em&gt; &amp;#8211; &lt;em&gt;k&lt;/em&gt;)(&lt;em&gt;n&lt;/em&gt; &amp;#8211; &lt;em&gt;k&lt;/em&gt;)&lt;/td&gt;    &lt;td style=&quot;width: 125px; text-align: center;&quot;&gt;(&lt;em&gt;n&lt;/em&gt; &amp;#8211; &lt;em&gt;k&lt;/em&gt;)(&lt;em&gt;n&lt;/em&gt; + 1 &amp;#8211; &lt;em&gt;k&lt;/em&gt;)&lt;/td&gt;   &lt;/tr&gt;   &lt;tr&gt;    &lt;td style=&quot;width: 125px; text-align: center;&quot;&gt;.&lt;/td&gt;    &lt;td style=&quot;width: 125px; text-align: center;&quot;&gt;.&lt;/td&gt;    &lt;td style=&quot;width: 125px; text-align: center;&quot;&gt;&amp;nbsp;&lt;/td&gt;    &lt;td style=&quot;width: 125px; text-align: center;&quot;&gt;&amp;nbsp;&lt;/td&gt;   &lt;/tr&gt;   &lt;tr&gt;    &lt;td style=&quot;width: 125px; text-align: center;&quot;&gt;.&lt;/td&gt;    &lt;td style=&quot;width: 125px; text-align: center;&quot;&gt;.&lt;/td&gt;    &lt;td style=&quot;width: 125px; text-align: center;&quot;&gt;&amp;nbsp;&lt;/td&gt;    &lt;td style=&quot;width: 125px; text-align: center;&quot;&gt;&amp;nbsp;&lt;/td&gt;   &lt;/tr&gt;   &lt;tr&gt;    &lt;td style=&quot;width: 125px; text-align: center;&quot;&gt;.&lt;/td&gt;    &lt;td style=&quot;width: 125px; text-align: center;&quot;&gt;.&lt;/td&gt;    &lt;td style=&quot;width: 125px; text-align: center;&quot;&gt;&amp;nbsp;&lt;/td&gt;    &lt;td style=&quot;width: 125px; text-align: center;&quot;&gt;&amp;nbsp;&lt;/td&gt;   &lt;/tr&gt;   &lt;tr&gt;    &lt;td style=&quot;width: 125px; text-align: center;&quot;&gt;&lt;em&gt;n&lt;/em&gt; &amp;#8211; 1&lt;/td&gt;    &lt;td style=&quot;width: 125px; text-align: center;&quot;&gt;&lt;em&gt;n&lt;/em&gt;, &lt;em&gt;n&lt;/em&gt;&lt;/td&gt;    &lt;td style=&quot;width: 125px; text-align: center;&quot;&gt;(1)(1)&lt;/td&gt;    &lt;td style=&quot;width: 125px; text-align: center;&quot;&gt;(1)(2)&lt;/td&gt;   &lt;/tr&gt;  &lt;/tbody&gt; &lt;/table&gt;  &lt;p&gt;&amp;nbsp;&lt;/p&gt;  &lt;p&gt;&amp;nbsp;&lt;/p&gt;  &lt;p&gt;Therefore, the total addition/subtraction flops for elimination can be computed as&lt;/p&gt;  &lt;p&gt;&amp;nbsp;&lt;/p&gt;  &lt;p&gt;%media:formula6.mml%&lt;/p&gt;  &lt;p&gt;&amp;nbsp;&lt;/p&gt;  &lt;p&gt;Applying some of the relationships from the equation [&lt;em&gt;A&lt;/em&gt;] = [&lt;em&gt;U&lt;/em&gt;]&lt;sup&gt;&lt;em&gt;T&lt;/em&gt;&lt;/sup&gt;[&lt;em&gt;U&lt;/em&gt;] yields&lt;/p&gt;  &lt;p&gt;&amp;nbsp;&lt;/p&gt;  &lt;p&gt;%media:formula8.mml%&lt;/p&gt;  &lt;p&gt;&amp;nbsp;&lt;/p&gt;  &lt;p&gt;A similar analysis for the multiplication/division flops yields&lt;/p&gt;  &lt;p&gt;&amp;nbsp;&lt;/p&gt;  &lt;p&gt;%media:formula7.mml%&lt;/p&gt;  &lt;p&gt;&amp;nbsp;&lt;/p&gt;  &lt;p&gt;%media:formula9.mml%&lt;/p&gt;  &lt;p&gt;&amp;nbsp;&lt;/p&gt;  &lt;p&gt;Summing these results gives&lt;/p&gt;  &lt;p&gt;&amp;nbsp;&lt;/p&gt;  &lt;p&gt;%media:formula11.mml%&lt;/p&gt;  &lt;p&gt;&amp;nbsp;&lt;/p&gt;" />
+      <property name="audioPlayerPosition" type="string" value="above" />
+      <property name="problemSolution" type="string" value="&lt;p&gt;The total flops as a function of the number of equations &lt;em&gt;n&lt;/em&gt; for the factorization is as follows:&lt;/p&gt;  &lt;p&gt;&amp;nbsp;&lt;/p&gt;  &lt;p&gt;%media:formula5.mml%&lt;/p&gt;" />
+      <property name="otherItem" type="string" value="" />
+      <property name="useCommonFeedback" type="boolean" value="false" />
+      <property name="order" type="string" value="scrambled" />
+    </questionProperties>
+    <hints>
+      <hint>
+        <name>hint #1</name>
+        <type>html</type>
+        <value><![CDATA[<p>How many number of multiplication flops and subtraction flops are for factorization?</p>]]></value>
+      </hint>
+    </hints>
+    <multipleChoice>
+      <stem><![CDATA[<p>Factorization</p>]]></stem>
+      <commonFeedback><![CDATA[<p>The flop counts for <em>LU</em> decomposition can be determined in a similar fashion as was done for Gauss elimination. The major difference is that the elimination is only implemented for the left-hand side coefficients.</p>  <p>Thus, for every iteration of the inner loop, there are <em>n</em> multiplications/divisions and <em>n</em> &#8211; 1 additions/subtractions.</p>  <p>The computations can be summarized as</p>  <p>&nbsp;</p>  <table style="width: 500px;" cellspacing="1" cellpadding="1" border="0">  <thead>   <tr>    <th scope="col" style="width: 125px;">    <p>Outer Loop</p>     <p><em>k</em></p>    </th>    <th scope="col" style="width: 125px;">    <p>Inner Loop</p>     <p><em>i</em></p>    </th>    <th scope="col" style="width: 125px;">    <p>Addition/Subtraction</p>     <p>flops</p>    </th>    <th scope="col" style="width: 125px;">    <p>Multiplication/Division</p>     <p>flops</p>    </th>   </tr>  </thead>  <tbody>   <tr>    <td style="width: 125px; text-align: center;">1</td>    <td style="width: 125px; text-align: center;">2, <em>n</em></td>    <td style="width: 125px; text-align: center;">(<em>n</em> &#8211; 1)(<em>n</em> &#8211; 1)</td>    <td style="width: 125px; text-align: center;">(<em>n</em> &#8211; 1)<em>n</em></td>   </tr>   <tr>    <td style="width: 125px; text-align: center;">2</td>    <td style="width: 125px; text-align: center;">3, <em>n</em></td>    <td style="width: 125px; text-align: center;">(<em>n</em> &#8211; 2)(<em>n</em> &#8211; 2)</td>    <td style="width: 125px; text-align: center;">(<em>n</em> &#8211; 2)(<em>n</em> &#8211; 1)</td>   </tr>   <tr>    <td style="width: 125px; text-align: center;">.</td>    <td style="width: 125px; text-align: center;">.</td>    <td style="width: 125px; text-align: center;">&nbsp;</td>    <td style="width: 125px; text-align: center;">&nbsp;</td>   </tr>   <tr>    <td style="width: 125px; text-align: center;">.</td>    <td style="width: 125px; text-align: center;">.</td>    <td style="width: 125px; text-align: center;">&nbsp;</td>    <td style="width: 125px; text-align: center;">&nbsp;</td>   </tr>   <tr>    <td style="width: 125px; text-align: center;">.</td>    <td style="width: 125px; text-align: center;">.</td>    <td style="width: 125px; text-align: center;">&nbsp;</td>    <td style="width: 125px; text-align: center;">&nbsp;</td>   </tr>   <tr>    <td style="width: 125px; text-align: center;"><em>k</em></td>    <td style="width: 125px; text-align: center;"><em>k</em> + 1, <em>n</em></td>    <td style="width: 125px; text-align: center;">(<em>n</em> &#8211; <em>k</em>)(<em>n</em> &#8211; <em>k</em>)</td>    <td style="width: 125px; text-align: center;">(<em>n</em> &#8211; <em>k</em>)(<em>n</em> + 1 &#8211; <em>k</em>)</td>   </tr>   <tr>    <td style="width: 125px; text-align: center;">.</td>    <td style="width: 125px; text-align: center;">.</td>    <td style="width: 125px; text-align: center;">&nbsp;</td>    <td style="width: 125px; text-align: center;">&nbsp;</td>   </tr>   <tr>    <td style="width: 125px; text-align: center;">.</td>    <td style="width: 125px; text-align: center;">.</td>    <td style="width: 125px; text-align: center;">&nbsp;</td>    <td style="width: 125px; text-align: center;">&nbsp;</td>   </tr>   <tr>    <td style="width: 125px; text-align: center;">.</td>    <td style="width: 125px; text-align: center;">.</td>    <td style="width: 125px; text-align: center;">&nbsp;</td>    <td style="width: 125px; text-align: center;">&nbsp;</td>   </tr>   <tr>    <td style="width: 125px; text-align: center;"><em>n</em> &#8211; 1</td>    <td style="width: 125px; text-align: center;"><em>n</em>, <em>n</em></td>    <td style="width: 125px; text-align: center;">(1)(1)</td>    <td style="width: 125px; text-align: center;">(1)(2)</td>   </tr>  </tbody> </table>  <p>&nbsp;</p>  <p>&nbsp;</p>  <p>Therefore, the total addition/subtraction flops for elimination can be computed as</p>  <p>&nbsp;</p>  <p>%media:formula6.mml%</p>  <p>&nbsp;</p>  <p>Applying some of the relationships from the equation [<em>A</em>] = [<em>U</em>]<sup><em>T</em></sup>[<em>U</em>] yields</p>  <p>&nbsp;</p>  <p>%media:formula8.mml%</p>  <p>&nbsp;</p>  <p>A similar analysis for the multiplication/division flops yields</p>  <p>&nbsp;</p>  <p>%media:formula7.mml%</p>  <p>&nbsp;</p>  <p>%media:formula9.mml%</p>  <p>&nbsp;</p>  <p>Summing these results gives</p>  <p>&nbsp;</p>  <p>%media:formula11.mml%</p>  <p>&nbsp;</p>]]></commonFeedback>
+      <choices>
+        <choice>
+          <distractor><![CDATA[<p>%media:formula1.mml%</p>]]></distractor>
+          <credit>1</credit>
+          <feedback></feedback>
+        </choice>
+        <choice>
+          <distractor><![CDATA[<p>%media:formula2.mml%</p>]]></distractor>
+          <credit>0</credit>
+          <feedback></feedback>
+        </choice>
+        <choice>
+          <distractor><![CDATA[<p>%media:formula3.mml%</p>]]></distractor>
+          <credit>0</credit>
+          <feedback></feedback>
+        </choice>
+        <choice>
+          <distractor><![CDATA[<p>%media:formula4.mml%</p>]]></distractor>
+          <credit>0</credit>
+          <feedback></feedback>
+        </choice>
+      </choices>
+    </multipleChoice>
+  </question>
+  <question>
+    <format>1</format>
+    <ezid>13570164365040602</ezid>
+    <version>1579774644579</version>
+    <title><![CDATA[Problem 10.001.b]]></title>
+    <multipart>13570164335551635</multipart>
+    <type>MC</type>
+    <categories>
+      <internal_category>
+        <catid>13570164356316801</catid>
+        <title><![CDATA[Chapter:  10 LU Factorization]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164356316802</catid>
+        <title><![CDATA[Topic:  LU Factorization]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164356317340</catid>
+        <title><![CDATA[Section:  10.02 GAUSS ELIMINATION AS LU FACTORIZATION]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164356317591</catid>
+        <title><![CDATA[Subtopic:  GAUSS ELIMINATION AS LU FACTORIZATION]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040730414</catid>
+        <title><![CDATA[Difficulty:  Medium]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164266036554</catid>
+        <title><![CDATA[Units:  NA]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164202016094</catid>
+        <title><![CDATA[Bloom's Verb: 3. Apply]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164196995740</catid>
+        <title><![CDATA[Bloom's Object: 3. Procedural]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164343377093</catid>
+        <title><![CDATA[ABET Outcomes:  (a) an ability to apply knowledge of mathematics, science, and engineering]]></title>
+      </internal_category>
+    </categories>
+    <media_set>
+      <internal_media>
+        <name>formula13.mml</name>
+        <consumerData>
+          <mediaID>13570164335611553</mediaID>
+          <testID>13570164365040572</testID>
+          <consumerID>13570164365040602</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>formula13.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>122</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1468994608550</creation>
+          <modified>1468994886925</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGg+PG1mcmFjPjxtc3VwPjxtaT5uPC9taT48bW4+MjwvbW4+PC9tc3VwPjxtbj40PC9tbj48
+L21mcmFjPjxtbz4mIzg3MjI7PC9tbz48bWZyYWM+PG1pPm48L21pPjxtbj4yPC9tbj48L21mcmFj
+PjwvbWF0aD4=]]></data>
+        </mediaData>
+      </internal_media>
+      <internal_media>
+        <name>formula14.mml</name>
+        <consumerData>
+          <mediaID>13570164335611591</mediaID>
+          <testID>13570164365040572</testID>
+          <consumerID>13570164365040602</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>formula14.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>116</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1468994640420</creation>
+          <modified>1468994886936</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGg+PG1mcmFjPjxtc3VwPjxtaT5uPC9taT48bW4+MjwvbW4+PC9tc3VwPjxtbj4yPC9tbj48
+L21mcmFjPjxtbz4rPC9tbz48bWZyYWM+PG1pPm48L21pPjxtbj4yPC9tbj48L21mcmFjPjwvbWF0
+aD4=]]></data>
+        </mediaData>
+      </internal_media>
+      <internal_media>
+        <name>formula17.mml</name>
+        <consumerData>
+          <mediaID>13570164353616374</mediaID>
+          <testID>13570164365040572</testID>
+          <consumerID>13570164365040602</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>formula17.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>371</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1473309488840</creation>
+          <modified>1473309655563</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGg+PG11bmRlcm92ZXI+PG1vPiYjODcyMTs8L21vPjxtcm93PjxtaT5pPC9taT48bW8+PTwv
+bW8+PG1uPjE8L21uPjwvbXJvdz48bXJvdz48bWk+bjwvbWk+PG1vPi08L21vPjxtbj4xPC9tbj48
+L21yb3c+PC9tdW5kZXJvdmVyPjxtaT5pPC9taT48bW8+PTwvbW8+PG1mcmFjPjxtcm93Pjxtbz4o
+PC9tbz48bWk+bjwvbWk+PG1vPi08L21vPjxtbj4xPC9tbj48bW8+KTwvbW8+PG1pPm48L21pPjwv
+bXJvdz48bW4+MjwvbW4+PC9tZnJhYz48bW8+PTwvbW8+PG1mcmFjPjxtc3VwPjxtaT5uPC9taT48
+bW4+MjwvbW4+PC9tc3VwPjxtbj4yPC9tbj48L21mcmFjPjxtbz4tPC9tbz48bWZyYWM+PG1pPm48
+L21pPjxtbj4yPC9tbj48L21mcmFjPjwvbWF0aD4=]]></data>
+        </mediaData>
+      </internal_media>
+      <internal_media>
+        <name>formula17.mml</name>
+        <consumerData>
+          <mediaID>13570164353616374</mediaID>
+          <testID>13570164365040572</testID>
+          <consumerID>13570164365040602</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>formula17.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>371</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1473309488840</creation>
+          <modified>1473309655563</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGg+PG11bmRlcm92ZXI+PG1vPiYjODcyMTs8L21vPjxtcm93PjxtaT5pPC9taT48bW8+PTwv
+bW8+PG1uPjE8L21uPjwvbXJvdz48bXJvdz48bWk+bjwvbWk+PG1vPi08L21vPjxtbj4xPC9tbj48
+L21yb3c+PC9tdW5kZXJvdmVyPjxtaT5pPC9taT48bW8+PTwvbW8+PG1mcmFjPjxtcm93Pjxtbz4o
+PC9tbz48bWk+bjwvbWk+PG1vPi08L21vPjxtbj4xPC9tbj48bW8+KTwvbW8+PG1pPm48L21pPjwv
+bXJvdz48bW4+MjwvbW4+PC9tZnJhYz48bW8+PTwvbW8+PG1mcmFjPjxtc3VwPjxtaT5uPC9taT48
+bW4+MjwvbW4+PC9tc3VwPjxtbj4yPC9tbj48L21mcmFjPjxtbz4tPC9tbz48bWZyYWM+PG1pPm48
+L21pPjxtbj4yPC9tbj48L21mcmFjPjwvbWF0aD4=]]></data>
+        </mediaData>
+      </internal_media>
+    </media_set>
+    <questionProperties>
+      <property name="layout" type="string" value="vertical" />
+      <property name="pageTag" type="string" value="" />
+      <property name="completeIncompleteGrading" type="string" value="false" />
+      <property name="instructor_info" type="string" value="" />
+      <property name="forceManualScoring" type="string" value="automatic" />
+      <property name="commonFeedback" type="string" value="&lt;p&gt;For forward substitution, the numbers of multiplications and subtractions are the same and they equal to&lt;/p&gt;  &lt;p&gt;&amp;nbsp;&lt;/p&gt;  &lt;p&gt;%media:formula17.mml%&lt;/p&gt;  &lt;p&gt;&amp;nbsp;&lt;/p&gt;  &lt;p&gt;Summing the results of multiplications and subtractions gives&lt;/p&gt;  &lt;p&gt;&amp;nbsp;&lt;/p&gt;  &lt;p&gt;&lt;em&gt;n&lt;/em&gt;&lt;sup&gt;2&lt;/sup&gt; &amp;#8211; &lt;em&gt;n&lt;/em&gt;&lt;/p&gt;  &lt;p&gt;&amp;nbsp;&lt;/p&gt;" />
+      <property name="audioPlayerPosition" type="string" value="above" />
+      <property name="problemSolution" type="string" value="&lt;p&gt;The total flops as a function of the number of equations &lt;em&gt;n&lt;/em&gt; for the forward substitution is as follows:&lt;/p&gt;  &lt;p&gt;&amp;nbsp;&lt;/p&gt;  &lt;p&gt;&lt;em&gt;n&lt;/em&gt;&lt;sup&gt;2&lt;/sup&gt; &amp;#8211; &lt;em&gt;n&lt;/em&gt;&lt;/p&gt;" />
+      <property name="otherItem" type="string" value="" />
+      <property name="useCommonFeedback" type="boolean" value="false" />
+      <property name="order" type="string" value="scrambled" />
+    </questionProperties>
+    <hints>
+      <hint>
+        <name>hint #1</name>
+        <type>html</type>
+        <value><![CDATA[<p>What are the numbers of multiplication flops and subtraction flops for forward substitution?</p>]]></value>
+      </hint>
+    </hints>
+    <multipleChoice>
+      <stem><![CDATA[<p>Forward substitution</p>]]></stem>
+      <commonFeedback><![CDATA[<p>For forward substitution, the numbers of multiplications and subtractions are the same and they equal to</p>  <p>&nbsp;</p>  <p>%media:formula17.mml%</p>  <p>&nbsp;</p>  <p>Summing the results of multiplications and subtractions gives</p>  <p>&nbsp;</p>  <p><em>n</em><sup>2</sup> &#8211; <em>n</em></p>  <p>&nbsp;</p>]]></commonFeedback>
+      <choices>
+        <choice>
+          <distractor><![CDATA[<p><em>n</em><sup>2</sup> &#8211; <em>n</em></p>]]></distractor>
+          <credit>1</credit>
+          <feedback></feedback>
+        </choice>
+        <choice>
+          <distractor><![CDATA[<p>%media:formula13.mml%</p>]]></distractor>
+          <credit>0</credit>
+          <feedback></feedback>
+        </choice>
+        <choice>
+          <distractor><![CDATA[<p>%media:formula14.mml%</p>]]></distractor>
+          <credit>0</credit>
+          <feedback></feedback>
+        </choice>
+        <choice>
+          <distractor><![CDATA[<p><em>n</em><sup>2</sup> + <em>n</em></p>]]></distractor>
+          <credit>0</credit>
+          <feedback></feedback>
+        </choice>
+      </choices>
+    </multipleChoice>
+  </question>
+  <question>
+    <format>1</format>
+    <ezid>13570164365040603</ezid>
+    <version>1579774644579</version>
+    <title><![CDATA[Problem 10.001.c]]></title>
+    <multipart>13570164335551635</multipart>
+    <type>MC</type>
+    <categories>
+      <internal_category>
+        <catid>13570164356316801</catid>
+        <title><![CDATA[Chapter:  10 LU Factorization]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164356316802</catid>
+        <title><![CDATA[Topic:  LU Factorization]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164356317340</catid>
+        <title><![CDATA[Section:  10.02 GAUSS ELIMINATION AS LU FACTORIZATION]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164356317591</catid>
+        <title><![CDATA[Subtopic:  GAUSS ELIMINATION AS LU FACTORIZATION]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040730414</catid>
+        <title><![CDATA[Difficulty:  Medium]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164266036554</catid>
+        <title><![CDATA[Units:  NA]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164202016094</catid>
+        <title><![CDATA[Bloom's Verb: 3. Apply]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164196995740</catid>
+        <title><![CDATA[Bloom's Object: 3. Procedural]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164343377093</catid>
+        <title><![CDATA[ABET Outcomes:  (a) an ability to apply knowledge of mathematics, science, and engineering]]></title>
+      </internal_category>
+    </categories>
+    <media_set>
+      <internal_media>
+        <name>formula18.mml</name>
+        <consumerData>
+          <mediaID>13570164335615529</mediaID>
+          <testID>13570164365040572</testID>
+          <consumerID>13570164365040603</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>formula18.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>48</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1468995015343</creation>
+          <modified>1468995435637</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGg+PG1mcmFjPjxtaT5uPC9taT48bW4+MjwvbW4+PC9tZnJhYz48L21hdGg+]]></data>
+        </mediaData>
+      </internal_media>
+      <internal_media>
+        <name>formula19.mml</name>
+        <consumerData>
+          <mediaID>13570164335615654</mediaID>
+          <testID>13570164365040572</testID>
+          <consumerID>13570164365040603</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>formula19.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>71</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1468995073648</creation>
+          <modified>1468995435654</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGg+PG1mcmFjPjxtc3VwPjxtaT5uPC9taT48bW4+MjwvbW4+PC9tc3VwPjxtbj40PC9tbj48
+L21mcmFjPjwvbWF0aD4=]]></data>
+        </mediaData>
+      </internal_media>
+    </media_set>
+    <questionProperties>
+      <property name="layout" type="string" value="vertical" />
+      <property name="pageTag" type="string" value="" />
+      <property name="completeIncompleteGrading" type="string" value="false" />
+      <property name="instructor_info" type="string" value="" />
+      <property name="forceManualScoring" type="string" value="automatic" />
+      <property name="commonFeedback" type="string" value="&lt;p&gt;Back substitution is the same as for Gauss elimination:&lt;/p&gt;  &lt;p&gt;&lt;em&gt;n&lt;/em&gt;&lt;sup&gt;2&lt;/sup&gt;/2 &amp;#8211; &lt;em&gt;n&lt;/em&gt;/2 subtractions and &lt;em&gt;n&lt;/em&gt;&lt;sup&gt;2&lt;/sup&gt;/2 + &lt;em&gt;n&lt;/em&gt;/2 multiplications/divisions.&lt;/p&gt;  &lt;p&gt;Summing the results of multiplications and subtractions gives &lt;em&gt;n&lt;/em&gt;&lt;sup&gt;2&lt;/sup&gt;.&lt;/p&gt;  &lt;p&gt;&amp;nbsp;&lt;/p&gt; " />
+      <property name="audioPlayerPosition" type="string" value="above" />
+      <property name="problemSolution" type="string" value="&lt;p&gt;The total flops as a function of the number of equations &lt;em&gt;n&lt;/em&gt; for the backward substitution is as follows:&lt;/p&gt;  &lt;p&gt;&lt;em&gt;n&lt;/em&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/p&gt;" />
+      <property name="otherItem" type="string" value="" />
+      <property name="useCommonFeedback" type="boolean" value="false" />
+      <property name="order" type="string" value="scrambled" />
+    </questionProperties>
+    <hints>
+      <hint>
+        <name>hint #1</name>
+        <type>html</type>
+        <value><![CDATA[<p>How many addition/subtraction flops are there for backward substitution phase of the <em>LU</em> factorization version of Gauss elimination?</p>]]></value>
+      </hint>
+    </hints>
+    <multipleChoice>
+      <stem><![CDATA[<p>Back substitution</p>]]></stem>
+      <commonFeedback><![CDATA[<p>Back substitution is the same as for Gauss elimination:</p>  <p><em>n</em><sup>2</sup>/2 &#8211; <em>n</em>/2 subtractions and <em>n</em><sup>2</sup>/2 + <em>n</em>/2 multiplications/divisions.</p>  <p>Summing the results of multiplications and subtractions gives <em>n</em><sup>2</sup>.</p>  <p>&nbsp;</p> ]]></commonFeedback>
+      <choices>
+        <choice>
+          <distractor><![CDATA[<p><em>n</em><sup>2</sup></p>]]></distractor>
+          <credit>1</credit>
+          <feedback></feedback>
+        </choice>
+        <choice>
+          <distractor><![CDATA[<p>%media:formula18.mml%</p>]]></distractor>
+          <credit>0</credit>
+          <feedback></feedback>
+        </choice>
+        <choice>
+          <distractor><![CDATA[<p><em>n</em><sup>2</sup> + <em>n</em></p>]]></distractor>
+          <credit>0</credit>
+          <feedback></feedback>
+        </choice>
+        <choice>
+          <distractor><![CDATA[<p>%media:formula19.mml%</p>]]></distractor>
+          <credit>0</credit>
+          <feedback></feedback>
+        </choice>
+      </choices>
+    </multipleChoice>
+  </question>
+  <question>
+    <format>1</format>
+    <ezid>13570164364939735</ezid>
+    <version>1579774644579</version>
+    <title><![CDATA[Problem 10.002]]></title>
+    <type>WK</type>
+    <categories>
+      <internal_category>
+        <catid>13570164356316801</catid>
+        <title><![CDATA[Chapter:  10 LU Factorization]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164356316802</catid>
+        <title><![CDATA[Topic:  LU Factorization]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164356317339</catid>
+        <title><![CDATA[Section:  10.01 OVERVIEW OF LU FACTORIZATION]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164356317589</catid>
+        <title><![CDATA[Subtopic:  OVERVIEW OF LU FACTORIZATION]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040730414</catid>
+        <title><![CDATA[Difficulty:  Medium]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164266036554</catid>
+        <title><![CDATA[Units:  NA]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164202016094</catid>
+        <title><![CDATA[Bloom's Verb: 3. Apply]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164196995716</catid>
+        <title><![CDATA[Bloom's Object: 2. Conceptual]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164343377093</catid>
+        <title><![CDATA[ABET Outcomes:  (a) an ability to apply knowledge of mathematics, science, and engineering]]></title>
+      </internal_category>
+    </categories>
+    <questionProperties>
+      <property name="pageTag" type="string" value="" />
+      <property name="customType" type="string" value="" />
+      <property name="completeIncompleteGrading" type="string" value="false" />
+      <property name="instructor_info" type="string" value="" />
+      <property name="forceManualScoring" type="string" value="automatic" />
+      <property name="audioPlayerPosition" type="string" value="above" />
+      <property name="problemSolution" type="string" value="" />
+      <property name="attached_media" type="string" value="" />
+      <property name="aggregatedGrading" type="string" value="false" />
+      <property name="useCommonFeedback" type="string" value="true" />
+    </questionProperties>
+    <hints>
+      <hint>
+        <name>hint #1</name>
+        <type>html</type>
+        <value><![CDATA[<p>Is multiplication of matrices associative?</p>]]></value>
+      </hint>
+    </hints>
+    <worksheet>
+      <stem><![CDATA[<p>Using the rules of matrix multiplication, click and drag the given steps to prove that [<em>L</em>][<em>U</em>] = [<em>A</em>] and [<em>L</em>]{<em>d</em>} = {<em>b</em>} follow from [<em>L</em>]{[<em>U</em>]{<em>x</em>}&#8211;{<em>d</em>}} = [<em>A</em>]{<em>x</em>} &#8211; {<em>b</em>}.</p>
+
+<p>&nbsp;</p>
+
+<p>(Note: First prove [<em>L</em>][<em>U</em>] = [<em>A</em>], then [<em>L</em>]{<em>d</em>} = {<em>b</em>}.)</p>
+
+<p>&nbsp;</p>
+
+<p>__A__</p>]]></stem>
+      <commonFeedback></commonFeedback>
+      <answers>
+        <externalAnswer>
+          <name><![CDATA[A]]></name>
+          <weight>100</weight>
+          <answerProperties>
+            <property name="identifier" type="string" value="common/clickanddrag/2.0/clickdrag.html" />
+            <property name="customType" type="string" value="" />
+            <property name="completeIncompleteGrading" type="string" value="false" />
+            <property name="width" type="string" value="800" />
+            <property name="palette" type="string" value="" />
+            <property name="state" type="string" value="%7B%22adminData%22%3A%7B%22GFS%22%3A%2214%22%2C%22CSO%22%3A%22pi_connectstylev2.swf%22%2C%22OTM%22%3Afalse%2C%22OTO%22%3Atrue%2C%22AW%22%3A800%2C%22AH%22%3A600%2C%22TYPE%22%3Afalse%2C%22HRO%22%3A%22L%22%2C%22FRO%22%3A%22L%22%2C%22RLO%22%3A%22T%22%2C%22ICS%22%3Afalse%2C%22HGL%22%3A%22%22%2C%22VGL%22%3A%22%22%2C%22ET%22%3A%22CLS%22%2C%22SLELD%22%3A%22361%2C75%22%2C%22ZHP%22%3A%22200%2C200%2C425%2C75%2C3%2C120%2C70%2C766%2C515%22%2C%22feedbackHeight%22%3A%2270%22%2C%22feedbackWidth%22%3A%22120%22%2C%22AVP%22%3A%22233%2C259%22%2C%22audioList%22%3A%5B%5D%2C%22imageList%22%3A%5B%5D%2C%22showHintOrFeedbackInAuthoring%22%3A%22none%22%7D%2C%22FrameData%22%3A%5B%7B%22frameBGVisible%22%3A%22f%22%2C%22frameFIBButtonX%22%3A%22%22%2C%22frameFIBButtonY%22%3A%22%22%2C%22frameFIBOutput%22%3A%22%22%2C%22frameFlag%22%3A%221%22%2C%22frameHeight%22%3A600%2C%22frameId%22%3A%22fr0%22%2C%22frameImageList%22%3A%7B%7D%2C%22frameLabelObj%22%3A%22null%25d%25null%22%2C%22frameMediaList%22%3A%22N%22%2C%22frameMediaXY%22%3A%7B%22x%22%3A%220%22%2C%22y%22%3A%220%22%7D%2C%22frameOptionX%22%3A%22233%22%2C%22frameOptionY%22%3A%22259%22%2C%22frameOriginalX%22%3A0%2C%22frameOriginalY%22%3A0%2C%22frameStudentGUI%22%3A%5B%7B%22Component%22%3A%22R%22%2C%22x%22%3A740%2C%22y%22%3A570%2C%22visible%22%3Atrue%7D%2C%7B%22Component%22%3A%22Z%22%2C%22x%22%3A680%2C%22y%22%3A570%2C%22visible%22%3Afalse%7D%5D%2C%22frameTextList%22%3A%5B%5D%2C%22frameWidth%22%3A800%2C%22frameX%22%3A0%2C%22frameY%22%3A0%2C%22groupId%22%3A%22frame_group%22%2C%22frameGroupID%22%3A%22frame_0%22%2C%22zIndex%22%3A3%7D%2C%7B%22frameX%22%3A10%2C%22frameY%22%3A10%2C%22frameWidth%22%3A389%2C%22frameHeight%22%3A580%2C%22lockStatus%22%3Afalse%2C%22frameImageList%22%3A%7B%7D%2C%22frameTextList%22%3A%7B%7D%2C%22frameStudentGUI%22%3A%5B%7B%22component%22%3A%22%22%2C%22x%22%3A%22%22%2C%22y%22%3A%22%22%7D%5D%2C%22frameBGVisible%22%3A%22F%22%2C%22frameFlag%22%3A1%2C%22frameMediaList%22%3A%22N%22%2C%22frameMediaXY%22%3A%7B%22x%22%3A0%2C%22y%22%3A0%7D%2C%22frameOptionX%22%3A233%2C%22frameOptionY%22%3A259%2C%22frameLabelObj%22%3A%7B%7D%2C%22frameFIBOutput%22%3A%22%22%2C%22frameFIBButtonX%22%3A%22%22%2C%22frameFIBButtonY%22%3A%22%22%2C%22frameGroupID%22%3A%22frame_1%22%2C%22zIndex%22%3A4%2C%22frameId%22%3A%22fr1%22%2C%22groupId%22%3A%22frame_group%22%7D%2C%7B%22frameX%22%3A404%2C%22frameY%22%3A8%2C%22frameWidth%22%3A389%2C%22frameHeight%22%3A580%2C%22lockStatus%22%3Afalse%2C%22frameImageList%22%3A%7B%7D%2C%22frameTextList%22%3A%7B%7D%2C%22frameStudentGUI%22%3A%5B%7B%22component%22%3A%22%22%2C%22x%22%3A%22%22%2C%22y%22%3A%22%22%7D%5D%2C%22frameBGVisible%22%3A%22F%22%2C%22frameFlag%22%3A1%2C%22frameMediaList%22%3A%22N%22%2C%22frameMediaXY%22%3A%7B%22x%22%3A0%2C%22y%22%3A0%7D%2C%22frameOptionX%22%3A233%2C%22frameOptionY%22%3A259%2C%22frameLabelObj%22%3A%7B%7D%2C%22frameFIBOutput%22%3A%22%22%2C%22frameFIBButtonX%22%3A%22%22%2C%22frameFIBButtonY%22%3A%22%22%2C%22frameGroupID%22%3A%22frame_2%22%2C%22zIndex%22%3A5%2C%22frameId%22%3A%22fr2%22%2C%22groupId%22%3A%22frame_group%22%7D%5D%2C%22CLSData%22%3A%7B%22CLS0%22%3A%7B%22label_value%22%3A%22Consider%20%5B%3Ci%3EL%3C/i%3E%5D%7B%5B%3Ci%3EU%3C/i%3E%5D%7B%3Ci%3Ex%3C/i%3E%7D%20%u2013%20%7B%3Ci%3Ed%3C/i%3E%7D%7D%20%3D%20%5B%3Ci%3EA%3C/i%3E%5D%7B%3Ci%3Ex%3C/i%3E%7D%20%u2013%20%7B%3Ci%3Eb%3C/i%3E%7D.%22%2C%22class_name%22%3A%22%22%2C%22image_data%22%3A%22N%22%2C%22holder_x%22%3A414%2C%22holder_y%22%3A18%2C%22hint_value%22%3A%22%22%2C%22feedback_value%22%3A%22%22%2C%22transparent%22%3A%22T%22%2C%22transparent_hint%22%3A%22F%22%2C%22transparent_border%22%3A%22F%22%2C%22media_value%22%3A%22N%22%2C%22play_option_value%22%3A%220%7C0%22%2C%22media_X%22%3A233%2C%22media_Y%22%3A259%2C%22distractor%22%3A%22F%22%2C%22student_answer_string%22%3A%22N%22%2C%22class_set%22%3A%22group1%22%2C%22edit_button_X%22%3A5%2C%22edit_button_Y%22%3A0%2C%22custom_hint%22%3A%22N%22%2C%22visibility%22%3Atrue%2C%22lockStatus%22%3Afalse%2C%22textFormat%22%3A%7B%22underline_value%22%3A%22F%22%2C%22fontSize%22%3A14%2C%22fontStyle%22%3A%22normal%22%2C%22align%22%3A%22center%22%7D%2C%22zIndex%22%3A11%2C%22labelGroupId%22%3A%22label_0%22%2C%22name%22%3A%22label_0%22%2C%22infoHideText%22%3A%22F%22%2C%22FIB_value%22%3A%22N%22%7D%2C%22CLS1%22%3A%7B%22label_value%22%3A%22Matrix%20multiplication%20is%20distributive%2C%20so%20the%20left-hand%20side%20can%20be%20rewritten%20as%20%5B%3Ci%3EL%3C/i%3E%5D%20%5B%3Ci%3EU%3C/i%3E%5D%7B%3Ci%3Ex%3C/i%3E%7D%20%u2013%20%5B%3Ci%3EL%3C/i%3E%5D%7B%3Ci%3Ed%3C/i%3E%7D%20%3D%20%5B%3Ci%3EA%3C/i%3E%5D%7B%3Ci%3Ex%3C/i%3E%7D%20%u2013%20%7B%3Ci%3Eb%3C/i%3E%7D.%22%2C%22class_name%22%3A%22%22%2C%22image_data%22%3A%22N%22%2C%22holder_x%22%3A414%2C%22holder_y%22%3A99%2C%22hint_value%22%3A%22%22%2C%22feedback_value%22%3A%22%22%2C%22transparent%22%3A%22T%22%2C%22transparent_hint%22%3A%22F%22%2C%22transparent_border%22%3A%22F%22%2C%22media_value%22%3A%22N%22%2C%22play_option_value%22%3A%220%7C0%22%2C%22media_X%22%3A233%2C%22media_Y%22%3A259%2C%22distractor%22%3A%22F%22%2C%22student_answer_string%22%3A%22N%22%2C%22class_set%22%3A%22group2%22%2C%22edit_button_X%22%3A5%2C%22edit_button_Y%22%3A0%2C%22custom_hint%22%3A%22N%22%2C%22visibility%22%3Atrue%2C%22lockStatus%22%3Afalse%2C%22textFormat%22%3A%7B%22underline_value%22%3A%22F%22%2C%22fontSize%22%3A14%2C%22fontStyle%22%3A%22normal%22%2C%22align%22%3A%22center%22%7D%2C%22zIndex%22%3A12%2C%22labelGroupId%22%3A%22label_1%22%2C%22name%22%3A%22label_1%22%2C%22infoHideText%22%3A%22F%22%2C%22FIB_value%22%3A%22N%22%7D%2C%22CLS2%22%3A%7B%22label_value%22%3A%22Equating%20the%20terms%20that%20are%20multiplied%20by%20%7B%3Ci%3Ex%3C/i%3E%7D%20yields%20%5B%3Ci%3EL%3C/i%3E%5D%20%5B%3Ci%3EU%3C/i%3E%5D%7Bx%7D%20%3D%20%5B%3Ci%3EA%3C/i%3E%5D%7B%3Ci%3Ex%3C/i%3E%7D.%22%2C%22class_name%22%3A%22%22%2C%22image_data%22%3A%22N%22%2C%22holder_x%22%3A414%2C%22holder_y%22%3A181%2C%22hint_value%22%3A%22%22%2C%22feedback_value%22%3A%22%22%2C%22transparent%22%3A%22T%22%2C%22transparent_hint%22%3A%22F%22%2C%22transparent_border%22%3A%22F%22%2C%22media_value%22%3A%22N%22%2C%22play_option_value%22%3A%220%7C0%22%2C%22media_X%22%3A233%2C%22media_Y%22%3A259%2C%22distractor%22%3A%22F%22%2C%22student_answer_string%22%3A%22N%22%2C%22class_set%22%3A%22group3%22%2C%22edit_button_X%22%3A5%2C%22edit_button_Y%22%3A0%2C%22custom_hint%22%3A%22N%22%2C%22visibility%22%3Atrue%2C%22lockStatus%22%3Afalse%2C%22textFormat%22%3A%7B%22underline_value%22%3A%22F%22%2C%22fontSize%22%3A14%2C%22fontStyle%22%3A%22normal%22%2C%22align%22%3A%22center%22%7D%2C%22zIndex%22%3A13%2C%22labelGroupId%22%3A%22label_2%22%2C%22name%22%3A%22label_2%22%2C%22infoHideText%22%3A%22F%22%2C%22FIB_value%22%3A%22N%22%7D%2C%22CLS3%22%3A%7B%22label_value%22%3A%22Therefore%2C%20%5B%3Ci%3EL%3C/i%3E%5D%20%5B%3Ci%3EU%3C/i%3E%5D%20%3D%20%5B%3Ci%3EA%3C/i%3E%5D.%22%2C%22class_name%22%3A%22%22%2C%22image_data%22%3A%22N%22%2C%22holder_x%22%3A414%2C%22holder_y%22%3A261%2C%22hint_value%22%3A%22%22%2C%22feedback_value%22%3A%22%22%2C%22transparent%22%3A%22T%22%2C%22transparent_hint%22%3A%22F%22%2C%22transparent_border%22%3A%22F%22%2C%22media_value%22%3A%22N%22%2C%22play_option_value%22%3A%220%7C0%22%2C%22media_X%22%3A233%2C%22media_Y%22%3A259%2C%22distractor%22%3A%22F%22%2C%22student_answer_string%22%3A%22N%22%2C%22class_set%22%3A%22group4%22%2C%22edit_button_X%22%3A5%2C%22edit_button_Y%22%3A0%2C%22custom_hint%22%3A%22N%22%2C%22visibility%22%3Atrue%2C%22lockStatus%22%3Afalse%2C%22textFormat%22%3A%7B%22underline_value%22%3A%22F%22%2C%22fontSize%22%3A14%2C%22fontStyle%22%3A%22normal%22%2C%22align%22%3A%22center%22%7D%2C%22zIndex%22%3A14%2C%22labelGroupId%22%3A%22label_3%22%2C%22name%22%3A%22label_3%22%2C%22infoHideText%22%3A%22F%22%2C%22FIB_value%22%3A%22N%22%7D%2C%22CLS4%22%3A%7B%22label_value%22%3A%22Equating%20the%20constant%20terms%20yields%20%5B%3Ci%3EL%3C/i%3E%5D%7B%3Ci%3Ed%3C/i%3E%7D%20%3D%20%7B%3Ci%3Eb%3C/i%3E%7D.%22%2C%22class_name%22%3A%22%22%2C%22image_data%22%3A%22N%22%2C%22holder_x%22%3A414%2C%22holder_y%22%3A342%2C%22hint_value%22%3A%22%22%2C%22feedback_value%22%3A%22%22%2C%22transparent%22%3A%22T%22%2C%22transparent_hint%22%3A%22F%22%2C%22transparent_border%22%3A%22F%22%2C%22media_value%22%3A%22N%22%2C%22play_option_value%22%3A%220%7C0%22%2C%22media_X%22%3A233%2C%22media_Y%22%3A259%2C%22distractor%22%3A%22F%22%2C%22student_answer_string%22%3A%22N%22%2C%22class_set%22%3A%22group5%22%2C%22edit_button_X%22%3A5%2C%22edit_button_Y%22%3A0%2C%22custom_hint%22%3A%22N%22%2C%22visibility%22%3Atrue%2C%22lockStatus%22%3Afalse%2C%22textFormat%22%3A%7B%22underline_value%22%3A%22F%22%2C%22fontSize%22%3A14%2C%22fontStyle%22%3A%22normal%22%2C%22align%22%3A%22center%22%7D%2C%22zIndex%22%3A15%2C%22labelGroupId%22%3A%22label_4%22%2C%22name%22%3A%22label_4%22%2C%22infoHideText%22%3A%22F%22%2C%22FIB_value%22%3A%22N%22%7D%2C%22CLS5%22%3A%7B%22label_value%22%3A%22Matrix%20multiplication%20is%20associative%2C%20so%20the%20left-hand%20side%20can%20be%20rewritten%20as%20%7B%5B%3Ci%3EL%3C/i%3E%5D%20%u2013%20%5B%3Ci%3EU%3C/i%3E%5D%7B%3Ci%3Ex%3C/i%3E%7D%7D%7B%3Ci%3Ed%3C/i%3E%7D%20%3D%20%5B%3Ci%3EA%3C/i%3E%5D%7B%3Ci%3Ex%3C/i%3E%7D%20%u2013%20%7B%3Ci%3Eb%3C/i%3E%7D.%22%2C%22class_name%22%3A%22%22%2C%22image_data%22%3A%22N%22%2C%22holder_x%22%3A414%2C%22holder_y%22%3A423%2C%22hint_value%22%3A%22%22%2C%22feedback_value%22%3A%22%22%2C%22transparent%22%3A%22T%22%2C%22transparent_hint%22%3A%22F%22%2C%22transparent_border%22%3A%22F%22%2C%22media_value%22%3A%22N%22%2C%22play_option_value%22%3A%220%7C0%22%2C%22media_X%22%3A233%2C%22media_Y%22%3A259%2C%22distractor%22%3A%22T%22%2C%22student_answer_string%22%3A%22N%22%2C%22class_set%22%3A%22%22%2C%22edit_button_X%22%3A5%2C%22edit_button_Y%22%3A0%2C%22custom_hint%22%3A%22N%22%2C%22visibility%22%3Atrue%2C%22lockStatus%22%3Afalse%2C%22textFormat%22%3A%7B%22underline_value%22%3A%22F%22%2C%22fontSize%22%3A14%2C%22fontStyle%22%3A%22normal%22%2C%22align%22%3A%22center%22%7D%2C%22zIndex%22%3A16%2C%22labelGroupId%22%3A%22label_5%22%2C%22name%22%3A%22label_5%22%2C%22infoHideText%22%3A%22F%22%2C%22FIB_value%22%3A%22N%22%7D%2C%22CLS6%22%3A%7B%22label_value%22%3A%22Equating%20the%20terms%20that%20are%20multiplied%20by%20%7B%3Ci%3Ex%3C/i%3E%7D%20yields%20%5B%3Ci%3EL%3C/i%3E%5D%20%u2013%20%5B%3Ci%3EU%3C/i%3E%5D%7B%3Ci%3Ex%3C/i%3E%7D%20%3D%20%5B%3Ci%3EA%3C/i%3E%5D%7B%3Ci%3Ex%3C/i%3E%7D.%22%2C%22class_name%22%3A%22%22%2C%22image_data%22%3A%22N%22%2C%22holder_x%22%3A414%2C%22holder_y%22%3A504%2C%22hint_value%22%3A%22%22%2C%22feedback_value%22%3A%22%22%2C%22transparent%22%3A%22T%22%2C%22transparent_hint%22%3A%22F%22%2C%22transparent_border%22%3A%22F%22%2C%22media_value%22%3A%22N%22%2C%22play_option_value%22%3A%220%7C0%22%2C%22media_X%22%3A233%2C%22media_Y%22%3A259%2C%22distractor%22%3A%22T%22%2C%22student_answer_string%22%3A%22N%22%2C%22class_set%22%3A%22%22%2C%22edit_button_X%22%3A5%2C%22edit_button_Y%22%3A0%2C%22custom_hint%22%3A%22N%22%2C%22visibility%22%3Atrue%2C%22lockStatus%22%3Afalse%2C%22textFormat%22%3A%7B%22underline_value%22%3A%22F%22%2C%22fontSize%22%3A14%2C%22fontStyle%22%3A%22normal%22%2C%22align%22%3A%22center%22%7D%2C%22zIndex%22%3A17%2C%22labelGroupId%22%3A%22label_6%22%2C%22name%22%3A%22label_6%22%2C%22infoHideText%22%3A%22F%22%2C%22FIB_value%22%3A%22N%22%7D%7D%2C%22CLSCData%22%3A%7B%22CLSC0%22%3A%7B%22name%22%3A%22group1%22%2C%22xpos%22%3A30%2C%22ypos%22%3A33%2C%22width%22%3A%22350%22%2C%22height%22%3A%2275%22%2C%22transparent%22%3A%22semitransparent%22%2C%22transparent_border%22%3A%22F%22%2C%22media_value%22%3A%22N%22%2C%22play_option_value%22%3A%220%7C0%22%2C%22media_X%22%3A%22233%22%2C%22media_Y%22%3A%22259%22%2C%22dockGroupId%22%3A%22dock_0%22%2C%22dockGroupNo%22%3A1%2C%22lockStatus%22%3Afalse%2C%22zIndex%22%3A6%2C%22dockHeadingId%22%3A%22txt_0_0%22%7D%2C%22CLSC1%22%3A%7B%22name%22%3A%22group2%22%2C%22xpos%22%3A31%2C%22ypos%22%3A144%2C%22width%22%3A%22350%22%2C%22height%22%3A%2275%22%2C%22transparent%22%3A%22semitransparent%22%2C%22transparent_border%22%3A%22F%22%2C%22media_value%22%3A%22N%22%2C%22play_option_value%22%3A%220%7C0%22%2C%22media_X%22%3A%22233%22%2C%22media_Y%22%3A%22259%22%2C%22dockGroupId%22%3A%22dock_1%22%2C%22dockGroupNo%22%3A2%2C%22lockStatus%22%3Afalse%2C%22zIndex%22%3A7%2C%22dockHeadingId%22%3A%22txt_1_0%22%7D%2C%22CLSC2%22%3A%7B%22name%22%3A%22group3%22%2C%22xpos%22%3A31%2C%22ypos%22%3A252%2C%22width%22%3A%22350%22%2C%22height%22%3A%2275%22%2C%22transparent%22%3A%22semitransparent%22%2C%22transparent_border%22%3A%22F%22%2C%22media_value%22%3A%22N%22%2C%22play_option_value%22%3A%220%7C0%22%2C%22media_X%22%3A%22233%22%2C%22media_Y%22%3A%22259%22%2C%22dockGroupId%22%3A%22dock_2%22%2C%22dockGroupNo%22%3A3%2C%22lockStatus%22%3Afalse%2C%22zIndex%22%3A8%2C%22dockHeadingId%22%3A%22txt_2_0%22%7D%2C%22CLSC3%22%3A%7B%22name%22%3A%22group4%22%2C%22xpos%22%3A32%2C%22ypos%22%3A375%2C%22width%22%3A%22350%22%2C%22height%22%3A%2275%22%2C%22transparent%22%3A%22semitransparent%22%2C%22transparent_border%22%3A%22F%22%2C%22media_value%22%3A%22N%22%2C%22play_option_value%22%3A%220%7C0%22%2C%22media_X%22%3A%22233%22%2C%22media_Y%22%3A%22259%22%2C%22dockGroupId%22%3A%22dock_3%22%2C%22dockGroupNo%22%3A4%2C%22lockStatus%22%3Afalse%2C%22zIndex%22%3A9%2C%22dockHeadingId%22%3A%22txt_3_0%22%7D%2C%22CLSC4%22%3A%7B%22name%22%3A%22group5%22%2C%22xpos%22%3A29%2C%22ypos%22%3A488%2C%22width%22%3A%22350%22%2C%22height%22%3A%2275%22%2C%22transparent%22%3A%22semitransparent%22%2C%22transparent_border%22%3A%22F%22%2C%22media_value%22%3A%22N%22%2C%22play_option_value%22%3A%220%7C0%22%2C%22media_X%22%3A%22233%22%2C%22media_Y%22%3A%22259%22%2C%22dockGroupId%22%3A%22dock_4%22%2C%22dockGroupNo%22%3A5%2C%22lockStatus%22%3Afalse%2C%22zIndex%22%3A10%2C%22dockHeadingId%22%3A%22txt_4_0%22%7D%7D%2C%22CLSGV%22%3A%22%22%2C%22CLSRQ%22%3A%22%22%2C%22CLSRN%22%3A%220%2C1%2C2%2C3%2C4%2C5%2C6%22%2C%22CLSPS%22%3A%7B%22totalRandomLabels%22%3A5%2C%22totalRandomDistractors%22%3A2%2C%22disableFeedback%22%3A%22N%22%2C%22disableInstantFeedback%22%3A%22N%22%2C%22disableHints%22%3A0%2C%22studentGradeFormat%22%3A%22P%22%7D%2C%22CLSGP%22%3A%7B%22borderGlobal%22%3A%22F%22%2C%22backGroundGlobal%22%3A%22F%22%2C%22toggleSPGlobal%22%3A%22F%22%2C%22labelBorderGlobal%22%3A%22N%22%2C%22labelBGGlobal%22%3A%22N%22%2C%22dockBGGlobal%22%3A%22N%22%7D%2C%22CLSPOS%22%3A%22%25d%25%25d%25%7C%7C%7C%7C%25d%25%25d%25%22%2C%22VST%22%3A0%2C%22CLSDS%22%3A%22%22%2C%22CLSSD%22%3A%22%22%7D" />
+            <property name="height" type="string" value="600" />
+          </answerProperties>
+        </externalAnswer>
+        <externalAnswer>
+          <name><![CDATA[ACopy]]></name>
+          <weight>100</weight>
+          <answerProperties>
+            <property name="identifier" type="string" value="common/clickanddrag/2.0/clickdrag.html" />
+            <property name="customType" type="string" value="" />
+            <property name="completeIncompleteGrading" type="string" value="false" />
+            <property name="width" type="string" value="800" />
+            <property name="palette" type="string" value="" />
+            <property name="state" type="string" value="%7B%22adminData%22%3A%7B%22GFS%22%3A%2214%22%2C%22CSO%22%3A%22pi_connectstylev2.swf%22%2C%22OTM%22%3Afalse%2C%22OTO%22%3Atrue%2C%22AW%22%3A800%2C%22AH%22%3A600%2C%22TYPE%22%3Afalse%2C%22HRO%22%3A%22L%22%2C%22FRO%22%3A%22L%22%2C%22RLO%22%3A%22T%22%2C%22ICS%22%3Afalse%2C%22HGL%22%3A%22%22%2C%22VGL%22%3A%22%22%2C%22ET%22%3A%22CLS%22%2C%22SLELD%22%3A%22361%2C75%22%2C%22ZHP%22%3A%22200%2C200%2C425%2C75%2C3%2C120%2C70%2C766%2C515%22%2C%22feedbackHeight%22%3A%2270%22%2C%22feedbackWidth%22%3A%22120%22%2C%22AVP%22%3A%22233%2C259%22%2C%22audioList%22%3A%5B%5D%2C%22imageList%22%3A%5B%5D%2C%22showHintOrFeedbackInAuthoring%22%3A%22none%22%7D%2C%22FrameData%22%3A%5B%7B%22frameBGVisible%22%3A%22f%22%2C%22frameFIBButtonX%22%3A%22%22%2C%22frameFIBButtonY%22%3A%22%22%2C%22frameFIBOutput%22%3A%22%22%2C%22frameFlag%22%3A%221%22%2C%22frameHeight%22%3A600%2C%22frameId%22%3A%22fr0%22%2C%22frameImageList%22%3A%7B%7D%2C%22frameLabelObj%22%3A%22null%25d%25null%22%2C%22frameMediaList%22%3A%22N%22%2C%22frameMediaXY%22%3A%7B%22x%22%3A%220%22%2C%22y%22%3A%220%22%7D%2C%22frameOptionX%22%3A%22233%22%2C%22frameOptionY%22%3A%22259%22%2C%22frameOriginalX%22%3A0%2C%22frameOriginalY%22%3A0%2C%22frameStudentGUI%22%3A%5B%7B%22Component%22%3A%22R%22%2C%22x%22%3A740%2C%22y%22%3A570%2C%22visible%22%3Atrue%7D%2C%7B%22Component%22%3A%22Z%22%2C%22x%22%3A680%2C%22y%22%3A570%2C%22visible%22%3Afalse%7D%5D%2C%22frameTextList%22%3A%5B%5D%2C%22frameWidth%22%3A800%2C%22frameX%22%3A0%2C%22frameY%22%3A0%2C%22groupId%22%3A%22frame_group%22%2C%22frameGroupID%22%3A%22frame_0%22%2C%22zIndex%22%3A3%7D%2C%7B%22frameX%22%3A10%2C%22frameY%22%3A10%2C%22frameWidth%22%3A389%2C%22frameHeight%22%3A580%2C%22lockStatus%22%3Afalse%2C%22frameImageList%22%3A%7B%7D%2C%22frameTextList%22%3A%7B%7D%2C%22frameStudentGUI%22%3A%5B%7B%22component%22%3A%22%22%2C%22x%22%3A%22%22%2C%22y%22%3A%22%22%7D%5D%2C%22frameBGVisible%22%3A%22F%22%2C%22frameFlag%22%3A1%2C%22frameMediaList%22%3A%22N%22%2C%22frameMediaXY%22%3A%7B%22x%22%3A0%2C%22y%22%3A0%7D%2C%22frameOptionX%22%3A233%2C%22frameOptionY%22%3A259%2C%22frameLabelObj%22%3A%7B%7D%2C%22frameFIBOutput%22%3A%22%22%2C%22frameFIBButtonX%22%3A%22%22%2C%22frameFIBButtonY%22%3A%22%22%2C%22frameGroupID%22%3A%22frame_1%22%2C%22zIndex%22%3A4%2C%22frameId%22%3A%22fr1%22%2C%22groupId%22%3A%22frame_group%22%7D%2C%7B%22frameX%22%3A404%2C%22frameY%22%3A8%2C%22frameWidth%22%3A389%2C%22frameHeight%22%3A580%2C%22lockStatus%22%3Afalse%2C%22frameImageList%22%3A%7B%7D%2C%22frameTextList%22%3A%7B%7D%2C%22frameStudentGUI%22%3A%5B%7B%22component%22%3A%22%22%2C%22x%22%3A%22%22%2C%22y%22%3A%22%22%7D%5D%2C%22frameBGVisible%22%3A%22F%22%2C%22frameFlag%22%3A1%2C%22frameMediaList%22%3A%22N%22%2C%22frameMediaXY%22%3A%7B%22x%22%3A0%2C%22y%22%3A0%7D%2C%22frameOptionX%22%3A233%2C%22frameOptionY%22%3A259%2C%22frameLabelObj%22%3A%7B%7D%2C%22frameFIBOutput%22%3A%22%22%2C%22frameFIBButtonX%22%3A%22%22%2C%22frameFIBButtonY%22%3A%22%22%2C%22frameGroupID%22%3A%22frame_2%22%2C%22zIndex%22%3A5%2C%22frameId%22%3A%22fr2%22%2C%22groupId%22%3A%22frame_group%22%7D%5D%2C%22CLSData%22%3A%7B%22CLS0%22%3A%7B%22label_value%22%3A%22Consider%20%5B%3Ci%3EL%3C/i%3E%5D%7B%5B%3Ci%3EU%3C/i%3E%5D%7B%3Ci%3Ex%3C/i%3E%7D%20%u2013%20%7B%3Ci%3Ed%3C/i%3E%7D%7D%20%3D%20%5B%3Ci%3EA%3C/i%3E%5D%7B%3Ci%3Ex%3C/i%3E%7D%20%u2013%20%7B%3Ci%3Eb%3C/i%3E%7D.%22%2C%22class_name%22%3A%22%22%2C%22image_data%22%3A%22N%22%2C%22holder_x%22%3A414%2C%22holder_y%22%3A18%2C%22hint_value%22%3A%22%22%2C%22feedback_value%22%3A%22%22%2C%22transparent%22%3A%22T%22%2C%22transparent_hint%22%3A%22F%22%2C%22transparent_border%22%3A%22F%22%2C%22media_value%22%3A%22N%22%2C%22play_option_value%22%3A%220%7C0%22%2C%22media_X%22%3A233%2C%22media_Y%22%3A259%2C%22distractor%22%3A%22F%22%2C%22student_answer_string%22%3A%22N%22%2C%22class_set%22%3A%22group1%22%2C%22edit_button_X%22%3A5%2C%22edit_button_Y%22%3A0%2C%22custom_hint%22%3A%22N%22%2C%22visibility%22%3Atrue%2C%22lockStatus%22%3Afalse%2C%22textFormat%22%3A%7B%22underline_value%22%3A%22F%22%2C%22fontSize%22%3A14%2C%22fontStyle%22%3A%22normal%22%2C%22align%22%3A%22center%22%7D%2C%22zIndex%22%3A11%2C%22labelGroupId%22%3A%22label_0%22%2C%22name%22%3A%22label_0%22%2C%22infoHideText%22%3A%22F%22%2C%22FIB_value%22%3A%22N%22%7D%2C%22CLS1%22%3A%7B%22label_value%22%3A%22Matrix%20multiplication%20is%20distributive%2C%20so%20the%20left-hand%20side%20can%20be%20rewritten%20as%20%5B%3Ci%3EL%3C/i%3E%5D%20%5B%3Ci%3EU%3C/i%3E%5D%7B%3Ci%3Ex%3C/i%3E%7D%20%u2013%20%5B%3Ci%3EL%3C/i%3E%5D%7B%3Ci%3Ed%3C/i%3E%7D%20%3D%20%5B%3Ci%3EA%3C/i%3E%5D%7B%3Ci%3Ex%3C/i%3E%7D%20%u2013%20%7B%3Ci%3Eb%3C/i%3E%7D.%22%2C%22class_name%22%3A%22%22%2C%22image_data%22%3A%22N%22%2C%22holder_x%22%3A414%2C%22holder_y%22%3A99%2C%22hint_value%22%3A%22%22%2C%22feedback_value%22%3A%22%22%2C%22transparent%22%3A%22T%22%2C%22transparent_hint%22%3A%22F%22%2C%22transparent_border%22%3A%22F%22%2C%22media_value%22%3A%22N%22%2C%22play_option_value%22%3A%220%7C0%22%2C%22media_X%22%3A233%2C%22media_Y%22%3A259%2C%22distractor%22%3A%22F%22%2C%22student_answer_string%22%3A%22N%22%2C%22class_set%22%3A%22group2%22%2C%22edit_button_X%22%3A5%2C%22edit_button_Y%22%3A0%2C%22custom_hint%22%3A%22N%22%2C%22visibility%22%3Atrue%2C%22lockStatus%22%3Afalse%2C%22textFormat%22%3A%7B%22underline_value%22%3A%22F%22%2C%22fontSize%22%3A14%2C%22fontStyle%22%3A%22normal%22%2C%22align%22%3A%22center%22%7D%2C%22zIndex%22%3A12%2C%22labelGroupId%22%3A%22label_1%22%2C%22name%22%3A%22label_1%22%2C%22infoHideText%22%3A%22F%22%2C%22FIB_value%22%3A%22N%22%7D%2C%22CLS2%22%3A%7B%22label_value%22%3A%22Equating%20the%20terms%20that%20are%20multiplied%20by%20%7B%3Ci%3Ex%3C/i%3E%7D%20yields%2C%20%5B%3Ci%3EL%3C/i%3E%5D%20%5B%3Ci%3EU%3C/i%3E%5D%7Bx%7D%20%3D%20%5B%3Ci%3EA%3C/i%3E%5D%7B%3Ci%3Ex%3C/i%3E%7D.%22%2C%22class_name%22%3A%22%22%2C%22image_data%22%3A%22N%22%2C%22holder_x%22%3A414%2C%22holder_y%22%3A181%2C%22hint_value%22%3A%22%22%2C%22feedback_value%22%3A%22%22%2C%22transparent%22%3A%22T%22%2C%22transparent_hint%22%3A%22F%22%2C%22transparent_border%22%3A%22F%22%2C%22media_value%22%3A%22N%22%2C%22play_option_value%22%3A%220%7C0%22%2C%22media_X%22%3A233%2C%22media_Y%22%3A259%2C%22distractor%22%3A%22F%22%2C%22student_answer_string%22%3A%22N%22%2C%22class_set%22%3A%22group3%22%2C%22edit_button_X%22%3A5%2C%22edit_button_Y%22%3A0%2C%22custom_hint%22%3A%22N%22%2C%22visibility%22%3Atrue%2C%22lockStatus%22%3Afalse%2C%22textFormat%22%3A%7B%22underline_value%22%3A%22F%22%2C%22fontSize%22%3A14%2C%22fontStyle%22%3A%22normal%22%2C%22align%22%3A%22center%22%7D%2C%22zIndex%22%3A13%2C%22labelGroupId%22%3A%22label_2%22%2C%22name%22%3A%22label_2%22%2C%22infoHideText%22%3A%22F%22%2C%22FIB_value%22%3A%22N%22%7D%2C%22CLS3%22%3A%7B%22label_value%22%3A%22Therefore%2C%20%5B%3Ci%3EL%3C/i%3E%5D%20%5B%3Ci%3EU%3C/i%3E%5D%20%3D%20%5B%3Ci%3EA%3C/i%3E%5D.%22%2C%22class_name%22%3A%22%22%2C%22image_data%22%3A%22N%22%2C%22holder_x%22%3A414%2C%22holder_y%22%3A261%2C%22hint_value%22%3A%22%22%2C%22feedback_value%22%3A%22%22%2C%22transparent%22%3A%22T%22%2C%22transparent_hint%22%3A%22F%22%2C%22transparent_border%22%3A%22F%22%2C%22media_value%22%3A%22N%22%2C%22play_option_value%22%3A%220%7C0%22%2C%22media_X%22%3A233%2C%22media_Y%22%3A259%2C%22distractor%22%3A%22F%22%2C%22student_answer_string%22%3A%22N%22%2C%22class_set%22%3A%22group4%22%2C%22edit_button_X%22%3A5%2C%22edit_button_Y%22%3A0%2C%22custom_hint%22%3A%22N%22%2C%22visibility%22%3Atrue%2C%22lockStatus%22%3Afalse%2C%22textFormat%22%3A%7B%22underline_value%22%3A%22F%22%2C%22fontSize%22%3A14%2C%22fontStyle%22%3A%22normal%22%2C%22align%22%3A%22center%22%7D%2C%22zIndex%22%3A14%2C%22labelGroupId%22%3A%22label_3%22%2C%22name%22%3A%22label_3%22%2C%22infoHideText%22%3A%22F%22%2C%22FIB_value%22%3A%22N%22%7D%2C%22CLS4%22%3A%7B%22label_value%22%3A%22Equating%20the%20constant%20terms%20yields%2C%20%5B%3Ci%3EL%3C/i%3E%5D%7B%3Ci%3Ed%3C/i%3E%7D%20%3D%20%7B%3Ci%3Eb%3C/i%3E%7D.%22%2C%22class_name%22%3A%22%22%2C%22image_data%22%3A%22N%22%2C%22holder_x%22%3A414%2C%22holder_y%22%3A342%2C%22hint_value%22%3A%22%22%2C%22feedback_value%22%3A%22%22%2C%22transparent%22%3A%22T%22%2C%22transparent_hint%22%3A%22F%22%2C%22transparent_border%22%3A%22F%22%2C%22media_value%22%3A%22N%22%2C%22play_option_value%22%3A%220%7C0%22%2C%22media_X%22%3A233%2C%22media_Y%22%3A259%2C%22distractor%22%3A%22F%22%2C%22student_answer_string%22%3A%22N%22%2C%22class_set%22%3A%22group5%22%2C%22edit_button_X%22%3A5%2C%22edit_button_Y%22%3A0%2C%22custom_hint%22%3A%22N%22%2C%22visibility%22%3Atrue%2C%22lockStatus%22%3Afalse%2C%22textFormat%22%3A%7B%22underline_value%22%3A%22F%22%2C%22fontSize%22%3A14%2C%22fontStyle%22%3A%22normal%22%2C%22align%22%3A%22center%22%7D%2C%22zIndex%22%3A15%2C%22labelGroupId%22%3A%22label_4%22%2C%22name%22%3A%22label_4%22%2C%22infoHideText%22%3A%22F%22%2C%22FIB_value%22%3A%22N%22%7D%2C%22CLS5%22%3A%7B%22label_value%22%3A%22Matrix%20multiplication%20is%20associative%2C%20so%20the%20left-hand%20side%20can%20be%20rewritten%20as%20%7B%5B%3Ci%3EL%3C/i%3E%5D%20%u2013%20%5B%3Ci%3EU%3C/i%3E%5D%7B%3Ci%3Ex%3C/i%3E%7D%7D%7B%3Ci%3Ed%3C/i%3E%7D%20%3D%20%5B%3Ci%3EA%3C/i%3E%5D%7B%3Ci%3Ex%3C/i%3E%7D%20%u2013%20%7B%3Ci%3Eb%3C/i%3E%7D.%22%2C%22class_name%22%3A%22%22%2C%22image_data%22%3A%22N%22%2C%22holder_x%22%3A414%2C%22holder_y%22%3A423%2C%22hint_value%22%3A%22%22%2C%22feedback_value%22%3A%22%22%2C%22transparent%22%3A%22T%22%2C%22transparent_hint%22%3A%22F%22%2C%22transparent_border%22%3A%22F%22%2C%22media_value%22%3A%22N%22%2C%22play_option_value%22%3A%220%7C0%22%2C%22media_X%22%3A233%2C%22media_Y%22%3A259%2C%22distractor%22%3A%22T%22%2C%22student_answer_string%22%3A%22N%22%2C%22class_set%22%3A%22%22%2C%22edit_button_X%22%3A5%2C%22edit_button_Y%22%3A0%2C%22custom_hint%22%3A%22N%22%2C%22visibility%22%3Atrue%2C%22lockStatus%22%3Afalse%2C%22textFormat%22%3A%7B%22underline_value%22%3A%22F%22%2C%22fontSize%22%3A14%2C%22fontStyle%22%3A%22normal%22%2C%22align%22%3A%22center%22%7D%2C%22zIndex%22%3A16%2C%22labelGroupId%22%3A%22label_5%22%2C%22name%22%3A%22label_5%22%2C%22infoHideText%22%3A%22F%22%2C%22FIB_value%22%3A%22N%22%7D%2C%22CLS6%22%3A%7B%22label_value%22%3A%22Equating%20the%20terms%20that%20are%20multiplied%20by%20%7B%3Ci%3Ex%3C/i%3E%7D%20yields%2C%20%5B%3Ci%3EL%3C/i%3E%5D%20%u2013%20%5B%3Ci%3EU%3C/i%3E%5D%7B%3Ci%3Ex%3C/i%3E%7D%20%3D%20%5B%3Ci%3EA%3C/i%3E%5D%7B%3Ci%3Ex%3C/i%3E%7D.%22%2C%22class_name%22%3A%22%22%2C%22image_data%22%3A%22N%22%2C%22holder_x%22%3A414%2C%22holder_y%22%3A504%2C%22hint_value%22%3A%22%22%2C%22feedback_value%22%3A%22%22%2C%22transparent%22%3A%22T%22%2C%22transparent_hint%22%3A%22F%22%2C%22transparent_border%22%3A%22F%22%2C%22media_value%22%3A%22N%22%2C%22play_option_value%22%3A%220%7C0%22%2C%22media_X%22%3A233%2C%22media_Y%22%3A259%2C%22distractor%22%3A%22T%22%2C%22student_answer_string%22%3A%22N%22%2C%22class_set%22%3A%22%22%2C%22edit_button_X%22%3A5%2C%22edit_button_Y%22%3A0%2C%22custom_hint%22%3A%22N%22%2C%22visibility%22%3Atrue%2C%22lockStatus%22%3Afalse%2C%22textFormat%22%3A%7B%22underline_value%22%3A%22F%22%2C%22fontSize%22%3A14%2C%22fontStyle%22%3A%22normal%22%2C%22align%22%3A%22center%22%7D%2C%22zIndex%22%3A17%2C%22labelGroupId%22%3A%22label_6%22%2C%22name%22%3A%22label_6%22%2C%22infoHideText%22%3A%22F%22%2C%22FIB_value%22%3A%22N%22%7D%7D%2C%22CLSCData%22%3A%7B%22CLSC0%22%3A%7B%22name%22%3A%22group1%22%2C%22xpos%22%3A30%2C%22ypos%22%3A33%2C%22width%22%3A%22350%22%2C%22height%22%3A%2275%22%2C%22transparent%22%3A%22semitransparent%22%2C%22transparent_border%22%3A%22F%22%2C%22media_value%22%3A%22N%22%2C%22play_option_value%22%3A%220%7C0%22%2C%22media_X%22%3A%22233%22%2C%22media_Y%22%3A%22259%22%2C%22dockGroupId%22%3A%22dock_0%22%2C%22dockGroupNo%22%3A1%2C%22lockStatus%22%3Afalse%2C%22zIndex%22%3A6%2C%22dockHeadingId%22%3A%22txt_0_0%22%7D%2C%22CLSC1%22%3A%7B%22name%22%3A%22group2%22%2C%22xpos%22%3A31%2C%22ypos%22%3A144%2C%22width%22%3A%22350%22%2C%22height%22%3A%2275%22%2C%22transparent%22%3A%22semitransparent%22%2C%22transparent_border%22%3A%22F%22%2C%22media_value%22%3A%22N%22%2C%22play_option_value%22%3A%220%7C0%22%2C%22media_X%22%3A%22233%22%2C%22media_Y%22%3A%22259%22%2C%22dockGroupId%22%3A%22dock_1%22%2C%22dockGroupNo%22%3A2%2C%22lockStatus%22%3Afalse%2C%22zIndex%22%3A7%2C%22dockHeadingId%22%3A%22txt_1_0%22%7D%2C%22CLSC2%22%3A%7B%22name%22%3A%22group3%22%2C%22xpos%22%3A31%2C%22ypos%22%3A252%2C%22width%22%3A%22350%22%2C%22height%22%3A%2275%22%2C%22transparent%22%3A%22semitransparent%22%2C%22transparent_border%22%3A%22F%22%2C%22media_value%22%3A%22N%22%2C%22play_option_value%22%3A%220%7C0%22%2C%22media_X%22%3A%22233%22%2C%22media_Y%22%3A%22259%22%2C%22dockGroupId%22%3A%22dock_2%22%2C%22dockGroupNo%22%3A3%2C%22lockStatus%22%3Afalse%2C%22zIndex%22%3A8%2C%22dockHeadingId%22%3A%22txt_2_0%22%7D%2C%22CLSC3%22%3A%7B%22name%22%3A%22group4%22%2C%22xpos%22%3A32%2C%22ypos%22%3A375%2C%22width%22%3A%22350%22%2C%22height%22%3A%2275%22%2C%22transparent%22%3A%22semitransparent%22%2C%22transparent_border%22%3A%22F%22%2C%22media_value%22%3A%22N%22%2C%22play_option_value%22%3A%220%7C0%22%2C%22media_X%22%3A%22233%22%2C%22media_Y%22%3A%22259%22%2C%22dockGroupId%22%3A%22dock_3%22%2C%22dockGroupNo%22%3A4%2C%22lockStatus%22%3Afalse%2C%22zIndex%22%3A9%2C%22dockHeadingId%22%3A%22txt_3_0%22%7D%2C%22CLSC4%22%3A%7B%22name%22%3A%22group5%22%2C%22xpos%22%3A29%2C%22ypos%22%3A488%2C%22width%22%3A%22350%22%2C%22height%22%3A%2275%22%2C%22transparent%22%3A%22semitransparent%22%2C%22transparent_border%22%3A%22F%22%2C%22media_value%22%3A%22N%22%2C%22play_option_value%22%3A%220%7C0%22%2C%22media_X%22%3A%22233%22%2C%22media_Y%22%3A%22259%22%2C%22dockGroupId%22%3A%22dock_4%22%2C%22dockGroupNo%22%3A5%2C%22lockStatus%22%3Afalse%2C%22zIndex%22%3A10%2C%22dockHeadingId%22%3A%22txt_4_0%22%7D%7D%2C%22CLSGV%22%3A%22%22%2C%22CLSRQ%22%3A%22%22%2C%22CLSRN%22%3A%220%2C1%2C2%2C3%2C4%2C5%2C6%22%2C%22CLSPS%22%3A%7B%22totalRandomLabels%22%3A5%2C%22totalRandomDistractors%22%3A2%2C%22disableFeedback%22%3A%22N%22%2C%22disableInstantFeedback%22%3A%22N%22%2C%22disableHints%22%3A0%2C%22studentGradeFormat%22%3A%22P%22%7D%2C%22CLSGP%22%3A%7B%22borderGlobal%22%3A%22F%22%2C%22backGroundGlobal%22%3A%22F%22%2C%22toggleSPGlobal%22%3A%22F%22%2C%22labelBorderGlobal%22%3A%22N%22%2C%22labelBGGlobal%22%3A%22N%22%2C%22dockBGGlobal%22%3A%22N%22%7D%2C%22CLSPOS%22%3A%22%25d%25%25d%25%7C%7C%7C%7C%25d%25%25d%25%22%2C%22VST%22%3A0%2C%22CLSDS%22%3A%22%22%2C%22CLSSD%22%3A%22%22%7D" />
+            <property name="height" type="string" value="600" />
+          </answerProperties>
+        </externalAnswer>
+      </answers>
+    </worksheet>
+  </question>
+  <question>
+    <format>1</format>
+    <ezid>13570164364939736</ezid>
+    <version>1579774644579</version>
+    <title><![CDATA[Problem 10.006]]></title>
+    <multipart>13570164335620099</multipart>
+    <type>SB</type>
+    <categories>
+      <internal_category>
+        <catid>13570164356316801</catid>
+        <title><![CDATA[Chapter:  10 LU Factorization]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164356316802</catid>
+        <title><![CDATA[Topic:  LU Factorization]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164356317340</catid>
+        <title><![CDATA[Section:  10.02 GAUSS ELIMINATION AS LU FACTORIZATION]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164356317591</catid>
+        <title><![CDATA[Subtopic:  GAUSS ELIMINATION AS LU FACTORIZATION]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040730414</catid>
+        <title><![CDATA[Difficulty:  Medium]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164266036554</catid>
+        <title><![CDATA[Units:  NA]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164202016094</catid>
+        <title><![CDATA[Bloom's Verb: 3. Apply]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164196995740</catid>
+        <title><![CDATA[Bloom's Object: 3. Procedural]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164343377093</catid>
+        <title><![CDATA[ABET Outcomes:  (a) an ability to apply knowledge of mathematics, science, and engineering]]></title>
+      </internal_category>
+    </categories>
+    <questionProperties>
+      <property name="pageTag" type="string" value="" />
+      <property name="customType" type="string" value="" />
+      <property name="suppressPopupControl" type="string" value="false" />
+      <property name="instructor_info" type="string" value="" />
+      <property name="mpSuppressBreak" type="string" value="false" />
+      <property name="mpCustomProgression" type="string" value="oneway" />
+      <property name="audioPlayerPosition" type="string" value="above" />
+    </questionProperties>
+    <sectionBreak>
+      <stem><![CDATA[<p>Consider the system of equations.</p>
+
+<p>&nbsp;</p>
+
+<p>10<em>x</em><sub>1</sub> + 2<em>x</em><sub>2</sub> &#8211; <em>x</em><sub>3</sub> = 27</p>
+
+<p>&#8211;3<em>x</em><sub>1</sub> &#8211; 6<em>x</em><sub>2</sub> + 2<em>x</em><sub>3</sub> = &#8211;61.5</p>
+
+<p><em>x</em><sub>1</sub> + <em>x</em><sub>2</sub> + 5<em>x</em><sub>3</sub> = &#8211;21.5</p>
+]]></stem>
+    </sectionBreak>
+  </question>
+  <question>
+    <format>1</format>
+    <ezid>13570164364939737</ezid>
+    <version>1579774644579</version>
+    <title><![CDATA[Problem 10.006.a]]></title>
+    <multipart>13570164335620099</multipart>
+    <type>DO</type>
+    <categories>
+      <internal_category>
+        <catid>13570164356316801</catid>
+        <title><![CDATA[Chapter:  10 LU Factorization]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164356316802</catid>
+        <title><![CDATA[Topic:  LU Factorization]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164356317340</catid>
+        <title><![CDATA[Section:  10.02 GAUSS ELIMINATION AS LU FACTORIZATION]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164356317591</catid>
+        <title><![CDATA[Subtopic:  GAUSS ELIMINATION AS LU FACTORIZATION]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040730414</catid>
+        <title><![CDATA[Difficulty:  Medium]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164266036554</catid>
+        <title><![CDATA[Units:  NA]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164202016094</catid>
+        <title><![CDATA[Bloom's Verb: 3. Apply]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164196995740</catid>
+        <title><![CDATA[Bloom's Object: 3. Procedural]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164343377093</catid>
+        <title><![CDATA[ABET Outcomes:  (a) an ability to apply knowledge of mathematics, science, and engineering]]></title>
+      </internal_category>
+    </categories>
+    <questionProperties>
+      <property name="pageTag" type="string" value="" />
+      <property name="instructor_info" type="string" value="" />
+      <property name="state" type="string" value="{}" />
+      <property name="audioPlayerPosition" type="string" value="above" />
+    </questionProperties>
+    <doc>
+      <stem><![CDATA[<p>Develop an M-file that will determine the <em>LU</em> factorization of a square matrix without partial pivoting. That is, develop a function that is passed the square matrix and returns the triangular matrices [<em>L</em>] and [<em>U</em>].</p>
+
+<p>&nbsp;</p>
+
+<p>(Please upload your response/solution using the controls below.)</p>
+]]></stem>
+      <info>question data is all stored in questionProperties...</info>
+    </doc>
+  </question>
+  <question>
+    <format>1</format>
+    <ezid>13570164365040604</ezid>
+    <version>1579774644579</version>
+    <title><![CDATA[Problem 10.006.b]]></title>
+    <multipart>13570164335620099</multipart>
+    <type>WK</type>
+    <categories>
+      <internal_category>
+        <catid>13570164356316801</catid>
+        <title><![CDATA[Chapter:  10 LU Factorization]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164356316802</catid>
+        <title><![CDATA[Topic:  LU Factorization]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164356317340</catid>
+        <title><![CDATA[Section:  10.02 GAUSS ELIMINATION AS LU FACTORIZATION]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164356317591</catid>
+        <title><![CDATA[Subtopic:  GAUSS ELIMINATION AS LU FACTORIZATION]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040730414</catid>
+        <title><![CDATA[Difficulty:  Medium]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164266036554</catid>
+        <title><![CDATA[Units:  NA]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164202016094</catid>
+        <title><![CDATA[Bloom's Verb: 3. Apply]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164196995740</catid>
+        <title><![CDATA[Bloom's Object: 3. Procedural]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164343377093</catid>
+        <title><![CDATA[ABET Outcomes:  (a) an ability to apply knowledge of mathematics, science, and engineering]]></title>
+      </internal_category>
+    </categories>
+    <media_set>
+      <internal_media>
+        <name>formula23.mml</name>
+        <consumerData>
+          <mediaID>13570164349886852</mediaID>
+          <testID>13570164365040572</testID>
+          <consumerID>13570164365040604</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>formula23.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>525</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1472627938562</creation>
+          <modified>1472627938562</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGggaWQ9ImZvcm11bGEyMy5tbWwiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8xOTk4L01h
+dGgvTWF0aE1MIj48bWk+TDwvbWk+PG1vPj08L21vPjxtcm93Pjxtbz5bPC9tbz48bXRhYmxlPjxt
+dHI+PG10ZD48bW4+MTwvbW4+PG1vPi48L21vPjxtbj4wMDAwPC9tbj48L210ZD48bXRkPjxtbj4w
+PC9tbj48L210ZD48bXRkPjxtbj4wPC9tbj48L210ZD48L210cj48bXRyPjxtdGQ+PG1vPi08L21v
+Pjxtbj4wPC9tbj48bW8+LjwvbW8+PG1uPjMwMDA8L21uPjwvbXRkPjxtdGQ+PG1uPjE8L21uPjxt
+bz4uPC9tbz48bW4+MDAwMDwvbW4+PC9tdGQ+PG10ZD48bW4+MDwvbW4+PC9tdGQ+PC9tdHI+PG10
+cj48bXRkPjxtbj4wPC9tbj48bW8+LjwvbW8+PG1uPjEwMDA8L21uPjwvbXRkPjxtdGQ+PG1vPi08
+L21vPjxtbj4wPC9tbj48bW8+LjwvbW8+PG1uPjE0ODE8L21uPjwvbXRkPjxtdGQ+PG1uPjE8L21u
+Pjxtbz4uPC9tbz48bW4+MDAwMDwvbW4+PC9tdGQ+PC9tdHI+PC9tdGFibGU+PG1vPl08L21vPjwv
+bXJvdz48L21hdGg+]]></data>
+        </mediaData>
+      </internal_media>
+      <internal_media>
+        <name>formula24.mml</name>
+        <consumerData>
+          <mediaID>13570164349886853</mediaID>
+          <testID>13570164365040572</testID>
+          <consumerID>13570164365040604</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>formula24.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>526</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1472627938846</creation>
+          <modified>1472627938846</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGggaWQ9ImZvcm11bGEyNC5tbWwiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8xOTk4L01h
+dGgvTWF0aE1MIj48bWk+VTwvbWk+PG1vPj08L21vPjxtcm93Pjxtbz5bPC9tbz48bXRhYmxlPjxt
+dHI+PG10ZD48bW4+MTA8L21uPjxtbz4uPC9tbz48bW4+MDAwMDwvbW4+PC9tdGQ+PG10ZD48bW4+
+MjwvbW4+PG1vPi48L21vPjxtbj4wMDAwPC9tbj48L210ZD48bXRkPjxtbz4tPC9tbz48bW4+MTwv
+bW4+PG1vPi48L21vPjxtbj4wMDAwPC9tbj48L210ZD48L210cj48bXRyPjxtdGQ+PG1uPjA8L21u
+PjwvbXRkPjxtdGQ+PG1vPi08L21vPjxtbj41PC9tbj48bW8+LjwvbW8+PG1uPjQwMDA8L21uPjwv
+bXRkPjxtdGQ+PG1uPjE8L21uPjxtbz4uPC9tbz48bW4+NzAwMDwvbW4+PC9tdGQ+PC9tdHI+PG10
+cj48bXRkPjxtbj4wPC9tbj48L210ZD48bXRkPjxtbj4wPC9tbj48L210ZD48bXRkPjxtbj41PC9t
+bj48bW8+LjwvbW8+PG1uPjM1MTk8L21uPjwvbXRkPjwvbXRyPjwvbXRhYmxlPjxtbz5dPC9tbz48
+L21yb3c+PC9tYXRoPg==]]></data>
+        </mediaData>
+      </internal_media>
+      <internal_media>
+        <name>formula21.mml</name>
+        <consumerData>
+          <mediaID>13570164356679668</mediaID>
+          <testID>13570164365040572</testID>
+          <consumerID>13570164365040604</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>formula21.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>430</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1473922753266</creation>
+          <modified>1473922753266</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGggaWQ9ImZvcm11bGEyMS5tbWwiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8xOTk4L01h
+dGgvTWF0aE1MIj48bWk+TDwvbWk+PG1vPj08L21vPjxtcm93Pjxtbz5bPC9tbz48bXRhYmxlPjxt
+dHI+PG10ZD48bW4+MTwvbW4+PC9tdGQ+PG10ZD48bW4+MDwvbW4+PC9tdGQ+PG10ZD48bW4+MDwv
+bW4+PC9tdGQ+PC9tdHI+PG10cj48bXRkPjxtaSBtYXRodmFyaWFudD0ibm9ybWFsIj5hPC9taT48
+L210ZD48bXRkPjxtbj4xPC9tbj48L210ZD48bXRkPjxtbj4wPC9tbj48L210ZD48L210cj48bXRy
+PjxtdGQ+PG1pIG1hdGh2YXJpYW50PSJub3JtYWwiPmI8L21pPjwvbXRkPjxtdGQ+PG1pIG1hdGh2
+YXJpYW50PSJub3JtYWwiPmM8L21pPjwvbXRkPjxtdGQ+PG1uPjE8L21uPjwvbXRkPjwvbXRyPjwv
+bXRhYmxlPjxtbz5dPC9tbz48L21yb3c+PC9tYXRoPg==]]></data>
+        </mediaData>
+      </internal_media>
+      <internal_media>
+        <name>formula22.mml</name>
+        <consumerData>
+          <mediaID>13570164356679669</mediaID>
+          <testID>13570164365040572</testID>
+          <consumerID>13570164365040604</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>formula22.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>493</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1473922753635</creation>
+          <modified>1473922753635</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGggaWQ9ImZvcm11bGEyMi5tbWwiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8xOTk4L01h
+dGgvTWF0aE1MIj48bWk+VTwvbWk+PG1vPj08L21vPjxtcm93Pjxtbz5bPC9tbz48bXRhYmxlPjxt
+dHI+PG10ZD48bWkgbWF0aHZhcmlhbnQ9Im5vcm1hbCI+ZDwvbWk+PC9tdGQ+PG10ZD48bWkgbWF0
+aHZhcmlhbnQ9Im5vcm1hbCI+ZTwvbWk+PC9tdGQ+PG10ZD48bWkgbWF0aHZhcmlhbnQ9Im5vcm1h
+bCI+ZjwvbWk+PC9tdGQ+PC9tdHI+PG10cj48bXRkPjxtbj4wPC9tbj48L210ZD48bXRkPjxtaSBt
+YXRodmFyaWFudD0ibm9ybWFsIj5nPC9taT48L210ZD48bXRkPjxtaSBtYXRodmFyaWFudD0ibm9y
+bWFsIj5oPC9taT48L210ZD48L210cj48bXRyPjxtdGQ+PG1uPjA8L21uPjwvbXRkPjxtdGQ+PG1u
+PjA8L21uPjwvbXRkPjxtdGQ+PG1pIG1hdGh2YXJpYW50PSJub3JtYWwiPmk8L21pPjwvbXRkPjwv
+bXRyPjwvbXRhYmxlPjxtbz5dPC9tbz48L21yb3c+PC9tYXRoPg==]]></data>
+        </mediaData>
+      </internal_media>
+    </media_set>
+    <questionProperties>
+      <property name="pageTag" type="string" value="" />
+      <property name="customType" type="string" value="" />
+      <property name="completeIncompleteGrading" type="string" value="false" />
+      <property name="instructor_info" type="string" value="" />
+      <property name="forceManualScoring" type="string" value="automatic" />
+      <property name="audioPlayerPosition" type="string" value="above" />
+      <property name="problemSolution" type="string" value="&lt;p&gt;The lower and upper triangular matrices for the given system of equations are as follows:&lt;/p&gt;  &lt;p&gt;&amp;nbsp;&lt;/p&gt;  &lt;p&gt;%media:formula23.mml% and %media:formula24.mml%&lt;/p&gt;" />
+      <property name="attached_media" type="string" value="formula23.mml,formula24.mml,formula21.mml,formula22.mml" />
+      <property name="aggregatedGrading" type="string" value="false" />
+      <property name="useCommonFeedback" type="string" value="true" />
+    </questionProperties>
+    <hints>
+      <hint>
+        <name>hint #1</name>
+        <type>html</type>
+        <value><![CDATA[Which MATLAB function is used to get the identity matrix?]]></value>
+      </hint>
+    </hints>
+    <worksheet>
+      <stem><![CDATA[<p>Using the M-file, solve the given system of equations. (Round the final answers to four decimal places.)</p>
+
+<p>&nbsp;</p>
+
+<p>The lower and upper triangular matrices for the given system of equations are as follows:</p>
+
+<p>&nbsp;</p>
+
+<p>%media:formula21.mml% and %media:formula22.mml%</p>
+
+<p>&nbsp;</p>
+
+<p>where,</p>
+
+<p>a = __1__</p>
+
+<p>b = __2__</p>
+
+<p>c = __3__</p>
+
+<p>d = __4__</p>
+
+<p>e = __5__</p>
+
+<p>f = __6__</p>
+
+<p>g = __7__</p>
+
+<p>h = __8__</p>
+
+<p>i = __9__</p>
+
+<p>&nbsp;</p>]]></stem>
+      <commonFeedback><![CDATA[<p>Here is an M-file to generate the <em>LU</em> decomposition without pivoting:</p>
+
+<p><br>
+<span style="font-family:monospace;">function [L, U] = LUNaive(A)<br>
+% LUNaive(A):<br>
+% LU decomposition without pivoting.<br>
+% input:<br>
+% A = coefficient matrix<br>
+% output:<br>
+% L = lower triangular matrix<br>
+% U = upper triangular matrix<br>
+[m,n] = size(A);<br>
+if m~=n, error('Matrix A must be square'); end<br>
+L = eye(n);<br>
+U = A;<br>
+% forward elimination<br>
+for k = 1:n-1</span></p>
+
+<p><span style="font-family:monospace;">for i = k+1:n<br>
+L(i,k) = U(i,k)/U(k,k);<br>
+U(i,k) = 0;<br>
+U(i,k+1:n) = U(i,k+1:n)-L(i,k)*U(k,k+1:n);<br>
+end<br>
+end</span></p>
+
+<p>&nbsp;</p>
+
+<p><span style="font-family:monospace;">&gt;&gt; A = [10 2 -1;-3 -6 2;1 1 5];<br>
+&gt;&gt; [L,U] = LUNaive(A)<br>
+L =<br>
+1.0000&nbsp;&nbsp;&nbsp; 0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0<br>
+&#8211;0.30000&nbsp; 1.0000&nbsp;&nbsp; 0<br>
+0.1000&nbsp;&nbsp;&nbsp; -0.1481&nbsp; 1.0000<br>
+U =<br>
+10.0000&nbsp; 2.0000&nbsp;&nbsp; -1.0000<br>
+0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#8211;5.4000&nbsp; 1.7000<br>
+0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5.3519</span></p>
+
+<p>&nbsp;</p>]]></commonFeedback>
+      <answers>
+        <numberAnswer>
+          <name><![CDATA[1]]></name>
+          <weight>100</weight>
+          <answerProperties>
+            <property name="completeIncompleteGrading" type="string" value="false" />
+          </answerProperties>
+          <fieldWidth>7</fieldWidth>
+          <correctAnswer><![CDATA[-0.3000]]></correctAnswer>
+          <formatString><![CDATA[0.0000]]></formatString>
+          <precisionString><![CDATA[2]]></precisionString>
+          <units></units>
+          <precisionType>2</precisionType>
+          <engineeringUnits>false</engineeringUnits>
+          <currency>false</currency>
+        </numberAnswer>
+        <numberAnswer>
+          <name><![CDATA[2]]></name>
+          <weight>100</weight>
+          <answerProperties>
+            <property name="completeIncompleteGrading" type="string" value="false" />
+          </answerProperties>
+          <fieldWidth>7</fieldWidth>
+          <correctAnswer><![CDATA[0.1000]]></correctAnswer>
+          <formatString><![CDATA[0.0000]]></formatString>
+          <precisionString><![CDATA[2]]></precisionString>
+          <units></units>
+          <precisionType>2</precisionType>
+          <engineeringUnits>false</engineeringUnits>
+          <currency>false</currency>
+        </numberAnswer>
+        <numberAnswer>
+          <name><![CDATA[3]]></name>
+          <weight>100</weight>
+          <answerProperties>
+            <property name="completeIncompleteGrading" type="string" value="false" />
+          </answerProperties>
+          <fieldWidth>7</fieldWidth>
+          <correctAnswer><![CDATA[-0.1481]]></correctAnswer>
+          <formatString><![CDATA[0.####]]></formatString>
+          <precisionString><![CDATA[2]]></precisionString>
+          <units></units>
+          <precisionType>2</precisionType>
+          <engineeringUnits>false</engineeringUnits>
+          <currency>false</currency>
+        </numberAnswer>
+        <numberAnswer>
+          <name><![CDATA[4]]></name>
+          <weight>100</weight>
+          <answerProperties>
+            <property name="completeIncompleteGrading" type="string" value="false" />
+          </answerProperties>
+          <fieldWidth>7</fieldWidth>
+          <correctAnswer><![CDATA[10.0000]]></correctAnswer>
+          <formatString><![CDATA[0.0000]]></formatString>
+          <precisionString><![CDATA[2]]></precisionString>
+          <units></units>
+          <precisionType>2</precisionType>
+          <engineeringUnits>false</engineeringUnits>
+          <currency>false</currency>
+        </numberAnswer>
+        <numberAnswer>
+          <name><![CDATA[5]]></name>
+          <weight>100</weight>
+          <answerProperties>
+            <property name="completeIncompleteGrading" type="string" value="false" />
+          </answerProperties>
+          <fieldWidth>7</fieldWidth>
+          <correctAnswer><![CDATA[2.0000]]></correctAnswer>
+          <formatString><![CDATA[0.0000]]></formatString>
+          <precisionString><![CDATA[2]]></precisionString>
+          <units></units>
+          <precisionType>2</precisionType>
+          <engineeringUnits>false</engineeringUnits>
+          <currency>false</currency>
+        </numberAnswer>
+        <numberAnswer>
+          <name><![CDATA[6]]></name>
+          <weight>100</weight>
+          <answerProperties>
+            <property name="completeIncompleteGrading" type="string" value="false" />
+          </answerProperties>
+          <fieldWidth>7</fieldWidth>
+          <correctAnswer><![CDATA[-1.0000]]></correctAnswer>
+          <formatString><![CDATA[0.0000]]></formatString>
+          <precisionString><![CDATA[2]]></precisionString>
+          <units></units>
+          <precisionType>2</precisionType>
+          <engineeringUnits>false</engineeringUnits>
+          <currency>false</currency>
+        </numberAnswer>
+        <numberAnswer>
+          <name><![CDATA[7]]></name>
+          <weight>100</weight>
+          <answerProperties>
+            <property name="completeIncompleteGrading" type="string" value="false" />
+          </answerProperties>
+          <fieldWidth>7</fieldWidth>
+          <correctAnswer><![CDATA[-5.4000]]></correctAnswer>
+          <formatString><![CDATA[#.0000]]></formatString>
+          <precisionString><![CDATA[2]]></precisionString>
+          <units></units>
+          <precisionType>2</precisionType>
+          <engineeringUnits>false</engineeringUnits>
+          <currency>false</currency>
+        </numberAnswer>
+        <numberAnswer>
+          <name><![CDATA[8]]></name>
+          <weight>100</weight>
+          <answerProperties>
+            <property name="completeIncompleteGrading" type="string" value="false" />
+          </answerProperties>
+          <fieldWidth>7</fieldWidth>
+          <correctAnswer><![CDATA[1.7000]]></correctAnswer>
+          <formatString><![CDATA[0.0000]]></formatString>
+          <precisionString><![CDATA[2]]></precisionString>
+          <units></units>
+          <precisionType>2</precisionType>
+          <engineeringUnits>false</engineeringUnits>
+          <currency>false</currency>
+        </numberAnswer>
+        <numberAnswer>
+          <name><![CDATA[9]]></name>
+          <weight>100</weight>
+          <answerProperties>
+            <property name="completeIncompleteGrading" type="string" value="false" />
+          </answerProperties>
+          <fieldWidth>7</fieldWidth>
+          <correctAnswer><![CDATA[5.3519]]></correctAnswer>
+          <formatString><![CDATA[#.####]]></formatString>
+          <precisionString><![CDATA[2]]></precisionString>
+          <units></units>
+          <precisionType>2</precisionType>
+          <engineeringUnits>false</engineeringUnits>
+          <currency>false</currency>
+        </numberAnswer>
+      </answers>
+    </worksheet>
+  </question>
+  <question>
+    <format>1</format>
+    <ezid>13570164364939738</ezid>
+    <version>1579774644579</version>
+    <title><![CDATA[Problem 10.006.c]]></title>
+    <multipart>13570164335620099</multipart>
+    <type>YN</type>
+    <categories>
+      <internal_category>
+        <catid>13570164356316801</catid>
+        <title><![CDATA[Chapter:  10 LU Factorization]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164356316802</catid>
+        <title><![CDATA[Topic:  LU Factorization]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164356317340</catid>
+        <title><![CDATA[Section:  10.02 GAUSS ELIMINATION AS LU FACTORIZATION]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164356317591</catid>
+        <title><![CDATA[Subtopic:  GAUSS ELIMINATION AS LU FACTORIZATION]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040730414</catid>
+        <title><![CDATA[Difficulty:  Medium]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164266036554</catid>
+        <title><![CDATA[Units:  NA]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164202016094</catid>
+        <title><![CDATA[Bloom's Verb: 3. Apply]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164196995716</catid>
+        <title><![CDATA[Bloom's Object: 2. Conceptual]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164343377093</catid>
+        <title><![CDATA[ABET Outcomes:  (a) an ability to apply knowledge of mathematics, science, and engineering]]></title>
+      </internal_category>
+    </categories>
+    <questionProperties>
+      <property name="followupTag" type="string" value="" />
+      <property name="pageTag" type="string" value="" />
+      <property name="instructor_info" type="string" value="" />
+      <property name="forceManualScoring" type="string" value="automatic" />
+      <property name="commonFeedback" type="string" value="&lt;p&gt;Verification that [&lt;em&gt;L&lt;/em&gt;][&lt;em&gt;U&lt;/em&gt;] = [&lt;em&gt;A&lt;/em&gt;].&lt;/p&gt;  &lt;p&gt;&lt;span style=&quot;font-family:monospace;&quot;&gt;&amp;gt;&amp;gt; L*U&lt;br&gt; ans =&lt;br&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 10.0000 &amp;nbsp; 2.0000&amp;nbsp;&amp;nbsp; &amp;#8211;1.0000&lt;br&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; -3.0000&amp;nbsp; -6.0000&amp;nbsp;&amp;nbsp;&amp;nbsp; 2.0000&lt;br&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 1.0000 &amp;nbsp;&amp;nbsp; 1.0000 &amp;nbsp;&amp;nbsp; 5.0000&lt;/span&gt;&lt;/p&gt;  &lt;p&gt;&lt;span style=&quot;font-family:times new roman,times,serif;&quot;&gt;Check using the&lt;/span&gt;&lt;span style=&quot;font-family:monospace;&quot;&gt; lu &lt;/span&gt;&lt;span style=&quot;font-family:times new roman,times,serif;&quot;&gt;function,&lt;/span&gt;&lt;/p&gt;  &lt;p&gt;&amp;nbsp;&lt;/p&gt;  &lt;p&gt;&lt;span style=&quot;font-family:monospace;&quot;&gt;&amp;gt;&amp;gt; [L,U]=lu(A)&lt;br&gt; L =&lt;br&gt; &amp;nbsp;&amp;nbsp; 1.0000 &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 0 &amp;nbsp; &amp;nbsp;&amp;nbsp; &amp;nbsp; 0&lt;br&gt; &amp;nbsp; -0.3000&amp;nbsp;&amp;nbsp;&amp;nbsp; 1.0000&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 0&lt;br&gt; &amp;nbsp;&amp;nbsp; 0.0000 &amp;nbsp; -0.1481&amp;nbsp;&amp;nbsp; 1.0000&lt;/span&gt;&lt;/p&gt;  &lt;p&gt;&lt;span style=&quot;font-family:monospace;&quot;&gt;U =&lt;/span&gt;&lt;/p&gt;  &lt;p&gt;&lt;span style=&quot;font-family:monospace;&quot;&gt;&amp;nbsp;&amp;nbsp; 10.0000&amp;nbsp;&amp;nbsp;&amp;nbsp; 2.0000&amp;nbsp;&amp;nbsp; -1.0000&lt;br&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 0&amp;nbsp;&amp;nbsp; -5.4000&amp;nbsp;&amp;nbsp;&amp;nbsp; 1.7000&lt;br&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 0&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 0&amp;nbsp;&amp;nbsp;&amp;nbsp; 5.3519&lt;/span&gt;&lt;/p&gt;  &lt;p&gt;&amp;nbsp;&lt;/p&gt; " />
+      <property name="palette" type="string" value="" />
+      <property name="audioPlayerPosition" type="string" value="above" />
+      <property name="problemSolution" type="string" value="&lt;p&gt;[&lt;em&gt;L&lt;/em&gt;][&lt;em&gt;U&lt;/em&gt;] = [&lt;em&gt;A&lt;/em&gt;]&lt;/p&gt;" />
+      <property name="includeNotApplicable" type="boolean" value="false" />
+      <property name="useCommonFeedback" type="boolean" value="true" />
+    </questionProperties>
+    <hints>
+      <hint>
+        <name>hint #1</name>
+        <type>html</type>
+        <value><![CDATA[How do you multiply two matrices?]]></value>
+      </hint>
+    </hints>
+    <yesNo>
+      <stem><![CDATA[<p>If [<em>L</em>] is a lower triangular matrix, [<em>U</em>] is an upper triangular matrix, and&nbsp;[<em>A</em>] is a coefficient matrix, then [<em>L</em>][<em>U</em>]&nbsp;&#8800; [<em>A</em>].</p>]]></stem>
+      <commonFeedback><![CDATA[<p>Verification that [<em>L</em>][<em>U</em>] = [<em>A</em>].</p>
+
+<p><span style="font-family:monospace;">&gt;&gt; L*U<br>
+ans =<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 10.0000 &nbsp; 2.0000&nbsp;&nbsp; &#8211;1.0000<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -3.0000&nbsp; -6.0000&nbsp;&nbsp;&nbsp; 2.0000<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1.0000 &nbsp;&nbsp; 1.0000 &nbsp;&nbsp; 5.0000</span></p>
+
+<p><span style="font-family:times new roman,times,serif;">Check using the</span><span style="font-family:monospace;"> lu </span><span style="font-family:times new roman,times,serif;">function,</span></p>
+
+<p>&nbsp;</p>
+
+<p><span style="font-family:monospace;">&gt;&gt; [L,U]=lu(A)<br>
+L =<br>
+&nbsp;&nbsp; 1.0000 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0 &nbsp; &nbsp;&nbsp; &nbsp; 0<br>
+&nbsp; -0.3000&nbsp;&nbsp;&nbsp; 1.0000&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0<br>
+&nbsp;&nbsp; 0.0000 &nbsp; -0.1481&nbsp;&nbsp; 1.0000</span></p>
+
+<p><span style="font-family:monospace;">U =</span></p>
+
+<p><span style="font-family:monospace;">&nbsp;&nbsp; 10.0000&nbsp;&nbsp;&nbsp; 2.0000&nbsp;&nbsp; -1.0000<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0&nbsp;&nbsp; -5.4000&nbsp;&nbsp;&nbsp; 1.7000<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0&nbsp;&nbsp;&nbsp; 5.3519</span></p>
+
+<p>&nbsp;</p>
+]]></commonFeedback>
+      <yesInfo>
+        <credit>0</credit>
+        <feedback><![CDATA[<p>Verification that [<em>L</em>][<em>U</em>] = [<em>A</em>].</p>
+
+<p><span style="font-family:monospace;">&gt;&gt; L*U<br>
+ans =<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 10.0000 &nbsp; 2.0000&nbsp;&nbsp; &#8211;1.0000<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -3.0000&nbsp; -6.0000&nbsp;&nbsp;&nbsp; 2.0000<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1.0000 &nbsp;&nbsp; 1.0000 &nbsp;&nbsp; 5.0000</span></p>
+
+<p><span style="font-family:times new roman,times,serif;">Check using the</span><span style="font-family:monospace;"> lu </span><span style="font-family:times new roman,times,serif;">function,</span></p>
+
+<p>&nbsp;</p>
+
+<p><span style="font-family:monospace;">&gt;&gt; [L,U]=lu(A)<br>
+L =<br>
+&nbsp;&nbsp; 1.0000 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0 &nbsp; &nbsp;&nbsp; &nbsp; 0<br>
+&nbsp; -0.3000&nbsp;&nbsp;&nbsp; 1.0000&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0<br>
+&nbsp;&nbsp; 0.0000 &nbsp; -0.1481&nbsp;&nbsp; 1.0000</span></p>
+
+<p><span style="font-family:monospace;">U =</span></p>
+
+<p><span style="font-family:monospace;">&nbsp;&nbsp; 10.0000&nbsp;&nbsp;&nbsp; 2.0000&nbsp;&nbsp; -1.0000<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0&nbsp;&nbsp; -5.4000&nbsp;&nbsp;&nbsp; 1.7000<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0&nbsp;&nbsp;&nbsp; 5.3519</span></p>
+
+<p>&nbsp;</p>
+]]></feedback>
+      </yesInfo>
+      <noInfo>
+        <credit>1</credit>
+        <feedback><![CDATA[<p>Verification that [<em>L</em>][<em>U</em>] = [<em>A</em>].</p>
+
+<p><span style="font-family:monospace;">&gt;&gt; L*U<br>
+ans =<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 10.0000 &nbsp; 2.0000&nbsp;&nbsp; &#8211;1.0000<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -3.0000&nbsp; -6.0000&nbsp;&nbsp;&nbsp; 2.0000<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1.0000 &nbsp;&nbsp; 1.0000 &nbsp;&nbsp; 5.0000</span></p>
+
+<p><span style="font-family:times new roman,times,serif;">Check using the</span><span style="font-family:monospace;"> lu </span><span style="font-family:times new roman,times,serif;">function,</span></p>
+
+<p>&nbsp;</p>
+
+<p><span style="font-family:monospace;">&gt;&gt; [L,U]=lu(A)<br>
+L =<br>
+&nbsp;&nbsp; 1.0000 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0 &nbsp; &nbsp;&nbsp; &nbsp; 0<br>
+&nbsp; -0.3000&nbsp;&nbsp;&nbsp; 1.0000&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0<br>
+&nbsp;&nbsp; 0.0000 &nbsp; -0.1481&nbsp;&nbsp; 1.0000</span></p>
+
+<p><span style="font-family:monospace;">U =</span></p>
+
+<p><span style="font-family:monospace;">&nbsp;&nbsp; 10.0000&nbsp;&nbsp;&nbsp; 2.0000&nbsp;&nbsp; -1.0000<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0&nbsp;&nbsp; -5.4000&nbsp;&nbsp;&nbsp; 1.7000<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0&nbsp;&nbsp;&nbsp; 5.3519</span></p>
+
+<p>&nbsp;</p>
+]]></feedback>
+      </noInfo>
+    </yesNo>
+  </question>
+  <question>
+    <format>1</format>
+    <ezid>13570164365040605</ezid>
+    <version>1579774644579</version>
+    <title><![CDATA[Problem 10.007]]></title>
+    <type>YN</type>
+    <categories>
+      <internal_category>
+        <catid>13570164356316801</catid>
+        <title><![CDATA[Chapter:  10 LU Factorization]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164356316802</catid>
+        <title><![CDATA[Topic:  LU Factorization]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164356317595</catid>
+        <title><![CDATA[Subtopic:  CHOLESKY FACTORIZATION]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040730414</catid>
+        <title><![CDATA[Difficulty:  Medium]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164266036554</catid>
+        <title><![CDATA[Units:  NA]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164202016094</catid>
+        <title><![CDATA[Bloom's Verb: 3. Apply]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164196995716</catid>
+        <title><![CDATA[Bloom's Object: 2. Conceptual]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164196995740</catid>
+        <title><![CDATA[Bloom's Object: 3. Procedural]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164343377093</catid>
+        <title><![CDATA[ABET Outcomes:  (a) an ability to apply knowledge of mathematics, science, and engineering]]></title>
+      </internal_category>
+    </categories>
+    <media_set>
+      <internal_media>
+        <name>formula25.mml</name>
+        <consumerData>
+          <mediaID>13570164353617995</mediaID>
+          <testID>13570164365040572</testID>
+          <consumerID>13570164365040605</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>formula25.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>516</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1473310284617</creation>
+          <modified>1474017076891</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGggaWQ9ImZvcm11bGEyNS5tbWwiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8xOTk4L01h
+dGgvTWF0aE1MIj48bXJvdz48bW8+WzwvbW8+PG1pPlU8L21pPjxtbz5dPC9tbz48L21yb3c+PG1v
+Pj08L21vPjxtcm93Pjxtbz5bPC9tbz48bXRhYmxlPjxtdHI+PG10ZD48bW4+MjwvbW4+PG1vPi48
+L21vPjxtbj40NDk0OTwvbW4+PC9tdGQ+PG10ZD48bW4+NjwvbW4+PG1vPi48L21vPjxtbj4xMjM3
+MjQ8L21uPjwvbXRkPjxtdGQ+PG1uPjIyPC9tbj48bW8+LjwvbW8+PG1uPjQ1MzY2PC9tbj48L210
+ZD48L210cj48bXRyPjxtdGQ+PC9tdGQ+PG10ZD48bW4+NDwvbW4+PG1vPi48L21vPjxtbj4xODMz
+PC9tbj48L210ZD48bXRkPjxtbj4yMDwvbW4+PG1vPi48L21vPjxtbj45MTY1PC9tbj48L210ZD48
+L210cj48bXRyPjxtdGQ+PC9tdGQ+PG10ZD48L210ZD48bXRkPjxtbj42PC9tbj48bW8+LjwvbW8+
+PG1uPjExMDEwMTwvbW4+PC9tdGQ+PC9tdHI+PC9tdGFibGU+PG1vPl08L21vPjwvbXJvdz48L21h
+dGg+]]></data>
+        </mediaData>
+      </internal_media>
+      <internal_media>
+        <name>formula20.mml</name>
+        <consumerData>
+          <mediaID>13570164353617996</mediaID>
+          <testID>13570164365040572</testID>
+          <consumerID>13570164365040605</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>formula20.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>432</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1473310284894</creation>
+          <modified>1474017077417</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGggaWQ9ImZvcm11bGEyMC5tbWwiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8xOTk4L01h
+dGgvTWF0aE1MIj48bW8gc3RyZXRjaHk9ImZhbHNlIj5bPC9tbz48bWk+QTwvbWk+PG1vIHN0cmV0
+Y2h5PSJmYWxzZSI+XTwvbW8+PG1vPj08L21vPjxtcm93Pjxtbz5bPC9tbz48bXRhYmxlPjxtdHI+
+PG10ZD48bW4+NjwvbW4+PC9tdGQ+PG10ZD48bW4+MTU8L21uPjwvbXRkPjxtdGQ+PG1uPjU1PC9t
+bj48L210ZD48L210cj48bXRyPjxtdGQ+PG1uPjE1PC9tbj48L210ZD48bXRkPjxtbj41NTwvbW4+
+PC9tdGQ+PG10ZD48bW4+MjI1PC9tbj48L210ZD48L210cj48bXRyPjxtdGQ+PG1uPjU1PC9tbj48
+L210ZD48bXRkPjxtbj4yMjU8L21uPjwvbXRkPjxtdGQ+PG1uPjk3OTwvbW4+PC9tdGQ+PC9tdHI+
+PC9tdGFibGU+PG1vPl08L21vPjwvbXJvdz48L21hdGg+]]></data>
+        </mediaData>
+      </internal_media>
+      <internal_media>
+        <name>formula26.mml</name>
+        <consumerData>
+          <mediaID>13570164356811329</mediaID>
+          <testID>13570164365040572</testID>
+          <consumerID>13570164365040605</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>formula26.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>1086</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1473940892921</creation>
+          <modified>1474016987288</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGggaWQ9ImZvcm11bGEyNi5tbWwiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8xOTk4L01h
+dGgvTWF0aE1MIj48bW8gc3RyZXRjaHk9ImZhbHNlIj5bPC9tbz48bWk+QTwvbWk+PG1vIHN0cmV0
+Y2h5PSJmYWxzZSI+XTwvbW8+PG1vPj08L21vPjxtbyBzdHJldGNoeT0iZmFsc2UiPls8L21vPjxt
+aT5VPC9taT48bXN1cD48bW8gc3RyZXRjaHk9ImZhbHNlIj5dPC9tbz48bWk+VDwvbWk+PC9tc3Vw
+PjxtbyBzdHJldGNoeT0iZmFsc2UiPls8L21vPjxtaT5VPC9taT48bW8gc3RyZXRjaHk9ImZhbHNl
+Ij5dPC9tbz48bW8+PTwvbW8+PG1yb3c+PG1vPls8L21vPjxtdGFibGU+PG10cj48bXRkPjxtbj4y
+PC9tbj48bW8+LjwvbW8+PG1uPjQ0OTQ5PC9tbj48L210ZD48bXRkPjwvbXRkPjxtdGQ+PC9tdGQ+
+PC9tdHI+PG10cj48bXRkPjxtbj42PC9tbj48bW8+LjwvbW8+PG1uPjEyMzcyNDwvbW4+PC9tdGQ+
+PG10ZD48bW4+NDwvbW4+PG1vPi48L21vPjxtbj4xODMzPC9tbj48L210ZD48bXRkPjwvbXRkPjwv
+bXRyPjxtdHI+PG10ZD48bW4+MjI8L21uPjxtbz4uPC9tbz48bW4+NDUzNjY8L21uPjwvbXRkPjxt
+dGQ+PG1uPjIwPC9tbj48bW8+LjwvbW8+PG1uPjkxNjU8L21uPjwvbXRkPjxtdGQ+PG1uPjY8L21u
+Pjxtbz4uPC9tbz48bW4+MTEwMTAxPC9tbj48L210ZD48L210cj48L210YWJsZT48bW8+XTwvbW8+
+PC9tcm93Pjxtcm93Pjxtbz5bPC9tbz48bXRhYmxlPjxtdHI+PG10ZD48bW4+MjwvbW4+PG1vPi48
+L21vPjxtbj40NDk0OTwvbW4+PC9tdGQ+PG10ZD48bW4+NjwvbW4+PG1vPi48L21vPjxtbj4xMjM3
+MjQ8L21uPjwvbXRkPjxtdGQ+PG1uPjIyPC9tbj48bW8+LjwvbW8+PG1uPjQ1MzY2PC9tbj48L210
+ZD48L210cj48bXRyPjxtdGQ+PC9tdGQ+PG10ZD48bW4+NDwvbW4+PG1vPi48L21vPjxtbj4xODMz
+PC9tbj48L210ZD48bXRkPjxtbj4yMDwvbW4+PG1vPi48L21vPjxtbj45MTY1PC9tbj48L210ZD48
+L210cj48bXRyPjxtdGQ+PC9tdGQ+PG10ZD48L210ZD48bXRkPjxtbj42PC9tbj48bW8+LjwvbW8+
+PG1uPjExMDEwMTwvbW4+PC9tdGQ+PC9tdHI+PC9tdGFibGU+PG1vPl08L21vPjwvbXJvdz48L21h
+dGg+]]></data>
+        </mediaData>
+      </internal_media>
+      <internal_media>
+        <name>formula28.mml</name>
+        <consumerData>
+          <mediaID>13570164356811330</mediaID>
+          <testID>13570164365040572</testID>
+          <consumerID>13570164365040605</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>formula28.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>221</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1473940893192</creation>
+          <modified>1474016987810</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGggaWQ9ImZvcm11bGEyOC5tbWwiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8xOTk4L01h
+dGgvTWF0aE1MIj48bXN1Yj48bWk+YTwvbWk+PG1uPjExPC9tbj48L21zdWI+PG1vPj08L21vPjxt
+bj4yPC9tbj48bW8+LjwvbW8+PG1zdXA+PG1uPjQ0OTQ5PC9tbj48bW4+MjwvbW4+PC9tc3VwPjxt
+bz49PC9tbz48bW4+NjwvbW4+PG1vPi48L21vPjxtbj4wMDAwMDE8L21uPjwvbWF0aD4=]]></data>
+        </mediaData>
+      </internal_media>
+      <internal_media>
+        <name>formula29.mml</name>
+        <consumerData>
+          <mediaID>13570164356811331</mediaID>
+          <testID>13570164365040572</testID>
+          <consumerID>13570164365040605</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>formula29.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>224</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1473940893458</creation>
+          <modified>1474016988330</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGggaWQ9ImZvcm11bGEyOS5tbWwiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8xOTk4L01h
+dGgvTWF0aE1MIj48bXN1Yj48bWk+YTwvbWk+PG1uPjEyPC9tbj48L21zdWI+PG1vPj08L21vPjxt
+bj42PC9tbj48bW8+LjwvbW8+PG1uPjEyMzcyNDwvbW4+PG1vPiYjMjE1OzwvbW8+PG1uPjI8L21u
+Pjxtbz4uPC9tbz48bW4+NDQ5NDk8L21uPjxtbz49PC9tbz48bW4+MTU8L21uPjwvbWF0aD4=]]></data>
+        </mediaData>
+      </internal_media>
+      <internal_media>
+        <name>formula27.mml</name>
+        <consumerData>
+          <mediaID>13570164356811332</mediaID>
+          <testID>13570164365040572</testID>
+          <consumerID>13570164365040605</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>formula27.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>248</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1473940893718</creation>
+          <modified>1474016988582</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGggaWQ9ImZvcm11bGEyNy5tbWwiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8xOTk4L01h
+dGgvTWF0aE1MIj48bXN1Yj48bWk+YTwvbWk+PG1uPjEzPC9tbj48L21zdWI+PG1vPj08L21vPjxt
+bj4yMjwvbW4+PG1vPi48L21vPjxtbj40NTM2NjwvbW4+PG1vPiYjMjE1OzwvbW8+PG1uPjI8L21u
+Pjxtbz4uPC9tbz48bW4+NDQ5NDk8L21uPjxtbz49PC9tbz48bW4+NTU8L21uPjxtbz4uPC9tbz48
+bW4+MDAwMDI8L21uPjwvbWF0aD4=]]></data>
+        </mediaData>
+      </internal_media>
+      <internal_media>
+        <name>formula30.mml</name>
+        <consumerData>
+          <mediaID>13570164356811333</mediaID>
+          <testID>13570164365040572</testID>
+          <consumerID>13570164365040605</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>formula30.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>224</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1473940893978</creation>
+          <modified>1474016988832</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGggaWQ9ImZvcm11bGEzMC5tbWwiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8xOTk4L01h
+dGgvTWF0aE1MIj48bXN1Yj48bWk+YTwvbWk+PG1uPjIxPC9tbj48L21zdWI+PG1vPj08L21vPjxt
+bj4yPC9tbj48bW8+LjwvbW8+PG1uPjQ0OTQ5PC9tbj48bW8+JiMyMTU7PC9tbz48bW4+NjwvbW4+
+PG1vPi48L21vPjxtbj4xMjM3MjQ8L21uPjxtbz49PC9tbz48bW4+MTU8L21uPjwvbWF0aD4=]]></data>
+        </mediaData>
+      </internal_media>
+      <internal_media>
+        <name>formula31.mml</name>
+        <consumerData>
+          <mediaID>13570164356811334</mediaID>
+          <testID>13570164365040572</testID>
+          <consumerID>13570164365040605</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>formula31.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>288</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1473940894248</creation>
+          <modified>1474016989083</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGggaWQ9ImZvcm11bGEzMS5tbWwiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8xOTk4L01h
+dGgvTWF0aE1MIj48bXN1Yj48bWk+YTwvbWk+PG1uPjIyPC9tbj48L21zdWI+PG1vPj08L21vPjxt
+bj42PC9tbj48bW8+LjwvbW8+PG1zdXA+PG1uPjEyMzcyNDwvbW4+PG1uPjI8L21uPjwvbXN1cD48
+bW8+KzwvbW8+PG1uPjQ8L21uPjxtbz4uPC9tbz48bXN1cD48bW4+MTgzMzwvbW4+PG1uPjI8L21u
+PjwvbXN1cD48bW8+PTwvbW8+PG1uPjU0PC9tbj48bW8+LjwvbW8+PG1uPjk5OTk5PC9tbj48L21h
+dGg+]]></data>
+        </mediaData>
+      </internal_media>
+      <internal_media>
+        <name>formula32.mml</name>
+        <consumerData>
+          <mediaID>13570164356811335</mediaID>
+          <testID>13570164365040572</testID>
+          <consumerID>13570164365040605</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>formula32.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>341</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1473940894516</creation>
+          <modified>1474016989601</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGggaWQ9ImZvcm11bGEzMi5tbWwiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8xOTk4L01h
+dGgvTWF0aE1MIj48bXN1Yj48bWk+YTwvbWk+PG1uPjIzPC9tbj48L21zdWI+PG1vPj08L21vPjxt
+bj4yMjwvbW4+PG1vPi48L21vPjxtbj40NTM2NjwvbW4+PG1vPiYjMjE1OzwvbW8+PG1uPjY8L21u
+Pjxtbz4uPC9tbz48bXN1cD48bW4+MTIzNzI0PC9tbj48bW4+MjwvbW4+PC9tc3VwPjxtbz4rPC9t
+bz48bW4+MjA8L21uPjxtbz4uPC9tbz48bW4+OTE2NTwvbW4+PG1vPiYjMjE1OzwvbW8+PG1uPjQ8
+L21uPjxtbz4uPC9tbz48bW4+MTgzMzwvbW4+PG1vPj08L21vPjxtbj4yMjU8L21uPjwvbWF0aD4=]]></data>
+        </mediaData>
+      </internal_media>
+      <internal_media>
+        <name>formula33.mml</name>
+        <consumerData>
+          <mediaID>13570164356811336</mediaID>
+          <testID>13570164365040572</testID>
+          <consumerID>13570164365040605</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>formula33.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>248</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1473940894784</creation>
+          <modified>1474016990120</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGggaWQ9ImZvcm11bGEzMy5tbWwiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8xOTk4L01h
+dGgvTWF0aE1MIj48bXN1Yj48bWk+YTwvbWk+PG1uPjMxPC9tbj48L21zdWI+PG1vPj08L21vPjxt
+bj4yPC9tbj48bW8+LjwvbW8+PG1uPjQ0OTQ5PC9tbj48bW8+JiMyMTU7PC9tbz48bW4+MjI8L21u
+Pjxtbz4uPC9tbz48bW4+NDUzNjY8L21uPjxtbz49PC9tbz48bW4+NTU8L21uPjxtbz4uPC9tbz48
+bW4+MDAwMDI8L21uPjwvbWF0aD4=]]></data>
+        </mediaData>
+      </internal_media>
+      <internal_media>
+        <name>formula35.mml</name>
+        <consumerData>
+          <mediaID>13570164356811337</mediaID>
+          <testID>13570164365040572</testID>
+          <consumerID>13570164365040605</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>formula35.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>318</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1473940895080</creation>
+          <modified>1474016990645</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGggaWQ9ImZvcm11bGEzNS5tbWwiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8xOTk4L01h
+dGgvTWF0aE1MIj48bXN1Yj48bWk+YTwvbWk+PG1uPjMyPC9tbj48L21zdWI+PG1vPj08L21vPjxt
+bj42PC9tbj48bW8+LjwvbW8+PG1uPjEyMzcyNDwvbW4+PG1vPiYjMjE1OzwvbW8+PG1uPjIyPC9t
+bj48bW8+LjwvbW8+PG1uPjQ1MzY2PC9tbj48bW8+KzwvbW8+PG1uPjQ8L21uPjxtbz4uPC9tbz48
+bW4+MTgzMzwvbW4+PG1vPiYjMjE1OzwvbW8+PG1uPjIwPC9tbj48bW8+LjwvbW8+PG1uPjkxNjU8
+L21uPjxtbz49PC9tbz48bW4+MjI1PC9tbj48L21hdGg+]]></data>
+        </mediaData>
+      </internal_media>
+      <internal_media>
+        <name>formula36.mml</name>
+        <consumerData>
+          <mediaID>13570164356811338</mediaID>
+          <testID>13570164365040572</testID>
+          <consumerID>13570164365040605</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>formula36.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>357</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1473940895355</creation>
+          <modified>1474016991168</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGggaWQ9ImZvcm11bGEzNi5tbWwiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8xOTk4L01h
+dGgvTWF0aE1MIj48bXN1Yj48bWk+YTwvbWk+PG1uPjMzPC9tbj48L21zdWI+PG1vPj08L21vPjxt
+bj4yMjwvbW4+PG1vPi48L21vPjxtc3VwPjxtbj40NTM2NjwvbW4+PG1uPjI8L21uPjwvbXN1cD48
+bW8+KzwvbW8+PG1uPjIwPC9tbj48bW8+LjwvbW8+PG1zdXA+PG1uPjkxNjU8L21uPjxtbj4yPC9t
+bj48L21zdXA+PG1vPis8L21vPjxtbj42PC9tbj48bW8+LjwvbW8+PG1zdXA+PG1uPjExMDEwMTwv
+bW4+PG1uPjI8L21uPjwvbXN1cD48bW8+PTwvbW8+PG1uPjk3OTwvbW4+PG1vPi48L21vPjxtbj4w
+MDAyPC9tbj48L21hdGg+]]></data>
+        </mediaData>
+      </internal_media>
+    </media_set>
+    <questionProperties>
+      <property name="followupTag" type="string" value="" />
+      <property name="pageTag" type="string" value="" />
+      <property name="instructor_info" type="string" value="" />
+      <property name="forceManualScoring" type="string" value="automatic" />
+      <property name="commonFeedback" type="string" value="&lt;p&gt;The product of [&lt;em&gt;U&lt;/em&gt;]&lt;sup&gt;&lt;em&gt;T&lt;/em&gt;&lt;/sup&gt; and [&lt;em&gt;U&lt;/em&gt;] is calculated as follows:&lt;/p&gt;  &lt;p&gt;&amp;nbsp;&lt;/p&gt;  &lt;p&gt;%media:formula26.mml%&lt;/p&gt;  &lt;p&gt;&amp;nbsp;&lt;/p&gt;  &lt;p&gt;The multiplication can be implemented as in&lt;/p&gt;  &lt;p&gt;&amp;nbsp;&lt;/p&gt;  &lt;p&gt;%media:formula28.mml%&lt;/p&gt;  &lt;p&gt;&amp;nbsp;&lt;/p&gt;  &lt;p&gt;%media:formula29.mml%&lt;/p&gt;  &lt;p&gt;&amp;nbsp;&lt;/p&gt;  &lt;p&gt;%media:formula27.mml%&lt;/p&gt;  &lt;p&gt;&amp;nbsp;&lt;/p&gt;  &lt;p&gt;%media:formula30.mml%&lt;/p&gt;  &lt;p&gt;&amp;nbsp;&lt;/p&gt;  &lt;p&gt;%media:formula31.mml%&lt;/p&gt;  &lt;p&gt;&amp;nbsp;&lt;/p&gt;  &lt;p&gt;%media:formula32.mml%&lt;/p&gt;  &lt;p&gt;&amp;nbsp;&lt;/p&gt;  &lt;p&gt;%media:formula33.mml%&lt;/p&gt;  &lt;p&gt;&amp;nbsp;&lt;/p&gt;  &lt;p&gt;%media:formula35.mml%&lt;/p&gt;  &lt;p&gt;&amp;nbsp;&lt;/p&gt;  &lt;p&gt;%media:formula36.mml%&lt;/p&gt;  &lt;p&gt;&amp;nbsp;&lt;/p&gt;" />
+      <property name="palette" type="string" value="" />
+      <property name="audioPlayerPosition" type="string" value="above" />
+      <property name="problemSolution" type="string" value="&lt;p&gt;Yes, the product of [&lt;em&gt;U&lt;/em&gt;]&lt;sup&gt;&lt;em&gt;T&lt;/em&gt;&lt;/sup&gt; and [&lt;em&gt;U&lt;/em&gt;] yields [&lt;em&gt;A&lt;/em&gt;].&lt;/p&gt;" />
+      <property name="includeNotApplicable" type="boolean" value="false" />
+      <property name="useCommonFeedback" type="boolean" value="true" />
+    </questionProperties>
+    <hints>
+      <hint>
+        <name>hint #1</name>
+        <type>html</type>
+        <value><![CDATA[Is matrix [<em>A</em>] symmetric or not?]]></value>
+      </hint>
+    </hints>
+    <yesNo>
+      <stem><![CDATA[<p>Consider the Cholesky factorization of the matrix [<em>A</em>].</p>
+
+<p>&nbsp;</p>
+
+<p>%media:formula25.mml%</p>
+
+<p>where matrix [<em>A</em>] is</p>
+
+<p>&nbsp;</p>
+
+<p>%media:formula20.mml%</p>
+
+<p>&nbsp;</p>
+
+<p>Does the product of [<em>U</em>]<em><sup>T</sup></em> and [<em>U</em>] yield [<em>A</em>]?</p>
+
+<p>&nbsp;</p>]]></stem>
+      <commonFeedback><![CDATA[<p>The product of [<em>U</em>]<sup><em>T</em></sup> and [<em>U</em>] is calculated as follows:</p>
+
+<p>&nbsp;</p>
+
+<p>%media:formula26.mml%</p>
+
+<p>&nbsp;</p>
+
+<p>The multiplication can be implemented as in</p>
+
+<p>&nbsp;</p>
+
+<p>%media:formula28.mml%</p>
+
+<p>&nbsp;</p>
+
+<p>%media:formula29.mml%</p>
+
+<p>&nbsp;</p>
+
+<p>%media:formula27.mml%</p>
+
+<p>&nbsp;</p>
+
+<p>%media:formula30.mml%</p>
+
+<p>&nbsp;</p>
+
+<p>%media:formula31.mml%</p>
+
+<p>&nbsp;</p>
+
+<p>%media:formula32.mml%</p>
+
+<p>&nbsp;</p>
+
+<p>%media:formula33.mml%</p>
+
+<p>&nbsp;</p>
+
+<p>%media:formula35.mml%</p>
+
+<p>&nbsp;</p>
+
+<p>%media:formula36.mml%</p>
+
+<p>&nbsp;</p>]]></commonFeedback>
+      <yesInfo>
+        <credit>1</credit>
+        <feedback><![CDATA[<p>The product of [<em>U</em>]<sup><em>T</em></sup> and [<em>U</em>] is calculated as follows:</p>
+
+<p>&nbsp;</p>
+
+<p>%media:formula26.mml%</p>
+
+<p>&nbsp;</p>
+
+<p>The multiplication can be implemented as in</p>
+
+<p>&nbsp;</p>
+
+<p>%media:formula28.mml%</p>
+
+<p>&nbsp;</p>
+
+<p>%media:formula29.mml%</p>
+
+<p>&nbsp;</p>
+
+<p>%media:formula27.mml%</p>
+
+<p>&nbsp;</p>
+
+<p>%media:formula30.mml%</p>
+
+<p>&nbsp;</p>
+
+<p>%media:formula31.mml%</p>
+
+<p>&nbsp;</p>
+
+<p>%media:formula32.mml%</p>
+
+<p>&nbsp;</p>
+
+<p>%media:formula33.mml%</p>
+
+<p>&nbsp;</p>
+
+<p>%media:formula35.mml%</p>
+
+<p>&nbsp;</p>
+
+<p>%media:formula36.mml%</p>
+
+<p>&nbsp;</p>]]></feedback>
+      </yesInfo>
+      <noInfo>
+        <credit>0</credit>
+        <feedback><![CDATA[<p>The product of [<em>U</em>]<sup><em>T</em></sup> and [<em>U</em>] is calculated as follows:</p>
+
+<p>&nbsp;</p>
+
+<p>%media:formula26.mml%</p>
+
+<p>&nbsp;</p>
+
+<p>The multiplication can be implemented as in</p>
+
+<p>&nbsp;</p>
+
+<p>%media:formula28.mml%</p>
+
+<p>&nbsp;</p>
+
+<p>%media:formula29.mml%</p>
+
+<p>&nbsp;</p>
+
+<p>%media:formula27.mml%</p>
+
+<p>&nbsp;</p>
+
+<p>%media:formula30.mml%</p>
+
+<p>&nbsp;</p>
+
+<p>%media:formula31.mml%</p>
+
+<p>&nbsp;</p>
+
+<p>%media:formula32.mml%</p>
+
+<p>&nbsp;</p>
+
+<p>%media:formula33.mml%</p>
+
+<p>&nbsp;</p>
+
+<p>%media:formula35.mml%</p>
+
+<p>&nbsp;</p>
+
+<p>%media:formula36.mml%</p>
+
+<p>&nbsp;</p>]]></feedback>
+      </noInfo>
+    </yesNo>
+  </question>
+  <question>
+    <format>1</format>
+    <ezid>13570164365040606</ezid>
+    <version>1579774644579</version>
+    <title><![CDATA[Problem 10.013]]></title>
+    <type>WK</type>
+    <categories>
+      <internal_category>
+        <catid>13570164356316801</catid>
+        <title><![CDATA[Chapter:  10 LU Factorization]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164356316802</catid>
+        <title><![CDATA[Topic:  LU Factorization]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164356317343</catid>
+        <title><![CDATA[Section:   10.03 CHOLESKY FACTORIZATION]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164356317595</catid>
+        <title><![CDATA[Subtopic:  CHOLESKY FACTORIZATION]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>1136040730414</catid>
+        <title><![CDATA[Difficulty:  Medium]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164266036554</catid>
+        <title><![CDATA[Units:  NA]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164202016094</catid>
+        <title><![CDATA[Bloom's Verb: 3. Apply]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164196995740</catid>
+        <title><![CDATA[Bloom's Object: 3. Procedural]]></title>
+      </internal_category>
+      <internal_category>
+        <catid>13570164343377093</catid>
+        <title><![CDATA[ABET Outcomes:  (a) an ability to apply knowledge of mathematics, science, and engineering]]></title>
+      </internal_category>
+    </categories>
+    <media_set>
+      <internal_media>
+        <name>formula40.mml</name>
+        <consumerData>
+          <mediaID>13570164349887558</mediaID>
+          <testID>13570164365040572</testID>
+          <consumerID>13570164365040606</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>formula40.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>414</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1472628077564</creation>
+          <modified>1473310346553</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGg+PG1vIHN0cmV0Y2h5PSJmYWxzZSI+WzwvbW8+PG1pPlU8L21pPjxtbyBzdHJldGNoeT0i
+ZmFsc2UiPl08L21vPjxtbz49PC9tbz48bXJvdz48bW8+WzwvbW8+PG10YWJsZT48bXRyPjxtdGQ+
+PG10ZXh0PlthKDIpXTwvbXRleHQ+PC9tdGQ+PG10ZD48bXRleHQ+W2EoMyldPC9tdGV4dD48L210
+ZD48bXRkPjxtbj4wPC9tbj48L210ZD48L210cj48bXRyPjxtdGQ+PG1uPjA8L21uPjwvbXRkPjxt
+dGQ+PG10ZXh0PlthKDQpXTwvbXRleHQ+PC9tdGQ+PG10ZD48bXRleHQ+W2EoNSldPC9tdGV4dD48
+L210ZD48L210cj48bXRyPjxtdGQ+PG1uPjA8L21uPjwvbXRkPjxtdGQ+PG1uPjA8L21uPjwvbXRk
+PjxtdGQ+PG10ZXh0PlthKDYpXTwvbXRleHQ+PC9tdGQ+PC9tdHI+PC9tdGFibGU+PG1vPl08L21v
+PjwvbXJvdz48L21hdGg+]]></data>
+        </mediaData>
+      </internal_media>
+      <internal_media>
+        <name>formula40.mml</name>
+        <consumerData>
+          <mediaID>13570164349887558</mediaID>
+          <testID>13570164365040572</testID>
+          <consumerID>13570164365040606</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>formula40.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>414</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1472628077564</creation>
+          <modified>1473310346553</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGg+PG1vIHN0cmV0Y2h5PSJmYWxzZSI+WzwvbW8+PG1pPlU8L21pPjxtbyBzdHJldGNoeT0i
+ZmFsc2UiPl08L21vPjxtbz49PC9tbz48bXJvdz48bW8+WzwvbW8+PG10YWJsZT48bXRyPjxtdGQ+
+PG10ZXh0PlthKDIpXTwvbXRleHQ+PC9tdGQ+PG10ZD48bXRleHQ+W2EoMyldPC9tdGV4dD48L210
+ZD48bXRkPjxtbj4wPC9tbj48L210ZD48L210cj48bXRyPjxtdGQ+PG1uPjA8L21uPjwvbXRkPjxt
+dGQ+PG10ZXh0PlthKDQpXTwvbXRleHQ+PC9tdGQ+PG10ZD48bXRleHQ+W2EoNSldPC9tdGV4dD48
+L210ZD48L210cj48bXRyPjxtdGQ+PG1uPjA8L21uPjwvbXRkPjxtdGQ+PG1uPjA8L21uPjwvbXRk
+PjxtdGQ+PG10ZXh0PlthKDYpXTwvbXRleHQ+PC9tdGQ+PC9tdHI+PC9tdGFibGU+PG1vPl08L21v
+PjwvbXJvdz48L21hdGg+]]></data>
+        </mediaData>
+      </internal_media>
+      <internal_media>
+        <name>formula34.mml</name>
+        <consumerData>
+          <mediaID>13570164353618588</mediaID>
+          <testID>13570164365040572</testID>
+          <consumerID>13570164365040606</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>formula34.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>571</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1473310337113</creation>
+          <modified>1473310346577</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGg+PG1vIHN0cmV0Y2h5PSJmYWxzZSI+WzwvbW8+PG1pPkE8L21pPjxtbyBzdHJldGNoeT0i
+ZmFsc2UiPl08L21vPjxtbz49PC9tbz48bW8gc3RyZXRjaHk9ImZhbHNlIj5bPC9tbz48bWk+VTwv
+bWk+PG1zdXA+PG1vIHN0cmV0Y2h5PSJmYWxzZSI+XTwvbW8+PG1pPlQ8L21pPjwvbXN1cD48bW8g
+c3RyZXRjaHk9ImZhbHNlIj5bPC9tbz48bWk+VTwvbWk+PG1vIHN0cmV0Y2h5PSJmYWxzZSI+XTwv
+bW8+PG1vPj08L21vPjxtcm93Pjxtbz5bPC9tbz48bXRhYmxlPjxtdHI+PG10ZD48bXRleHQ+W2Eo
+MSldPC9tdGV4dD48L210ZD48bXRkPjxtbz4tPC9tbz48bW4+MTwvbW4+PC9tdGQ+PG10ZD48bW4+
+MDwvbW4+PC9tdGQ+PC9tdHI+PG10cj48bXRkPjxtbz4tPC9tbz48bW4+MTwvbW4+PC9tdGQ+PG10
+ZD48bW4+MjwvbW4+PC9tdGQ+PG10ZD48bW8+LTwvbW8+PG1uPjE8L21uPjwvbXRkPjwvbXRyPjxt
+dHI+PG10ZD48bW4+MDwvbW4+PC9tdGQ+PG10ZD48bW8+LTwvbW8+PG1uPjE8L21uPjwvbXRkPjxt
+dGQ+PG1uPjI8L21uPjwvbXRkPjwvbXRyPjwvbXRhYmxlPjxtbz5dPC9tbz48L21yb3c+PC9tYXRo
+Pg==]]></data>
+        </mediaData>
+      </internal_media>
+      <internal_media>
+        <name>formula34.mml</name>
+        <consumerData>
+          <mediaID>13570164353618588</mediaID>
+          <testID>13570164365040572</testID>
+          <consumerID>13570164365040606</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>formula34.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>571</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1473310337113</creation>
+          <modified>1473310346577</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGg+PG1vIHN0cmV0Y2h5PSJmYWxzZSI+WzwvbW8+PG1pPkE8L21pPjxtbyBzdHJldGNoeT0i
+ZmFsc2UiPl08L21vPjxtbz49PC9tbz48bW8gc3RyZXRjaHk9ImZhbHNlIj5bPC9tbz48bWk+VTwv
+bWk+PG1zdXA+PG1vIHN0cmV0Y2h5PSJmYWxzZSI+XTwvbW8+PG1pPlQ8L21pPjwvbXN1cD48bW8g
+c3RyZXRjaHk9ImZhbHNlIj5bPC9tbz48bWk+VTwvbWk+PG1vIHN0cmV0Y2h5PSJmYWxzZSI+XTwv
+bW8+PG1vPj08L21vPjxtcm93Pjxtbz5bPC9tbz48bXRhYmxlPjxtdHI+PG10ZD48bXRleHQ+W2Eo
+MSldPC9tdGV4dD48L210ZD48bXRkPjxtbz4tPC9tbz48bW4+MTwvbW4+PC9tdGQ+PG10ZD48bW4+
+MDwvbW4+PC9tdGQ+PC9tdHI+PG10cj48bXRkPjxtbz4tPC9tbz48bW4+MTwvbW4+PC9tdGQ+PG10
+ZD48bW4+MjwvbW4+PC9tdGQ+PG10ZD48bW8+LTwvbW8+PG1uPjE8L21uPjwvbXRkPjwvbXRyPjxt
+dHI+PG10ZD48bW4+MDwvbW4+PC9tdGQ+PG10ZD48bW8+LTwvbW8+PG1uPjE8L21uPjwvbXRkPjxt
+dGQ+PG1uPjI8L21uPjwvbXRkPjwvbXRyPjwvbXRhYmxlPjxtbz5dPC9tbz48L21yb3c+PC9tYXRo
+Pg==]]></data>
+        </mediaData>
+      </internal_media>
+      <internal_media>
+        <name>formula39.mml</name>
+        <consumerData>
+          <mediaID>13570164353618589</mediaID>
+          <testID>13570164365040572</testID>
+          <consumerID>13570164365040606</consumerID>
+          <overrideHeight>0</overrideHeight>
+          <overrideWidth>0</overrideWidth>
+          <originalMediaName>formula39.mml</originalMediaName>
+        </consumerData>
+        <mediaData>
+          <size>464</size>
+          <mime_type>text/mml</mime_type>
+          <creation>1473310337397</creation>
+          <modified>1473310346577</modified>
+          <height>0</height>
+          <width>0</width>
+          <data><![CDATA[PG1hdGg+PG1vIHN0cmV0Y2h5PSJmYWxzZSI+WzwvbW8+PG1pPlU8L21pPjxtbyBzdHJldGNoeT0i
+ZmFsc2UiPl08L21vPjxtbz49PC9tbz48bXJvdz48bW8+WzwvbW8+PG10YWJsZT48bXRyPjxtdGQ+
+PG1pIG1hdGh2YXJpYW50PSJub3JtYWwiPmE8L21pPjwvbXRkPjxtdGQ+PG1pIG1hdGh2YXJpYW50
+PSJub3JtYWwiPmI8L21pPjwvbXRkPjxtdGQ+PG1uPjA8L21uPjwvbXRkPjwvbXRyPjxtdHI+PG10
+ZD48bW4+MDwvbW4+PC9tdGQ+PG10ZD48bWkgbWF0aHZhcmlhbnQ9Im5vcm1hbCI+YzwvbWk+PC9t
+dGQ+PG10ZD48bWkgbWF0aHZhcmlhbnQ9Im5vcm1hbCI+ZDwvbWk+PC9tdGQ+PC9tdHI+PG10cj48
+bXRkPjxtbj4wPC9tbj48L210ZD48bXRkPjxtbj4wPC9tbj48L210ZD48bXRkPjxtaSBtYXRodmFy
+aWFudD0ibm9ybWFsIj5lPC9taT48L210ZD48L210cj48L210YWJsZT48bW8+XTwvbW8+PC9tcm93
+PjwvbWF0aD4=]]></data>
+        </mediaData>
+      </internal_media>
+    </media_set>
+    <randomVariables>
+      <pooledRandom>
+        <name>a</name>
+        <arrayed>true</arrayed>
+        <rows>
+          <row><![CDATA[2,1.4142,-0.7071,1.2247,-0.8165,1.1547]]></row>
+          <row><![CDATA[3,1.7321,-0.5774,1.2910,-0.7746,1.1832]]></row>
+          <row><![CDATA[5,2.2361,-0.4472,1.3416,-0.7454,1.2019]]></row>
+          <row><![CDATA[6,2.4495,-0.4082,1.3540,-0.7385,1.2060]]></row>
+          <row><![CDATA[7,2.6458,-0.3780,1.3628,-0.7338,1.2089]]></row>
+        </rows>
+      </pooledRandom>
+    </randomVariables>
+    <questionProperties>
+      <property name="pageTag" type="string" value="" />
+      <property name="customType" type="string" value="" />
+      <property name="completeIncompleteGrading" type="string" value="false" />
+      <property name="instructor_info" type="string" value="" />
+      <property name="forceManualScoring" type="string" value="automatic" />
+      <property name="audioPlayerPosition" type="string" value="above" />
+      <property name="problemSolution" type="string" value="&lt;p&gt;The value of matrix [&lt;em&gt;U&lt;/em&gt;] is&lt;/p&gt;  &lt;p&gt;&amp;nbsp;&lt;/p&gt;  &lt;p&gt;%media:formula40.mml%&lt;/p&gt;" />
+      <property name="attached_media" type="string" value="formula34.mml,formula34.mml,formula39.mml,formula40.mml,formula40.mml" />
+      <property name="aggregatedGrading" type="string" value="false" />
+      <property name="useCommonFeedback" type="string" value="true" />
+    </questionProperties>
+    <hints>
+      <hint>
+        <name>hint #1</name>
+        <type>html</type>
+        <value><![CDATA[How to perform Cholesky factorization on a matrix?]]></value>
+      </hint>
+    </hints>
+    <worksheet>
+      <stem><![CDATA[<p>Use Cholesky factorization to determine [<em>U</em>] so that</p>
+
+<p>&nbsp;</p>
+
+<p>%media:formula34.mml%</p>
+
+<p>&nbsp;</p>
+
+<p>(Round the final answers to four decimal places.)</p>
+
+<p>&nbsp;</p>
+
+<p>The value of matrix [<em>U</em>] is</p>
+
+<p>&nbsp;</p>
+
+<p>%media:formula39.mml%</p>
+
+<p>where,</p>
+
+<p>a = __1__</p>
+
+<p>b = __2__</p>
+
+<p>c = __3__</p>
+
+<p>d = __4__</p>
+
+<p>e = __5__</p>
+
+<p>&nbsp;</p>]]></stem>
+      <commonFeedback><![CDATA[<p>Using MATLAB</p>
+
+<p>&nbsp;</p>
+
+<p><span style="font-family:monospace;">&gt;&gt; A=[[a(1)] -1 0;-1 2 -1;0 -1 2];<br>
+&gt;&gt; U=chol(A)<br>
+U =<br>
+[a(2)] [a(3)]</span>&nbsp;&nbsp;&nbsp; <span style="font-family:monospace;">0<br>
+0</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="font-family:monospace;">[a(4)]</span>&nbsp;&nbsp;&nbsp; <span style="font-family:monospace;">[a(5)]<br>
+0</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="font-family:monospace;">0</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; <span style="font-family:monospace;">[a(6)]</span></p>
+
+<p><br>
+The result can be validated by</p>
+
+<p><br>
+<span style="font-family:monospace;">&gt;&gt; U'*U<br>
+ans =<br>
+[a(1)].0000</span> &nbsp; &nbsp; &nbsp; <span style="font-family:monospace;">-1.0000&nbsp; 0<br>
+-1.0000&nbsp;&nbsp; 2.0000</span>&nbsp;&nbsp;&nbsp; <span style="font-family:monospace;">-1.0000<br>
+0</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="font-family:monospace;">-1.0000</span>&nbsp;&nbsp; <span style="font-family:monospace;">2.0000</span></p>]]></commonFeedback>
+      <answers>
+        <numberAnswer>
+          <name><![CDATA[1]]></name>
+          <weight>100</weight>
+          <answerProperties>
+            <property name="completeIncompleteGrading" type="string" value="false" />
+          </answerProperties>
+          <fieldWidth>7</fieldWidth>
+          <correctAnswer><![CDATA[[a(2)]]]></correctAnswer>
+          <formatString><![CDATA[0.0000]]></formatString>
+          <precisionString><![CDATA[2]]></precisionString>
+          <units></units>
+          <precisionType>2</precisionType>
+          <engineeringUnits>false</engineeringUnits>
+          <currency>false</currency>
+        </numberAnswer>
+        <numberAnswer>
+          <name><![CDATA[2]]></name>
+          <weight>100</weight>
+          <answerProperties>
+            <property name="completeIncompleteGrading" type="string" value="false" />
+          </answerProperties>
+          <fieldWidth>7</fieldWidth>
+          <correctAnswer><![CDATA[[a(3)]]]></correctAnswer>
+          <formatString><![CDATA[0.0000]]></formatString>
+          <precisionString><![CDATA[2]]></precisionString>
+          <units></units>
+          <precisionType>2</precisionType>
+          <engineeringUnits>false</engineeringUnits>
+          <currency>false</currency>
+        </numberAnswer>
+        <numberAnswer>
+          <name><![CDATA[3]]></name>
+          <weight>100</weight>
+          <answerProperties>
+            <property name="completeIncompleteGrading" type="string" value="false" />
+          </answerProperties>
+          <fieldWidth>7</fieldWidth>
+          <correctAnswer><![CDATA[[a(4)]]]></correctAnswer>
+          <formatString><![CDATA[0.0000]]></formatString>
+          <precisionString><![CDATA[2]]></precisionString>
+          <units></units>
+          <precisionType>2</precisionType>
+          <engineeringUnits>false</engineeringUnits>
+          <currency>false</currency>
+        </numberAnswer>
+        <numberAnswer>
+          <name><![CDATA[4]]></name>
+          <weight>100</weight>
+          <answerProperties>
+            <property name="completeIncompleteGrading" type="string" value="false" />
+          </answerProperties>
+          <fieldWidth>7</fieldWidth>
+          <correctAnswer><![CDATA[[a(5)]]]></correctAnswer>
+          <formatString><![CDATA[0.0000]]></formatString>
+          <precisionString><![CDATA[2]]></precisionString>
+          <units></units>
+          <precisionType>2</precisionType>
+          <engineeringUnits>false</engineeringUnits>
+          <currency>false</currency>
+        </numberAnswer>
+        <numberAnswer>
+          <name><![CDATA[5]]></name>
+          <weight>100</weight>
+          <answerProperties>
+            <property name="completeIncompleteGrading" type="string" value="false" />
+          </answerProperties>
+          <fieldWidth>7</fieldWidth>
+          <correctAnswer><![CDATA[[a(6)]]]></correctAnswer>
+          <formatString><![CDATA[0.0000]]></formatString>
+          <precisionString><![CDATA[2]]></precisionString>
+          <units></units>
+          <precisionType>2</precisionType>
+          <engineeringUnits>false</engineeringUnits>
+          <currency>false</currency>
+        </numberAnswer>
+      </answers>
+    </worksheet>
+  </question>
+</questionSet>
+
